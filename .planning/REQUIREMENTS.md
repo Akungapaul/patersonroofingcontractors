@@ -155,80 +155,87 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FNDN-01 | Pending | Pending |
-| FNDN-02 | Pending | Pending |
-| FNDN-03 | Pending | Pending |
-| FNDN-04 | Pending | Pending |
-| FNDN-05 | Pending | Pending |
-| FNDN-06 | Pending | Pending |
-| FNDN-07 | Pending | Pending |
-| LEAD-01 | Pending | Pending |
-| LEAD-02 | Pending | Pending |
-| LEAD-03 | Pending | Pending |
-| LEAD-04 | Pending | Pending |
-| LEAD-05 | Pending | Pending |
-| TRUST-01 | Pending | Pending |
-| TRUST-02 | Pending | Pending |
-| TRUST-03 | Pending | Pending |
-| TRUST-04 | Pending | Pending |
-| TRUST-05 | Pending | Pending |
-| SEO-01 | Pending | Pending |
-| SEO-02 | Pending | Pending |
-| SEO-03 | Pending | Pending |
-| SEO-04 | Pending | Pending |
-| SEO-05 | Pending | Pending |
-| SEO-06 | Pending | Pending |
-| SEO-07 | Pending | Pending |
-| SEO-08 | Pending | Pending |
-| SEO-09 | Pending | Pending |
-| SEO-10 | Pending | Pending |
-| SCHEMA-01 | Pending | Pending |
-| SCHEMA-02 | Pending | Pending |
-| SCHEMA-03 | Pending | Pending |
-| SCHEMA-04 | Pending | Pending |
-| SCHEMA-05 | Pending | Pending |
-| ANCHOR-01 | Pending | Pending |
-| ANCHOR-02 | Pending | Pending |
-| ANCHOR-03 | Pending | Pending |
-| ANCHOR-04 | Pending | Pending |
-| ANCHOR-05 | Pending | Pending |
-| LOC-01 | Pending | Pending |
-| LOC-02 | Pending | Pending |
-| LOC-03 | Pending | Pending |
-| LOC-04 | Pending | Pending |
-| LOC-05 | Pending | Pending |
-| LOC-06 | Pending | Pending |
-| LOC-07 | Pending | Pending |
-| SVC-01 | Pending | Pending |
-| SVC-02 | Pending | Pending |
-| SVC-03 | Pending | Pending |
-| SVC-04 | Pending | Pending |
-| SVC-05 | Pending | Pending |
-| GUIDE-01 | Pending | Pending |
-| GUIDE-02 | Pending | Pending |
-| GUIDE-03 | Pending | Pending |
-| GUIDE-04 | Pending | Pending |
-| UTIL-01 | Pending | Pending |
-| UTIL-02 | Pending | Pending |
-| UTIL-03 | Pending | Pending |
-| UTIL-04 | Pending | Pending |
-| UTIL-05 | Pending | Pending |
-| SILO-01 | Pending | Pending |
-| SILO-02 | Pending | Pending |
-| SILO-03 | Pending | Pending |
-| SILO-04 | Pending | Pending |
-| SILO-05 | Pending | Pending |
-| CRAWL-01 | Pending | Pending |
-| CRAWL-02 | Pending | Pending |
-| CRAWL-03 | Pending | Pending |
-| CRAWL-04 | Pending | Pending |
-| CRAWL-05 | Pending | Pending |
+| FNDN-01 | Phase 1 | Pending |
+| FNDN-02 | Phase 1 | Pending |
+| FNDN-03 | Phase 1 | Pending |
+| FNDN-04 | Phase 1 | Pending |
+| FNDN-05 | Phase 1 | Pending |
+| FNDN-06 | Phase 1 | Pending |
+| FNDN-07 | Phase 1 | Pending |
+| LEAD-01 | Phase 1 | Pending |
+| LEAD-02 | Phase 1 | Pending |
+| LEAD-03 | Phase 1 | Pending |
+| LEAD-04 | Phase 1 | Pending |
+| LEAD-05 | Phase 1 | Pending |
+| TRUST-01 | Phase 1 | Pending |
+| TRUST-02 | Phase 1 | Pending |
+| TRUST-03 | Phase 1 | Pending |
+| TRUST-04 | Phase 1 | Pending |
+| TRUST-05 | Phase 1 | Pending |
+| SEO-01 | Phase 1 | Pending |
+| SEO-02 | Phase 1 | Pending |
+| SEO-03 | Phase 1 | Pending |
+| SEO-04 | Phase 1 | Pending |
+| SEO-05 | Phase 1 | Pending |
+| SEO-06 | Phase 1 | Pending |
+| SEO-07 | Phase 1 | Pending |
+| SEO-08 | Phase 1 | Pending |
+| SEO-09 | Phase 1 | Pending |
+| SEO-10 | Phase 1 | Pending |
+| SCHEMA-01 | Phase 1 | Pending |
+| SCHEMA-02 | Phase 3 | Pending |
+| SCHEMA-03 | Phase 2 | Pending |
+| SCHEMA-04 | Phase 1 | Pending |
+| SCHEMA-05 | Phase 1 | Pending |
+| ANCHOR-01 | Phase 2 | Pending |
+| ANCHOR-02 | Phase 2 | Pending |
+| ANCHOR-03 | Phase 2 | Pending |
+| ANCHOR-04 | Phase 2 | Pending |
+| ANCHOR-05 | Phase 2 | Pending |
+| LOC-01 | Phase 2 | Pending |
+| LOC-02 | Phase 2 | Pending |
+| LOC-03 | Phase 2 | Pending |
+| LOC-04 | Phase 2 | Pending |
+| LOC-05 | Phase 2 | Pending |
+| LOC-06 | Phase 2 | Pending |
+| LOC-07 | Phase 2 | Pending |
+| SVC-01 | Phase 3 | Pending |
+| SVC-02 | Phase 3 | Pending |
+| SVC-03 | Phase 3 | Pending |
+| SVC-04 | Phase 3 | Pending |
+| SVC-05 | Phase 3 | Pending |
+| GUIDE-01 | Phase 3 | Pending |
+| GUIDE-02 | Phase 3 | Pending |
+| GUIDE-03 | Phase 3 | Pending |
+| GUIDE-04 | Phase 3 | Pending |
+| UTIL-01 | Phase 3 | Pending |
+| UTIL-02 | Phase 3 | Pending |
+| UTIL-03 | Phase 3 | Pending |
+| UTIL-04 | Phase 3 | Pending |
+| UTIL-05 | Phase 3 | Pending |
+| SILO-01 | Phase 1 | Pending |
+| SILO-02 | Phase 3 | Pending |
+| SILO-03 | Phase 3 | Pending |
+| SILO-04 | Phase 4 | Pending |
+| SILO-05 | Phase 1 | Pending |
+| CRAWL-01 | Phase 4 | Pending |
+| CRAWL-02 | Phase 4 | Pending |
+| CRAWL-03 | Phase 4 | Pending |
+| CRAWL-04 | Phase 4 | Pending |
+| CRAWL-05 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 62 total
-- Mapped to phases: 0
-- Unmapped: 62 (pending roadmap creation)
+- Mapped to phases: 62
+- Unmapped: 0
+
+| Phase | Requirements | Count |
+|-------|-------------|-------|
+| Phase 1: Foundation, Infrastructure & Homepage | FNDN-01..07, LEAD-01..05, TRUST-01..05, SEO-01..10, SCHEMA-01, SCHEMA-04, SCHEMA-05, SILO-01, SILO-05 | 32 |
+| Phase 2: Anchor City & Location Pages | ANCHOR-01..05, LOC-01..07, SCHEMA-03 | 13 |
+| Phase 3: Service, Guide & Utility Pages | SVC-01..05, GUIDE-01..04, UTIL-01..05, SCHEMA-02, SILO-02, SILO-03 | 17 |
+| Phase 4: Silo Linking, Crawl Health & CRO Polish | SILO-04, CRAWL-01..05 | 6 |
 
 ---
 *Requirements defined: 2026-04-07*
-*Last updated: 2026-04-07 after initial definition*
+*Last updated: 2026-04-07 after roadmap creation (62/62 requirements mapped)*
