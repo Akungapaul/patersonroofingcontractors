@@ -29,12 +29,13 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Homepage displays LocalBusiness + Organization + BreadcrumbList JSON-LD schema, exports generateMetadata with title/description/openGraph, and has proper canonical URL
   4. XML sitemap at /sitemap.xml and robots.txt at /robots.txt are accessible, and all internal links use next/link
   5. Trust badges, social proof counters, review placeholders, emergency roofing CTA, and service area map are visible on the homepage
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
-- [ ] 01-03: TBD
+- [ ] 01-01-PLAN.md -- Project initialization + 10 color theme variations + approval checkpoint
+- [ ] 01-02-PLAN.md -- Design system, data layer, utilities, SEO infrastructure, UI primitives
+- [ ] 01-03-PLAN.md -- Layout shell (Header, Footer, Navigation, MobileNav)
+- [ ] 01-04-PLAN.md -- Homepage sections, contact form, API route, page assembly + verification
 **UI hint**: yes
 
 ### Phase 2: Anchor City & Location Pages
@@ -96,7 +97,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation, Infrastructure & Homepage | 0/3 | Not started | - |
+| 1. Foundation, Infrastructure & Homepage | 0/4 | Not started | - |
 | 2. Anchor City & Location Pages | 0/3 | Not started | - |
 | 3. Service, Guide & Utility Pages | 0/3 | Not started | - |
 | 4. Silo Linking, Crawl Health & CRO Polish | 0/2 | Not started | - |
