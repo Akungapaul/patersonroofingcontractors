@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Theme Variation 3: Softer/Lighter</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --navy: #1B2A4A;
+      --navy-light: #2A3F6A;
+      --navy-dark: #111D35;
+      --amber: #F59E0B;
+      --amber-light: #FBBF24;
+      --amber-dark: #D97706;
+      --white: #FFFFFF;
+      --gray-light: #F8FAFC;
+      --gray-200: #E2E8F0;
+      --gray-300: #CBD5E1;
+      --gray-500: #64748B;
+      --section-spacing: 96px;
+      --card-shadow: 0 1px 2px rgba(0,0,0,0.06);
+      --card-shadow-hover: 0 4px 8px rgba(0,0,0,0.1);
+      --card-radius: 12px;
+      --card-padding: 24px;
+      --grid-gap: 24px;
+    }
+    body { font-family: 'Cormorant Garamond', serif; font-size: 18px; font-weight: 500; line-height: 1.6; color: #1a1a1a; background: var(--white); }
+    h1, h2, h3, h4 { font-family: 'Cormorant', serif; }
+    h1 { font-size: 48px; font-weight: 700; line-height: 1.1; }
+    h2 { font-size: 32px; font-weight: 700; line-height: 1.2; }
+    h3 { font-size: 24px; font-weight: 600; line-height: 1.3; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    .variation-label { background: #FFFBEB; padding: 16px 24px; text-align: center; font-family: 'Cormorant', serif; font-size: 20px; font-weight: 600; color: var(--navy); border-bottom: 2px solid var(--amber); }
+
+    .header { background: var(--navy); padding: 16px 0; position: sticky; top: 0; z-index: 50; }
+    .header .container { display: flex; align-items: center; justify-content: space-between; }
+    .header .logo { color: var(--white); font-family: 'Cormorant', serif; font-size: 22px; font-weight: 700; }
+    .header nav a { color: rgba(255,255,255,0.9); text-decoration: none; margin: 0 16px; font-size: 16px; font-weight: 500; }
+    .header nav a:hover { color: var(--amber); }
+    .phone-cta { background: var(--amber); color: var(--white); padding: 10px 20px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; display: inline-flex; align-items: center; gap: 8px; transition: background 0.2s; }
+    .phone-cta:hover { background: var(--amber-dark); }
+
+    /* Hero — softer navy overlay at 85% opacity */
+    .hero { background: var(--navy); min-height: 600px; display: flex; align-items: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(27,42,74,0.85) 0%, rgba(27,42,74,0.75) 100%); z-index: 1; }
+    .hero .container { position: relative; z-index: 2; text-align: center; padding: 96px 24px; }
+    .hero h1 { color: var(--white); margin-bottom: 20px; }
+    .hero p { color: rgba(255,255,255,0.85); font-size: 22px; margin-bottom: 36px; }
+    .btn-primary { background: var(--amber); color: var(--white); padding: 14px 32px; border-radius: 8px; text-decoration: none; font-family: 'Cormorant', serif; font-weight: 700; font-size: 20px; display: inline-block; transition: all 0.2s; border: none; cursor: pointer; }
+    .btn-primary:hover { background: var(--amber-dark); }
+    .hero .phone-number { color: var(--amber-light); font-size: 28px; font-weight: 700; margin-bottom: 24px; font-family: 'Cormorant', serif; }
+
+    .mid-cta { background: var(--navy); padding: 28px 0; text-align: center; }
+    .mid-cta p { color: rgba(255,255,255,0.9); font-size: 20px; display: inline; }
+    .mid-cta .btn-inline { background: var(--amber); color: var(--white); padding: 8px 20px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; margin-left: 12px; display: inline-block; transition: background 0.2s; }
+    .mid-cta .btn-inline:hover { background: var(--amber-dark); }
+
+    .services { padding: var(--section-spacing) 0; background: var(--white); }
+    .services h2 { text-align: center; margin-bottom: 56px; color: var(--navy); }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+    .service-card { background: var(--white); border-radius: var(--card-radius); padding: var(--card-padding); box-shadow: var(--card-shadow); text-align: center; transition: all 0.3s; border: 1px solid var(--gray-200); }
+    .service-card:hover { box-shadow: var(--card-shadow-hover); border-color: var(--amber); transform: translateY(-4px); }
+    .service-card .icon { width: 48px; height: 48px; background: #F0F4FF; border-radius: 50%; margin: 0 auto 16px; display: flex; align-items: center; justify-content: center; color: var(--navy); font-size: 24px; }
+    .service-card h3 { color: var(--navy); margin-bottom: 8px; }
+    .service-card p { color: var(--gray-500); font-size: 16px; }
+
+    .why-choose { padding: var(--section-spacing) 0; background: var(--gray-light); }
+    .why-choose h2 { text-align: center; margin-bottom: 56px; color: var(--navy); }
+    .trust-badges { display: flex; justify-content: center; gap: 48px; margin-bottom: 56px; flex-wrap: wrap; }
+    .trust-badge { text-align: center; color: var(--navy); }
+    .trust-badge .badge-icon { width: 44px; height: 44px; margin: 0 auto 10px; background: var(--navy); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--white); font-size: 18px; }
+    .trust-badge span { font-size: 14px; font-weight: 600; }
+    .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--grid-gap); text-align: center; }
+    .stat h3 { font-size: 36px; color: var(--navy); margin-bottom: 4px; }
+    .stat p { color: var(--gray-500); font-size: 16px; }
+
+    .municipalities { padding: var(--section-spacing) 0; background: var(--white); }
+    .municipalities h2 { text-align: center; margin-bottom: 56px; color: var(--navy); }
+    .municipality-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--grid-gap); }
+    .municipality-card { background: var(--white); border-radius: var(--card-radius); padding: 20px; box-shadow: var(--card-shadow); transition: all 0.3s; border: 1px solid var(--gray-200); cursor: pointer; }
+    .municipality-card:hover { box-shadow: var(--card-shadow-hover); border-color: var(--amber); transform: translateY(-4px); }
+    .municipality-card h3 { font-size: 18px; color: var(--navy); margin-bottom: 4px; }
+    .municipality-card .cluster-tag { font-size: 13px; color: var(--gray-500); background: var(--gray-light); padding: 2px 10px; border-radius: 20px; display: inline-block; }
+
+    .testimonials { padding: var(--section-spacing) 0; background: var(--gray-light); }
+    .testimonials h2 { text-align: center; margin-bottom: 56px; color: var(--navy); }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--grid-gap); }
+    .testimonial-card { background: var(--white); border-radius: var(--card-radius); padding: var(--card-padding); box-shadow: var(--card-shadow); }
+    .stars { color: var(--amber); font-size: 20px; margin-bottom: 12px; }
+    .testimonial-card p { font-style: italic; margin-bottom: 16px; color: #444; }
+    .testimonial-card .author { font-weight: 700; color: var(--navy); font-size: 16px; }
+    .testimonial-card .location { color: var(--gray-500); font-size: 14px; }
+
+    .emergency-cta { background: var(--amber); padding: 56px 0; text-align: center; }
+    .emergency-cta h2 { color: var(--white); margin-bottom: 16px; }
+    .emergency-cta p { color: rgba(255,255,255,0.95); font-size: 20px; margin-bottom: 28px; }
+    .btn-white { background: var(--white); color: var(--amber-dark); padding: 14px 32px; border-radius: 8px; text-decoration: none; font-family: 'Cormorant', serif; font-weight: 700; font-size: 20px; display: inline-block; transition: all 0.2s; }
+    .btn-white:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: scale(1.02); }
+
+    .contact { padding: var(--section-spacing) 0; background: var(--gray-light); }
+    .contact h2 { text-align: center; margin-bottom: 56px; color: var(--navy); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; }
+    .form-group { margin-bottom: 22px; }
+    .form-group label { display: block; margin-bottom: 6px; font-weight: 600; color: var(--navy); font-size: 14px; }
+    .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 12px 16px; border: 1px solid var(--gray-300); border-radius: 8px; font-family: 'Cormorant Garamond', serif; font-size: 18px; transition: border-color 0.2s; }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: var(--amber); box-shadow: 0 0 0 3px rgba(245,158,11,0.15); }
+    .form-group textarea { min-height: 120px; resize: vertical; }
+    .contact-info h3 { color: var(--navy); margin-bottom: 16px; }
+    .contact-info p { margin-bottom: 12px; }
+    .contact-info .phone-big { font-size: 28px; font-weight: 700; color: var(--amber-dark); font-family: 'Cormorant', serif; }
+
+    .footer { background: var(--navy); padding: 64px 0 0; color: rgba(255,255,255,0.8); }
+    .footer-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; padding-bottom: 48px; }
+    .footer h4 { color: var(--white); margin-bottom: 16px; font-size: 18px; }
+    .footer a { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 16px; }
+    .footer a:hover { color: var(--amber); }
+    .footer ul { list-style: none; }
+    .footer li { margin-bottom: 8px; }
+    .footer .logo-desc { font-size: 16px; line-height: 1.5; }
+    .footer-bottom { background: var(--navy-dark); padding: 20px 0; text-align: center; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="variation-label">Theme Variation 3: Softer/Lighter &mdash; navy at 85% opacity hero overlay, lighter amber (#F59E0B) buttons, shadow-xs cards, 96px section spacing</div>
+
+  <header class="header"><div class="container"><div class="logo">Paterson Roofing Contractors</div><nav><a href="#">Services</a><a href="#">Locations</a><a href="#">Guides</a><a href="#">About</a><a href="#">Contact</a></nav><a href="tel:+19735550100" class="phone-cta">&#9742; (973) 555-0100</a></div></header>
+
+  <section class="hero"><div class="container"><h1>Passaic County's Trusted Roofing Contractors</h1><p>Professional roof repair, replacement &amp; emergency services for all 16 municipalities</p><div class="phone-number">(973) 555-0100</div><a href="#" class="btn-primary">Get Free Estimate</a></div></section>
+
+  <div class="mid-cta"><div class="container"><p>Need a roofing estimate? Call (973) 555-0100 or </p><a href="#" class="btn-inline">Get Quote</a></div></div>
+
+  <section class="services"><div class="container"><h2>Our Roofing Services</h2><div class="services-grid">
+    <div class="service-card"><div class="icon">&#9751;</div><h3>Roof Repair</h3><p>Fast, reliable repairs for leaks, storm damage, and general wear.</p></div>
+    <div class="service-card"><div class="icon">&#9750;</div><h3>Roof Replacement</h3><p>Complete tear-off and installation with premium materials.</p></div>
+    <div class="service-card"><div class="icon">&#9752;</div><h3>Emergency Roofing</h3><p>24/7 emergency response for storm damage and severe leaks.</p></div>
+    <div class="service-card"><div class="icon">&#9783;</div><h3>Roof Inspection</h3><p>Comprehensive inspections with detailed condition reports.</p></div>
+    <div class="service-card"><div class="icon">&#9706;</div><h3>Flat Roofing</h3><p>TPO, EPDM, and modified bitumen for commercial properties.</p></div>
+    <div class="service-card"><div class="icon">&#9670;</div><h3>Gutter Services</h3><p>Installation, repair, and cleaning to protect your foundation.</p></div>
+  </div></div></section>
+
+  <section class="why-choose"><div class="container"><h2>Why Choose Us</h2><div class="trust-badges">
+    <div class="trust-badge"><div class="badge-icon">&#10003;</div><span>Licensed &amp; Insured</span></div>
+    <div class="trust-badge"><div class="badge-icon">&#36;</div><span>Free Estimates</span></div>
+    <div class="trust-badge"><div class="badge-icon">&#9888;</div><span>24/7 Emergency</span></div>
+    <div class="trust-badge"><div class="badge-icon">&#9733;</div><span>Satisfaction Guaranteed</span></div>
+    <div class="trust-badge"><div class="badge-icon">&#9962;</div><span>Local Family Owned</span></div>
+  </div><div class="stats-grid">
+    <div class="stat"><h3>15+</h3><p>Years Experience</p></div>
+    <div class="stat"><h3>2,500+</h3><p>Projects Completed</p></div>
+    <div class="stat"><h3>5-Star</h3><p>Rated Service</p></div>
+    <div class="stat"><h3>16</h3><p>Cities Served</p></div>
+  </div></div></section>
+
+  <section class="municipalities"><div class="container"><h2>Service Areas in Passaic County</h2><div class="municipality-grid">
+    <div class="municipality-card"><h3>Paterson</h3><span class="cluster-tag">Urban</span></div>
+    <div class="municipality-card"><h3>Clifton</h3><span class="cluster-tag">Urban</span></div>
+    <div class="municipality-card"><h3>Passaic</h3><span class="cluster-tag">Urban</span></div>
+    <div class="municipality-card"><h3>Wayne</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>West Milford</h3><span class="cluster-tag">Highlands</span></div>
+    <div class="municipality-card"><h3>Hawthorne</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>Woodland Park</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>Little Falls</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>Ringwood</h3><span class="cluster-tag">Highlands</span></div>
+    <div class="municipality-card"><h3>Wanaque</h3><span class="cluster-tag">Highlands</span></div>
+    <div class="municipality-card"><h3>Pompton Lakes</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>Totowa</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>Haledon</h3><span class="cluster-tag">Urban</span></div>
+    <div class="municipality-card"><h3>North Haledon</h3><span class="cluster-tag">Suburban</span></div>
+    <div class="municipality-card"><h3>Bloomingdale</h3><span class="cluster-tag">Highlands</span></div>
+    <div class="municipality-card"><h3>Prospect Park</h3><span class="cluster-tag">Urban</span></div>
+  </div></div></section>
+
+  <section class="testimonials"><div class="container"><h2>What Our Customers Say</h2><div class="testimonials-grid">
+    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"They replaced our entire roof in just two days. The crew was professional, cleaned up everything, and the price was exactly what they quoted. Highly recommend!"</p><div class="author">Michael R.</div><div class="location">Paterson, NJ</div></div>
+    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"After the big storm last winter, they came out the same day to tarp our roof and prevent further damage. The permanent repair was done within a week. Outstanding service!"</p><div class="author">Sarah K.</div><div class="location">Wayne, NJ</div></div>
+    <div class="testimonial-card"><div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p>"Best roofing company in Passaic County. Fair pricing, quality work, and they actually showed up when they said they would. Rare to find a contractor you can trust."</p><div class="author">James T.</div><div class="location">Clifton, NJ</div></div>
+  </div></div></section>
+
+  <section class="emergency-cta"><div class="container"><h2>Storm Damage? We're Here 24/7</h2><p>Emergency roof repair when you need it most. Call now for immediate response.</p><a href="tel:+19735550100" class="btn-white">&#9742; Call (973) 555-0100</a></div></section>
+
+  <section class="contact"><div class="container"><h2>Request a Free Estimate</h2><div class="contact-grid"><div>
+    <div class="form-group"><label>Full Name</label><input type="text" placeholder="John Smith"></div>
+    <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="(973) 555-0100"></div>
+    <div class="form-group"><label>Email Address</label><input type="email" placeholder="john@example.com"></div>
+    <div class="form-group"><label>Service Needed</label><select><option>Select a service...</option><option>Roof Repair</option><option>Roof Replacement</option><option>Emergency Roofing</option><option>Roof Inspection</option><option>Flat Roofing</option><option>Gutter Services</option><option>Other</option></select></div>
+    <div class="form-group"><label>Message</label><textarea placeholder="Tell us about your roofing needs..."></textarea></div>
+    <button class="btn-primary" style="width:100%;">Get Free Estimate</button>
+  </div><div class="contact-info"><h3>Contact Information</h3><p class="phone-big">(973) 555-0100</p><p><strong>Business Hours:</strong></p><p>Monday - Friday: 7:00 AM - 6:00 PM</p><p>Saturday: 8:00 AM - 4:00 PM</p><p>Sunday: Emergency Only</p><br><p><strong>Service Area:</strong></p><p>All 16 municipalities in Passaic County, NJ</p></div></div></div></section>
+
+  <footer class="footer"><div class="container"><div class="footer-grid">
+    <div><h4>Paterson Roofing Contractors</h4><p class="logo-desc">Passaic County's trusted roofing professionals. Licensed, insured, and committed to quality workmanship since 2009.</p><br><p style="color: var(--amber); font-weight: 700; font-family: 'Cormorant', serif; font-size: 20px;">(973) 555-0100</p></div>
+    <div><h4>Services</h4><ul><li><a href="#">Roof Repair</a></li><li><a href="#">Roof Replacement</a></li><li><a href="#">Emergency Roofing</a></li><li><a href="#">Roof Inspection</a></li><li><a href="#">Flat Roofing</a></li><li><a href="#">Gutter Services</a></li></ul></div>
+    <div><h4>Service Areas</h4><ul><li><a href="#">Paterson</a></li><li><a href="#">Clifton</a></li><li><a href="#">Passaic</a></li><li><a href="#">Wayne</a></li><li><a href="#">West Milford</a></li><li><a href="#">Hawthorne</a></li><li><a href="#">Little Falls</a></li><li><a href="#">Ringwood</a></li></ul></div>
+    <div><h4>Contact</h4><p>Paterson, NJ 07501</p><p>Passaic County, New Jersey</p><br><p><strong>Hours:</strong></p><p>Mon-Fri: 7AM - 6PM</p><p>Sat: 8AM - 4PM</p><p>Sun: Emergency Only</p></div>
+  </div></div><div class="footer-bottom"><div class="container">&copy; 2026 Paterson Roofing Contractors. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></div></div></footer>
+</body>
+</html>
