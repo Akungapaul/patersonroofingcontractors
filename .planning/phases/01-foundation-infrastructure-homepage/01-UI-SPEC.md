@@ -44,6 +44,10 @@ Declared values (must be multiples of 4):
 | 2xl | 48px | Section vertical padding on mobile (`--spacing-section-sm` in @theme) |
 | 3xl | 80px | Section vertical padding on desktop (`--spacing-section` in @theme) |
 
+**Intentional scale extensions:** The 80px (3xl) token and the 44px touch-target minimum (see Exceptions below) fall outside the standard 8-point scale reference set (4, 8, 16, 24, 32, 48, 64). Both are retained as intentional extensions for the following reasons:
+- **80px (3xl):** Matches the RESEARCH.md `--spacing-section: 5rem` value established for desktop section vertical padding. 64px is too tight for full-width hero/CTA/section separations on desktop viewports; 80px provides the breathing room this layout requires. 80 is a multiple of 4 and 8.
+- **44px touch-target minimum:** Required by WCAG 2.2 Level AA Target Size (Enhanced) criterion. 44 is a multiple of 4. This value applies only to interactive element minimum dimensions, not to layout spacing tokens.
+
 Exceptions:
 - Touch targets: 44px minimum height for all tappable elements (phone CTA button, form submit, hamburger menu icon, nav links on mobile). This ensures WCAG 2.2 Level AA target size compliance.
 - Hero section: 100vh minimum height on desktop, auto on mobile.
@@ -57,13 +61,13 @@ Exceptions:
 | Role | Size | Weight | Line Height | Font Family |
 |------|------|--------|-------------|-------------|
 | Body | 18px (text-lg) | 500 (medium) | 1.6 | Cormorant Garamond |
-| Label / Small | 14px (text-sm) | 500 (medium) | 1.4 | Cormorant Garamond |
 | Subheading (H3) | 24px (text-2xl) | 600 (semibold) | 1.3 | Cormorant |
 | Heading (H2) | 32px (text-3xl) | 700 (bold) | 1.2 | Cormorant |
 | Display (H1) | 48px (text-5xl) | 700 (bold) | 1.1 | Cormorant |
 
 **Scale notes:**
-- Body text MUST NOT drop below 18px on any viewport. `text-sm` (14px) is reserved exclusively for form labels, badge text, footer fine print, and geographic cluster tags -- never for readable body paragraphs.
+- Body text MUST NOT drop below 18px on any viewport. The formal type scale contains exactly 4 sizes.
+- **14px exception (not a named scale step):** 14px (`text-sm`) may be used as a one-off size exclusively for form field labels, badge text, footer fine print, and geographic cluster tags. It is NOT part of the formal 4-step type scale above. When 14px is used, differentiate it from body text via reduced opacity (`text-gray-500` or `opacity-75`) in addition to the smaller size. Never use 14px for readable body paragraphs.
 - H1 on mobile scales down to 36px (`text-4xl`) via responsive utility: `text-4xl md:text-5xl`.
 - H2 on mobile scales down to 28px (`text-[28px]`) via responsive utility: `text-[28px] md:text-3xl`.
 - All heading sizes use Cormorant (not Cormorant Garamond).
@@ -269,6 +273,8 @@ None in Phase 1. No delete, remove, or irreversible user actions exist on the ho
 | Keyboard navigation | Tab order follows visual order. Dropdown menus navigable with Arrow keys. Escape closes dropdowns and mobile menu. |
 | Reduced motion | `motion-reduce:` prefix on all transition/animation utilities (translate-y hover, transition-all) |
 | Screen reader | Phone number: sr-only full number on mobile compact view. Star ratings: aria-label="5 out of 5 stars". |
+| Hamburger menu button | `aria-label="Open navigation menu"` on the hamburger icon button. `aria-expanded` toggles between `"true"` and `"false"` to reflect menu state. |
+| Mobile menu close button | `aria-label="Close navigation menu"` on the X (close) button within the mobile overlay. |
 
 **Source:** SEO-02 (heading hierarchy), SEO-08 (alt text), WCAG 2.2 Level AA requirements.
 
