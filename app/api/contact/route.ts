@@ -1,5 +1,29 @@
 import { NextRequest } from 'next/server'
 
+// In-memory rate limiter (HI-01): 5 submissions per 60 seconds per IP
+// Note: In-memory state resets on cold start; for multi-instance deployments,
+// replace with @upstash/ratelimit + @upstash/redis for distributed rate limiting.
+const RATE_LIMIT_WINDOW_MS = 60_000
+const RATE_LIMIT_MAX_REQUESTS = 5
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>()
+
+function isRateLimited(ip: string): boolean {
+  const now = Date.now()
+  const entry = rateLimitMap.get(ip)
+
+  if (!entry || now >= entry.resetAt) {
+    rateLimitMap.set(ip, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS })
+    return false
+  }
+
+  entry.count = entry.count + 1
+  if (entry.count > RATE_LIMIT_MAX_REQUESTS) {
+    return true
+  }
+
+  return false
+}
+
 // Allowlisted GoHighLevel webhook hosts to prevent SSRF (CR-01)
 const ALLOWED_GHL_HOSTS = [
   'services.leadconnectorhq.com',
@@ -30,6 +54,15 @@ interface ContactFormData {
 
 export async function POST(request: NextRequest) {
   try {
+    // Rate limit by IP (HI-01)
+    const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ?? '127.0.0.1'
+    if (isRateLimited(ip)) {
+      return Response.json(
+        { error: 'Too many requests. Please try again later.' },
+        { status: 429 }
+      )
+    }
+
     const body: ContactFormData = await request.json()
 
     // Server-side validation (T-01-04-01, T-01-04-02: never trust client-side validation alone)
