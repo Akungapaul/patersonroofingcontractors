@@ -1,5 +1,25 @@
 import { NextRequest } from 'next/server'
 
+// Allowlisted GoHighLevel webhook hosts to prevent SSRF (CR-01)
+const ALLOWED_GHL_HOSTS = [
+  'services.leadconnectorhq.com',
+  'app.gohighlevel.com',
+]
+
+// Valid service types for server-side validation (HI-02)
+const VALID_SERVICE_TYPES = [
+  'Roof Repair',
+  'Roof Replacement',
+  'Roof Inspection',
+  'Storm Damage Repair',
+  'Flat Roof Services',
+  'Gutter Installation',
+  'Emergency Roofing',
+  'Commercial Roofing',
+  'Other',
+  '',
+] as const
+
 interface ContactFormData {
   name: string
   phone: string
@@ -28,10 +48,46 @@ export async function POST(request: NextRequest) {
       )
     }
 
+    // Validate serviceType against known options (HI-02)
+    if (
+      body.serviceType &&
+      !VALID_SERVICE_TYPES.includes(
+        body.serviceType as (typeof VALID_SERVICE_TYPES)[number]
+      )
+    ) {
+      return Response.json(
+        { error: 'Invalid service type selected.' },
+        { status: 400 }
+      )
+    }
+
     // Forward to GoHighLevel webhook (T-01-04-03: server-only, never exposed to client)
     const ghlWebhookUrl = process.env.GHL_WEBHOOK_URL
     if (!ghlWebhookUrl) {
       console.error('GHL_WEBHOOK_URL not configured')
+      return Response.json(
+        { error: 'Form submission failed. Please call us directly at (973) 555-0100.' },
+        { status: 500 }
+      )
+    }
+
+    // Validate webhook URL against allowlisted hosts to prevent SSRF (CR-01)
+    let parsedUrl: URL
+    try {
+      parsedUrl = new URL(ghlWebhookUrl)
+    } catch {
+      console.error('GHL_WEBHOOK_URL is not a valid URL')
+      return Response.json(
+        { error: 'Form submission failed. Please call us directly at (973) 555-0100.' },
+        { status: 500 }
+      )
+    }
+
+    if (!ALLOWED_GHL_HOSTS.includes(parsedUrl.hostname)) {
+      console.error(
+        'GHL_WEBHOOK_URL points to a disallowed host:',
+        parsedUrl.hostname
+      )
       return Response.json(
         { error: 'Form submission failed. Please call us directly at (973) 555-0100.' },
         { status: 500 }
