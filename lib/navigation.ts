@@ -8,16 +8,7 @@ export const navigationItems: readonly NavigationItem[] = [
   {
     label: 'Services',
     href: '/services',
-    children: [
-      { label: 'Roof Repair', href: '/services/roof-repair' },
-      { label: 'Roof Replacement', href: '/services/roof-replacement' },
-      { label: 'Roof Inspection', href: '/services/roof-inspection' },
-      { label: 'Storm Damage Repair', href: '/services/storm-damage-repair' },
-      { label: 'Flat Roof Services', href: '/services/flat-roof-services' },
-      { label: 'Gutter Installation', href: '/services/gutter-installation' },
-      { label: 'Emergency Roofing', href: '/services/emergency-roofing' },
-      { label: 'Commercial Roofing', href: '/services/commercial-roofing' },
-    ],
+    children: [], // Populated from data/services at render time
   },
   {
     label: 'Locations',

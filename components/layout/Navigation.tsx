@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import Link from 'next/link'
 import { navigationItems } from '@/lib/navigation'
 import { siteConfig } from '@/lib/site-config'
+import { services } from '@/data/services'
 import { cn } from '@/lib/cn'
 
 interface NavigationProps {
@@ -51,12 +52,18 @@ export function Navigation({ className }: NavigationProps) {
       <ul className="flex items-center gap-1">
         {navigationItems.map((item) => {
           const isLocations = item.label === 'Locations'
+          const isServices = item.label === 'Services'
           const children = isLocations
             ? siteConfig.municipalities.map((m) => ({
                 label: m.name,
                 href: `/roofing-contractor-${m.slug}-nj`,
               }))
-            : item.children
+            : isServices
+              ? services.map((s) => ({
+                  label: s.name,
+                  href: `/services/${s.slug}`,
+                }))
+              : item.children
 
           const hasChildren = children && children.length > 0
           const isOpen = openMenu === item.label

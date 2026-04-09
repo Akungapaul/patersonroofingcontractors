@@ -62,4 +62,53 @@ export const services: readonly Service[] = [
       'Full-service commercial roofing for office buildings, warehouses, and retail spaces. Preventive maintenance programs available.',
     icon: 'Factory',
   },
+  {
+    name: 'Asphalt Shingle Roofing',
+    slug: 'asphalt-shingle-roofing',
+    description:
+      'Architectural and 3-tab asphalt shingle installation with industry-leading warranties. The most popular roofing choice for Passaic County homes.',
+    icon: 'LayoutGrid',
+  },
+  {
+    name: 'Metal Roof Installation',
+    slug: 'metal-roof-installation',
+    description:
+      'Standing seam and metal shingle roofing built to last 50+ years. Energy-efficient, fire-resistant, and available in a range of finishes.',
+    icon: 'Shield',
+  },
+  {
+    name: 'Slate Roof Installation',
+    slug: 'slate-roof-installation',
+    description:
+      'Natural and synthetic slate roofing for historic and premium homes. Expert installation and restoration preserving classic Passaic County architecture.',
+    icon: 'Gem',
+  },
+  {
+    name: 'Tile Roof Installation',
+    slug: 'tile-roof-installation',
+    description:
+      'Clay and concrete tile roofing for distinctive, long-lasting curb appeal. Weather-resistant systems engineered for New Jersey winters.',
+    icon: 'Waves',
+  },
+  {
+    name: 'Skylight Installation & Repair',
+    slug: 'skylight-installation-repair',
+    description:
+      'Velux and fixed skylight installation, flashing repair, and leak sealing. Bring natural light into your home without sacrificing a watertight roof.',
+    icon: 'Sun',
+  },
+  {
+    name: 'Chimney Flashing Repair',
+    slug: 'chimney-flashing-repair',
+    description:
+      'Expert chimney flashing replacement and sealing to stop persistent roof leaks. One of the most common sources of water damage in older homes.',
+    icon: 'Flame',
+  },
+  {
+    name: 'Gutter Guard Installation',
+    slug: 'gutter-guard-installation',
+    description:
+      'Leaf and debris protection systems that keep your gutters flowing freely year-round. Prevents clogs, ice dams, and foundation water damage.',
+    icon: 'Umbrella',
+  },
 ] as const

@@ -77,10 +77,29 @@ blocked: 0
 
 ## Gaps
 
-- truth: "Homepage services grid displays the complete set of services offered by the business"
-  status: failed
+- truth: "Homepage services grid displays the complete set of core services offered by the business"
+  status: closed
   reason: "User reported: I want to add more services"
   severity: minor
   test: 6
-  artifacts: []
-  missing: []
+  root_cause: "data/services.ts only listed 8 services — missing major residential roof types (asphalt/metal/slate/tile) and high-intent specialty work (skylights, chimney flashing, gutter guards). Competitor research via newarkqualityroofing.com identified 7 core additions to expand to 15 services. Separately, lib/navigation.ts hardcoded the Services dropdown children, duplicating data/services.ts and causing drift."
+  artifacts:
+    - path: "data/services.ts"
+      issue: "Only 8 services in catalog"
+    - path: "lib/navigation.ts"
+      issue: "Hardcoded Services children duplicate data/services.ts"
+    - path: "components/sections/ServicesGrid.tsx"
+      issue: "iconMap needs entries for new services"
+    - path: "components/layout/Footer.tsx"
+      issue: "services.slice(0, 8) limited footer to 8 services"
+    - path: "components/layout/Navigation.tsx"
+      issue: "Services dropdown did not derive children from data/services"
+    - path: "components/layout/MobileNav.tsx"
+      issue: "Services accordion did not derive children from data/services"
+  missing:
+    - "Add 7 core services to data/services.ts: asphalt shingle, metal, slate, tile, skylight, chimney flashing, gutter guards"
+    - "Extend ServicesGrid iconMap with 7 new lucide icons (LayoutGrid, Shield, Gem, Waves, Sun, Flame, Umbrella)"
+    - "Remove slice(0, 8) from Footer.tsx to show all services"
+    - "Clear lib/navigation.ts Services children and mirror Locations dynamic-children pattern in Navigation.tsx and MobileNav.tsx"
+  debug_session: ".claude/plans/modular-sparking-biscuit.md"
+  fix_plan: ".claude/plans/modular-sparking-biscuit.md"

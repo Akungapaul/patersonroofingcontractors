@@ -10,6 +10,13 @@ import {
   Droplets,
   AlertTriangle,
   Factory,
+  LayoutGrid,
+  Shield,
+  Gem,
+  Waves,
+  Sun,
+  Flame,
+  Umbrella,
 } from 'lucide-react'
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
@@ -21,6 +28,13 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Droplets,
   AlertTriangle,
   Factory,
+  LayoutGrid,
+  Shield,
+  Gem,
+  Waves,
+  Sun,
+  Flame,
+  Umbrella,
 }
 
 export function ServicesGrid() {
