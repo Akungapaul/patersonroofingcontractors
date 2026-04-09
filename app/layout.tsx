@@ -23,10 +23,10 @@ const cormorantGaramond = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: {
     template: '%s | Paterson Roofing Contractors',
-    default: 'Paterson Roofing Contractors | #1 Roofer in Passaic County NJ',
+    default: 'Paterson Roofing Contractors | Top-Rated Roofer in Paterson NJ',
   },
   description:
-    'Professional roofing contractor serving all 16 municipalities in Passaic County, NJ. Free estimates, 24/7 emergency service. Call (973) 555-0100.',
+    'Paterson\'s most trusted roofing contractor. Roof repair, replacement & installation serving Paterson and all of Passaic County, NJ. Free estimates, 24/7 emergency service. Call (973) 555-0100.',
   metadataBase: new URL('https://patersonroofingcontractors.com'),
   alternates: {
     canonical: '/',
