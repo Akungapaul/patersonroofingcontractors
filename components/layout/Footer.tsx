@@ -125,8 +125,11 @@ export function Footer() {
         <div className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-between gap-2 text-sm text-gray-400 sm:flex-row">
             <p>
-              &copy; {new Date().getFullYear()} {siteConfig.businessName}. All
-              rights reserved.
+              &copy;{' '}
+              <span suppressHydrationWarning>
+                {new Date().getFullYear()}
+              </span>{' '}
+              {siteConfig.businessName}. All rights reserved.
             </p>
             <div className="flex gap-4">
               <Link
