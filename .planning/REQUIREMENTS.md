@@ -65,10 +65,10 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Content - Location Pages
 
 - [x] **LOC-01**: 15 location pages (one per remaining Passaic County municipality) at /roofing-contractor-{city}-nj
-- [ ] **LOC-02**: Each location page has 3000+ words of unique, locally-relevant content
-- [ ] **LOC-03**: Geographic content angles applied per cluster (Dense Urban, NJ Highlands, Suburban Corridor, Commercial)
+- [x] **LOC-02**: Each location page has 3000+ words of unique, locally-relevant content
+- [x] **LOC-03**: Geographic content angles applied per cluster (Dense Urban, NJ Highlands, Suburban Corridor, Commercial)
 - [x] **LOC-04**: Municipality-specific landmarks, neighborhoods, housing stock, and local context in each page
-- [ ] **LOC-05**: 90%+ content uniqueness across all location pages (no cookie-cutter templates)
+- [x] **LOC-05**: 90%+ content uniqueness across all location pages (no cookie-cutter templates)
 - [x] **LOC-06**: Each location page links to relevant service pages (silo structure)
 - [x] **LOC-07**: Each location page has FAQ section with location-specific roofing questions
 
@@ -193,10 +193,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ANCHOR-04 | Phase 2 | Complete |
 | ANCHOR-05 | Phase 2 | Complete |
 | LOC-01 | Phase 2 | Complete |
-| LOC-02 | Phase 2 | Pending |
-| LOC-03 | Phase 2 | Pending |
+| LOC-02 | Phase 2 | Complete |
+| LOC-03 | Phase 2 | Complete |
 | LOC-04 | Phase 2 | Complete |
-| LOC-05 | Phase 2 | Pending |
+| LOC-05 | Phase 2 | Complete |
 | LOC-06 | Phase 2 | Complete |
 | LOC-07 | Phase 2 | Complete |
 | SVC-01 | Phase 3 | Pending |

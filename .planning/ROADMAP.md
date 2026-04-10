@@ -54,7 +54,7 @@ Plans:
 - [x] 02-01-PLAN.md -- CityContent type definitions, FAQ schema builder, component prop extensions (MidPageCTA, Hero, ServicesGrid)
 - [x] 02-02-PLAN.md -- New section components (CityIntro, NeighborhoodGrid, CityFAQ)
 - [x] 02-03-PLAN.md -- Dynamic route template, Paterson anchor content, content index, sitemap update
-- [ ] 02-04-PLAN.md -- 8 city content files (Clifton, Passaic, Wayne, Hawthorne, Little Falls, Woodland Park, Haledon, Prospect Park)
+- [x] 02-04-PLAN.md -- 8 city content files (Clifton, Passaic, Wayne, Hawthorne, Little Falls, Woodland Park, Haledon, Prospect Park)
 - [ ] 02-05-PLAN.md -- 7 city content files (West Milford, Ringwood, Wanaque, Pompton Lakes, Bloomingdale, Totowa, North Haledon) + verification checkpoint
 **UI hint**: yes
 
