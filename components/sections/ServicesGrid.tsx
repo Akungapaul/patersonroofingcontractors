@@ -37,15 +37,24 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Umbrella,
 }
 
-export function ServicesGrid() {
+interface ServicesGridProps {
+  serviceSlugs?: readonly string[]
+  title?: string
+}
+
+export function ServicesGrid({ serviceSlugs, title }: ServicesGridProps = {}) {
+  const displayedServices = serviceSlugs
+    ? services.filter((s) => serviceSlugs.includes(s.slug))
+    : services
+
   return (
     <section className="bg-white py-section-sm lg:py-section">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="mb-8 text-center font-heading text-[28px] font-bold text-navy md:text-3xl">
-          Our Roofing Services
+          {title ?? 'Our Roofing Services'}
         </h2>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service) => {
+          {displayedServices.map((service) => {
             const Icon = iconMap[service.icon]
             return (
               <Link
