@@ -3,10 +3,11 @@ import type {
   LocalBusiness,
   Organization,
   BreadcrumbList,
+  FAQPage,
 } from 'schema-dts'
 import { siteConfig } from './site-config'
 
-export function buildLocalBusinessSchema(): WithContext<LocalBusiness> {
+export function buildLocalBusinessSchema(cityName?: string): WithContext<LocalBusiness> {
   return {
     '@context': 'https://schema.org',
     '@type': 'RoofingContractor',
@@ -16,7 +17,7 @@ export function buildLocalBusinessSchema(): WithContext<LocalBusiness> {
     email: siteConfig.email,
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Paterson',
+      addressLocality: cityName ?? 'Paterson',
       addressRegion: 'NJ',
       addressCountry: 'US',
     },
@@ -59,6 +60,23 @@ export function buildBreadcrumbSchema(
       position: index + 1,
       name: item.name,
       item: item.url,
+    })),
+  }
+}
+
+export function buildFaqSchema(
+  items: { question: string; answer: string }[]
+): WithContext<FAQPage> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question' as const,
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer' as const,
+        text: item.answer,
+      },
     })),
   }
 }
