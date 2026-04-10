@@ -50,7 +50,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **SCHEMA-01**: LocalBusiness JSON-LD schema on homepage and all location pages
 - [ ] **SCHEMA-02**: Service JSON-LD schema on all service pages
-- [ ] **SCHEMA-03**: FAQ JSON-LD schema on location pages and service pages
+- [x] **SCHEMA-03**: FAQ JSON-LD schema on location pages and service pages
 - [ ] **SCHEMA-04**: BreadcrumbList JSON-LD schema on all pages reflecting silo hierarchy
 - [ ] **SCHEMA-05**: Organization JSON-LD schema on homepage
 
@@ -59,7 +59,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **ANCHOR-01**: Paterson anchor city page at /roofing-contractor-paterson-nj with 3000+ words
 - [ ] **ANCHOR-02**: Dense Urban Housing content angle woven into Paterson page
 - [ ] **ANCHOR-03**: Paterson-specific local landmarks, neighborhoods, building types, and weather patterns
-- [ ] **ANCHOR-04**: Service-specific sections linking to individual service pages (silo linking)
+- [x] **ANCHOR-04**: Service-specific sections linking to individual service pages (silo linking)
 - [ ] **ANCHOR-05**: FAQ section with Paterson-specific roofing questions
 
 ### Content - Location Pages
@@ -69,7 +69,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **LOC-03**: Geographic content angles applied per cluster (Dense Urban, NJ Highlands, Suburban Corridor, Commercial)
 - [ ] **LOC-04**: Municipality-specific landmarks, neighborhoods, housing stock, and local context in each page
 - [ ] **LOC-05**: 90%+ content uniqueness across all location pages (no cookie-cutter templates)
-- [ ] **LOC-06**: Each location page links to relevant service pages (silo structure)
+- [x] **LOC-06**: Each location page links to relevant service pages (silo structure)
 - [ ] **LOC-07**: Each location page has FAQ section with location-specific roofing questions
 
 ### Content - Service Pages
@@ -184,20 +184,20 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-10 | Phase 1 | Pending |
 | SCHEMA-01 | Phase 1 | Pending |
 | SCHEMA-02 | Phase 3 | Pending |
-| SCHEMA-03 | Phase 2 | Pending |
+| SCHEMA-03 | Phase 2 | Complete |
 | SCHEMA-04 | Phase 1 | Pending |
 | SCHEMA-05 | Phase 1 | Pending |
 | ANCHOR-01 | Phase 2 | Pending |
 | ANCHOR-02 | Phase 2 | Pending |
 | ANCHOR-03 | Phase 2 | Pending |
-| ANCHOR-04 | Phase 2 | Pending |
+| ANCHOR-04 | Phase 2 | Complete |
 | ANCHOR-05 | Phase 2 | Pending |
 | LOC-01 | Phase 2 | Pending |
 | LOC-02 | Phase 2 | Pending |
 | LOC-03 | Phase 2 | Pending |
 | LOC-04 | Phase 2 | Pending |
 | LOC-05 | Phase 2 | Pending |
-| LOC-06 | Phase 2 | Pending |
+| LOC-06 | Phase 2 | Complete |
 | LOC-07 | Phase 2 | Pending |
 | SVC-01 | Phase 3 | Pending |
 | SVC-02 | Phase 3 | Pending |
