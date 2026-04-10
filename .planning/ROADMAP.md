@@ -33,9 +33,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [x] 01-01-PLAN.md -- Project initialization + 10 color theme variations + approval checkpoint
-- [ ] 01-02-PLAN.md -- Design system, data layer, utilities, SEO infrastructure, UI primitives
-- [ ] 01-03-PLAN.md -- Layout shell (Header, Footer, Navigation, MobileNav)
-- [ ] 01-04-PLAN.md -- Homepage sections, contact form, API route, page assembly + verification
+- [x] 01-02-PLAN.md -- Design system, data layer, utilities, SEO infrastructure, UI primitives
+- [x] 01-03-PLAN.md -- Layout shell (Header, Footer, Navigation, MobileNav)
+- [x] 01-04-PLAN.md -- Homepage sections, contact form, API route, page assembly + verification
 **UI hint**: yes
 
 ### Phase 2: Anchor City & Location Pages
@@ -48,12 +48,14 @@ Plans:
   3. Content uniqueness across all 16 location pages exceeds 90% (no cookie-cutter templates; each page has municipality-specific local context)
   4. Every location page has a FAQ section with location-specific roofing questions, LocalBusiness + FAQ + BreadcrumbList schema, and links to relevant service pages
   5. Every location page has working lead capture (phone number + contact form) and CRO-optimized CTAs
-**Plans**: TBD
+**Plans**: 5 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
-- [ ] 02-03: TBD
+- [ ] 02-01-PLAN.md -- CityContent type definitions, FAQ schema builder, component prop extensions (MidPageCTA, Hero, ServicesGrid)
+- [ ] 02-02-PLAN.md -- New section components (CityIntro, NeighborhoodGrid, CityFAQ)
+- [ ] 02-03-PLAN.md -- Dynamic route template, Paterson anchor content, content index, sitemap update
+- [ ] 02-04-PLAN.md -- 8 city content files (Clifton, Passaic, Wayne, Hawthorne, Little Falls, Woodland Park, Haledon, Prospect Park)
+- [ ] 02-05-PLAN.md -- 7 city content files (West Milford, Ringwood, Wanaque, Pompton Lakes, Bloomingdale, Totowa, North Haledon) + verification checkpoint
 **UI hint**: yes
 
 ### Phase 3: Service, Guide & Utility Pages
@@ -93,11 +95,11 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation, Infrastructure & Homepage | 0/4 | Not started | - |
-| 2. Anchor City & Location Pages | 0/3 | Not started | - |
+| 1. Foundation, Infrastructure & Homepage | 4/4 | Complete | 2026-04-09 |
+| 2. Anchor City & Location Pages | 0/5 | Not started | - |
 | 3. Service, Guide & Utility Pages | 0/3 | Not started | - |
 | 4. Silo Linking, Crawl Health & CRO Polish | 0/2 | Not started | - |
