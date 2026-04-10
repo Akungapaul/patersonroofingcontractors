@@ -12,8 +12,8 @@ This roadmap delivers a rank-and-rent roofing lead generation site targeting all
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation, Infrastructure & Homepage** - Design system, layout shell, lead capture, SEO infrastructure, schema system, and homepage
-- [ ] **Phase 2: Anchor City & Location Pages** - Paterson anchor page and 15 municipality location pages with 3000+ word unique content
+- [x] **Phase 1: Foundation, Infrastructure & Homepage** - Design system, layout shell, lead capture, SEO infrastructure, schema system, and homepage
+- [x] **Phase 2: Anchor City & Location Pages** - Paterson anchor page and 15 municipality location pages with 3000+ word unique content
 - [ ] **Phase 3: Service, Guide & Utility Pages** - 67 service pages, 10 guide pages, and 5 utility pages completing the content inventory
 - [ ] **Phase 4: Silo Linking, Crawl Health & CRO Polish** - Internal linking audit, crawl budget optimization, conversion rate optimization, and performance tuning
 
@@ -55,7 +55,7 @@ Plans:
 - [x] 02-02-PLAN.md -- New section components (CityIntro, NeighborhoodGrid, CityFAQ)
 - [x] 02-03-PLAN.md -- Dynamic route template, Paterson anchor content, content index, sitemap update
 - [x] 02-04-PLAN.md -- 8 city content files (Clifton, Passaic, Wayne, Hawthorne, Little Falls, Woodland Park, Haledon, Prospect Park)
-- [ ] 02-05-PLAN.md -- 7 city content files (West Milford, Ringwood, Wanaque, Pompton Lakes, Bloomingdale, Totowa, North Haledon) + verification checkpoint
+- [x] 02-05-PLAN.md -- 7 city content files (West Milford, Ringwood, Wanaque, Pompton Lakes, Bloomingdale, Totowa, North Haledon) + verification checkpoint
 **UI hint**: yes
 
 ### Phase 3: Service, Guide & Utility Pages
@@ -100,6 +100,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation, Infrastructure & Homepage | 4/4 | Complete | 2026-04-09 |
-| 2. Anchor City & Location Pages | 0/5 | Not started | - |
+| 2. Anchor City & Location Pages | 5/5 | Complete | 2026-04-10 |
 | 3. Service, Guide & Utility Pages | 0/3 | Not started | - |
 | 4. Silo Linking, Crawl Health & CRO Polish | 0/2 | Not started | - |
