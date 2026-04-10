@@ -1,9 +1,24 @@
 import type { CityContent } from './types'
 import { paterson } from './paterson'
+import { clifton } from './clifton'
+import { passaic } from './passaic'
+import { wayne } from './wayne'
+import { hawthorne } from './hawthorne'
+import { littleFalls } from './little-falls'
+import { woodlandPark } from './woodland-park'
+import { haledon } from './haledon'
+import { prospectPark } from './prospect-park'
 
 const cityContentMap: Record<string, CityContent> = {
   'paterson': paterson,
-  // Remaining 15 cities will be added in Plans 04 and 05
+  'clifton': clifton,
+  'passaic': passaic,
+  'wayne': wayne,
+  'hawthorne': hawthorne,
+  'little-falls': littleFalls,
+  'woodland-park': woodlandPark,
+  'haledon': haledon,
+  'prospect-park': prospectPark,
 }
 
 export function getCityContent(slug: string): CityContent | undefined {
