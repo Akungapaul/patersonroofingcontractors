@@ -56,15 +56,15 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content - Anchor City
 
-- [ ] **ANCHOR-01**: Paterson anchor city page at /roofing-contractor-paterson-nj with 3000+ words
-- [ ] **ANCHOR-02**: Dense Urban Housing content angle woven into Paterson page
+- [x] **ANCHOR-01**: Paterson anchor city page at /roofing-contractor-paterson-nj with 3000+ words
+- [x] **ANCHOR-02**: Dense Urban Housing content angle woven into Paterson page
 - [x] **ANCHOR-03**: Paterson-specific local landmarks, neighborhoods, building types, and weather patterns
 - [x] **ANCHOR-04**: Service-specific sections linking to individual service pages (silo linking)
 - [x] **ANCHOR-05**: FAQ section with Paterson-specific roofing questions
 
 ### Content - Location Pages
 
-- [ ] **LOC-01**: 15 location pages (one per remaining Passaic County municipality) at /roofing-contractor-{city}-nj
+- [x] **LOC-01**: 15 location pages (one per remaining Passaic County municipality) at /roofing-contractor-{city}-nj
 - [ ] **LOC-02**: Each location page has 3000+ words of unique, locally-relevant content
 - [ ] **LOC-03**: Geographic content angles applied per cluster (Dense Urban, NJ Highlands, Suburban Corridor, Commercial)
 - [x] **LOC-04**: Municipality-specific landmarks, neighborhoods, housing stock, and local context in each page
@@ -187,12 +187,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SCHEMA-03 | Phase 2 | Complete |
 | SCHEMA-04 | Phase 1 | Pending |
 | SCHEMA-05 | Phase 1 | Pending |
-| ANCHOR-01 | Phase 2 | Pending |
-| ANCHOR-02 | Phase 2 | Pending |
+| ANCHOR-01 | Phase 2 | Complete |
+| ANCHOR-02 | Phase 2 | Complete |
 | ANCHOR-03 | Phase 2 | Complete |
 | ANCHOR-04 | Phase 2 | Complete |
 | ANCHOR-05 | Phase 2 | Complete |
-| LOC-01 | Phase 2 | Pending |
+| LOC-01 | Phase 2 | Complete |
 | LOC-02 | Phase 2 | Pending |
 | LOC-03 | Phase 2 | Pending |
 | LOC-04 | Phase 2 | Complete |
