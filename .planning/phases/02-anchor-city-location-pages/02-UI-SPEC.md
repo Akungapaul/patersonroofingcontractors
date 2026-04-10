@@ -22,7 +22,7 @@ created: 2026-04-10
 | Component library | none (custom components, no shadcn -- inherits Phase 1) |
 | Icon library | lucide-react 1.7.0 (already installed) |
 | Font (body) | Cormorant Garamond, weight 500 (medium), via next/font/google |
-| Font (headings) | Cormorant, weights 400-700, via next/font/google |
+| Font (headings) | Cormorant, weights 500 + 700, via next/font/google |
 
 **Source:** Phase 1 UI-SPEC (design system carries forward unchanged). No new dependencies for Phase 2.
 
@@ -52,25 +52,29 @@ Exceptions:
 
 ## Typography
 
-Inherited from Phase 1 without modification:
+4 font sizes, 2 font weights. Inherited scale from Phase 1, consolidated for Phase 2.
 
 | Role | Size | Weight | Line Height | Font Family |
 |------|------|--------|-------------|-------------|
 | Body | 18px (text-lg) | 500 (medium) | 1.6 | Cormorant Garamond |
-| Subheading (H3) | 24px (text-2xl) | 600 (semibold) | 1.3 | Cormorant |
+| Subheading (H3) | 24px (text-2xl) | 700 (bold) | 1.3 | Cormorant |
 | Heading (H2) | 32px (text-3xl) | 700 (bold) | 1.2 | Cormorant |
 | Display (H1) | 48px (text-5xl) | 700 (bold) | 1.1 | Cormorant |
 
+**Responsive breakpoint adaptations (same 4-size scale, not additional sizes):**
+- H1: 48px desktop, 36px mobile (`text-4xl md:text-5xl`). The 36px is a responsive adaptation of the 48px display size.
+- H2: 32px desktop, 28px mobile (`text-[28px] md:text-3xl`). The 28px is a responsive adaptation of the 32px heading size.
+
 **Phase 2 typography notes:**
-- Location page H1: `"Expert Roofing Contractors in {City}, NJ"` -- 48px desktop, 36px mobile (`text-4xl md:text-5xl`).
-- Section H2s: `"About Roofing in {City}"`, `"Neighborhoods We Serve in {City}"`, `"Frequently Asked Questions"` -- 28px mobile, 32px desktop (`text-[28px] md:text-3xl`). Consistent with Phase 1 pattern.
-- FAQ question text: 20px (`text-xl`) weight 600 (semibold), Cormorant Garamond. This is an intentional intermediate size for FAQ questions that are neither headings nor body -- visually distinct from body (18px) without competing with H3 (24px).
+- Location page H1: `"Expert Roofing Contractors in {City}, NJ"` -- 48px desktop, 36px mobile.
+- Section H2s: `"About Roofing in {City}"`, `"Neighborhoods We Serve in {City}"`, `"Frequently Asked Questions"` -- 32px desktop, 28px mobile. Consistent with Phase 1 pattern.
+- FAQ question text: 24px (`text-2xl`) weight 700 (bold), Cormorant Garamond. Uses the H3/subheading size to create clear visual distinction from 18px answer text without introducing an additional scale entry.
 - FAQ answer text: 18px body standard, weight 500, line-height 1.6.
-- Neighborhood card name: 20px (`text-xl`) weight 700 (bold), Cormorant (heading font).
-- Neighborhood card roofingContext: 16px (`text-base`) weight 500, line-height 1.5, `text-gray-600`. This is the one place 16px appears in the location page -- the short 1-2 sentence context beneath each neighborhood name. Using 18px for these dense card descriptions would make the grid too text-heavy.
+- Neighborhood card name: 24px (`text-2xl`) weight 700 (bold), Cormorant (heading font). Uses the H3/subheading size for consistent card title treatment.
+- Neighborhood card roofingContext: 18px (`text-lg`) weight 500, line-height 1.6, `text-gray-600`. Uses body size for consistency; card layout and `text-gray-600` color provide sufficient visual hierarchy without a smaller size.
 - CityIntro body prose (introHtml): 18px body standard, rendered as HTML with `prose`-style paragraph spacing (mb-4 between paragraphs).
 
-**Source:** Phase 1 UI-SPEC typography scale. FAQ 20px and neighborhood card sizes are Phase 2 additions fitting within the established scale.
+**Source:** Phase 1 UI-SPEC typography scale, consolidated from 6+ sizes to 4 sizes (18, 24, 32, 48) with 2 responsive adaptations (28, 36). Weights reduced from 3 (500, 600, 700) to 2 (500, 700).
 
 ---
 
@@ -182,10 +186,10 @@ Inherited from Phase 1 without modification:
 | Section padding | `py-section-sm lg:py-section` |
 | H2 heading | "Neighborhoods We Serve in {City}" -- `text-[28px] md:text-3xl font-bold text-navy font-heading` |
 | Grid layout | `grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3` (D-03: 2-3 column grid) |
-| Card component | Reuses `<Card>` with `interactive` prop |
+| Card component | Reuses `<Card>` without `interactive` prop (informational only) |
 | Card styling | `border-t-[3px] border-t-amber p-6` (matches ServicesGrid card pattern) |
-| Neighborhood name | `text-xl font-bold text-navy font-heading` (Cormorant, 20px, bold) |
-| Roofing context | `mt-2 text-base text-gray-600` (16px, 1-2 sentences) |
+| Neighborhood name | `text-2xl font-bold text-navy font-heading` (Cormorant, 24px, bold) |
+| Roofing context | `mt-2 text-lg text-gray-600` (18px, weight 500, 1-2 sentences) |
 | Card count | Paterson: 10-12 cards. Other cities: 6-8 cards. (D-03, D-10) |
 | Empty guard | Component does not render if neighborhoods array is empty (defensive, should never happen with valid content) |
 
@@ -202,7 +206,7 @@ Inherited from Phase 1 without modification:
 | FAQ container | `max-w-3xl mx-auto` -- centered, narrower than full width for readability |
 | FAQ item wrapper | `border-b border-gray-200` -- bottom border separator between items. First item: `border-t border-gray-200` (top border on first item only). |
 | Question button | `w-full flex items-center justify-between py-5 text-left` -- full-width clickable area for WCAG compliance |
-| Question text | `text-xl font-semibold text-navy` (20px, Cormorant Garamond, weight 600) |
+| Question text | `text-2xl font-bold text-navy` (24px, Cormorant Garamond, weight 700) |
 | Toggle icon | Lucide `ChevronDown` icon, `h-5 w-5 text-amber transition-transform duration-200`. Rotates 180deg when open: `rotate-180`. |
 | Answer panel | Hidden by default. When open: `pb-5` padding below, smooth height transition via `overflow-hidden` + CSS `grid-rows` animation or `max-height` transition. |
 | Answer text | `text-lg text-gray-700 leading-relaxed` (18px body standard). Supports HTML content via `dangerouslySetInnerHTML` for rich formatting. |
@@ -273,14 +277,7 @@ The exact visual ordering from top to bottom for all 16 location pages, as locke
 
 ### Neighborhood Card Hover
 
-Same interaction contract as Phase 1 service cards (via `<Card interactive>`):
-- Default: White background, shadow-sm, rounded-lg, border-transparent, 3px amber top border
-- Hover: shadow-md, border-amber (1px sides/bottom), translate-y-[-4px], transition-all duration-300
-- Focus-visible: 2px amber outline, 2px offset
-
-**Note:** Neighborhood cards are NOT links (they don't navigate anywhere). They are informational cards. The `interactive` prop is used for visual polish (hover lift) but no `<Link>` wrapper. Use `tabIndex={-1}` to keep them out of tab order since they are non-interactive content.
-
-**Correction:** Since neighborhood cards are purely informational (no click action), do NOT use the `interactive` prop on `<Card>`. Use `<Card className="border-t-[3px] border-t-amber p-6">` without hover effects. This avoids misleading users into thinking the cards are clickable.
+Neighborhood cards are purely informational (no click action). Do NOT use the `interactive` prop on `<Card>`. Use `<Card className="border-t-[3px] border-t-amber p-6">` without hover effects. This avoids misleading users into thinking the cards are clickable. Use `tabIndex={-1}` to keep them out of tab order since they are non-interactive content.
 
 ### CityIntro Local Context Callout
 
@@ -380,7 +377,7 @@ Inherited from Phase 1 plus Phase 2 additions:
 |-------------|----------------|
 | FAQ keyboard access | Question buttons are native `<button>` elements. `aria-expanded="true/false"`. `aria-controls="{answerId}"`. Answer panels have `role="region"` and `aria-labelledby="{questionId}"`. |
 | FAQ screen reader | Each question button announces expanded/collapsed state. Answer content is hidden from screen readers when collapsed (`aria-hidden="true"` or removed from DOM). |
-| Heading hierarchy | H1: city hero heading. H2: section headings (CityIntro, ServicesGrid, NeighborhoodGrid, WhyChooseUs, CityFAQ, Testimonials). H3: individual neighborhood names within NeighborhoodGrid (NOT H3 -- use `<p>` or `<h3>` based on semantic correctness; since neighborhood names are card titles within a grid, use `<h3>` to maintain strict hierarchy under the H2 "Neighborhoods We Serve"). |
+| Heading hierarchy | H1: city hero heading. H2: section headings (CityIntro, ServicesGrid, NeighborhoodGrid, WhyChooseUs, CityFAQ, Testimonials). H3: individual neighborhood names within NeighborhoodGrid (use `<h3>` to maintain strict hierarchy under the H2 "Neighborhoods We Serve"). |
 | CityIntro HTML safety | `introHtml` rendered via `dangerouslySetInnerHTML`. Content is authored at build time by developers (not user-submitted), so XSS risk is mitigated. Do NOT render user-submitted HTML this way. |
 | Image alt text | Hero images: `"Roofing services in {City}, NJ -- {cluster description} area homes and buildings"`. Decorative icons: `aria-hidden="true"`. |
 | Breadcrumb navigation | `<nav aria-label="Breadcrumb">` wrapping an `<ol>` with `<li>` items. Current page item has `aria-current="page"`. |
