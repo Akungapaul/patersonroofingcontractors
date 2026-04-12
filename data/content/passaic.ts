@@ -25,6 +25,12 @@ export const passaic: CityContent = {
 
 <p>The Downtown Passaic area along Main Avenue is experiencing renewed investment as new mixed-use developments and building renovations bring fresh energy to the commercial district. This revitalization creates roofing opportunities ranging from full roof replacements on newly acquired investment properties to commercial roof upgrades on retail and office buildings being repositioned for modern tenants. New construction in Passaic typically specifies TPO membrane systems for commercial flat roofs and architectural shingles for the residential components of mixed-use buildings, reflecting the industry shift toward energy-efficient, long-warranty materials. We have completed roofing work on both new construction and renovation projects throughout Downtown Passaic and the Monroe Street corridor, and we bring the flexibility to handle projects at any stage of the development process.</p>
 
+<p>Passaic's position as the third-largest city in Passaic County brings a population diversity that directly influences how roofing projects are coordinated and communicated. The city's large immigrant community -- including significant populations from Latin America, Eastern Europe, and the Middle East -- means that multilingual project coordination is not a luxury but a practical necessity for any contractor working across Passaic's varied neighborhoods. Clear written estimates, detailed scope descriptions, and progress updates must be accessible to property owners and tenants whose primary language may not be English. Our team includes Spanish-speaking project coordinators and provides written documentation in both English and Spanish for Passaic projects, ensuring that every homeowner and landlord fully understands the work being performed, the materials being installed, the warranty terms, and the payment schedule. This commitment to transparent communication across language barriers reflects the cultural diversity that makes Passaic a vibrant community and ensures that no property owner is disadvantaged by language differences when making critical decisions about their building's roof.</p>
+
+<p>Passaic's history of flooding from the Passaic River and Third River has taught property owners that severe weather threatens buildings from both below and above simultaneously. The city has experienced repeated flood events -- most notably during Hurricane Irene in 2011 and Tropical Storm Ida in 2021 -- where rising water devastated ground-level spaces while the same storm systems drove punishing wind and rain against roof surfaces overhead. Post-flood <a href="/services/roof-inspection">roof inspections</a> are essential because property owners understandably focus on visible water damage at ground level while overlooking wind-lifted flashings, saturated roof insulation, and compromised membrane seams that will cause ongoing leaks for months after the event. The intersection of the Passaic River and Third River near the Dundee area creates a flood convergence zone where storm surges are amplified, and buildings in this corridor face the highest combined risk of both ground-level flooding and roof-level wind damage during major weather events. We urge every Passaic property owner to include a comprehensive roof assessment as part of their post-storm damage evaluation, not just a ground-floor inventory.</p>
+
+<p>Passaic's older commercial districts along Main Avenue and Monroe Street present roofing challenges distinct from the city's residential neighborhoods. Flat-roofed retail buildings, mixed-use structures with ground-floor storefronts and upper-floor apartments, and standalone commercial properties line these corridors with roof systems that require different maintenance schedules and repair approaches than residential buildings. Commercial <a href="/services/flat-roof-services">flat roof</a> membranes on Main Avenue buildings endure foot traffic from HVAC technicians, signage installers, and maintenance workers that residential flat roofs never experience, and this traffic accelerates membrane wear at penetration points and along walking paths. Drain clearing on commercial flat roofs is critical -- a single clogged drain can create thousands of pounds of ponding water weight on a commercial roof section within hours of a heavy rainstorm. Parapet wall maintenance along these commercial corridors requires regular inspection of the cap flashing, counter-flashing, and coping details that protect the wall-to-roof junction from water infiltration. We maintain commercial roofing service agreements with dozens of Passaic business owners and property investors along Main Avenue and Monroe Street, providing scheduled inspections, drain maintenance, and priority repair response that keeps commercial operations running without weather-related interruptions.</p>
+
 <p>Selecting a roofing contractor in Passaic requires choosing a company with proven expertise in multi-family and multi-story building work. The challenges of roofing in Passaic -- managing material deliveries on congested city streets, staging equipment and debris containers in limited space, protecting ground-floor commercial tenants from falling debris, and coordinating work schedules around the daily lives of dozens of families -- demand a level of urban roofing competence that many suburban-focused contractors simply do not possess. Our team holds full New Jersey licensing and carries the enhanced liability coverage and workers' compensation insurance required for multi-story building work. We manage all permit requirements with the City of Passaic Building Department and maintain clear communication with building residents throughout every project. From a two-family home on the East Side to a twenty-unit apartment building in the Third Ward, we deliver reliable, code-compliant roofing work that protects Passaic properties and the families who depend on them.</p>`,
 
   localContext:
@@ -34,42 +40,42 @@ export const passaic: CityContent = {
     {
       name: 'Third Ward',
       roofingContext:
-        'One of Passaic\'s oldest neighborhoods with pre-war multi-family buildings dating back to the 1890s-1930s. Heavy timber roof framing and multiple layers of re-roofing are common, requiring structural assessment before any replacement project.',
+        'One of Passaic\'s oldest neighborhoods with pre-war multi-family buildings dating back to the 1890s through 1930s during the city\'s industrial era. Heavy timber roof framing and multiple accumulated layers of re-roofing materials are common, requiring thorough structural assessment of rafters, joists, and bearing walls before any replacement project begins.',
     },
     {
       name: 'Passaic Park',
       roofingContext:
-        'A residential section with a mix of single-family and two-family homes. Some properties retain original slate roofing elements from the early 1900s, while others have been modernized with asphalt shingles across multiple re-roofing cycles.',
+        'A residential section with a mix of single-family and two-family homes representing Passaic\'s more suburban character. Some properties retain original slate roofing elements from the early 1900s that require specialized preservation or careful removal, while others have been modernized with architectural asphalt shingles across multiple re-roofing cycles over the past century.',
     },
     {
       name: 'East Side',
       roofingContext:
-        'A densely built neighborhood of multi-family homes and small apartment buildings with predominantly flat roof systems. Limited alley access between buildings complicates staging and debris removal for roofing crews.',
+        'A densely built neighborhood of multi-family homes and small apartment buildings with predominantly flat roof systems covering blocks of tightly spaced two- and three-story structures. Limited alley access between buildings complicates staging, material delivery, and debris removal for roofing crews, often requiring crane-assisted loading from the street side.',
     },
     {
       name: 'West Side',
       roofingContext:
-        'Residential blocks of two- and three-family homes with a variety of flat and low-slope roof configurations. Many buildings feature parapeted rooflines that create ice dam concerns during Passaic\'s harsh winters.',
+        'Residential blocks of two- and three-family homes with a variety of flat and low-slope roof configurations built during Passaic\'s mid-century expansion period. Many buildings feature parapeted rooflines that trap snow and ice against the wall-to-roof junction, creating ice dam concerns and concentrated meltwater ponding during Passaic\'s harsh winter months.',
     },
     {
       name: 'Dundee Area',
       roofingContext:
-        'Located near the Passaic River at lower elevation, this area experiences elevated humidity and periodic flooding impacts. Flat roof membranes deteriorate faster here due to persistent moisture exposure and biological growth.',
+        'Located near the confluence of the Passaic River and Third River at some of the lowest elevation in the city, this area experiences persistently elevated humidity and periodic flooding impacts from major storm events. Flat roof membranes deteriorate measurably faster here due to constant moisture exposure, biological growth on shaded surfaces, and condensation damage within attic cavities.',
     },
     {
       name: 'Monroe Street Area',
       roofingContext:
-        'A corridor of mixed residential and small commercial properties where building renovations and investment activity drive demand for both full roof replacements and targeted commercial flat roof upgrades.',
+        'A corridor of mixed residential and small commercial properties where ongoing building renovations and real estate investment activity drive steady demand for both comprehensive residential roof replacements and targeted commercial flat roof upgrades on storefronts and office buildings.',
     },
     {
       name: 'River Drive Area',
       roofingContext:
-        'Properties along River Drive face direct exposure to Passaic River moisture and flooding risk. Enhanced waterproofing, moisture-resistant underlayment, and regular maintenance schedules are essential for buildings in this flood-adjacent zone.',
+        'Properties along River Drive face direct exposure to Passaic River moisture, elevated ambient humidity year-round, and significant flooding risk during major weather events like Hurricane Irene and Tropical Storm Ida. Enhanced waterproofing membranes, moisture-resistant underlayment systems, and diligent seasonal maintenance schedules are essential for preserving roof integrity on buildings in this flood-adjacent zone.',
     },
     {
       name: 'Downtown Passaic',
       roofingContext:
-        'The commercial and civic center of the city, featuring flat-roofed retail buildings, office structures, and mixed-use developments along Main Avenue. Ongoing revitalization creates both renovation roofing and new construction opportunities.',
+        'The commercial and civic center of the city, featuring flat-roofed retail buildings, professional office structures, and new mixed-use developments along Main Avenue that combine ground-floor commercial space with upper-floor residential units. Ongoing urban revitalization and building acquisition by investors creates continuous demand for both renovation roofing and new commercial roof construction.',
     },
   ],
 
@@ -86,7 +92,7 @@ export const passaic: CityContent = {
     {
       question: 'What does flat roof replacement cost for a multi-family building in Passaic, NJ?',
       answer:
-        'Flat roof replacement costs for multi-family buildings in Passaic typically range from $5 to $10 per square foot, depending on the membrane system selected, building accessibility, and the number of penetrations and details requiring custom flashing. A standard three-family building with a 2,000-square-foot flat roof area generally costs between $10,000 and $20,000 for a full TPO or EPDM membrane replacement. Larger apartment buildings with 5,000 or more square feet of roof area may range from $25,000 to $50,000. Passaic projects often require additional budgeting for structural repairs to pre-war framing discovered during tear-off. We provide detailed estimates that account for these Passaic-specific conditions.',
+        'Flat roof replacement costs for multi-family buildings in Passaic typically range from $5 to $10 per square foot, depending on the membrane system selected, building accessibility, and the number of penetrations and details requiring custom flashing. A standard three-family building with a 2,000-square-foot flat roof area generally costs between $10,000 and $20,000 for a full TPO or EPDM membrane replacement. Larger apartment buildings with 5,000 or more square feet of roof area may range from $25,000 to $50,000. Passaic projects often require additional budgeting for structural repairs to pre-war framing discovered during tear-off, as many older buildings reveal deteriorated rafters and decking once the existing membrane layers are removed. For landlords managing multiple Passaic rental properties, we offer portfolio pricing that reduces per-building costs when several roofs are scheduled within the same project cycle. We provide detailed estimates that account for these Passaic-specific conditions.',
     },
     {
       question: 'What are a landlord\'s roofing responsibilities for rental properties in Passaic?',
@@ -111,7 +117,7 @@ export const passaic: CityContent = {
     {
       question: 'Can I get emergency roof tarping for my Passaic property after a storm?',
       answer:
-        'Yes, we provide 24/7 emergency roof tarping services throughout Passaic for storm-related damage. After a severe storm, contact us immediately and our emergency crew will respond to assess the damage, secure tarps over exposed areas to prevent further water intrusion, and document the damage for your insurance claim. Passaic\'s dense building layout means that storm debris from one property frequently impacts neighboring roofs, so even buildings that appear undamaged should be inspected after high-wind events. We typically arrive for emergency tarping within hours of your call and can provide a permanent repair timeline within 24 to 48 hours.',
+        'Yes, we provide 24/7 emergency roof tarping services throughout the City of Passaic for storm-related damage to both residential and commercial properties. After a severe storm, contact us immediately and our emergency crew will respond to assess the damage, secure heavy-duty tarps over exposed areas to prevent further water intrusion into the building interior, and thoroughly document the damage with photographs and written descriptions for your insurance claim submission. Passaic\'s dense building layout means that storm debris from one property frequently impacts neighboring roofs, so even buildings that appear undamaged from street level should be professionally inspected after high-wind events. Fallen tree limbs, displaced satellite dishes, and airborne debris from adjacent buildings are common sources of collateral roof damage in tightly packed Passaic neighborhoods. We typically arrive for emergency tarping within hours of your call and can provide a permanent repair timeline within 24 to 48 hours of the initial assessment.',
     },
   ],
 
