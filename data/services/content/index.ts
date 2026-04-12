@@ -23,6 +23,30 @@ import { tileRoofInstallationRepair } from './tile-roof-installation-repair'
 import { cedarShakeRoofing } from './cedar-shake-roofing'
 import { rubberRoofingEpdm } from './rubber-roofing-epdm'
 
+// Commercial Roofing (11)
+import { commercialRoofInstallation } from './commercial-roof-installation'
+import { commercialRoofRepair } from './commercial-roof-repair'
+import { commercialRoofReplacement } from './commercial-roof-replacement'
+import { tpoRoofingInstallation } from './tpo-roofing-installation'
+import { epdmCommercialRoofing } from './epdm-commercial-roofing'
+import { modifiedBitumenRoofing } from './modified-bitumen-roofing'
+import { builtUpRoofing } from './built-up-roofing'
+import { commercialMetalRoofing } from './commercial-metal-roofing'
+import { pvcRoofing } from './pvc-roofing'
+import { greenRoofInstallation } from './green-roof-installation'
+import { sprayFoamRoofing } from './spray-foam-roofing'
+
+// Gutters & Drainage (2)
+import { gutterInstallationRepair } from './gutter-installation-repair'
+import { gutterGuardInstallation } from './gutter-guard-installation'
+
+// Energy & Solar (5)
+import { solarPanelRoofingInstallation } from './solar-panel-roofing-installation'
+import { solarShingleInstallation } from './solar-shingle-installation'
+import { energyEfficientRoofingSolutions } from './energy-efficient-roofing-solutions'
+import { siliconeRoofCoating } from './silicone-roof-coating'
+import { elastomericRoofCoating } from './elastomeric-roof-coating'
+
 const serviceContentMap: Record<string, ServiceContent> = {
   // Repair & Maintenance
   'roof-repair': roofRepair,
@@ -46,6 +70,30 @@ const serviceContentMap: Record<string, ServiceContent> = {
   'tile-roof-installation-repair': tileRoofInstallationRepair,
   'cedar-shake-roofing': cedarShakeRoofing,
   'rubber-roofing-epdm': rubberRoofingEpdm,
+
+  // Commercial Roofing
+  'commercial-roof-installation': commercialRoofInstallation,
+  'commercial-roof-repair': commercialRoofRepair,
+  'commercial-roof-replacement': commercialRoofReplacement,
+  'tpo-roofing-installation': tpoRoofingInstallation,
+  'epdm-commercial-roofing': epdmCommercialRoofing,
+  'modified-bitumen-roofing': modifiedBitumenRoofing,
+  'built-up-roofing': builtUpRoofing,
+  'commercial-metal-roofing': commercialMetalRoofing,
+  'pvc-roofing': pvcRoofing,
+  'green-roof-installation': greenRoofInstallation,
+  'spray-foam-roofing': sprayFoamRoofing,
+
+  // Gutters & Drainage
+  'gutter-installation-repair': gutterInstallationRepair,
+  'gutter-guard-installation': gutterGuardInstallation,
+
+  // Energy & Solar
+  'solar-panel-roofing-installation': solarPanelRoofingInstallation,
+  'solar-shingle-installation': solarShingleInstallation,
+  'energy-efficient-roofing-solutions': energyEfficientRoofingSolutions,
+  'silicone-roof-coating': siliconeRoofCoating,
+  'elastomeric-roof-coating': elastomericRoofCoating,
 }
 
 export function getServiceContent(slug: string): ServiceContent | undefined {
