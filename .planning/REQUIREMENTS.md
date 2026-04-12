@@ -83,7 +83,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Content - Guides
 
 - [x] **GUIDE-01**: 10 roofing guide pages at /roofing-guides/{guide-slug}
-- [ ] **GUIDE-02**: Guide topics sourced from newarkqualityroofing.com guide structure
+- [x] **GUIDE-02**: Guide topics sourced from newarkqualityroofing.com guide structure
 - [x] **GUIDE-03**: Guides provide educational content establishing E-E-A-T authority
 - [x] **GUIDE-04**: Guides link to relevant service and location pages
 
@@ -99,7 +99,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **SILO-01**: Topical map with Source Context, Central Entity, and Central Search Intent defined
 - [x] **SILO-02**: Core Section (main attributes): services and locations organized hierarchically
-- [ ] **SILO-03**: Outer Section (secondary attributes): guides and educational content
+- [x] **SILO-03**: Outer Section (secondary attributes): guides and educational content
 - [ ] **SILO-04**: Internal linking follows silo structure (location <-> services, guides -> services/locations)
 - [ ] **SILO-05**: Navigation reflects topical hierarchy (not flat list)
 
@@ -205,7 +205,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SVC-04 | Phase 3 | Complete |
 | SVC-05 | Phase 3 | Complete |
 | GUIDE-01 | Phase 3 | Complete |
-| GUIDE-02 | Phase 3 | Pending |
+| GUIDE-02 | Phase 3 | Complete |
 | GUIDE-03 | Phase 3 | Complete |
 | GUIDE-04 | Phase 3 | Complete |
 | UTIL-01 | Phase 3 | Pending |
@@ -215,7 +215,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | UTIL-05 | Phase 3 | Complete |
 | SILO-01 | Phase 1 | Pending |
 | SILO-02 | Phase 3 | Complete |
-| SILO-03 | Phase 3 | Pending |
+| SILO-03 | Phase 3 | Complete |
 | SILO-04 | Phase 4 | Pending |
 | SILO-05 | Phase 1 | Pending |
 | CRAWL-01 | Phase 4 | Pending |

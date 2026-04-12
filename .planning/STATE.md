@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 03-05-PLAN.md
-last_updated: "2026-04-12T16:51:23.078Z"
+stopped_at: Completed 03-06-PLAN.md
+last_updated: "2026-04-12T16:55:48.533Z"
 last_activity: 2026-04-12
 progress:
   total_phases: 4
   completed_phases: 2
   total_plans: 26
-  completed_plans: 19
-  percent: 73
+  completed_plans: 20
+  percent: 77
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-04-07)
 ## Current Position
 
 Phase: 03 (service-guide-utility-pages) — EXECUTING
-Plan: 6 of 12
+Plan: 7 of 12
 Status: Ready to execute
 Last activity: 2026-04-12
 
@@ -62,6 +62,7 @@ Progress: [██████████] 100%
 | Phase 03 P03 | 11min | 2 tasks | 9 files |
 | Phase 03 P04 | 2min | 2 tasks | 3 files |
 | Phase 03 P05 | 2min | 2 tasks | 3 files |
+| Phase 03 P06 | 2min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -96,6 +97,9 @@ Recent decisions affecting current work:
 - [Phase 03]: MobileNav uses separate expandedCategories state for nested category accordion independent from top-level expandedItems
 - [Phase 03]: Service content index starts empty -- Plans 07-09 import content files into serviceContentMap
 - [Phase 03]: Service route follows Phase 2 locationSlug dynamic route pattern exactly (async params, dynamicParams=false, siteConfig.url breadcrumbs)
+- [Phase 03]: GuideArticle renders inside flex layout child alongside ExpertTips for desktop sidebar TOC composition
+- [Phase 03]: Guide content index follows exact same pattern as service content index (empty map, ready for Plan 10)
+- [Phase 03]: Read time utility placed in lib/utils.ts as reusable module for guide and future content types
 
 ### Pending Todos
 
@@ -109,6 +113,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-12T16:51:23.076Z
-Stopped at: Completed 03-05-PLAN.md
+Last session: 2026-04-12T16:55:48.530Z
+Stopped at: Completed 03-06-PLAN.md
 Resume file: None
