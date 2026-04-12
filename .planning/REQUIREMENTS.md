@@ -77,8 +77,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **SVC-01**: 67 service pages at /services/{service-slug} covering all roofing services
 - [x] **SVC-02**: Service taxonomy sourced from newarkqualityroofing.com structure
 - [x] **SVC-03**: Each service page describes the service, process, benefits, and local context
-- [ ] **SVC-04**: Service pages link back to relevant location pages (bidirectional silo linking)
-- [ ] **SVC-05**: FAQ section on each service page with service-specific questions
+- [x] **SVC-04**: Service pages link back to relevant location pages (bidirectional silo linking)
+- [x] **SVC-05**: FAQ section on each service page with service-specific questions
 
 ### Content - Guides
 
@@ -202,8 +202,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SVC-01 | Phase 3 | Pending |
 | SVC-02 | Phase 3 | Complete |
 | SVC-03 | Phase 3 | Complete |
-| SVC-04 | Phase 3 | Pending |
-| SVC-05 | Phase 3 | Pending |
+| SVC-04 | Phase 3 | Complete |
+| SVC-05 | Phase 3 | Complete |
 | GUIDE-01 | Phase 3 | Complete |
 | GUIDE-02 | Phase 3 | Pending |
 | GUIDE-03 | Phase 3 | Pending |
