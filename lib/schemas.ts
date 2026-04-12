@@ -4,6 +4,7 @@ import type {
   Organization,
   BreadcrumbList,
   FAQPage,
+  Service,
 } from 'schema-dts'
 import { siteConfig } from './site-config'
 
@@ -78,5 +79,30 @@ export function buildFaqSchema(
         text: item.answer,
       },
     })),
+  }
+}
+
+export function buildServiceSchema(
+  serviceName: string,
+  serviceDescription: string,
+  serviceSlug: string
+): WithContext<Service> {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: serviceName,
+    description: serviceDescription,
+    url: `${siteConfig.url}/services/${serviceSlug}`,
+    provider: {
+      '@type': 'RoofingContractor',
+      name: siteConfig.businessName,
+      telephone: siteConfig.phone,
+      url: siteConfig.url,
+    },
+    areaServed: siteConfig.municipalities.map((m) => ({
+      '@type': 'City' as const,
+      name: `${m.name}, NJ`,
+    })),
+    serviceType: serviceName,
   }
 }
