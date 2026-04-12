@@ -1,242 +1,140 @@
 ---
 phase: 02-anchor-city-location-pages
-reviewed: 2026-04-10T00:00:00Z
+reviewed: 2026-04-11T23:00:00Z
 depth: standard
-files_reviewed: 27
+files_reviewed: 16
 files_reviewed_list:
-  - app/[locationSlug]/page.tsx
-  - app/sitemap.ts
-  - components/sections/CityFAQ.tsx
-  - components/sections/CityIntro.tsx
-  - components/sections/Hero.tsx
-  - components/sections/MidPageCTA.tsx
-  - components/sections/NeighborhoodGrid.tsx
-  - components/sections/ServicesGrid.tsx
+  - data/content/paterson.ts
   - data/content/bloomingdale.ts
   - data/content/clifton.ts
   - data/content/haledon.ts
   - data/content/hawthorne.ts
-  - data/content/index.ts
   - data/content/little-falls.ts
   - data/content/north-haledon.ts
   - data/content/passaic.ts
-  - data/content/paterson.ts
   - data/content/pompton-lakes.ts
   - data/content/prospect-park.ts
   - data/content/ringwood.ts
   - data/content/totowa.ts
-  - data/content/types.ts
   - data/content/wanaque.ts
   - data/content/wayne.ts
   - data/content/west-milford.ts
   - data/content/woodland-park.ts
-  - lib/schemas.ts
 findings:
-  critical: 1
-  warning: 4
-  info: 3
-  total: 8
+  critical: 0
+  warning: 2
+  info: 5
+  total: 7
 status: issues_found
 ---
 
-# Phase 02: Code Review Report
+# Phase 02: Code Review Report -- City Content Data Files
 
-**Reviewed:** 2026-04-10
+**Reviewed:** 2026-04-11T23:00:00Z
 **Depth:** standard
-**Files Reviewed:** 27
+**Files Reviewed:** 16
 **Status:** issues_found
 
 ## Summary
 
-The location page system is well-architected overall. The dynamic route, content data layer, and schema helpers are clean and correctly use Next.js 15+ async params. The 16 city content files are consistent in shape and all satisfy the `CityContent` interface.
+All 16 city content data files were reviewed for TypeScript type compliance, HTML correctness, broken silo links, content quality, and missing required fields. The files are well-structured and consistently authored. Every file satisfies the `CityContent` interface from `data/content/types.ts` -- all required fields are present with correct types, and no fields are missing. HTML tags (`<p>`, `<a>`, `<strong>`) are properly balanced in every file. All service slugs referenced in `href` attributes and `relevantServiceSlugs` arrays are valid entries in `data/services.ts`. No hardcoded secrets, dangerous functions, or security issues were found. Content across files is genuinely unique and location-specific rather than templated boilerplate.
 
-Three issues warrant attention before this ships:
-
-1. **HTML tags in FAQ answers bleed into JSON-LD structured data.** Some FAQ answers (notably in `paterson.ts`) contain `<strong>` and other HTML markup. The `buildFaqSchema` function writes `item.answer` verbatim into the `text` field of the schema's `Answer` objects. Google's Rich Results guidelines require plain text in that field; HTML markup causes the FAQ rich result to be rejected or silently suppressed.
-
-2. **`dangerouslySetInnerHTML` in both `CityIntro` and `CityFAQ` renders untrusted HTML.** The HTML originates from static TypeScript content files checked into the repo, so there is no live injection vector today — but the pattern is a latent security risk with no sanitization guard. If content ever migrates to a CMS or external source, XSS becomes exploitable immediately.
-
-3. **`sitemap.ts` has an inconsistent `changeFrequency` type on the homepage entry** (missing `as const`), which TypeScript may silently widen to `string` rather than the required literal union type.
-
-The remaining findings are lower-severity quality and SEO issues.
-
----
-
-## Critical Issues
-
-### CR-01: HTML markup in FAQ answers corrupts JSON-LD structured data
-
-**File:** `data/content/paterson.ts:117`, `data/content/paterson.ts:141`
-**Also affects:** `data/content/passaic.ts` (answer lines containing HTML)
-
-**Issue:** Several FAQ answers contain raw HTML tags (`<strong>`, `<a href>`). The `buildFaqSchema` function in `lib/schemas.ts:78` writes `item.answer` directly into the `text` property of the `Answer` object with no stripping:
-
-```ts
-// lib/schemas.ts:78
-text: item.answer,
-```
-
-The `FaqItem` type comment in `types.ts:8` explicitly notes answers "Can contain HTML for rich formatting," which is correct for the `dangerouslySetInnerHTML` rendering — but the same value flows unmodified into JSON-LD. Google's FAQ structured data documentation specifies that `acceptedAnswer.text` must be plain text; HTML tags are not permitted and will cause the rich result to fail validation.
-
-**Fix:** Strip HTML before writing the answer to the schema. Either sanitize in `buildFaqSchema` or add a helper:
-
-```ts
-// lib/schemas.ts — strip HTML for structured data output
-function stripHtml(html: string): string {
-  return html.replace(/<[^>]+>/g, '')
-}
-
-// Then in buildFaqSchema:
-text: stripHtml(item.answer),
-```
-
-Alternatively, add a separate `answerText` (plain text) field to `FaqItem` alongside `answer` (HTML), and use each where appropriate.
-
----
+Two warnings relate to service link consistency (introHtml links to services not in that city's `relevantServiceSlugs` array) and SEO description lengths exceeding Google's visible display limit. Five informational items cover minor consistency patterns.
 
 ## Warnings
 
-### WR-01: `dangerouslySetInnerHTML` renders unvalidated HTML from content files
+### WR-01: Intro HTML Links Reference Services Not in relevantServiceSlugs
 
-**File:** `components/sections/CityIntro.tsx:18`, `components/sections/CityFAQ.tsx:66`
+**File:** Multiple files (13 of 16)
+**Issue:** The `introHtml` field contains `<a href="/services/...">` links to service pages that are not included in the same file's `relevantServiceSlugs` array. This creates a potential inconsistency where the page body links to a service that the structured services grid section may not display. Affected files and missing slugs:
 
-**Issue:** Both components render HTML strings sourced from data content files using `dangerouslySetInnerHTML`. The content is static and developer-controlled today, so there is no active injection path. However, there is no sanitization layer — no DOMPurify, no allowlist enforcement, no type-level constraint that the string is safe. If content is ever sourced from a CMS, database, or third-party API (a natural evolution for a rank-and-rent site sold to a renter), XSS becomes a direct risk with no additional protection.
+| File | Service linked in introHtml but absent from relevantServiceSlugs |
+|------|------------------------------------------------------------------|
+| `bloomingdale.ts` | `gutter-installation`, `roof-inspection` |
+| `clifton.ts` | `flat-roof-services` |
+| `hawthorne.ts` | `storm-damage-repair` |
+| `north-haledon.ts` | `chimney-flashing-repair`, `storm-damage-repair` |
+| `passaic.ts` | `roof-inspection` |
+| `paterson.ts` | `gutter-installation` |
+| `pompton-lakes.ts` | `flat-roof-services` |
+| `prospect-park.ts` | `roof-inspection` |
+| `ringwood.ts` | `roof-inspection` |
+| `totowa.ts` | `storm-damage-repair` |
+| `wayne.ts` | `storm-damage-repair` |
 
-**Fix:** Add a thin sanitization wrapper with an allowlist restricted to the tags actually used (`<p>`, `<a>`, `<strong>`, `<em>`). At minimum, enforce this in the type system and document the security assumption:
+**Fix:** Either add the missing slugs to each file's `relevantServiceSlugs` array (if those services should appear in the services grid for that city), or accept that `relevantServiceSlugs` is intentionally a curated top-6 subset and document this design decision in the type definition comment. If the latter, consider renaming the field to `topServiceSlugs` or adding a comment clarifying the distinction. Example fix for `bloomingdale.ts`:
 
-```tsx
-// components/sections/CityIntro.tsx
-// SECURITY: introHtml must only come from static content files.
-// If this ever sources from external input, add DOMPurify sanitization here.
-<div dangerouslySetInnerHTML={{ __html: introHtml }} />
+```typescript
+relevantServiceSlugs: [
+  'roof-repair',
+  'roof-replacement',
+  'storm-damage-repair',
+  'gutter-guard-installation',
+  'asphalt-shingle-roofing',
+  'metal-roof-installation',
+  'gutter-installation',    // also linked in introHtml
+  'roof-inspection',        // also linked in introHtml
+],
 ```
 
-For a more robust fix, install `isomorphic-dompurify` and wrap the render:
+### WR-02: SEO Descriptions Exceed Google's Visible Display Limit
 
-```ts
-import DOMPurify from 'isomorphic-dompurify'
-const ALLOWED_TAGS = ['p', 'a', 'strong', 'em', 'br']
-const safe = DOMPurify.sanitize(introHtml, { ALLOWED_TAGS })
+**File:** All 16 files
+**Issue:** The `seoDescription` values range from 172 to 200 characters. Google typically truncates meta descriptions at approximately 155-160 characters in search results, meaning the end of each description (including the phone number CTA) will be cut off. The phone number `(973) 555-0100` at the end of every description is the most likely portion to be truncated.
+
+Example from `bloomingdale.ts` (200 chars):
+```
+Top-rated roofing contractor in Bloomingdale, NJ. Expert roof repair, replacement, and installation for wooded Highlands properties near Norvin Green State Forest. Free estimates. Call (973) 555-0100.
 ```
 
-### WR-02: `sitemap.ts` homepage entry missing `as const` on `changeFrequency`
+**Fix:** Shorten descriptions to 155 characters or fewer, prioritizing the unique value proposition and CTA over the phone number (which appears elsewhere on the page). Example:
 
-**File:** `app/sitemap.ts:18`
-
-**Issue:** The location page entries correctly use `'monthly' as const` (line 10), but the homepage entry does not:
-
-```ts
-// line 18 — missing `as const`
-changeFrequency: 'monthly',
+```typescript
+seoDescription:
+  'Top-rated roofing contractor in Bloomingdale, NJ. Expert roof repair & replacement for Highlands properties. Free estimates available.',
 ```
-
-Without `as const`, TypeScript infers the type as `string` rather than the required `"monthly"` literal. Whether this causes a compile error depends on how `MetadataRoute.Sitemap` is declared in the installed Next.js version. If it does not error today, it will silently produce incorrect types, and a future Next.js upgrade may surface the failure.
-
-**Fix:**
-
-```ts
-{
-  url: baseUrl,
-  lastModified: new Date(),
-  changeFrequency: 'monthly' as const,
-  priority: 1,
-},
-```
-
-### WR-03: `ServicesGrid` silently renders empty when all `serviceSlugs` are unrecognized
-
-**File:** `components/sections/ServicesGrid.tsx:46-48`
-
-**Issue:** When `serviceSlugs` is provided, the component filters `services` to only those whose `slug` is in the list. If every slug in the list is misspelled or does not exist in `services.ts`, the filter returns an empty array and the component renders an `<h2>` heading with zero cards underneath — no empty-state guard, no warning. This is a silent failure mode that would produce a broken section on a live page without any visible error.
-
-The `relevantServiceSlugs` arrays in the content files are all valid today (verified against `data/services.ts`), but a future content edit could introduce a typo.
-
-**Fix:** Add a guard to return `null` (or a fallback) when the filtered list is empty:
-
-```tsx
-const displayedServices = serviceSlugs
-  ? services.filter((s) => serviceSlugs.includes(s.slug))
-  : services
-
-if (displayedServices.length === 0) return null
-```
-
-Additionally, consider validating slugs at build time in `generateStaticParams` or via a TypeScript union type derived from `services`:
-
-```ts
-type ServiceSlug = typeof services[number]['slug']
-relevantServiceSlugs: readonly ServiceSlug[]
-```
-
-### WR-04: `OpeningHoursSpecification` schema includes invalid time strings for closed days
-
-**File:** `lib/schemas.ts:29-35`
-
-**Issue:** The `buildLocalBusinessSchema` function filters business hours to exclude entries where `opens === 'Closed'` (line 29). However, the `closes` value for Sunday is also `'Closed'` — a non-time string. The filter correctly excludes Sunday from the output, so this does not produce invalid schema today. The risk is that the filter condition checks only `opens`, not `closes`. A future entry that sets `opens` to a valid time but `closes` to `'Closed'` (or vice versa) would pass the filter and emit an invalid `OpeningHoursSpecification` to the page.
-
-```ts
-// Current filter — only checks opens
-.filter((h) => h.opens !== 'Closed')
-```
-
-**Fix:** Tighten the filter to require both fields to be valid:
-
-```ts
-.filter((h) => h.opens !== 'Closed' && h.closes !== 'Closed')
-```
-
----
 
 ## Info
 
-### IN-01: `CityFAQ` uses array index as React key
+### IN-01: Duplicate Neighborhood Name "Stonetown" Across Ringwood and West Milford
 
-**File:** `components/sections/CityFAQ.tsx:29`
+**File:** `data/content/ringwood.ts:59`, `data/content/west-milford.ts:74`
+**Issue:** The neighborhood name "Stonetown" appears in both Ringwood and West Milford content files. While this is geographically accurate (Stonetown straddles the municipal boundary), if neighborhood names are used to generate URL slugs or anchor IDs, the duplicate could cause routing conflicts or ambiguity in the rendered pages.
+**Fix:** If neighborhood names generate unique identifiers, consider disambiguating: "Stonetown (Ringwood)" vs "Stonetown (West Milford)", or use compound slugs that include the city. If names are display-only within each city page, no action needed.
 
-**Issue:** The FAQ accordion uses `key={index}` for list items. The FAQ items array comes from static content and is never reordered at runtime, so this does not cause incorrect rendering today. However, index keys are an antipattern — React may produce incorrect reconciliation behavior if the list order ever changes or items are conditionally filtered.
+### IN-02: Neighborhood roofingContext Exceeds Type Comment Guideline
 
-**Fix:** Use the question text as a stable key (it is unique within each city's FAQ list):
+**File:** Multiple files (majority of neighborhoods across all 16 files)
+**Issue:** The `Neighborhood` interface in `types.ts:3` documents `roofingContext` as `// 1-2 sentences about roofing relevance`, but many neighborhood entries contain 3 sentences. For example, Paterson's "Great Falls / Mill District" has 3 distinct sentences. While TypeScript does not enforce comment guidelines, the deviation may indicate the type comment is outdated.
+**Fix:** Update the comment in `types.ts` to reflect actual usage:
 
-```tsx
-<div key={item.question} ...>
+```typescript
+readonly roofingContext: string // 1-3 sentences about roofing relevance
 ```
 
-### IN-02: `openGraph.url` in `generateMetadata` is a relative path
+### IN-03: Consistent heroHeadline Pattern Across All Files
 
-**File:** `app/[locationSlug]/page.tsx:60`
+**File:** All 16 files
+**Issue:** Every file uses the identical heroHeadline pattern "Expert Roofing Contractors in {City}, NJ". This is intentional for SEO consistency but worth noting -- there is zero variation, which may limit keyword targeting opportunities for cities where alternative phrasing could capture different search intent (e.g., "Trusted Roofers in...", "Professional Roofing in...").
+**Fix:** No action required if uniformity is the intentional SEO strategy. Consider A/B testing alternative H1 phrasing for lower-traffic city pages if conversion optimization becomes a priority.
 
-**Issue:** `openGraph.url` is set to a relative path (`/${locationSlug}`). The root layout sets `metadataBase`, so Next.js resolves this to an absolute URL — this is technically correct behavior. However, it is an implicit dependency on `metadataBase` being set correctly. The same relative path is used for `alternates.canonical` (line 55), which is also resolved via `metadataBase`. The pattern works but is fragile; if `metadataBase` is ever removed from the root layout, both canonical and OG URLs silently become relative — which breaks both SEO and social sharing.
+### IN-04: seoDescription Pattern Is Identical Template Across All Files
 
-**Fix (optional hardening):** Use the full URL explicitly:
+**File:** All 16 files
+**Issue:** Every seoDescription follows an almost identical template: "Top-rated roofing contractor in {City}, NJ. Expert roof repair, replacement, and installation for [qualifier]. Free estimates. Call (973) 555-0100." While this ensures consistency, Google may view near-identical meta descriptions across 16 pages as low-quality signals and may choose to auto-generate snippets instead of using the provided descriptions.
+**Fix:** Differentiate each city's seoDescription by emphasizing its unique selling point. For example:
+- Paterson: focus on multi-family/flat roof expertise
+- Ringwood: focus on Highlands/mountain roofing
+- Wayne: focus on premium materials and large homes
 
-```ts
-alternates: {
-  canonical: `${siteConfig.url}/${locationSlug}`,
-},
-openGraph: {
-  url: `${siteConfig.url}/${locationSlug}`,
-},
-```
+### IN-05: Paterson introHtml Uses HTML Em Dash Character (--) Instead of Entity
 
-This makes the page self-contained and removes the hidden dependency.
-
-### IN-03: `NeighborhoodGrid` Card elements have `tabIndex={-1}` with no interactive purpose
-
-**File:** `components/sections/NeighborhoodGrid.tsx:29`
-
-**Issue:** The neighborhood cards use `tabIndex={-1}`, which removes them from the natural tab order. These cards are purely informational `<div>` elements — they are not links, buttons, or otherwise interactive. `tabIndex={-1}` on a non-interactive element is meaningless and slightly misleading (it signals something is programmatically focusable, which is typically only correct for elements managed by a custom focus controller). The `interactive` prop is not passed, so the hover/focus styles from `Card` are not applied either.
-
-**Fix:** Remove `tabIndex={-1}` from the static neighborhood cards:
-
-```tsx
-<Card
-  key={neighborhood.name}
-  className="border-t-[3px] border-t-amber p-6"
->
-```
+**File:** `data/content/paterson.ts:14`
+**Issue:** The introHtml content uses double hyphens `--` as em dashes throughout, which is consistent across all 16 files. While this renders fine in browsers, proper HTML would use `&mdash;` or the Unicode em dash character `\u2014`. This is a minor stylistic note and not a rendering bug -- the double-hyphen convention is consistently applied.
+**Fix:** No action required unless the project establishes an HTML entity standard. The double-hyphen approach is used uniformly across all files.
 
 ---
 
-_Reviewed: 2026-04-10_
+_Reviewed: 2026-04-11T23:00:00Z_
 _Reviewer: Claude (gsd-code-reviewer)_
 _Depth: standard_
