@@ -84,16 +84,16 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [x] **GUIDE-01**: 10 roofing guide pages at /roofing-guides/{guide-slug}
 - [ ] **GUIDE-02**: Guide topics sourced from newarkqualityroofing.com guide structure
-- [ ] **GUIDE-03**: Guides provide educational content establishing E-E-A-T authority
-- [ ] **GUIDE-04**: Guides link to relevant service and location pages
+- [x] **GUIDE-03**: Guides provide educational content establishing E-E-A-T authority
+- [x] **GUIDE-04**: Guides link to relevant service and location pages
 
 ### Content - Utility Pages
 
 - [ ] **UTIL-01**: About page establishing company story, expertise, and E-E-A-T signals
-- [ ] **UTIL-02**: Contact page with form, phone, and service area information
-- [ ] **UTIL-03**: Service Area page listing all 16 Passaic County municipalities with map
-- [ ] **UTIL-04**: Privacy Policy page with standard legal text
-- [ ] **UTIL-05**: Terms of Service page with standard legal text
+- [x] **UTIL-02**: Contact page with form, phone, and service area information
+- [x] **UTIL-03**: Service Area page listing all 16 Passaic County municipalities with map
+- [x] **UTIL-04**: Privacy Policy page with standard legal text
+- [x] **UTIL-05**: Terms of Service page with standard legal text
 
 ### Topical Map & Silo
 
@@ -206,13 +206,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SVC-05 | Phase 3 | Complete |
 | GUIDE-01 | Phase 3 | Complete |
 | GUIDE-02 | Phase 3 | Pending |
-| GUIDE-03 | Phase 3 | Pending |
-| GUIDE-04 | Phase 3 | Pending |
+| GUIDE-03 | Phase 3 | Complete |
+| GUIDE-04 | Phase 3 | Complete |
 | UTIL-01 | Phase 3 | Pending |
-| UTIL-02 | Phase 3 | Pending |
-| UTIL-03 | Phase 3 | Pending |
-| UTIL-04 | Phase 3 | Pending |
-| UTIL-05 | Phase 3 | Pending |
+| UTIL-02 | Phase 3 | Complete |
+| UTIL-03 | Phase 3 | Complete |
+| UTIL-04 | Phase 3 | Complete |
+| UTIL-05 | Phase 3 | Complete |
 | SILO-01 | Phase 1 | Pending |
 | SILO-02 | Phase 3 | Pending |
 | SILO-03 | Phase 3 | Pending |

@@ -78,7 +78,7 @@ Plans:
 Plans:
 - [x] 03-01-PLAN.md -- Foundation types (ServiceContent, GuideContent), buildServiceSchema(), data/services.ts to 67 entries, Hero/ServicesGrid prop extensions
 - [x] 03-02-PLAN.md -- Service page section components (ServiceOverview, ProcessSteps, BenefitsGrid, RelatedLocations, RelatedServices, ServiceFAQ)
-- [ ] 03-03-PLAN.md -- Guide + utility section components (GuideArticle, TableOfContents, ExpertTips, GuideFAQ, RelatedGuides, CityLinks, ContactHub, MunicipalityGrid, LegalPage)
+- [x] 03-03-PLAN.md -- Guide + utility section components (GuideArticle, TableOfContents, ExpertTips, GuideFAQ, RelatedGuides, CityLinks, ContactHub, MunicipalityGrid, LegalPage)
 - [ ] 03-04-PLAN.md -- MegaMenu component + Navigation/MobileNav update for category-grouped services
 - [ ] 03-05-PLAN.md -- Service dynamic route template, content index, services index page
 - [ ] 03-06-PLAN.md -- Guide dynamic route template, content index, read time utility, guides index page
