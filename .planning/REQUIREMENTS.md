@@ -98,7 +98,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Topical Map & Silo
 
 - [ ] **SILO-01**: Topical map with Source Context, Central Entity, and Central Search Intent defined
-- [ ] **SILO-02**: Core Section (main attributes): services and locations organized hierarchically
+- [x] **SILO-02**: Core Section (main attributes): services and locations organized hierarchically
 - [ ] **SILO-03**: Outer Section (secondary attributes): guides and educational content
 - [ ] **SILO-04**: Internal linking follows silo structure (location <-> services, guides -> services/locations)
 - [ ] **SILO-05**: Navigation reflects topical hierarchy (not flat list)
@@ -214,7 +214,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | UTIL-04 | Phase 3 | Complete |
 | UTIL-05 | Phase 3 | Complete |
 | SILO-01 | Phase 1 | Pending |
-| SILO-02 | Phase 3 | Pending |
+| SILO-02 | Phase 3 | Complete |
 | SILO-03 | Phase 3 | Pending |
 | SILO-04 | Phase 4 | Pending |
 | SILO-05 | Phase 1 | Pending |
