@@ -7,18 +7,21 @@ interface HeroProps {
   headline?: string
   subheadline?: string
   backgroundImage?: string
+  readTime?: number
+  minHeight?: string
 }
 
-export function Hero({ headline, subheadline, backgroundImage }: HeroProps = {}) {
+export function Hero({ headline, subheadline, backgroundImage, readTime, minHeight }: HeroProps = {}) {
   const defaultHeadline =
     "Paterson\u2019s #1 Roofing Contractors \u2014 Serving All of Passaic County"
   const defaultSubheadline =
     'Professional roof repair, replacement & installation serving Paterson and all 16 Passaic County municipalities. Free estimates, 24/7 emergency service.'
   const isLocationPage = !!headline
+  const heightClass = minHeight ?? (isLocationPage ? 'min-h-[70vh]' : 'min-h-screen')
 
   return (
     <section
-      className={`relative flex ${isLocationPage ? 'min-h-[70vh]' : 'min-h-screen'} items-center bg-gradient-to-br from-navy-dark via-navy to-navy-light`}
+      className={`relative flex ${heightClass} items-center bg-gradient-to-br from-navy-dark via-navy to-navy-light`}
     >
       {backgroundImage && (
         <Image
@@ -38,6 +41,11 @@ export function Hero({ headline, subheadline, backgroundImage }: HeroProps = {})
         <p className="mt-6 max-w-2xl text-xl leading-relaxed text-gray-200">
           {subheadline ?? defaultSubheadline}
         </p>
+        {readTime != null && (
+          <span className="mt-3 inline-block rounded-full bg-white/20 px-4 py-1 text-sm text-gray-200">
+            {readTime} min read
+          </span>
+        )}
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
           <Link href="#contact">
             <Button variant="primary" size="lg">
