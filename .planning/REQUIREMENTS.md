@@ -49,7 +49,7 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Schema Markup
 
 - [ ] **SCHEMA-01**: LocalBusiness JSON-LD schema on homepage and all location pages
-- [ ] **SCHEMA-02**: Service JSON-LD schema on all service pages
+- [x] **SCHEMA-02**: Service JSON-LD schema on all service pages
 - [x] **SCHEMA-03**: FAQ JSON-LD schema on location pages and service pages
 - [ ] **SCHEMA-04**: BreadcrumbList JSON-LD schema on all pages reflecting silo hierarchy
 - [ ] **SCHEMA-05**: Organization JSON-LD schema on homepage
@@ -75,14 +75,14 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Content - Service Pages
 
 - [ ] **SVC-01**: 67 service pages at /services/{service-slug} covering all roofing services
-- [ ] **SVC-02**: Service taxonomy sourced from newarkqualityroofing.com structure
-- [ ] **SVC-03**: Each service page describes the service, process, benefits, and local context
+- [x] **SVC-02**: Service taxonomy sourced from newarkqualityroofing.com structure
+- [x] **SVC-03**: Each service page describes the service, process, benefits, and local context
 - [ ] **SVC-04**: Service pages link back to relevant location pages (bidirectional silo linking)
 - [ ] **SVC-05**: FAQ section on each service page with service-specific questions
 
 ### Content - Guides
 
-- [ ] **GUIDE-01**: 10 roofing guide pages at /roofing-guides/{guide-slug}
+- [x] **GUIDE-01**: 10 roofing guide pages at /roofing-guides/{guide-slug}
 - [ ] **GUIDE-02**: Guide topics sourced from newarkqualityroofing.com guide structure
 - [ ] **GUIDE-03**: Guides provide educational content establishing E-E-A-T authority
 - [ ] **GUIDE-04**: Guides link to relevant service and location pages
@@ -183,7 +183,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-09 | Phase 1 | Pending |
 | SEO-10 | Phase 1 | Pending |
 | SCHEMA-01 | Phase 1 | Pending |
-| SCHEMA-02 | Phase 3 | Pending |
+| SCHEMA-02 | Phase 3 | Complete |
 | SCHEMA-03 | Phase 2 | Complete |
 | SCHEMA-04 | Phase 1 | Pending |
 | SCHEMA-05 | Phase 1 | Pending |
@@ -200,11 +200,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LOC-06 | Phase 2 | Complete |
 | LOC-07 | Phase 2 | Complete |
 | SVC-01 | Phase 3 | Pending |
-| SVC-02 | Phase 3 | Pending |
-| SVC-03 | Phase 3 | Pending |
+| SVC-02 | Phase 3 | Complete |
+| SVC-03 | Phase 3 | Complete |
 | SVC-04 | Phase 3 | Pending |
 | SVC-05 | Phase 3 | Pending |
-| GUIDE-01 | Phase 3 | Pending |
+| GUIDE-01 | Phase 3 | Complete |
 | GUIDE-02 | Phase 3 | Pending |
 | GUIDE-03 | Phase 3 | Pending |
 | GUIDE-04 | Phase 3 | Pending |
