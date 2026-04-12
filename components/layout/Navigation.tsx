@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { navigationItems } from '@/lib/navigation'
 import { siteConfig } from '@/lib/site-config'
 import { services } from '@/data/services'
+import { MegaMenu } from '@/components/layout/MegaMenu'
 import { cn } from '@/lib/cn'
 
 interface NavigationProps {
@@ -53,20 +54,53 @@ export function Navigation({ className }: NavigationProps) {
         {navigationItems.map((item) => {
           const isLocations = item.label === 'Locations'
           const isServices = item.label === 'Services'
+          const isOpen = openMenu === item.label
+
+          // Services uses MegaMenu instead of flat dropdown
+          if (isServices) {
+            return (
+              <li key={item.label} className="relative">
+                <button
+                  onClick={() =>
+                    setOpenMenu(isOpen ? null : item.label)
+                  }
+                  aria-expanded={isOpen}
+                  aria-haspopup="true"
+                  className="inline-flex min-h-[44px] items-center gap-1 px-3 py-2 font-semibold text-white transition-colors hover:text-amber-light"
+                >
+                  {item.label}
+                  <svg
+                    className={cn(
+                      'h-4 w-4 transition-transform',
+                      isOpen && 'rotate-180'
+                    )}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M19 9l-7 7-7-7"
+                    />
+                  </svg>
+                </button>
+                <MegaMenu isOpen={isOpen} onClose={closeMenu} />
+              </li>
+            )
+          }
+
+          // Locations uses standard dropdown
           const children = isLocations
             ? siteConfig.municipalities.map((m) => ({
                 label: m.name,
                 href: `/roofing-contractor-${m.slug}-nj`,
               }))
-            : isServices
-              ? services.map((s) => ({
-                  label: s.name,
-                  href: `/services/${s.slug}`,
-                }))
-              : item.children
+            : item.children
 
           const hasChildren = children && children.length > 0
-          const isOpen = openMenu === item.label
 
           if (hasChildren) {
             return (
