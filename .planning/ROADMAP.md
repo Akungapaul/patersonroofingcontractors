@@ -56,11 +56,11 @@ Plans:
 - [x] 02-03-PLAN.md -- Dynamic route template, Paterson anchor content, content index, sitemap update
 - [x] 02-04-PLAN.md -- 8 city content files (Clifton, Passaic, Wayne, Hawthorne, Little Falls, Woodland Park, Haledon, Prospect Park)
 - [x] 02-05-PLAN.md -- 7 city content files (West Milford, Ringwood, Wanaque, Pompton Lakes, Bloomingdale, Totowa, North Haledon) + verification checkpoint
-- [ ] 02-06-PLAN.md -- [GAP CLOSURE] Expand Paterson anchor content to 3500-4000 words
-- [ ] 02-07-PLAN.md -- [GAP CLOSURE] Expand Haledon, Prospect Park, Clifton, Little Falls to 3000+ words
-- [ ] 02-08-PLAN.md -- [GAP CLOSURE] Expand Woodland Park, Passaic, Hawthorne, Bloomingdale to 3000+ words
-- [ ] 02-09-PLAN.md -- [GAP CLOSURE] Expand Wayne, Ringwood, Wanaque, Totowa to 3000+ words
-- [ ] 02-10-PLAN.md -- [GAP CLOSURE] Expand Pompton Lakes, North Haledon, West Milford to 3000+ words
+- [x] 02-06-PLAN.md -- [GAP CLOSURE] Expand Paterson anchor content to 3500-4000 words
+- [x] 02-07-PLAN.md -- [GAP CLOSURE] Expand Haledon, Prospect Park, Clifton, Little Falls to 3000+ words
+- [x] 02-08-PLAN.md -- [GAP CLOSURE] Expand Woodland Park, Passaic, Hawthorne, Bloomingdale to 3000+ words
+- [x] 02-09-PLAN.md -- [GAP CLOSURE] Expand Wayne, Ringwood, Wanaque, Totowa to 3000+ words
+- [x] 02-10-PLAN.md -- [GAP CLOSURE] Expand Pompton Lakes, North Haledon, West Milford to 3000+ words
 **UI hint**: yes
 
 ### Phase 3: Service, Guide & Utility Pages
