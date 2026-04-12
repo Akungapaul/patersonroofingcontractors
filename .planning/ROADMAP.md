@@ -73,12 +73,21 @@ Plans:
   3. All 10 guide pages exist at /roofing-guides/{guide-slug} with educational content that links to relevant service and location pages
   4. About, Contact, Service Area (with map listing all 16 municipalities), Privacy Policy, and Terms of Service pages are live and accessible from site navigation
   5. Every new page has generateMetadata with title/description/openGraph, proper heading hierarchy, canonical URL, and BreadcrumbList schema
-**Plans**: TBD
+**Plans**: 12 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
-- [ ] 03-03: TBD
+- [ ] 03-01-PLAN.md -- Foundation types (ServiceContent, GuideContent), buildServiceSchema(), data/services.ts to 67 entries, Hero/ServicesGrid prop extensions
+- [ ] 03-02-PLAN.md -- Service page section components (ServiceOverview, ProcessSteps, BenefitsGrid, RelatedLocations, RelatedServices, ServiceFAQ)
+- [ ] 03-03-PLAN.md -- Guide + utility section components (GuideArticle, TableOfContents, ExpertTips, GuideFAQ, RelatedGuides, CityLinks, ContactHub, MunicipalityGrid, LegalPage)
+- [ ] 03-04-PLAN.md -- MegaMenu component + Navigation/MobileNav update for category-grouped services
+- [ ] 03-05-PLAN.md -- Service dynamic route template, content index, services index page
+- [ ] 03-06-PLAN.md -- Guide dynamic route template, content index, read time utility, guides index page
+- [ ] 03-07-PLAN.md -- Service content batch 1: Repair & Maintenance (10) + Residential Roofing (9)
+- [ ] 03-08-PLAN.md -- Service content batch 2: Commercial Roofing (11) + Gutters (2) + Energy & Solar (5)
+- [ ] 03-09-PLAN.md -- Service content batch 3: Components & Specialty (10) + Roof Replacement (15) + Design & Specialty (5)
+- [ ] 03-10-PLAN.md -- Guide content files (all 10 guides)
+- [ ] 03-11-PLAN.md -- Utility pages (About, Contact, Service Area, Privacy Policy, Terms of Service)
+- [ ] 03-12-PLAN.md -- Sitemap update + full site verification checkpoint
 **UI hint**: yes
 
 ### Phase 4: Silo Linking, Crawl Health & CRO Polish
@@ -105,6 +114,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation, Infrastructure & Homepage | 4/4 | Complete | 2026-04-09 |
-| 2. Anchor City & Location Pages | 5/10 | Gap closure in progress | - |
-| 3. Service, Guide & Utility Pages | 0/3 | Not started | - |
+| 2. Anchor City & Location Pages | 10/10 | Complete | 2026-04-12 |
+| 3. Service, Guide & Utility Pages | 0/12 | Planning complete | - |
 | 4. Silo Linking, Crawl Health & CRO Polish | 0/2 | Not started | - |
