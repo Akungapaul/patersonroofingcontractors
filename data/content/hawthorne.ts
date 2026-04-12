@@ -25,6 +25,12 @@ export const hawthorne: CityContent = {
 
 <p>The Lafayette Avenue corridor and downtown Hawthorne district include a modest inventory of commercial and mixed-use buildings that require different roofing approaches than the borough's residential majority. These commercial properties typically feature flat or low-slope roofing systems that need periodic inspection, maintenance, and eventual replacement with TPO, EPDM, or modified bitumen membrane systems. While commercial roofing represents a smaller share of our Hawthorne work compared to residential shingle projects, we bring the same expertise and attention to detail that property owners and business operators along Lafayette and Goffle Road expect from a professional Passaic County roofing contractor.</p>
 
+<p>The Cape Cod architecture that dominates Hawthorne's streetscapes demands specialized roofing knowledge that goes beyond standard residential installation techniques. These iconic mid-century homes feature steep-pitch gable roofs with minimal eave overhang, creating a roof profile where wind can catch the exposed edges during storms and peel back starter courses if the installation does not account for this vulnerability. Dormer window intersections create leak-prone valleys where two roof planes converge at sharp angles, concentrating rainwater and snowmelt into narrow channels that overwhelm inadequate flashing. The aesthetic importance of shingle color and style on these highly visible steep-pitch roofs means that Hawthorne homeowners are rightfully particular about the appearance of their <a href="/services/asphalt-shingle-roofing">asphalt shingle</a> selection -- the roof is a dominant visual element on a Cape Cod in a way that it simply is not on a low-slope ranch or a colonial with broad overhangs. Our crews understand the specific detailing these homes require and select materials whose profiles and shadow lines complement the mid-century Cape Cod proportions that define Hawthorne's character.</p>
+
+<p>Hawthorne's mature tree canopy is one of the densest in Passaic County, and its year-round impact on roofing conditions shapes every maintenance and replacement decision in the borough. In spring, pollen deposits and seed pods from the borough's oaks, maples, and sycamores clog gutters and settle into roof valleys where they trap moisture against the shingle surface. During summer, the heavy shade canopy promotes algae growth on north-facing roof slopes, creating the dark streaking that diminishes curb appeal and slowly deteriorates shingle granules. Fall brings the most intense debris challenge as thousands of mature deciduous trees shed their leaves simultaneously, creating massive <a href="/services/gutter-installation">gutter</a> blockage that can overflow and damage fascia boards within days if not addressed. In winter, ice storms snap overhanging branches that fall onto shingles, crack ridge caps, and dent metal flashings -- damage that may go unnoticed beneath snow cover until spring thaw reveals the extent of the impact. Managing this four-season tree canopy cycle is the single most important factor in extending roof life on Hawthorne homes.</p>
+
+<p>Hawthorne's position along the Goffle Brook creates roofing conditions in nearby neighborhoods that differ from the rest of the borough. The brook corridor channels moisture through the borough's midsection, creating elevated humidity levels in adjacent residential blocks that accelerate biological growth on shingles and promote condensation within attic spaces. Homes within several blocks of the Goffle Brook experience faster deterioration of roof sealants, vent boot gaskets, and caulked penetrations than homes on higher ground further from the waterway. During severe rain events, the Goffle Brook corridor also concentrates stormwater runoff in ways that can overwhelm residential drainage systems, making properly sized gutters, functional downspouts, and well-graded discharge points essential for properties near the brook. Our roofing assessments for homes in the Goffle Brook area include specific evaluation of moisture-related wear patterns and recommendations for enhanced ventilation that reduces the condensation damage this microclimate promotes.</p>
+
 <p>Hawthorne homeowners choosing a roofing contractor benefit from working with a company that understands the specific demands of mid-century suburban housing. The borough's homes share common construction methods, similar roof geometries, and predictable patterns of wear that reward the deep familiarity our team has developed through years of working in this community. We hold full New Jersey licensing, comprehensive insurance coverage, and maintain the manufacturer certifications needed to offer the extended workmanship warranties that protect your investment beyond the material warranty alone. We handle all Hawthorne Borough permitting requirements, conduct post-installation inspections to verify code compliance, and remain available for warranty service throughout the life of every roof we install. From a Cape Cod on Diamond Bridge Avenue to a colonial near Goffle Hill, we deliver the reliable, quality roofing work that Hawthorne families count on.</p>`,
 
   localContext:
@@ -34,32 +40,42 @@ export const hawthorne: CityContent = {
     {
       name: 'Goffle Hill',
       roofingContext:
-        'An elevated residential section near Goffle Brook Park where mature tree coverage creates heavy leaf fall onto roofs and gutters. The higher terrain provides moderate wind exposure, and many homes here feature the steeply pitched Cape Cod rooflines that define Hawthorne\'s architectural character.',
+        'An elevated residential section near Goffle Brook Park where mature tree coverage creates heavy leaf fall onto roofs and gutters throughout the fall season and beyond. The higher terrain provides moderate wind exposure during storms, and many homes here feature the steeply pitched Cape Cod rooflines with dormer valleys that define Hawthorne\'s distinctive mid-century architectural character.',
     },
     {
-      name: 'Diamond Bridge Area',
+      name: 'Diamond Bridge Avenue Area',
       roofingContext:
-        'A residential neighborhood of Cape Cods and colonials from the 1940s-1960s. Many homes in this area are on their third or fourth roof, and full tear-off to the original decking is commonly recommended to remove accumulated layers and evaluate underlying structure.',
+        'One of Hawthorne\'s primary residential corridors lined with Cape Cods and colonials built from the 1940s through 1960s along the borough\'s older streets. Many homes in this area are on their third or fourth roof, and full tear-off down to the original decking is commonly recommended to remove accumulated shingle layers and evaluate the structural condition of aging plywood and rafters beneath.',
     },
     {
       name: 'Lafayette Area',
       roofingContext:
-        'Hawthorne\'s commercial and mixed-use corridor along Lafayette Avenue, where flat-roofed commercial buildings create demand for membrane roofing services alongside the residential shingle work on nearby side streets.',
+        'Hawthorne\'s commercial and mixed-use corridor along Lafayette Avenue, where flat-roofed commercial buildings and small retail storefronts create demand for TPO and EPDM membrane roofing services alongside the residential asphalt shingle work on the Cape Cod and colonial homes lining nearby side streets.',
     },
     {
       name: 'Warburton Avenue Area',
       roofingContext:
-        'A well-established residential section with single-family homes on comfortable suburban lots. Many properties feature brick chimneys with aging flashing that is a common source of persistent roof leaks in this neighborhood.',
+        'A well-established residential section with single-family homes on comfortable suburban lots shaded by mature hardwood trees. Many properties feature brick chimneys with aging step and counter-flashing systems that have deteriorated through decades of freeze-thaw cycling, making chimney-related leaks a common and persistent source of water damage in this neighborhood.',
     },
     {
       name: 'Rea Avenue Area',
       roofingContext:
-        'A quiet residential neighborhood of mid-century homes with moderate lot sizes. The mature tree canopy along Rea Avenue creates above-average gutter maintenance needs and provides shade that promotes moss growth on north-facing roof slopes.',
+        'A quiet residential neighborhood of mid-century Cape Cod and colonial homes with moderate lot sizes and well-established landscaping. The mature tree canopy along Rea Avenue creates above-average gutter maintenance needs with seasonal leaf and debris accumulation, and provides persistent shade that promotes moss and algae growth on north-facing roof slopes throughout the year.',
     },
     {
       name: 'Royal Avenue Area',
       roofingContext:
-        'A residential section near the Glen Rock border with Cape Cods and bi-levels on shaded lots. The combination of older housing and dense tree coverage makes this area one of Hawthorne\'s most active for residential roof replacements and gutter system upgrades.',
+        'A residential section near the Glen Rock border with Cape Cods and bi-levels on heavily shaded lots beneath one of Hawthorne\'s densest concentrations of mature oak and maple trees. The combination of aging mid-century housing stock and dense year-round tree coverage makes this area one of Hawthorne\'s most active neighborhoods for residential roof replacements, gutter system upgrades, and seasonal debris management.',
+    },
+    {
+      name: 'Goffle Brook Corridor',
+      roofingContext:
+        'Homes near the Goffle Brook waterway face elevated moisture conditions from the brook\'s ambient humidity and the concentrated water runoff during heavy rain events that can overwhelm residential drainage systems. Properties in this corridor experience faster deterioration of roof sealants, vent boot gaskets, and shingle adhesive strips compared to homes on higher ground further from the waterway.',
+    },
+    {
+      name: 'Hawthorne North',
+      roofingContext:
+        'The northern residential section of the borough bordering North Haledon, featuring larger lots with mature trees and a mix of colonials and bi-levels built during the 1950s and 1960s. The spacious lots provide better staging access for roofing crews but also support particularly dense tree canopy that generates heavy seasonal debris loads on roof surfaces and gutters.',
     },
   ],
 
@@ -76,7 +92,7 @@ export const hawthorne: CityContent = {
     {
       question: 'How much does it cost to re-roof a Cape Cod in Hawthorne, NJ?',
       answer:
-        'A Cape Cod roof replacement in Hawthorne typically ranges from $8,000 to $13,000 for architectural asphalt shingles, depending on the roof size, number of dormers, and whether the existing decking needs repair. Hawthorne Cape Cods usually have compact footprints of 1,100 to 1,500 square feet but feature steeply pitched roofs with dormers that add complexity and material. If the home has been re-roofed multiple times without tear-off, removing existing layers to the deck adds $1,500 to $3,000 but is strongly recommended for homes with two or more shingle layers. We provide free estimates for Hawthorne homeowners that include a measured roof survey and itemized cost breakdown.',
+        'A Cape Cod roof replacement in Hawthorne typically ranges from $8,000 to $13,000 for architectural asphalt shingles, depending on the roof size, number of dormers, valley complexity, and whether the existing decking needs repair or replacement. Hawthorne Cape Cods usually have compact footprints of 1,100 to 1,500 square feet but feature steeply pitched roofs with dormers that add complexity, extra flashing work, and additional material requirements compared to a simple gable roof of the same square footage. If the home has been re-roofed multiple times without tear-off, removing all existing layers down to the deck adds $1,500 to $3,000 but is strongly recommended for homes with two or more accumulated shingle layers to evaluate decking condition and reduce structural load. We provide free detailed estimates for Hawthorne homeowners that include a measured roof survey and fully itemized cost breakdown.',
     },
     {
       question: 'Why do Hawthorne homes have so many gutter and ice dam problems?',
@@ -91,7 +107,7 @@ export const hawthorne: CityContent = {
     {
       question: 'How often should I have my Hawthorne roof inspected?',
       answer:
-        'We recommend professional roof inspections for Hawthorne homes every two years for roofs under 15 years old, and annually once the roof reaches the 15-year mark. Given Hawthorne\'s heavy tree canopy, all roofs should be visually checked from ground level after major wind or hail events regardless of age. The fall inspection timing is ideal in Hawthorne -- after leaf fall and before the winter season -- to clear debris from valleys and verify that gutters are flowing freely before ice dam conditions develop. Our inspections cover all roof surfaces, flashings, vent boots, gutter condition, and attic ventilation, with a written report and any repair recommendations.',
+        'We recommend professional roof inspections for Hawthorne homes every two years for roofs under 15 years old, and annually once the roof reaches the 15-year mark when age-related deterioration accelerates. Given Hawthorne\'s exceptionally heavy tree canopy and the debris it generates year-round, all roofs should be visually checked from ground level after major wind or hail events regardless of age. The fall inspection timing is ideal in Hawthorne -- after leaf fall and before the winter season -- to clear accumulated debris from valleys and behind dormers and verify that gutters are flowing freely before ice dam conditions develop. Our inspections cover all roof surfaces, flashings, vent boots, gutter condition, and attic ventilation, with a detailed written report and prioritized repair recommendations.',
     },
     {
       question: 'What roofing material lasts longest on Hawthorne homes?',
