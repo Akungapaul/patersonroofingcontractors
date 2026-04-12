@@ -13,7 +13,7 @@ This roadmap delivers a rank-and-rent roofing lead generation site targeting all
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation, Infrastructure & Homepage** - Design system, layout shell, lead capture, SEO infrastructure, schema system, and homepage
-- [x] **Phase 2: Anchor City & Location Pages** - Paterson anchor page and 15 municipality location pages with 3000+ word unique content
+- [ ] **Phase 2: Anchor City & Location Pages** - Paterson anchor page and 15 municipality location pages with 3000+ word unique content
 - [ ] **Phase 3: Service, Guide & Utility Pages** - 67 service pages, 10 guide pages, and 5 utility pages completing the content inventory
 - [ ] **Phase 4: Silo Linking, Crawl Health & CRO Polish** - Internal linking audit, crawl budget optimization, conversion rate optimization, and performance tuning
 
@@ -48,7 +48,7 @@ Plans:
   3. Content uniqueness across all 16 location pages exceeds 90% (no cookie-cutter templates; each page has municipality-specific local context)
   4. Every location page has a FAQ section with location-specific roofing questions, LocalBusiness + FAQ + BreadcrumbList schema, and links to relevant service pages
   5. Every location page has working lead capture (phone number + contact form) and CRO-optimized CTAs
-**Plans**: 5 plans
+**Plans**: 10 plans
 
 Plans:
 - [x] 02-01-PLAN.md -- CityContent type definitions, FAQ schema builder, component prop extensions (MidPageCTA, Hero, ServicesGrid)
@@ -56,6 +56,11 @@ Plans:
 - [x] 02-03-PLAN.md -- Dynamic route template, Paterson anchor content, content index, sitemap update
 - [x] 02-04-PLAN.md -- 8 city content files (Clifton, Passaic, Wayne, Hawthorne, Little Falls, Woodland Park, Haledon, Prospect Park)
 - [x] 02-05-PLAN.md -- 7 city content files (West Milford, Ringwood, Wanaque, Pompton Lakes, Bloomingdale, Totowa, North Haledon) + verification checkpoint
+- [ ] 02-06-PLAN.md -- [GAP CLOSURE] Expand Paterson anchor content to 3500-4000 words
+- [ ] 02-07-PLAN.md -- [GAP CLOSURE] Expand Haledon, Prospect Park, Clifton, Little Falls to 3000+ words
+- [ ] 02-08-PLAN.md -- [GAP CLOSURE] Expand Woodland Park, Passaic, Hawthorne, Bloomingdale to 3000+ words
+- [ ] 02-09-PLAN.md -- [GAP CLOSURE] Expand Wayne, Ringwood, Wanaque, Totowa to 3000+ words
+- [ ] 02-10-PLAN.md -- [GAP CLOSURE] Expand Pompton Lakes, North Haledon, West Milford to 3000+ words
 **UI hint**: yes
 
 ### Phase 3: Service, Guide & Utility Pages
@@ -100,6 +105,6 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation, Infrastructure & Homepage | 4/4 | Complete | 2026-04-09 |
-| 2. Anchor City & Location Pages | 5/5 | Complete | 2026-04-10 |
+| 2. Anchor City & Location Pages | 5/10 | Gap closure in progress | - |
 | 3. Service, Guide & Utility Pages | 0/3 | Not started | - |
 | 4. Silo Linking, Crawl Health & CRO Polish | 0/2 | Not started | - |
