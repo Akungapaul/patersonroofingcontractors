@@ -4,7 +4,7 @@ import { useState, type FormEvent } from 'react'
 import { cn } from '@/lib/cn'
 import { siteConfig } from '@/lib/site-config'
 import { PhoneButton } from '@/components/ui/PhoneButton'
-import { Phone, Mail, MapPin, Clock } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, Loader2 } from 'lucide-react'
 
 type FormStatus = 'idle' | 'submitting' | 'success' | 'error'
 
@@ -97,7 +97,8 @@ export function ContactForm({ className }: ContactFormProps) {
             name="name"
             required
             aria-required="true"
-            placeholder="Your full name"
+            autoComplete="name"
+            placeholder="John Smith"
             className={cn(
               'w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none',
               status === 'error' && 'border-red-600'
@@ -119,7 +120,8 @@ export function ContactForm({ className }: ContactFormProps) {
               name="phone"
               required
               aria-required="true"
-              placeholder="(973) 555-0100"
+              autoComplete="tel"
+              placeholder="(973) 555-1234"
               className={cn(
                 'w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none',
                 status === 'error' && 'border-red-600'
@@ -139,7 +141,8 @@ export function ContactForm({ className }: ContactFormProps) {
               name="email"
               required
               aria-required="true"
-              placeholder="you@example.com"
+              autoComplete="email"
+              placeholder="john@example.com"
               className={cn(
                 'w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none',
                 status === 'error' && 'border-red-600'
@@ -183,13 +186,13 @@ export function ContactForm({ className }: ContactFormProps) {
             id="contact-message"
             name="message"
             rows={4}
-            placeholder="Tell us about your roofing project..."
+            placeholder="Describe your roofing needs, including property address if possible..."
             className="w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none"
           />
         </div>
 
         {status === 'error' && (
-          <p className="text-red-600 text-sm font-semibold" role="alert">
+          <p className="text-red-600 text-base font-semibold" role="alert">
             {errorMessage}
           </p>
         )}
@@ -202,7 +205,14 @@ export function ContactForm({ className }: ContactFormProps) {
             status === 'submitting' && 'opacity-50 cursor-not-allowed'
           )}
         >
-          {status === 'submitting' ? 'Sending...' : 'Get Free Estimate'}
+          {status === 'submitting' ? (
+            <>
+              <Loader2 className="h-5 w-5 animate-spin" aria-hidden="true" />
+              Sending...
+            </>
+          ) : (
+            'Get Free Estimate'
+          )}
         </button>
       </form>
 
@@ -223,6 +233,8 @@ export function ContactForm({ className }: ContactFormProps) {
                 <p className="text-sm font-semibold text-gray-300">Phone</p>
                 <a
                   href={`tel:${siteConfig.phoneRaw}`}
+                  data-action="call"
+                  data-location="form-panel"
                   className="text-lg font-bold text-white hover:text-amber transition-colors"
                 >
                   {siteConfig.phone}

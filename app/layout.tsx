@@ -4,6 +4,7 @@ import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
+import { StickyCallButton } from '@/components/ui/StickyCallButton'
 import './globals.css'
 
 const cormorant = Cormorant({
@@ -54,6 +55,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <StickyCallButton />
         <Analytics />
         <SpeedInsights />
       </body>

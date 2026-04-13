@@ -22,6 +22,8 @@ export function Footer() {
             </p>
             <a
               href={`tel:${siteConfig.phoneRaw}`}
+              data-action="call"
+              data-location="footer"
               className="mt-4 inline-flex items-center gap-2 font-semibold text-amber-light transition-colors hover:text-amber"
             >
               <Phone className="h-5 w-5" aria-hidden="true" />
@@ -80,6 +82,8 @@ export function Footer() {
                 />
                 <a
                   href={`tel:${siteConfig.phoneRaw}`}
+                  data-action="call"
+                  data-location="footer-contact"
                   className="text-gray-300 transition-colors hover:text-amber-light"
                 >
                   {siteConfig.phone}

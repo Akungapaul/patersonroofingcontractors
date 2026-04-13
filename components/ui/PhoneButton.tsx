@@ -11,6 +11,8 @@ export function PhoneButton({ compact = false, className }: PhoneButtonProps) {
   return (
     <a
       href={`tel:${siteConfig.phoneRaw}`}
+      data-action="call"
+      data-location="general"
       className={cn(
         'inline-flex items-center gap-2 rounded-[var(--radius-button)] bg-amber px-4 py-2 font-bold text-white transition-colors hover:bg-amber-dark active:scale-[0.97] min-h-[44px]',
         className

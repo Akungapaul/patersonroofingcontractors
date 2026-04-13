@@ -14,6 +14,8 @@ export function EmergencyCTA() {
         </p>
         <a
           href={`tel:${siteConfig.phoneRaw}`}
+          data-action="call"
+          data-location="emergency"
           className="mt-6 inline-flex min-h-[44px] items-center gap-2 rounded-[var(--radius-button)] bg-white px-8 py-4 text-lg font-bold text-amber transition-all hover:bg-gray-100 hover:shadow-md"
         >
           <Phone className="h-5 w-5" aria-hidden="true" />
