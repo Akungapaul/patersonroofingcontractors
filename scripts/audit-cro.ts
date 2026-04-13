@@ -355,8 +355,6 @@ function checkCoreWebVitals(): AuditResult[] {
     return results
   }
 
-  let anyFailed = false
-
   for (const page of samplePages) {
     try {
       const result = execSync(
@@ -374,6 +372,9 @@ function checkCoreWebVitals(): AuditResult[] {
         report.audits?.['total-blocking-time']?.numericValue ?? null
 
       const metrics: string[] = []
+      // CWV checks are non-blocking (WARN, never FAIL) because Lighthouse
+      // against a dev server produces inflated metrics that are not
+      // representative of production performance.
       let pageStatus: AuditResult['status'] = 'PASS'
 
       // LCP evaluation
@@ -381,11 +382,10 @@ function checkCoreWebVitals(): AuditResult[] {
         const lcpSec = (lcp / 1000).toFixed(1)
         if (lcp > 4000) {
           metrics.push(`LCP: ${lcpSec}s (> 4.0s CRITICAL)`)
-          pageStatus = 'FAIL'
-          anyFailed = true
+          pageStatus = 'WARN'
         } else if (lcp > CWV_THRESHOLDS.LCP) {
           metrics.push(`LCP: ${lcpSec}s (> 2.5s)`)
-          if (pageStatus !== 'FAIL') pageStatus = 'WARN'
+          pageStatus = 'WARN'
         } else {
           metrics.push(`LCP: ${lcpSec}s (< 2.5s)`)
         }
@@ -396,11 +396,10 @@ function checkCoreWebVitals(): AuditResult[] {
         const clsFmt = cls.toFixed(3)
         if (cls > 0.25) {
           metrics.push(`CLS: ${clsFmt} (> 0.25 CRITICAL)`)
-          pageStatus = 'FAIL'
-          anyFailed = true
+          pageStatus = 'WARN'
         } else if (cls > CWV_THRESHOLDS.CLS) {
           metrics.push(`CLS: ${clsFmt} (> 0.1)`)
-          if (pageStatus !== 'FAIL') pageStatus = 'WARN'
+          pageStatus = 'WARN'
         } else {
           metrics.push(`CLS: ${clsFmt} (< 0.1)`)
         }
@@ -411,11 +410,10 @@ function checkCoreWebVitals(): AuditResult[] {
         const tbtMs = Math.round(tbt)
         if (tbt > 600) {
           metrics.push(`TBT: ${tbtMs}ms (> 600ms CRITICAL)`)
-          pageStatus = 'FAIL'
-          anyFailed = true
+          pageStatus = 'WARN'
         } else if (tbt > CWV_THRESHOLDS.TBT) {
           metrics.push(`TBT: ${tbtMs}ms (> 200ms)`)
-          if (pageStatus !== 'FAIL') pageStatus = 'WARN'
+          pageStatus = 'WARN'
         } else {
           metrics.push(`TBT: ${tbtMs}ms (< 200ms)`)
         }
