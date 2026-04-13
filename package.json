@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "audit:links": "npx tsx scripts/audit-links.ts",
+    "audit:schema": "npx tsx scripts/audit-schema.ts",
+    "audit:sitemap": "npx tsx scripts/audit-sitemap.ts",
+    "audit:cro": "npx tsx scripts/audit-cro.ts"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.2",
@@ -31,6 +35,7 @@
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
