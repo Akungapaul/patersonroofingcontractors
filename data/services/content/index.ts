@@ -47,6 +47,42 @@ import { energyEfficientRoofingSolutions } from './energy-efficient-roofing-solu
 import { siliconeRoofCoating } from './silicone-roof-coating'
 import { elastomericRoofCoating } from './elastomeric-roof-coating'
 
+// Components & Specialty (10)
+import { roofFlashingInstallationRepair } from './roof-flashing-installation-repair'
+import { chimneyFlashingRepair } from './chimney-flashing-repair'
+import { skylightInstallationRepair } from './skylight-installation-repair'
+import { fasciaInstallationRepair } from './fascia-installation-repair'
+import { soffitInstallationRepair } from './soffit-installation-repair'
+import { roofVentInstallationRepair } from './roof-vent-installation-repair'
+import { roofWaterproofing } from './roof-waterproofing'
+import { roofDeckRepairReplacement } from './roof-deck-repair-replacement'
+import { roofVentilationInstallation } from './roof-ventilation-installation'
+import { atticInsulation } from './attic-insulation'
+
+// Roof Replacement (15)
+import { fullRoofTearOff } from './full-roof-tear-off'
+import { roofOverlayInstallation } from './roof-overlay-installation'
+import { reRoofing } from './re-roofing'
+import { insuranceRoofReplacement } from './insurance-roof-replacement'
+import { stormDamageRoofReplacement } from './storm-damage-roof-replacement'
+import { agingRoofReplacement } from './aging-roof-replacement'
+import { asphaltShingleReplacement } from './asphalt-shingle-replacement'
+import { metalRoofReplacement } from './metal-roof-replacement'
+import { flatRoofReplacement } from './flat-roof-replacement'
+import { tileRoofReplacement } from './tile-roof-replacement'
+import { slateRoofReplacement } from './slate-roof-replacement'
+import { woodShakeReplacement } from './wood-shake-replacement'
+import { cedarShakeReplacement } from './cedar-shake-replacement'
+import { rubberRoofReplacement } from './rubber-roof-replacement'
+import { commercialRoofMembraneReplacement } from './commercial-roof-membrane-replacement'
+
+// Design & Specialty (5)
+import { customRoofDesignConsultation } from './custom-roof-design-consultation'
+import { historicRoofRestoration } from './historic-roof-restoration'
+import { roofIceDamPrevention } from './roof-ice-dam-prevention'
+import { roofThermalImagingInspections } from './roof-thermal-imaging-inspections'
+import { infraredRoofLeakDetection } from './infrared-roof-leak-detection'
+
 const serviceContentMap: Record<string, ServiceContent> = {
   // Repair & Maintenance
   'roof-repair': roofRepair,
@@ -94,6 +130,42 @@ const serviceContentMap: Record<string, ServiceContent> = {
   'energy-efficient-roofing-solutions': energyEfficientRoofingSolutions,
   'silicone-roof-coating': siliconeRoofCoating,
   'elastomeric-roof-coating': elastomericRoofCoating,
+
+  // Components & Specialty
+  'roof-flashing-installation-repair': roofFlashingInstallationRepair,
+  'chimney-flashing-repair': chimneyFlashingRepair,
+  'skylight-installation-repair': skylightInstallationRepair,
+  'fascia-installation-repair': fasciaInstallationRepair,
+  'soffit-installation-repair': soffitInstallationRepair,
+  'roof-vent-installation-repair': roofVentInstallationRepair,
+  'roof-waterproofing': roofWaterproofing,
+  'roof-deck-repair-replacement': roofDeckRepairReplacement,
+  'roof-ventilation-installation': roofVentilationInstallation,
+  'attic-insulation': atticInsulation,
+
+  // Roof Replacement
+  'full-roof-tear-off': fullRoofTearOff,
+  'roof-overlay-installation': roofOverlayInstallation,
+  're-roofing': reRoofing,
+  'insurance-roof-replacement': insuranceRoofReplacement,
+  'storm-damage-roof-replacement': stormDamageRoofReplacement,
+  'aging-roof-replacement': agingRoofReplacement,
+  'asphalt-shingle-replacement': asphaltShingleReplacement,
+  'metal-roof-replacement': metalRoofReplacement,
+  'flat-roof-replacement': flatRoofReplacement,
+  'tile-roof-replacement': tileRoofReplacement,
+  'slate-roof-replacement': slateRoofReplacement,
+  'wood-shake-replacement': woodShakeReplacement,
+  'cedar-shake-replacement': cedarShakeReplacement,
+  'rubber-roof-replacement': rubberRoofReplacement,
+  'commercial-roof-membrane-replacement': commercialRoofMembraneReplacement,
+
+  // Design & Specialty
+  'custom-roof-design-consultation': customRoofDesignConsultation,
+  'historic-roof-restoration': historicRoofRestoration,
+  'roof-ice-dam-prevention': roofIceDamPrevention,
+  'roof-thermal-imaging-inspections': roofThermalImagingInspections,
+  'infrared-roof-leak-detection': infraredRoofLeakDetection,
 }
 
 export function getServiceContent(slug: string): ServiceContent | undefined {
