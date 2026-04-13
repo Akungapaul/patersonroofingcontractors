@@ -100,11 +100,13 @@ Plans:
   3. Zero broken internal links, zero redirect chains, no duplicate content issues (canonicals correct), and no noindex pages appear in the sitemap
   4. Schema markup (LocalBusiness, Service, FAQ, BreadcrumbList, Organization) validates without errors on Google Rich Results Test for a sample from each page type
   5. All ~100 pages appear in the XML sitemap, Core Web Vitals pass on mobile, and CTAs are positioned above fold, mid-page, and bottom on every content page
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md -- Audit tooling: build 4 permanent audit scripts (links, schema, sitemap, CRO) with shared utilities
+- [ ] 04-02-PLAN.md -- CRO polish: sticky mobile call button, phone tracking attributes, trust sections on all content pages, EmergencyCTA expansion, form UX
+- [ ] 04-03-PLAN.md -- Fix all broken inline links (55+ instances across 16 city content files), run all audits to verify zero issues, build verification
+**UI hint**: yes
 
 ## Progress
 
@@ -116,4 +118,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4
 | 1. Foundation, Infrastructure & Homepage | 4/4 | Complete | 2026-04-09 |
 | 2. Anchor City & Location Pages | 10/10 | Complete | 2026-04-12 |
 | 3. Service, Guide & Utility Pages | 0/12 | Planning complete | - |
-| 4. Silo Linking, Crawl Health & CRO Polish | 0/2 | Not started | - |
+| 4. Silo Linking, Crawl Health & CRO Polish | 0/3 | Planning complete | - |
