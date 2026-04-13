@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Phase 4 context gathered
-last_updated: "2026-04-13T14:41:06.718Z"
-last_activity: 2026-04-13
+stopped_at: Completed 04-02-PLAN.md
+last_updated: "2026-04-13T16:38:15Z"
+last_activity: 2026-04-13 -- Completed 04-02 CRO Polish
 progress:
   total_phases: 4
   completed_phases: 3
-  total_plans: 26
-  completed_plans: 26
-  percent: 100
+  total_plans: 29
+  completed_plans: 28
+  percent: 97
 ---
 
 # Project State
@@ -21,16 +21,16 @@ progress:
 See: .planning/PROJECT.md (updated 2026-04-07)
 
 **Core value:** Every page ranks for its target roofing + location keyword and converts visitors into phone calls or form submissions
-**Current focus:** Phase 03 — service-guide-utility-pages
+**Current focus:** Phase 04 — silo-linking-crawl-health-cro-polish
 
 ## Current Position
 
 Phase: 4
-Plan: Not started
-Status: Ready to execute
-Last activity: 2026-04-13
+Plan: 2 of 3
+Status: Executing
+Last activity: 2026-04-13 -- Completed 04-02 CRO Polish
 
-Progress: [██████████] 100%
+Progress: [█████████▒] 97%
 
 ## Performance Metrics
 
@@ -69,6 +69,7 @@ Progress: [██████████] 100%
 | Phase 03 P09 | 5min | 2 tasks | 31 files |
 | Phase 03 P10 | 22min | 2 tasks | 11 files |
 | Phase 03 P11 | 3min | 2 tasks | 7 files |
+| Phase 04 P02 | 4min | 2 tasks | 13 files |
 
 ## Accumulated Context
 
@@ -116,6 +117,10 @@ Recent decisions affecting current work:
 - [Phase 03]: Guide content follows established ServiceContent/CityContent pattern with HTML content, silo links, and Passaic County local context across all 10 guides
 - [Phase 03]: Legal content stored as template literal data files in data/legal/ with siteConfig interpolation
 - [Phase 03]: Utility page breadcrumb URLs use full siteConfig.url prefix for consistency with location pages
+- [Phase 04]: StickyCallButton uses z-40 to stack below header/nav (z-50) but above page content
+- [Phase 04]: Guide pages place WhyChooseUs after CityLinks (keeping content-critical GuideFAQ early in page flow)
+- [Phase 04]: Contact page places trust sections between ContactHub and CityLinks for conversion before navigation
+- [Phase 04]: data-action/data-location attributes on all tel: links for future analytics integration
 
 ### Pending Todos
 
@@ -129,6 +134,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-13T14:41:06.714Z
-Stopped at: Phase 4 context gathered
-Resume file: .planning/phases/04-silo-linking-crawl-health-cro-polish/04-CONTEXT.md
+Last session: 2026-04-13T16:38:15Z
+Stopped at: Completed 04-02-PLAN.md
+Resume file: .planning/phases/04-silo-linking-crawl-health-cro-polish/04-03-PLAN.md

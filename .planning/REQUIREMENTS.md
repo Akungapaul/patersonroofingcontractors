@@ -100,12 +100,12 @@ Requirements for initial release. Each maps to roadmap phases.
 - [ ] **SILO-01**: Topical map with Source Context, Central Entity, and Central Search Intent defined
 - [x] **SILO-02**: Core Section (main attributes): services and locations organized hierarchically
 - [x] **SILO-03**: Outer Section (secondary attributes): guides and educational content
-- [ ] **SILO-04**: Internal linking follows silo structure (location <-> services, guides -> services/locations)
+- [x] **SILO-04**: Internal linking follows silo structure (location <-> services, guides -> services/locations)
 - [ ] **SILO-05**: Navigation reflects topical hierarchy (not flat list)
 
 ### Crawl Budget
 
-- [ ] **CRAWL-01**: No orphan pages (every page reachable within 3 clicks from homepage)
+- [x] **CRAWL-01**: No orphan pages (every page reachable within 3 clicks from homepage)
 - [ ] **CRAWL-02**: No redirect chains or broken internal links
 - [ ] **CRAWL-03**: Pagination avoided (all content on single pages)
 - [ ] **CRAWL-04**: No duplicate content (canonicals, unique content, no parameter URLs)
@@ -216,9 +216,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SILO-01 | Phase 1 | Pending |
 | SILO-02 | Phase 3 | Complete |
 | SILO-03 | Phase 3 | Complete |
-| SILO-04 | Phase 4 | Pending |
+| SILO-04 | Phase 4 | Complete |
 | SILO-05 | Phase 1 | Pending |
-| CRAWL-01 | Phase 4 | Pending |
+| CRAWL-01 | Phase 4 | Complete |
 | CRAWL-02 | Phase 4 | Pending |
 | CRAWL-03 | Phase 4 | Pending |
 | CRAWL-04 | Phase 4 | Pending |
