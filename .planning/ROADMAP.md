@@ -85,7 +85,7 @@ Plans:
 - [x] 03-07-PLAN.md -- Service content batch 1: Repair & Maintenance (10) + Residential Roofing (9)
 - [x] 03-08-PLAN.md -- Service content batch 2: Commercial Roofing (11) + Gutters (2) + Energy & Solar (5)
 - [x] 03-09-PLAN.md -- Service content batch 3: Components & Specialty (10) + Roof Replacement (15) + Design & Specialty (5)
-- [ ] 03-10-PLAN.md -- Guide content files (all 10 guides)
+- [x] 03-10-PLAN.md -- Guide content files (all 10 guides)
 - [ ] 03-11-PLAN.md -- Utility pages (About, Contact, Service Area, Privacy Policy, Terms of Service)
 - [ ] 03-12-PLAN.md -- Sitemap update + full site verification checkpoint
 **UI hint**: yes
