@@ -87,7 +87,7 @@ Plans:
 - [x] 03-09-PLAN.md -- Service content batch 3: Components & Specialty (10) + Roof Replacement (15) + Design & Specialty (5)
 - [x] 03-10-PLAN.md -- Guide content files (all 10 guides)
 - [x] 03-11-PLAN.md -- Utility pages (About, Contact, Service Area, Privacy Policy, Terms of Service)
-- [ ] 03-12-PLAN.md -- Sitemap update + full site verification checkpoint
+- [x] 03-12-PLAN.md -- Sitemap update + full site verification checkpoint
 **UI hint**: yes
 
 ### Phase 4: Silo Linking, Crawl Health & CRO Polish
