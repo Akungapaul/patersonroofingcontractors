@@ -3,6 +3,9 @@ import { siteConfig } from '@/lib/site-config'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { Hero } from '@/components/sections/Hero'
 import { ContactHub } from '@/components/sections/ContactHub'
+import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
+import { Testimonials } from '@/components/sections/Testimonials'
+import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { CityLinks } from '@/components/sections/CityLinks'
 
 export const metadata: Metadata = {
@@ -42,7 +45,16 @@ export default function ContactPage() {
       {/* 3. ContactHub */}
       <ContactHub />
 
-      {/* 4. Areas We Serve */}
+      {/* 4. WhyChooseUs */}
+      <WhyChooseUs />
+
+      {/* 5. Testimonials */}
+      <Testimonials />
+
+      {/* 6. EmergencyCTA */}
+      <EmergencyCTA />
+
+      {/* 7. Areas We Serve */}
       <section className="bg-gray-light py-section-sm lg:py-section">
         <CityLinks heading="Areas We Serve" />
       </section>

@@ -23,6 +23,9 @@ import { GuideFAQ } from '@/components/sections/GuideFAQ'
 import { RelatedServices } from '@/components/sections/RelatedServices'
 import { RelatedGuides } from '@/components/sections/RelatedGuides'
 import { CityLinks } from '@/components/sections/CityLinks'
+import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
+import { Testimonials } from '@/components/sections/Testimonials'
+import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 
 // Only serve valid guide slugs -- all others 404
@@ -167,7 +170,16 @@ export default async function GuidePage({
       {/* 7. CityLinks */}
       <CityLinks />
 
-      {/* 8. ContactForm */}
+      {/* 8. WhyChooseUs */}
+      <WhyChooseUs />
+
+      {/* 9. Testimonials */}
+      <Testimonials />
+
+      {/* 10. EmergencyCTA */}
+      <EmergencyCTA />
+
+      {/* 11. ContactForm */}
       <section
         id="contact"
         className="bg-gray-light py-section-sm lg:py-section"

@@ -4,6 +4,9 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { Hero } from '@/components/sections/Hero'
 import { MunicipalityGrid } from '@/components/sections/MunicipalityGrid'
 import { MidPageCTA } from '@/components/sections/MidPageCTA'
+import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
+import { Testimonials } from '@/components/sections/Testimonials'
+import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 
 export const metadata: Metadata = {
@@ -58,7 +61,16 @@ export default function ServiceAreaPage() {
       {/* 5. MidPageCTA */}
       <MidPageCTA />
 
-      {/* 6. ContactForm */}
+      {/* 6. WhyChooseUs */}
+      <WhyChooseUs />
+
+      {/* 7. Testimonials */}
+      <Testimonials />
+
+      {/* 8. EmergencyCTA */}
+      <EmergencyCTA />
+
+      {/* 9. ContactForm */}
       <section
         id="contact"
         className="bg-white py-section-sm lg:py-section"

@@ -8,6 +8,9 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { Hero } from '@/components/sections/Hero'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
 import { MidPageCTA } from '@/components/sections/MidPageCTA'
+import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
+import { Testimonials } from '@/components/sections/Testimonials'
+import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 
 export const metadata: Metadata = {
@@ -52,6 +55,15 @@ export default function ServicesIndexPage() {
 
       {/* Mid-page CTA */}
       <MidPageCTA />
+
+      {/* WhyChooseUs */}
+      <WhyChooseUs />
+
+      {/* Testimonials */}
+      <Testimonials />
+
+      {/* EmergencyCTA */}
+      <EmergencyCTA />
 
       {/* Contact Form */}
       <section

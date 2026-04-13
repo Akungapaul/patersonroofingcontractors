@@ -3,6 +3,8 @@ import { siteConfig } from '@/lib/site-config'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { Hero } from '@/components/sections/Hero'
 import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
+import { Testimonials } from '@/components/sections/Testimonials'
+import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { CityLinks } from '@/components/sections/CityLinks'
 import { ContactForm } from '@/components/forms/ContactForm'
 import { Shield, FileCheck, Award } from 'lucide-react'
@@ -188,7 +190,13 @@ export default function AboutPage() {
         <CityLinks heading="Serving All of Passaic County" />
       </section>
 
-      {/* 7. ContactForm */}
+      {/* 7. Testimonials */}
+      <Testimonials />
+
+      {/* 8. EmergencyCTA */}
+      <EmergencyCTA />
+
+      {/* 9. ContactForm */}
       <section
         id="contact"
         className="bg-white py-section-sm lg:py-section"

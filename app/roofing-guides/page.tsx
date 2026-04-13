@@ -10,6 +10,9 @@ import { siteConfig } from '@/lib/site-config'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { Hero } from '@/components/sections/Hero'
 import { MidPageCTA } from '@/components/sections/MidPageCTA'
+import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
+import { Testimonials } from '@/components/sections/Testimonials'
+import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 import { Card } from '@/components/ui/Card'
 
@@ -94,7 +97,16 @@ export default function GuidesIndexPage() {
       {/* 3. MidPageCTA */}
       <MidPageCTA />
 
-      {/* 4. ContactForm */}
+      {/* 4. WhyChooseUs */}
+      <WhyChooseUs />
+
+      {/* 5. Testimonials */}
+      <Testimonials />
+
+      {/* 6. EmergencyCTA */}
+      <EmergencyCTA />
+
+      {/* 7. ContactForm */}
       <section
         id="contact"
         className="bg-gray-light py-section-sm lg:py-section"

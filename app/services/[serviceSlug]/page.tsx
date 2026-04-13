@@ -20,6 +20,7 @@ import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { BenefitsGrid } from '@/components/sections/BenefitsGrid'
 import { RelatedLocations } from '@/components/sections/RelatedLocations'
 import { RelatedServices } from '@/components/sections/RelatedServices'
+import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { ServiceFAQ } from '@/components/sections/ServiceFAQ'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
@@ -138,7 +139,10 @@ export default async function ServicePage({
       {/* 8. RelatedServices */}
       <RelatedServices services={relatedServices} />
 
-      {/* 9. ServiceFAQ */}
+      {/* 9. WhyChooseUs */}
+      <WhyChooseUs />
+
+      {/* 10. ServiceFAQ */}
       <ServiceFAQ faqItems={content.faqItems} serviceName={content.name} />
 
       {/* 10. Testimonials */}
