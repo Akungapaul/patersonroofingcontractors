@@ -103,7 +103,7 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 04-01-PLAN.md -- Audit tooling: build 4 permanent audit scripts (links, schema, sitemap, CRO) with shared utilities
+- [x] 04-01-PLAN.md -- Audit tooling: build 4 permanent audit scripts (links, schema, sitemap, CRO) with shared utilities
 - [x] 04-02-PLAN.md -- CRO polish: sticky mobile call button, phone tracking attributes, trust sections on all content pages, EmergencyCTA expansion, form UX
 - [ ] 04-03-PLAN.md -- Fix all broken inline links (55+ instances across 16 city content files), run all audits to verify zero issues, build verification
 **UI hint**: yes

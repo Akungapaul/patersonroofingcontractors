@@ -106,10 +106,10 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Crawl Budget
 
 - [x] **CRAWL-01**: No orphan pages (every page reachable within 3 clicks from homepage)
-- [ ] **CRAWL-02**: No redirect chains or broken internal links
-- [ ] **CRAWL-03**: Pagination avoided (all content on single pages)
-- [ ] **CRAWL-04**: No duplicate content (canonicals, unique content, no parameter URLs)
-- [ ] **CRAWL-05**: Efficient sitemap (no noindex pages in sitemap)
+- [x] **CRAWL-02**: No redirect chains or broken internal links
+- [x] **CRAWL-03**: Pagination avoided (all content on single pages)
+- [x] **CRAWL-04**: No duplicate content (canonicals, unique content, no parameter URLs)
+- [x] **CRAWL-05**: Efficient sitemap (no noindex pages in sitemap)
 
 ## v2 Requirements
 
@@ -219,10 +219,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SILO-04 | Phase 4 | Complete |
 | SILO-05 | Phase 1 | Pending |
 | CRAWL-01 | Phase 4 | Complete |
-| CRAWL-02 | Phase 4 | Pending |
-| CRAWL-03 | Phase 4 | Pending |
-| CRAWL-04 | Phase 4 | Pending |
-| CRAWL-05 | Phase 4 | Pending |
+| CRAWL-02 | Phase 4 | Complete |
+| CRAWL-03 | Phase 4 | Complete |
+| CRAWL-04 | Phase 4 | Complete |
+| CRAWL-05 | Phase 4 | Complete |
 
 **Coverage:**
 - v1 requirements: 62 total

@@ -3,9 +3,9 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: executing
-stopped_at: Completed 04-02-PLAN.md
-last_updated: "2026-04-13T16:38:15Z"
-last_activity: 2026-04-13 -- Completed 04-02 CRO Polish
+stopped_at: Completed 04-01-PLAN.md
+last_updated: "2026-04-13T16:44:09.827Z"
+last_activity: 2026-04-13
 progress:
   total_phases: 4
   completed_phases: 3
@@ -26,9 +26,9 @@ See: .planning/PROJECT.md (updated 2026-04-07)
 ## Current Position
 
 Phase: 4
-Plan: 2 of 3
-Status: Executing
-Last activity: 2026-04-13 -- Completed 04-02 CRO Polish
+Plan: 3 of 3
+Status: Ready to execute
+Last activity: 2026-04-13
 
 Progress: [█████████▒] 97%
 
@@ -70,6 +70,7 @@ Progress: [█████████▒] 97%
 | Phase 03 P10 | 22min | 2 tasks | 11 files |
 | Phase 03 P11 | 3min | 2 tasks | 7 files |
 | Phase 04 P02 | 4min | 2 tasks | 13 files |
+| Phase 04 P01 | 7min | 2 tasks | 7 files |
 
 ## Accumulated Context
 
@@ -121,6 +122,9 @@ Recent decisions affecting current work:
 - [Phase 04]: Guide pages place WhyChooseUs after CityLinks (keeping content-critical GuideFAQ early in page flow)
 - [Phase 04]: Contact page places trust sections between ContactHub and CityLinks for conversion before navigation
 - [Phase 04]: data-action/data-location attributes on all tel: links for future analytics integration
+- [Phase 04]: Route count is 101 (not 103 as plan estimated) -- 1 homepage + 16 locations + 67 services + 10 guides + 2 index + 3 utility + 2 legal
+- [Phase 04]: Used fileURLToPath(import.meta.url) for tsx CJS compatibility instead of import.meta.dirname
+- [Phase 04]: Lighthouse TBT used as INP proxy since lab-mode Lighthouse cannot measure INP directly
 
 ### Pending Todos
 
@@ -134,6 +138,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-04-13T16:38:15Z
-Stopped at: Completed 04-02-PLAN.md
-Resume file: .planning/phases/04-silo-linking-crawl-health-cro-polish/04-03-PLAN.md
+Last session: 2026-04-13T16:44:09.824Z
+Stopped at: Completed 04-01-PLAN.md
+Resume file: None
