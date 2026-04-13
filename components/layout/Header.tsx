@@ -22,7 +22,7 @@ export function Header() {
       </a>
 
       {/* Sticky header with amber border-bottom (Variation 9) */}
-      <header className="sticky top-0 z-50 border-b-[3px] border-amber bg-navy backdrop-blur-sm">
+      <header className="sticky top-0 z-50 border-b-[3px] border-amber bg-navy backdrop-blur-sm [--header-height:67px]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo (left) */}

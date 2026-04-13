@@ -51,12 +51,13 @@ export function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
   return (
     <div
       className={cn(
-        'absolute left-0 top-full z-50 mt-1 w-full max-w-5xl rounded-lg bg-white p-6 shadow-xl transition-opacity duration-200 motion-reduce:transition-none',
+        'fixed left-0 right-0 z-50 mt-1 border-t-[3px] border-amber bg-white shadow-xl transition-opacity duration-200 motion-reduce:transition-none',
         isOpen ? 'opacity-100' : 'opacity-0'
       )}
+      style={{ top: 'var(--header-height, 64px)' }}
       role="menu"
     >
-      <div className="grid grid-cols-3 gap-6 lg:grid-cols-4">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 p-6 sm:grid-cols-3 lg:grid-cols-4">
         {CATEGORY_ORDER.map((category) => {
           const categoryServices = servicesByCategory[category]
           if (!categoryServices || categoryServices.length === 0) return null
@@ -99,7 +100,7 @@ export function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
           )
         })}
       </div>
-      <div className="mt-4 border-t border-gray-200 pt-4">
+      <div className="mx-auto max-w-7xl border-t border-gray-200 px-6 py-4">
         <Link
           href="/services"
           className="font-bold text-amber transition-colors hover:text-amber-dark"
