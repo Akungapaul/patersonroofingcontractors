@@ -89,7 +89,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Content - Utility Pages
 
-- [ ] **UTIL-01**: About page establishing company story, expertise, and E-E-A-T signals
+- [x] **UTIL-01**: About page establishing company story, expertise, and E-E-A-T signals
 - [x] **UTIL-02**: Contact page with form, phone, and service area information
 - [x] **UTIL-03**: Service Area page listing all 16 Passaic County municipalities with map
 - [x] **UTIL-04**: Privacy Policy page with standard legal text
@@ -208,7 +208,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | GUIDE-02 | Phase 3 | Complete |
 | GUIDE-03 | Phase 3 | Complete |
 | GUIDE-04 | Phase 3 | Complete |
-| UTIL-01 | Phase 3 | Pending |
+| UTIL-01 | Phase 3 | Complete |
 | UTIL-02 | Phase 3 | Complete |
 | UTIL-03 | Phase 3 | Complete |
 | UTIL-04 | Phase 3 | Complete |
