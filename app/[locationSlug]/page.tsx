@@ -15,6 +15,7 @@ import {
 // Section components (D-01 order)
 import { Hero } from '@/components/sections/Hero'
 import { CityIntro } from '@/components/sections/CityIntro'
+import { CityRoofingProfile } from '@/components/sections/CityRoofingProfile'
 import { MidPageCTA } from '@/components/sections/MidPageCTA'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
 import { NeighborhoodGrid } from '@/components/sections/NeighborhoodGrid'
@@ -104,10 +105,13 @@ export default async function LocationPage({
         localContext={content.localContext}
       />
 
-      {/* 3. Mid-page CTA (after About section -- D-04) */}
+      {/* 3. Local roofing profile (unique city signals) */}
+      <CityRoofingProfile content={content} />
+
+      {/* 4. Mid-page CTA (after About section -- D-04) */}
       <MidPageCTA cityName={content.name} />
 
-      {/* 4. Services We Offer (silo links -- ANCHOR-04, LOC-06) */}
+      {/* 5. Services We Offer (silo links -- ANCHOR-04, LOC-06) */}
       <ServicesGrid
         serviceSlugs={content.relevantServiceSlugs}
         title={`Roofing Services We Offer in ${content.name}`}

@@ -16,6 +16,7 @@ import { siteConfig } from '@/lib/site-config'
 // Section components (D-01 order)
 import { Hero } from '@/components/sections/Hero'
 import { ServiceOverview } from '@/components/sections/ServiceOverview'
+import { ServiceFitProfile } from '@/components/sections/ServiceFitProfile'
 import { MidPageCTA } from '@/components/sections/MidPageCTA'
 import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { BenefitsGrid } from '@/components/sections/BenefitsGrid'
@@ -111,10 +112,19 @@ export default async function ServicePage({
         serviceName={content.name}
       />
 
-      {/* 3. MidPageCTA (after overview) */}
+      {/* 3. Service-specific fit profile (unique service signals) */}
+      <ServiceFitProfile
+        serviceName={content.name}
+        category={content.category}
+        benefits={content.benefits}
+        processSteps={content.processSteps}
+        relatedServiceSlugs={content.relatedServiceSlugs}
+      />
+
+      {/* 4. MidPageCTA (after overview) */}
       <MidPageCTA />
 
-      {/* 4. ProcessSteps */}
+      {/* 5. ProcessSteps */}
       <ProcessSteps steps={content.processSteps} serviceName={content.name} />
 
       {/* 5. BenefitsGrid */}
