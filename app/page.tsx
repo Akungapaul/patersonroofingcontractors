@@ -15,22 +15,9 @@ import {
 } from '@/lib/schemas'
 import { siteConfig } from '@/lib/site-config'
 import type { Metadata } from 'next'
+import { homeMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = {
-  title: 'Paterson Roofing Contractors | Top-Rated Roofer in Paterson NJ',
-  description:
-    'Paterson\'s most trusted roofing contractor. Roof repair, replacement & installation serving Paterson and all of Passaic County, NJ. Free estimates, 24/7 emergency service. Call (973) 555-0100.',
-  alternates: {
-    canonical: '/',
-  },
-  openGraph: {
-    title: 'Paterson Roofing Contractors | Top-Rated Roofer in Paterson NJ',
-    description:
-      'Paterson\'s most trusted roofing contractor. Roof repair, replacement & installation serving Paterson and all of Passaic County, NJ. Free estimates, 24/7 emergency service. Call (973) 555-0100.',
-    url: '/',
-    type: 'website',
-  },
-}
+export const metadata: Metadata = homeMetadata
 
 export default function HomePage() {
   return (

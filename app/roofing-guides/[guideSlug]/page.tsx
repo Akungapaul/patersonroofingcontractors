@@ -7,6 +7,7 @@ import { calculateGuideReadTime } from '@/lib/utils'
 import { services } from '@/data/services'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import { guideMetadata } from '@/lib/seo-metadata'
 
 // JSON-LD schemas
 import { JsonLd } from '@/components/seo/JsonLd'
@@ -45,18 +46,7 @@ export async function generateMetadata({
   const content = getGuideContent(guideSlug)
   if (!content) return {}
 
-  return {
-    title: content.seoTitle,
-    description: content.seoDescription,
-    alternates: {
-      canonical: `/roofing-guides/${guideSlug}`,
-    },
-    openGraph: {
-      title: content.seoTitle,
-      description: content.seoDescription,
-      url: `/roofing-guides/${guideSlug}`,
-    },
-  }
+  return guideMetadata(content)
 }
 
 export default async function GuidePage({

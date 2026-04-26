@@ -7,19 +7,14 @@ import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { CityLinks } from '@/components/sections/CityLinks'
+import { staticPageMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = {
-  title: 'Contact Us | Paterson Roofing Contractors - Passaic County NJ',
+export const metadata: Metadata = staticPageMetadata({
+  title: 'Contact Paterson Roofing Contractors',
   description:
-    'Contact Paterson Roofing Contractors for a free estimate. Call (973) 555-0100 or fill out our form. Serving all 16 Passaic County municipalities.',
-  alternates: { canonical: '/contact' },
-  openGraph: {
-    title: 'Contact Us | Paterson Roofing Contractors - Passaic County NJ',
-    description:
-      'Contact Paterson Roofing Contractors for a free estimate. Call (973) 555-0100 or fill out our form. Serving all 16 Passaic County municipalities.',
-    url: '/contact',
-  },
-}
+    'Contact Paterson Roofing Contractors for a free roofing estimate in Paterson or Passaic County, NJ. Call or send a request online.',
+  canonical: '/contact',
+})
 
 export default function ContactPage() {
   const breadcrumbItems = [

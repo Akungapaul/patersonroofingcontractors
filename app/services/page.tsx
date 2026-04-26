@@ -12,22 +12,14 @@ import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
+import { staticPageMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = {
-  title: 'Roofing Services | Paterson Roofing Contractors - Passaic County NJ',
+export const metadata: Metadata = staticPageMetadata({
+  title: 'Roofing Services in Passaic County, NJ',
   description:
-    'Full range of roofing services for Passaic County, NJ. Residential and commercial roof repair, replacement, installation, gutters, and more. Free estimates.',
-  alternates: {
-    canonical: '/services',
-  },
-  openGraph: {
-    title:
-      'Roofing Services | Paterson Roofing Contractors - Passaic County NJ',
-    description:
-      'Full range of roofing services for Passaic County, NJ. Residential and commercial roof repair, replacement, installation, gutters, and more. Free estimates.',
-    url: '/services',
-  },
-}
+    'Roof repair, replacement, installation, gutters, flat roofing, and commercial roofing services across Passaic County, NJ.',
+  canonical: '/services',
+})
 
 export default function ServicesIndexPage() {
   const breadcrumbItems = [

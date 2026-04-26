@@ -3,6 +3,36 @@ import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { siteConfig } from '@/lib/site-config'
 import { services } from '@/data/services'
 
+const priorityServiceSlugs = [
+  'roof-repair',
+  'roof-leak-repair',
+  'emergency-roof-repair',
+  're-roofing',
+  'residential-roof-installation',
+  'commercial-roof-repair',
+  'flat-roof-installation-repair',
+  'gutter-installation-repair',
+] as const
+
+const priorityAreaSlugs = [
+  'paterson',
+  'clifton',
+  'passaic',
+  'wayne',
+  'hawthorne',
+  'totowa',
+  'little-falls',
+  'west-milford',
+] as const
+
+const priorityServices = priorityServiceSlugs
+  .map((slug) => services.find((service) => service.slug === slug))
+  .filter((service): service is (typeof services)[number] => Boolean(service))
+
+const priorityAreas = priorityAreaSlugs
+  .map((slug) => siteConfig.municipalities.find((area) => area.slug === slug))
+  .filter((area): area is (typeof siteConfig.municipalities)[number] => Boolean(area))
+
 export function Footer() {
   return (
     <footer className="bg-navy text-white">
@@ -37,7 +67,7 @@ export function Footer() {
               Our Services
             </h3>
             <ul className="space-y-2">
-              {services.map((service) => (
+              {priorityServices.map((service) => (
                 <li key={service.slug}>
                   <Link
                     href={`/services/${service.slug}`}
@@ -47,6 +77,14 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/services"
+                  className="font-semibold text-amber-light transition-colors hover:text-amber"
+                >
+                  View all services
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -56,7 +94,7 @@ export function Footer() {
               Service Areas
             </h3>
             <ul className="space-y-2">
-              {siteConfig.municipalities.map((m) => (
+              {priorityAreas.map((m) => (
                 <li key={m.slug}>
                   <Link
                     href={`/roofing-contractor-${m.slug}-nj`}
@@ -66,6 +104,14 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+                <Link
+                  href="/service-area"
+                  className="font-semibold text-amber-light transition-colors hover:text-amber"
+                >
+                  View all service areas
+                </Link>
+              </li>
             </ul>
           </div>
 

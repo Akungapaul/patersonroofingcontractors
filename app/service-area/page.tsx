@@ -8,19 +8,14 @@ import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
+import { staticPageMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = {
-  title: 'Service Area | Paterson Roofing Contractors - Passaic County NJ',
+export const metadata: Metadata = staticPageMetadata({
+  title: 'Passaic County Roofing Service Area',
   description:
-    'Paterson Roofing Contractors serves all 16 municipalities in Passaic County, NJ. Find your city and request a free roofing estimate today.',
-  alternates: { canonical: '/service-area' },
-  openGraph: {
-    title: 'Service Area | Paterson Roofing Contractors - Passaic County NJ',
-    description:
-      'Paterson Roofing Contractors serves all 16 municipalities in Passaic County, NJ. Find your city and request a free roofing estimate today.',
-    url: '/service-area',
-  },
-}
+    'Roofing service areas across Passaic County, NJ, including Paterson, Clifton, Passaic, Wayne, Hawthorne, Totowa, and nearby towns.',
+  canonical: '/service-area',
+})
 
 export default function ServiceAreaPage() {
   const breadcrumbItems = [

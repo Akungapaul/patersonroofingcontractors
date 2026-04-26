@@ -2,6 +2,7 @@ import { getServiceContent, getAllServiceSlugs } from '@/data/services/content'
 import { services } from '@/data/services'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import { serviceMetadata } from '@/lib/seo-metadata'
 
 // JSON-LD schemas
 import { JsonLd } from '@/components/seo/JsonLd'
@@ -43,18 +44,7 @@ export async function generateMetadata({
   const content = getServiceContent(serviceSlug)
   if (!content) return {}
 
-  return {
-    title: content.seoTitle,
-    description: content.seoDescription,
-    alternates: {
-      canonical: `/services/${serviceSlug}`,
-    },
-    openGraph: {
-      title: content.seoTitle,
-      description: content.seoDescription,
-      url: `/services/${serviceSlug}`,
-    },
-  }
+  return serviceMetadata(content)
 }
 
 export default async function ServicePage({

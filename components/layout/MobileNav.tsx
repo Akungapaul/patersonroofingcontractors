@@ -81,6 +81,8 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
     }
   }, [isOpen])
 
+  if (!isOpen) return null
+
   return (
     <>
       {/* Backdrop overlay */}

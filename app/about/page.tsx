@@ -9,19 +9,14 @@ import { CityLinks } from '@/components/sections/CityLinks'
 import { ContactForm } from '@/components/forms/ContactForm'
 import { Shield, FileCheck, Award } from 'lucide-react'
 import { Card } from '@/components/ui/Card'
+import { staticPageMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = {
-  title: 'About Us | Paterson Roofing Contractors - Passaic County NJ',
+export const metadata: Metadata = staticPageMetadata({
+  title: 'About Paterson Roofing Contractors',
   description:
-    "Learn about Paterson Roofing Contractors -- Passaic County's trusted roofer. Licensed, insured, 15+ years experience serving all 16 municipalities.",
-  alternates: { canonical: '/about' },
-  openGraph: {
-    title: 'About Us | Paterson Roofing Contractors - Passaic County NJ',
-    description:
-      "Learn about Paterson Roofing Contractors -- Passaic County's trusted roofer. Licensed, insured, 15+ years experience serving all 16 municipalities.",
-    url: '/about',
-  },
-}
+    "Learn about Paterson Roofing Contractors, a local Passaic County roofer for repairs, replacements, emergency service, and free estimates.",
+  canonical: '/about',
+})
 
 const credentials = [
   {

@@ -2,6 +2,7 @@ import { siteConfig } from '@/lib/site-config'
 import { getCityContent } from '@/data/content'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import { cityMetadata } from '@/lib/seo-metadata'
 
 // JSON-LD schemas
 import { JsonLd } from '@/components/seo/JsonLd'
@@ -48,18 +49,7 @@ export async function generateMetadata({
   const content = getCityContent(citySlug)
   if (!content) return {}
 
-  return {
-    title: content.seoTitle,
-    description: content.seoDescription,
-    alternates: {
-      canonical: `/${locationSlug}`,
-    },
-    openGraph: {
-      title: content.seoTitle,
-      description: content.seoDescription,
-      url: `/${locationSlug}`,
-    },
-  }
+  return cityMetadata(content)
 }
 
 export default async function LocationPage({

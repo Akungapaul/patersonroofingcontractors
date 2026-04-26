@@ -15,21 +15,14 @@ import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 import { Card } from '@/components/ui/Card'
+import { staticPageMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = {
-  title: 'Roofing Guides | Expert Advice - Paterson Roofing Contractors',
+export const metadata: Metadata = staticPageMetadata({
+  title: 'Roofing Guides for Passaic County Homeowners',
   description:
-    'Free roofing guides and resources for Passaic County homeowners. Learn about roof repair, replacement, materials, costs, and maintenance.',
-  alternates: {
-    canonical: '/roofing-guides',
-  },
-  openGraph: {
-    title: 'Roofing Guides | Expert Advice - Paterson Roofing Contractors',
-    description:
-      'Free roofing guides and resources for Passaic County homeowners. Learn about roof repair, replacement, materials, costs, and maintenance.',
-    url: '/roofing-guides',
-  },
-}
+    'Free roofing guides for Passaic County homeowners covering roof repair, replacement, materials, costs, leaks, and maintenance.',
+  canonical: '/roofing-guides',
+})
 
 export default function GuidesIndexPage() {
   const guides = getAllGuideContent()
