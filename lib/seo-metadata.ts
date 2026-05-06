@@ -4,7 +4,6 @@ import type { ServiceContent } from '@/data/services/types'
 import type { GuideContent } from '@/data/guides/types'
 
 const BRAND = 'Paterson Roofing Contractors'
-const COUNTY = 'Passaic County, NJ'
 
 function cleanText(value: string): string {
   return value.replace(/\s+/g, ' ').trim()
@@ -44,16 +43,16 @@ function metadata({
 
 export function cityMetadata(content: CityContent): Metadata {
   return metadata({
-    title: `Roofing Contractor in ${content.name}, NJ`,
-    description: `Roof repair, replacement, and emergency roofing in ${content.name}, NJ. Local ${COUNTY} roofers offering free estimates.`,
+    title: content.seoTitle,
+    description: content.seoDescription,
     canonical: `/roofing-contractor-${content.slug}-nj`,
   })
 }
 
 export function serviceMetadata(content: ServiceContent): Metadata {
   return metadata({
-    title: `${content.name} in ${COUNTY}`,
-    description: `${content.name} for ${COUNTY} homes and businesses. Local roofers for inspections, repairs, replacements, and free estimates.`,
+    title: content.seoTitle,
+    description: content.seoDescription,
     canonical: `/services/${content.slug}`,
   })
 }
