@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function SeoContent() {
   return (
     <section className="bg-white py-section-sm lg:py-section">
@@ -7,13 +9,13 @@ export function SeoContent() {
         </h2>
         <div className="space-y-4 text-lg leading-relaxed text-gray-700">
           <p>
-            Passaic County homeowners face unique roofing challenges that
-            demand experienced, local contractors who understand the region.
-            From powerful nor&apos;easters and heavy snowfall to summer
-            thunderstorms and ice dam buildup during harsh New Jersey winters,
-            your roof takes a beating year-round. That&apos;s why families
-            across all 16 municipalities trust Paterson Roofing Contractors to
-            keep their homes protected.
+            Passaic County homeowners face unique roofing challenges that demand
+            experienced, local contractors who understand the region. From
+            powerful nor&apos;easters and heavy snowfall to summer thunderstorms
+            and ice dam buildup during harsh New Jersey winters, your roof takes
+            a beating year-round. That&apos;s why families across all 16
+            municipalities trust Paterson Roofing Contractors to keep their
+            homes protected.
           </p>
           <p>
             Our team has over 15 years of experience working on every type of
@@ -36,8 +38,82 @@ export function SeoContent() {
             reputation on every job &mdash; because in Passaic County, your
             neighbors are our neighbors.
           </p>
+          <p>
+            In Paterson specifically, the most common roofing calls involve roof
+            leaks after heavy rain, asphalt shingle repair on older homes, flat
+            roof problems on multi-family and mixed-use buildings, storm damage,
+            and replacement decisions for roofs that have been patched too many
+            times. Our Paterson roofing estimates look at the full roof system
+            &mdash; shingles or membrane, flashing, gutters, ventilation,
+            decking, and drainage &mdash; so homeowners and property owners know
+            whether a targeted repair, roof overlay, EPDM rubber roof repair, or
+            full re-roofing project is the right next step.
+          </p>
+          <div className="rounded-xl border border-gray-200 bg-gray-light p-6">
+            <h3 className="mb-3 font-heading text-xl font-bold text-navy">
+              Most requested Paterson roofing services
+            </h3>
+            <ul className="grid gap-3 sm:grid-cols-2">
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/services/roof-repair"
+                >
+                  Roof repair in Paterson
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/services/emergency-roof-repair"
+                >
+                  Emergency roof repair
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/services/re-roofing"
+                >
+                  Roof replacement and re-roofing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/services/rubber-roofing-epdm"
+                >
+                  Rubber and EPDM flat roofing
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/services/roof-overlay-installation"
+                >
+                  Roof overlay installation
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/services/historic-roof-restoration"
+                >
+                  Historic roof restoration
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-semibold text-red hover:underline"
+                  href="/roofing-contractor-paterson-nj"
+                >
+                  Roofing contractor in Paterson, NJ
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

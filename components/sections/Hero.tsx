@@ -1,23 +1,30 @@
-import { Button } from '@/components/ui/Button'
-import { PhoneButton } from '@/components/ui/PhoneButton'
-import Image from 'next/image'
-import Link from 'next/link'
+import { Button } from "@/components/ui/Button";
+import { PhoneButton } from "@/components/ui/PhoneButton";
+import Image from "next/image";
+import Link from "next/link";
 
 interface HeroProps {
-  headline?: string
-  subheadline?: string
-  backgroundImage?: string
-  readTime?: number
-  minHeight?: string
+  headline?: string;
+  subheadline?: string;
+  backgroundImage?: string;
+  readTime?: number;
+  minHeight?: string;
 }
 
-export function Hero({ headline, subheadline, backgroundImage, readTime, minHeight }: HeroProps = {}) {
+export function Hero({
+  headline,
+  subheadline,
+  backgroundImage,
+  readTime,
+  minHeight,
+}: HeroProps = {}) {
   const defaultHeadline =
-    "Paterson\u2019s #1 Roofing Contractors \u2014 Serving All of Passaic County"
+    "Paterson\u2019s #1 Roofing Contractors \u2014 Serving All of Passaic County";
   const defaultSubheadline =
-    'Professional roof repair, replacement & installation serving Paterson and all 16 Passaic County municipalities. Free estimates, 24/7 emergency service.'
-  const isLocationPage = !!headline
-  const heightClass = minHeight ?? (isLocationPage ? 'min-h-[70vh]' : 'min-h-screen')
+    "Paterson roofing contractor for roof repair, roof replacement, asphalt shingle repair, emergency leaks, and flat roofing across Paterson and all 16 Passaic County municipalities. Free estimates, 24/7 emergency service.";
+  const isLocationPage = !!headline;
+  const heightClass =
+    minHeight ?? (isLocationPage ? "min-h-[70vh]" : "min-h-screen");
 
   return (
     <section
@@ -49,12 +56,12 @@ export function Hero({ headline, subheadline, backgroundImage, readTime, minHeig
         <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
           <Link href="#contact">
             <Button variant="primary" size="lg">
-              Get Free Estimate
+              Get a Paterson Roofing Estimate
             </Button>
           </Link>
           <PhoneButton compact={false} />
         </div>
       </div>
     </section>
-  )
+  );
 }
