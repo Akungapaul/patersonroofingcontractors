@@ -17,7 +17,10 @@ import { siteConfig } from '@/lib/site-config'
 import type { Metadata } from 'next'
 import { homeMetadata } from '@/lib/seo-metadata'
 
-export const metadata: Metadata = homeMetadata
+export const metadata: Metadata = {
+  ...homeMetadata,
+  alternates: { ...homeMetadata.alternates, canonical: '/' },
+}
 
 export default function HomePage() {
   return (

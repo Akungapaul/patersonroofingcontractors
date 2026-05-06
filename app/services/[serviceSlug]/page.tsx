@@ -45,7 +45,13 @@ export async function generateMetadata({
   const content = getServiceContent(serviceSlug)
   if (!content) return {}
 
-  return serviceMetadata(content)
+  const canonical = `/services/${content.slug}`
+  const metadata = serviceMetadata(content)
+
+  return {
+    ...metadata,
+    alternates: { ...metadata.alternates, canonical },
+  }
 }
 
 export default async function ServicePage({

@@ -46,7 +46,13 @@ export async function generateMetadata({
   const content = getGuideContent(guideSlug)
   if (!content) return {}
 
-  return guideMetadata(content)
+  const canonical = `/roofing-guides/${content.slug}`
+  const metadata = guideMetadata(content)
+
+  return {
+    ...metadata,
+    alternates: { ...metadata.alternates, canonical },
+  }
 }
 
 export default async function GuidePage({

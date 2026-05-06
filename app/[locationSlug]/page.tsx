@@ -50,7 +50,13 @@ export async function generateMetadata({
   const content = getCityContent(citySlug)
   if (!content) return {}
 
-  return cityMetadata(content)
+  const canonical = `/roofing-contractor-${content.slug}-nj`
+  const metadata = cityMetadata(content)
+
+  return {
+    ...metadata,
+    alternates: { ...metadata.alternates, canonical },
+  }
 }
 
 export default async function LocationPage({
