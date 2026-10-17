@@ -4,11 +4,11 @@ export const roofRepair: ServiceContent = {
   slug: 'roof-repair',
   name: 'Roof Repair',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Roof Repair in Passaic County, NJ',
+  heroHeadline: 'Roof Repair Paterson, NJ',
   heroSubheadline:
     'Professional roof repair for homes and businesses across all 16 Passaic County municipalities. Licensed, insured, and committed to lasting solutions with free estimates.',
 
-  overviewHtml: `<p>When a roof develops problems, time is the enemy. Every hour a damaged roof sits unaddressed, water infiltrates deeper into the building envelope, saturating insulation, staining ceilings, weakening structural framing, and creating conditions for mold growth that can threaten occupant health. At Paterson Roofing Contractors, we deliver fast, thorough roof repair across every municipality in Passaic County -- from the dense urban streetscapes of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to the wooded residential communities of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and <a href="/roofing-contractor-ringwood-nj">Ringwood</a>. Our team brings over 15 years of hands-on experience diagnosing and repairing every type of roofing issue that homeowners and property managers encounter in northern New Jersey.</p>
+  overviewHtml: `<p>Roof Repair Paterson, NJ is available from Paterson Roofing Contractors, with fast leak diagnosis, shingle repair, and flashing fixes across Passaic County. When a roof develops problems, time is the enemy. Every hour a damaged roof sits unaddressed, water infiltrates deeper into the building envelope, saturating insulation, staining ceilings, weakening structural framing, and creating conditions for mold growth that can threaten occupant health. At Paterson Roofing Contractors, we deliver fast, thorough roof repair across every municipality in Passaic County -- from the dense urban streetscapes of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to the wooded residential communities of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and <a href="/roofing-contractor-ringwood-nj">Ringwood</a>. Our team brings over 15 years of hands-on experience diagnosing and repairing every type of roofing issue that homeowners and property managers encounter in northern New Jersey.</p>
 
 <p>Roof repair in Passaic County is not a one-size-fits-all proposition. The county spans a remarkable range of building types, terrain, and microclimates. In Paterson, our crews navigate tightly packed multi-family buildings with flat and low-slope membrane roofs that demand meticulous patch work around parapet walls, HVAC penetrations, and aging flashing details. Drive fifteen minutes west into Wayne or Hawthorne, and the landscape shifts to suburban colonials and Cape Cods with steep-pitched asphalt shingle roofs where missing shingles, cracked ridge caps, and deteriorated pipe boots are the primary culprits behind leaks. Head further northwest into the Highlands communities of Wanaque, Bloomingdale, and Pompton Lakes, and tree canopy becomes the dominant factor -- fallen branches puncture shingles, accumulated leaf debris traps moisture against roofing surfaces, and shade prevents roofs from drying properly after rainstorms, accelerating granule loss and moss colonization.</p>
 
@@ -123,7 +123,7 @@ export const roofRepair: ServiceContent = {
     'roof-patching',
   ],
 
-  seoTitle: 'Roof Repair | Paterson Roofing Contractors - Passaic County NJ',
+  seoTitle: 'Roof Repair Paterson, NJ',
   seoDescription:
     'Professional roof repair in Passaic County, NJ. Fast, reliable repairs for shingle, flat, slate, and metal roofs. Free inspections, same-day service, workmanship warranty. Call today.',
 }

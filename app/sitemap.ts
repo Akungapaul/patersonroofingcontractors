@@ -14,7 +14,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }))
 
   const servicePages = services.map((s) => ({
-    url: `${baseUrl}/services/${s.slug}`,
+    url:
+      s.slug === 'roof-repair'
+        ? `${baseUrl}/roof-repair-paterson-nj`
+        : `${baseUrl}/services/${s.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,

@@ -7,11 +7,11 @@ export const paterson: CityContent = {
   state: "NJ",
   cluster: "Urban",
 
-  heroHeadline: "Expert Roofing Contractors in Paterson, NJ",
+  heroHeadline: "Roofing Contractor Paterson, NJ",
   heroSubheadline:
     "Trusted roof repair, replacement & installation for Paterson homes and businesses. Serving the Silk City for 15+ years.",
 
-  introHtml: `<p>Paterson, New Jersey -- the Silk City -- stands as the largest municipality in Passaic County with over 159,000 residents packed into just 8.4 square miles. This extraordinary population density shapes every aspect of roofing work in the city, from the tightly packed row houses on the Eastside to the towering multi-family apartment buildings that line Broadway and Main Street. Unlike suburban communities where a roofing crew can park a truck in the driveway and spread materials across a spacious lawn, Paterson roofing contractors must navigate narrow streets, limited staging areas, and buildings separated by mere inches. Our team has spent over 15 years mastering the unique demands of urban roofing in Paterson, and we understand that this city requires a fundamentally different approach than its suburban neighbors in Passaic County.</p>
+  introHtml: `<p>Roofing Contractor Paterson, NJ is Paterson Roofing Contractors, providing roof repair, replacement, and flat-roof services for homes and businesses across the city. Paterson, New Jersey -- the Silk City -- stands as the largest municipality in Passaic County with over 159,000 residents packed into just 8.4 square miles. This extraordinary population density shapes every aspect of roofing work in the city, from the tightly packed row houses on the Eastside to the towering multi-family apartment buildings that line Broadway and Main Street. Unlike suburban communities where a roofing crew can park a truck in the driveway and spread materials across a spacious lawn, Paterson roofing contractors must navigate narrow streets, limited staging areas, and buildings separated by mere inches. Our team has spent over 15 years mastering the unique demands of urban roofing in Paterson, and we understand that this city requires a fundamentally different approach than its suburban neighbors in Passaic County.</p>
 
 <p>The housing stock in Paterson tells the story of more than a century of dense urban development. Near the Great Falls National Historical Park, you will find converted mill buildings and industrial structures whose flat and low-slope roofs demand specialized membrane systems such as TPO, EPDM, and modified bitumen. These are not the straightforward asphalt shingle jobs you encounter in Wayne or Hawthorne. <a href="/services/flat-roof-installation-repair">Flat roof services</a> account for a significant portion of our work in Paterson because so many buildings -- from commercial storefronts along Market Street to the multi-family dwellings that define neighborhoods like People's Park and Wrigley Park -- feature flat or nearly flat roofing systems that require expert installation and meticulous maintenance to prevent ponding water, membrane failure, and chronic leaks.</p>
 
@@ -172,7 +172,7 @@ export const paterson: CityContent = {
     },
   ],
 
-  seoTitle: "Roofing Contractor Paterson NJ | Repair, Replacement, EPDM",
+  seoTitle: "Roofing Contractor Paterson, NJ",
   seoDescription:
     "Roofing contractor in Paterson, NJ for roof repair, replacement, emergency leaks, EPDM flat roofs, roof overlay, and historic roof restoration.",
 };
