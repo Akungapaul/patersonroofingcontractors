@@ -4,11 +4,11 @@ export const roofMaintenancePrograms: ServiceContent = {
   slug: 'roof-maintenance-programs',
   name: 'Roof Maintenance Programs',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Roof Maintenance Programs in Passaic County, NJ',
+  heroHeadline: 'Roof Maintenance Programs Paterson, NJ',
   heroSubheadline:
     'Scheduled maintenance plans to extend your roof lifespan by years. Biannual inspections, gutter cleaning, and minor repairs across all 16 Passaic County municipalities.',
 
-  overviewHtml: `<p>The single most cost-effective investment you can make in your roofing system is not a repair or a replacement -- it is a maintenance program that catches problems when they are small, cheap to fix, and months or years away from causing real damage. Paterson Roofing Contractors offers structured roof maintenance programs for residential and commercial properties across all 16 municipalities in Passaic County, from the densely built neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and Passaic to the wooded suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>. Our programs include biannual inspections timed to the two most critical seasons in the northern New Jersey roofing calendar, combined with preventive maintenance tasks that address the specific wear patterns your roof experiences based on its materials, age, and environment.</p>
+  overviewHtml: `<p>Roof Maintenance Programs Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. The single most cost-effective investment you can make in your roofing system is not a repair or a replacement -- it is a maintenance program that catches problems when they are small, cheap to fix, and months or years away from causing real damage. Paterson Roofing Contractors offers structured roof maintenance programs for residential and commercial properties across all 16 municipalities in Passaic County, from the densely built neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and Passaic to the wooded suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>. Our programs include biannual inspections timed to the two most critical seasons in the northern New Jersey roofing calendar, combined with preventive maintenance tasks that address the specific wear patterns your roof experiences based on its materials, age, and environment.</p>
 
 <p>Roofing materials have a designed service life, but that lifespan is a range, not a guarantee. A typical architectural asphalt shingle roof carries a manufacturer warranty of 25 to 30 years, but actual performance varies enormously based on installation quality, ventilation adequacy, environmental exposure, and -- most critically -- maintenance history. A well-maintained shingle roof in Passaic County can reach the full warranty period and beyond. A neglected roof on the same street, installed with the same shingles by the same crew, may fail catastrophically in 15 years because minor issues were left to compound. Clogged gutters cause water to back up under the roof edge, saturating fascia boards and accelerating shingle deterioration along the eave line. A cracked pipe boot seal goes unnoticed for two years, allowing steady moisture intrusion that rots the surrounding decking. A colony of moss grows unchecked on a north-facing slope, retaining moisture against shingle surfaces and eating through the granule layer. Each of these problems is inexpensive to fix when caught early through routine maintenance -- and devastatingly expensive when left to develop into full-scale roof failure.</p>
 
@@ -119,7 +119,7 @@ export const roofMaintenancePrograms: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Maintenance Programs | Paterson Roofing Contractors - Passaic County NJ',
+    'Roof Maintenance Programs Paterson, NJ',
   seoDescription:
     'Scheduled roof maintenance programs in Passaic County, NJ. Biannual inspections, gutter cleaning, and minor repairs to extend roof life by 5-10 years. Affordable annual plans.',
 }

@@ -4,11 +4,11 @@ export const elastomericRoofCoating: ServiceContent = {
   slug: 'elastomeric-roof-coating',
   name: 'Elastomeric Roof Coating',
   category: 'Energy & Solar',
-  heroHeadline: 'Elastomeric Roof Coating in Passaic County, NJ',
+  heroHeadline: 'Elastomeric Roof Coating Paterson, NJ',
   heroSubheadline:
     'Elastomeric coatings that expand and contract with temperature changes to seal cracks, reflect heat, and extend your roof lifespan. For residential and commercial properties.',
 
-  overviewHtml: `<p>Elastomeric roof coating is a flexible, rubber-like coating system that stretches and contracts with your roof surface as temperatures change, maintaining a continuous waterproof seal through the extreme temperature swings that Passaic County experiences across four distinct seasons. From below-zero winter nights to 95-degree summer afternoons, the temperature differential on a Passaic County roof surface can exceed 150 degrees Fahrenheit over the course of a year. This thermal cycling causes rigid coatings and sealants to crack and fail, but elastomeric coatings accommodate the movement without losing adhesion or waterproofing integrity. At Paterson Roofing Contractors, we apply elastomeric roof coatings on residential and commercial properties across every municipality in Passaic County, restoring and protecting roof surfaces on homes in <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>, commercial buildings in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-totowa-nj">Totowa</a>, and multi-family properties throughout <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a>.</p>
+  overviewHtml: `<p>Elastomeric Roof Coating Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Elastomeric roof coating is a flexible, rubber-like coating system that stretches and contracts with your roof surface as temperatures change, maintaining a continuous waterproof seal through the extreme temperature swings that Passaic County experiences across four distinct seasons. From below-zero winter nights to 95-degree summer afternoons, the temperature differential on a Passaic County roof surface can exceed 150 degrees Fahrenheit over the course of a year. This thermal cycling causes rigid coatings and sealants to crack and fail, but elastomeric coatings accommodate the movement without losing adhesion or waterproofing integrity. At Paterson Roofing Contractors, we apply elastomeric roof coatings on residential and commercial properties across every municipality in Passaic County, restoring and protecting roof surfaces on homes in <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>, commercial buildings in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-totowa-nj">Totowa</a>, and multi-family properties throughout <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a>.</p>
 
 <p>The defining characteristic of elastomeric coatings is their elongation capacity -- the ability to stretch beyond their original dimensions without tearing. High-quality elastomeric roof coatings achieve elongation rates of 300 to 600 percent, meaning the dried coating film can stretch to three to six times its original length before reaching its breaking point. This extraordinary flexibility allows the coating to bridge hairline cracks in existing roof surfaces, accommodate the expansion joints built into large commercial roofs, and maintain adhesion to substrates that experience significant thermal movement. For the older commercial and residential buildings throughout Passaic County where roof surfaces have developed networks of fine cracks from decades of thermal cycling, elastomeric coating fills and bridges these cracks while creating a new, continuous weather barrier over the entire surface.</p>
 
@@ -119,7 +119,7 @@ export const elastomericRoofCoating: ServiceContent = {
   ],
 
   seoTitle:
-    'Elastomeric Roof Coating | Paterson Roofing Contractors - Passaic County NJ',
+    'Elastomeric Roof Coating Paterson, NJ',
   seoDescription:
     'Elastomeric roof coating in Passaic County, NJ. Flexible coatings that seal cracks, reflect heat, and restore aging roofs. Metal roof restoration, energy savings. 5-15 year warranties.',
 }

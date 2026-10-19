@@ -4,11 +4,11 @@ export const greenRoofInstallation: ServiceContent = {
   slug: 'green-roof-installation',
   name: 'Green Roof Installation',
   category: 'Commercial Roofing',
-  heroHeadline: 'Green Roof Installation in Passaic County, NJ',
+  heroHeadline: 'Green Roof Installation Paterson, NJ',
   heroSubheadline:
     'Vegetated green roof systems for commercial buildings in Passaic County. Reduce stormwater runoff, improve insulation, lower energy costs, and create sustainable urban spaces.',
 
-  overviewHtml: `<p>Green roofing systems transform underutilized commercial rooftop space into living, breathing ecosystems that deliver measurable environmental, economic, and aesthetic benefits. By layering waterproofing, root barriers, drainage, growing media, and vegetation over a structural roof deck, green roofs reduce stormwater runoff, improve building insulation, extend roof membrane lifespan, mitigate urban heat island effects, and create attractive spaces that enhance property value. At Paterson Roofing Contractors, we design and install green roof systems for commercial buildings throughout Passaic County, from the dense urban cores of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> where stormwater management is a critical municipal concern to the corporate properties in <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> where sustainability and green building certification drive design decisions.</p>
+  overviewHtml: `<p>Green Roof Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Green roofing systems transform underutilized commercial rooftop space into living, breathing ecosystems that deliver measurable environmental, economic, and aesthetic benefits. By layering waterproofing, root barriers, drainage, growing media, and vegetation over a structural roof deck, green roofs reduce stormwater runoff, improve building insulation, extend roof membrane lifespan, mitigate urban heat island effects, and create attractive spaces that enhance property value. At Paterson Roofing Contractors, we design and install green roof systems for commercial buildings throughout Passaic County, from the dense urban cores of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> where stormwater management is a critical municipal concern to the corporate properties in <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> where sustainability and green building certification drive design decisions.</p>
 
 <p>We install two primary green roof types: extensive and intensive. Extensive green roofs use a shallow growing media layer -- typically 3 to 6 inches deep -- planted with hardy, drought-tolerant sedum and succulent species that require minimal maintenance once established. These lightweight systems add only 15 to 25 pounds per square foot to the structural load, making them suitable for a wide range of existing commercial buildings without structural modification. Intensive green roofs use deeper growing media -- 8 inches to several feet -- supporting a broader plant palette including grasses, perennials, shrubs, and even small trees. These heavier systems require structural capacity of 80 to 150 pounds per square foot and are typically designed into new construction or buildings with reinforced roof structures. For most retrofit applications on existing Passaic County commercial buildings, we recommend extensive green roof systems for their lighter weight and lower maintenance requirements.</p>
 
@@ -119,7 +119,7 @@ export const greenRoofInstallation: ServiceContent = {
   ],
 
   seoTitle:
-    'Green Roof Installation | Paterson Roofing Contractors - Passaic County NJ',
+    'Green Roof Installation Paterson, NJ',
   seoDescription:
     'Green roof installation for commercial buildings in Passaic County, NJ. Reduce stormwater runoff, lower energy costs, extend roof life. Extensive and intensive systems. Professional design and installation.',
 }

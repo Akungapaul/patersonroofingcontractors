@@ -4,11 +4,11 @@ export const slateRoofInstallationRepair: ServiceContent = {
   slug: 'slate-roof-installation-repair',
   name: 'Slate Roof Installation & Repair',
   category: 'Residential Roofing',
-  heroHeadline: 'Slate Roof Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Slate Roof Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Natural and synthetic slate roofing for historic and premium homes across all 16 Passaic County municipalities. Expert installation and restoration preserving classic architecture.',
 
-  overviewHtml: `<p>Slate roofing represents the pinnacle of residential roofing craftsmanship -- a natural stone material that delivers a century or more of protection while providing an aesthetic distinction that no manufactured product can truly replicate. In Passaic County, slate roofs are woven into the architectural heritage of the region, adorning the Victorian-era mansions along Broadway in <a href="/roofing-contractor-paterson-nj">Paterson</a>, the historic homes of <a href="/roofing-contractor-haledon-nj">Haledon</a>, and the stately properties scattered throughout the established neighborhoods of <a href="/roofing-contractor-clifton-nj">Clifton</a> and North Haledon. Paterson Roofing Contractors brings the specialized knowledge and traditional skills required for slate roofing work that most general roofing contractors simply do not possess -- because slate installation and repair is a craft discipline that demands years of hands-on experience with this unique material.</p>
+  overviewHtml: `<p>Slate Roof Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Slate roofing represents the pinnacle of residential roofing craftsmanship -- a natural stone material that delivers a century or more of protection while providing an aesthetic distinction that no manufactured product can truly replicate. In Passaic County, slate roofs are woven into the architectural heritage of the region, adorning the Victorian-era mansions along Broadway in <a href="/roofing-contractor-paterson-nj">Paterson</a>, the historic homes of <a href="/roofing-contractor-haledon-nj">Haledon</a>, and the stately properties scattered throughout the established neighborhoods of <a href="/roofing-contractor-clifton-nj">Clifton</a> and North Haledon. Paterson Roofing Contractors brings the specialized knowledge and traditional skills required for slate roofing work that most general roofing contractors simply do not possess -- because slate installation and repair is a craft discipline that demands years of hands-on experience with this unique material.</p>
 
 <p>Natural slate is quarried stone, typically split into thin tiles along the stone's natural cleavage planes. The resulting tiles are remarkably durable -- Vermont and Pennsylvania slate, the two primary sources for roofing slate on the East Coast, can last 75 to 200 years depending on the quarry source and stone quality. This extraordinary longevity means that many of the original slate roofs installed on Passaic County homes in the late 1800s and early 1900s are still performing today, more than a century after installation. However, slate roofs are not maintenance-free. Individual tiles crack, slip from their fastening points, or deteriorate unevenly based on their specific stone composition and position on the roof. The copper or galvanized nails and flashing used in the original installation corrode over decades, eventually losing their holding power. Properly maintaining a slate roof requires the ability to replace individual tiles without disturbing the surrounding field, match replacement slate to the existing installation in color, thickness, and texture, and identify whether deterioration is localized and repairable or systemic and indicative of approaching end-of-life for the overall installation.</p>
 
@@ -119,7 +119,7 @@ export const slateRoofInstallationRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Slate Roof Installation & Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Slate Roof Installation & Repair Paterson, NJ',
   seoDescription:
     'Expert slate roof installation and repair in Passaic County, NJ. Natural and synthetic slate for historic and premium homes. Traditional craftsmanship with quarry-matched materials.',
 }

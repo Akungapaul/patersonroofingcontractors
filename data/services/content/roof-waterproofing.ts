@@ -4,11 +4,11 @@ export const roofWaterproofing: ServiceContent = {
   slug: 'roof-waterproofing',
   name: 'Roof Waterproofing',
   category: 'Components & Specialty',
-  heroHeadline: 'Roof Waterproofing in Passaic County, NJ',
+  heroHeadline: 'Roof Waterproofing Paterson, NJ',
   heroSubheadline:
     'Comprehensive waterproofing solutions including membrane coatings, sealants, and drainage improvements for lasting leak-free protection across Passaic County.',
 
-  overviewHtml: `<p>Roof waterproofing goes beyond basic roofing installation to create a comprehensive moisture barrier that protects your building from water infiltration at every vulnerable point. While a properly installed roof provides the primary defense against rain and snow, waterproofing addresses the secondary and tertiary layers of protection that become critical when primary roofing materials age, when design vulnerabilities exist, or when building conditions create moisture challenges that standard roofing alone cannot solve. At Paterson Roofing Contractors, we provide complete roof waterproofing services for residential and commercial properties across all 16 Passaic County municipalities.</p>
+  overviewHtml: `<p>Roof Waterproofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Roof waterproofing goes beyond basic roofing installation to create a comprehensive moisture barrier that protects your building from water infiltration at every vulnerable point. While a properly installed roof provides the primary defense against rain and snow, waterproofing addresses the secondary and tertiary layers of protection that become critical when primary roofing materials age, when design vulnerabilities exist, or when building conditions create moisture challenges that standard roofing alone cannot solve. At Paterson Roofing Contractors, we provide complete roof waterproofing services for residential and commercial properties across all 16 Passaic County municipalities.</p>
 
 <p>Passaic County receives approximately 50 inches of rainfall annually, plus significant snow accumulation during winter months that creates meltwater as temperatures fluctuate. This volume of moisture, combined with the county's diverse building stock -- from flat-roofed multi-family buildings in <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to steep-pitched older homes in <a href="/roofing-contractor-haledon-nj">Haledon</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a> -- creates waterproofing challenges that require solutions tailored to each property's specific conditions.</p>
 
@@ -116,7 +116,7 @@ export const roofWaterproofing: ServiceContent = {
     'elastomeric-roof-coating',
   ],
 
-  seoTitle: 'Roof Waterproofing | Paterson Roofing Contractors',
+  seoTitle: 'Roof Waterproofing Paterson, NJ',
   seoDescription:
     'Comprehensive roof waterproofing in Passaic County, NJ. Membrane coatings, ice and water shield, drainage improvements. Residential and commercial. Free consultation. Call today.',
 }

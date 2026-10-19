@@ -4,11 +4,11 @@ export const insuranceRoofReplacement: ServiceContent = {
   slug: 'insurance-roof-replacement',
   name: 'Insurance Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Insurance Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Insurance Roof Replacement Paterson, NJ',
   heroSubheadline:
     'Navigate the insurance claims process with our experienced team. We document damage, work with adjusters, and handle the full replacement from claim to completion.',
 
-  overviewHtml: `<p>When storm damage, falling trees, or other covered events damage your roof beyond the point of economical repair, your homeowner's insurance policy is designed to pay for a full replacement. However, navigating the insurance claims process can be overwhelming -- the documentation requirements, adjuster negotiations, coverage disputes, and contractor coordination can turn an already stressful situation into a drawn-out ordeal. At Paterson Roofing Contractors, we specialize in insurance roof replacements and have guided hundreds of Passaic County homeowners through the claims process from initial filing to completed installation.</p>
+  overviewHtml: `<p>Insurance Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. When storm damage, falling trees, or other covered events damage your roof beyond the point of economical repair, your homeowner's insurance policy is designed to pay for a full replacement. However, navigating the insurance claims process can be overwhelming -- the documentation requirements, adjuster negotiations, coverage disputes, and contractor coordination can turn an already stressful situation into a drawn-out ordeal. At Paterson Roofing Contractors, we specialize in insurance roof replacements and have guided hundreds of Passaic County homeowners through the claims process from initial filing to completed installation.</p>
 
 <p>Our experience with insurance roof replacements spans every major carrier operating in New Jersey. We understand the documentation standards that State Farm, Allstate, USAA, Liberty Mutual, Travelers, and other carriers require, and we prepare our damage assessments to match their adjuster formats. This reduces claim processing delays and ensures that our assessment captures every legitimate damage item that the policy should cover. Homeowners in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and <a href="/roofing-contractor-wayne-nj">Wayne</a> who have filed claims with our assistance consistently experience smoother, faster approvals compared to homeowners who attempt to navigate the process alone.</p>
 
@@ -116,7 +116,7 @@ export const insuranceRoofReplacement: ServiceContent = {
     'emergency-roof-repair',
   ],
 
-  seoTitle: 'Insurance Roof Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Insurance Roof Replacement Paterson, NJ',
   seoDescription:
     'Insurance roof replacement in Passaic County, NJ. Claims assistance, adjuster advocacy, complete documentation. We handle the process from claim to completion. Free assessment.',
 }

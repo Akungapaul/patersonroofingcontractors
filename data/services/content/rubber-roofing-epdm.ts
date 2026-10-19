@@ -4,11 +4,11 @@ export const rubberRoofingEpdm: ServiceContent = {
   slug: "rubber-roofing-epdm",
   name: "Rubber Roofing (EPDM)",
   category: "Residential Roofing",
-  heroHeadline: "Rubber Roofing (EPDM) in Passaic County, NJ",
+  heroHeadline: "Rubber Roofing (EPDM) Paterson, NJ",
   heroSubheadline:
     "Durable EPDM rubber roofing for flat and low-slope residential roofs across all 16 Passaic County municipalities. Excellent waterproofing with a proven 30+ year track record.",
 
-  overviewHtml: `<p>EPDM rubber roofing has earned its reputation as the most proven flat roof membrane available through four decades of documented performance on residential and commercial buildings across northern New Jersey. The acronym stands for ethylene propylene diene monomer -- a synthetic rubber compound that produces a flexible, weather-resistant membrane ideally suited for the flat and low-slope roofs found on thousands of multi-family residential buildings, row houses, and garage additions throughout Passaic County. At Paterson Roofing Contractors, EPDM installation and repair is one of our core flat roofing services, and we deploy it regularly on buildings across <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-passaic-nj">Passaic</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and every municipality in the county where flat roof buildings are part of the landscape.</p>
+  overviewHtml: `<p>Rubber Roofing (EPDM) Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. EPDM rubber roofing has earned its reputation as the most proven flat roof membrane available through four decades of documented performance on residential and commercial buildings across northern New Jersey. The acronym stands for ethylene propylene diene monomer -- a synthetic rubber compound that produces a flexible, weather-resistant membrane ideally suited for the flat and low-slope roofs found on thousands of multi-family residential buildings, row houses, and garage additions throughout Passaic County. At Paterson Roofing Contractors, EPDM installation and repair is one of our core flat roofing services, and we deploy it regularly on buildings across <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-passaic-nj">Passaic</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and every municipality in the county where flat roof buildings are part of the landscape.</p>
 
 <p>The longevity track record of EPDM rubber roofing is its most compelling attribute. EPDM was introduced as a commercial roofing membrane in the 1960s, and installations from that era are still in service today -- exceeding 50 years of documented waterproofing performance. No other single-ply membrane system can point to a comparable track record of real-world performance over that time span. TPO, which has gained market share in recent years, was introduced in the 1990s and its longest-serving installations are approaching 30 years. Modified bitumen and built-up roofing have longer histories, but as multi-layer systems they are more complex and costly to install and repair. EPDM's combination of proven longevity, simple installation, and straightforward repair makes it the go-to membrane for Passaic County property owners who want a flat roof system with decades of evidence supporting its performance claims.</p>
 
@@ -136,7 +136,7 @@ export const rubberRoofingEpdm: ServiceContent = {
     "flat-roof-replacement",
   ],
 
-  seoTitle: "EPDM Rubber Roofing Contractors Paterson NJ",
+  seoTitle: "Rubber Roofing (EPDM) Paterson, NJ",
   seoDescription:
     "EPDM rubber roofing installation, repair, and replacement for Paterson flat roofs, commercial roofs, apartments, row houses, and Passaic County buildings.",
 };

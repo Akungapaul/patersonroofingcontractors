@@ -4,11 +4,11 @@ export const cedarShakeRoofing: ServiceContent = {
   slug: 'cedar-shake-roofing',
   name: 'Cedar Shake Roofing',
   category: 'Residential Roofing',
-  heroHeadline: 'Cedar Shake Roofing in Passaic County, NJ',
+  heroHeadline: 'Cedar Shake Roofing Paterson, NJ',
   heroSubheadline:
     'Premium cedar shake installation and maintenance for homes across all 16 Passaic County municipalities. Natural beauty with superior insulation properties.',
 
-  overviewHtml: `<p>Cedar shake roofing occupies a distinct position in the residential roofing market -- it is the choice of homeowners who value the authentic natural character that only real wood can provide and who are willing to invest in both the material and the maintenance commitment that cedar demands. Western red cedar, the species used in virtually all premium shake roofing, produces a warm, rich roof surface with hand-split texture, natural color gradation from honey gold to deep brown, and a weathering progression that eventually produces the iconic silver-gray patina associated with aged coastal and mountain architecture. At Paterson Roofing Contractors, we are cedar shake specialists who install, repair, and maintain cedar roofs across every municipality in Passaic County, from the wooded Highlands properties of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and Bloomingdale to the established residential neighborhoods of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>.</p>
+  overviewHtml: `<p>Cedar Shake Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Cedar shake roofing occupies a distinct position in the residential roofing market -- it is the choice of homeowners who value the authentic natural character that only real wood can provide and who are willing to invest in both the material and the maintenance commitment that cedar demands. Western red cedar, the species used in virtually all premium shake roofing, produces a warm, rich roof surface with hand-split texture, natural color gradation from honey gold to deep brown, and a weathering progression that eventually produces the iconic silver-gray patina associated with aged coastal and mountain architecture. At Paterson Roofing Contractors, we are cedar shake specialists who install, repair, and maintain cedar roofs across every municipality in Passaic County, from the wooded Highlands properties of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and Bloomingdale to the established residential neighborhoods of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>.</p>
 
 <p>Western red cedar possesses natural properties that make it uniquely suited for roofing applications. The heartwood contains extractable oils rich in thujaplicin and thujic acid -- naturally occurring compounds that provide resistance to decay, insect attack, and fungal colonization without chemical treatment. Cedar's cellular structure includes air pockets that give the wood exceptional dimensional stability across temperature and humidity changes, reducing the splitting and warping that afflict other wood species when exposed to the moisture cycling inherent in roofing applications. The same cellular structure provides natural thermal insulation that significantly outperforms any other roofing material, with an R-value per inch approximately four times that of asphalt. These combined properties give cedar a functional roofing lifespan of 30 to 50 years -- competitive with many manufactured materials and dramatically longer than the 20 to 25 years typical of standard asphalt shingles.</p>
 
@@ -119,7 +119,7 @@ export const cedarShakeRoofing: ServiceContent = {
   ],
 
   seoTitle:
-    'Cedar Shake Roofing | Paterson Roofing Contractors - Passaic County NJ',
+    'Cedar Shake Roofing Paterson, NJ',
   seoDescription:
     'Premium cedar shake roofing installation and maintenance in Passaic County, NJ. Western red cedar with natural beauty and 30-50 year durability. Expert craftsmanship.',
 }

@@ -4,11 +4,11 @@ export const agingRoofReplacement: ServiceContent = {
   slug: 'aging-roof-replacement',
   name: 'Aging Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Aging Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Aging Roof Replacement Paterson, NJ',
   heroSubheadline:
     'Proactive replacement of aging roofs before leaks start. We identify end-of-life signs and provide options that fit your budget and timeline.',
 
-  overviewHtml: `<p>Every roof has a finite lifespan, and replacing an aging roof before it begins actively leaking is one of the smartest investments a homeowner can make. Proactive replacement avoids the emergency costs, interior water damage, and structural deterioration that come with waiting until failure. At Paterson Roofing Contractors, we help homeowners across Passaic County recognize the signs of an aging roof, understand their replacement options, and execute a planned replacement on their schedule and budget rather than being forced into an emergency project by a sudden failure.</p>
+  overviewHtml: `<p>Aging Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Every roof has a finite lifespan, and replacing an aging roof before it begins actively leaking is one of the smartest investments a homeowner can make. Proactive replacement avoids the emergency costs, interior water damage, and structural deterioration that come with waiting until failure. At Paterson Roofing Contractors, we help homeowners across Passaic County recognize the signs of an aging roof, understand their replacement options, and execute a planned replacement on their schedule and budget rather than being forced into an emergency project by a sudden failure.</p>
 
 <p>The housing stock in Passaic County spans more than a century of construction, and many homes are carrying roofs that have reached or exceeded their expected lifespan. Standard 3-tab asphalt shingles installed in the 1990s and early 2000s typically have a 20 to 25 year lifespan, putting them at or past the end of their serviceable life today. Even architectural shingles rated for 30 years may age faster in Passaic County's demanding climate, where freeze-thaw cycling, heavy snow loads, summer heat, and frequent storm events accelerate deterioration. In the older communities of <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-haledon-nj">Haledon</a>, and <a href="/roofing-contractor-prospect-park-nj">Prospect Park</a>, we regularly encounter roofs that are well past their designed lifespan.</p>
 
@@ -116,7 +116,7 @@ export const agingRoofReplacement: ServiceContent = {
     'asphalt-shingle-replacement',
   ],
 
-  seoTitle: 'Aging Roof Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Aging Roof Replacement Paterson, NJ',
   seoDescription:
     'Proactive aging roof replacement in Passaic County, NJ. Honest assessment, planned scheduling, premium materials. Replace before leaks start. Free inspection. Call today.',
 }

@@ -4,11 +4,11 @@ export const tileRoofReplacement: ServiceContent = {
   slug: 'tile-roof-replacement',
   name: 'Tile Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Tile Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Tile Roof Replacement Paterson, NJ',
   heroSubheadline:
     'Clay and concrete tile roof replacement preserving the character of your home. Structural assessment and underlayment upgrade included with every installation.',
 
-  overviewHtml: `<p>Tile roofing -- whether clay or concrete -- delivers a distinctive, elegant appearance and exceptional longevity that few other roofing materials can match. When a tile roof reaches the point where individual tile repairs are no longer practical due to widespread deterioration, cracked tiles, or underlayment failure beneath the tiles, a full replacement restores both the protection and the curb appeal that made tile roofing the original choice for your home. At Paterson Roofing Contractors, we provide expert tile roof replacement for homes across Passaic County, preserving the architectural character that tile brings to the streetscape.</p>
+  overviewHtml: `<p>Tile Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Tile roofing -- whether clay or concrete -- delivers a distinctive, elegant appearance and exceptional longevity that few other roofing materials can match. When a tile roof reaches the point where individual tile repairs are no longer practical due to widespread deterioration, cracked tiles, or underlayment failure beneath the tiles, a full replacement restores both the protection and the curb appeal that made tile roofing the original choice for your home. At Paterson Roofing Contractors, we provide expert tile roof replacement for homes across Passaic County, preserving the architectural character that tile brings to the streetscape.</p>
 
 <p>Tile roofing in Passaic County is found primarily on Mediterranean, Spanish Revival, and custom-built homes, particularly in the established neighborhoods of <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>, and <a href="/roofing-contractor-clifton-nj">Clifton</a>. The tiles themselves are remarkably durable -- clay tiles can last 75 to 100 years and concrete tiles 50 to 75 years -- but the underlayment beneath them, the battens that support them, and the flashing that waterproofs the transition points all have shorter lifespans. A common scenario we encounter is a tile roof where the tiles are largely intact but the underlayment has deteriorated to the point of failure, requiring a complete removal and reinstallation of the tiles on new underlayment and battens.</p>
 
@@ -116,7 +116,7 @@ export const tileRoofReplacement: ServiceContent = {
     'residential-roof-installation',
   ],
 
-  seoTitle: 'Tile Roof Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Tile Roof Replacement Paterson, NJ',
   seoDescription:
     'Clay and concrete tile roof replacement in Passaic County, NJ. Structural assessment, profile matching, expert installation. Preserve your home character. Free estimates.',
 }

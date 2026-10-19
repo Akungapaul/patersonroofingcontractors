@@ -4,11 +4,11 @@ export const gutterGuardInstallation: ServiceContent = {
   slug: 'gutter-guard-installation',
   name: 'Gutter Guard Installation',
   category: 'Gutters & Drainage',
-  heroHeadline: 'Gutter Guard Installation in Passaic County, NJ',
+  heroHeadline: 'Gutter Guard Installation Paterson, NJ',
   heroSubheadline:
     'Professional leaf and debris protection systems that keep your gutters flowing freely year-round. Prevent clogs, ice dams, and foundation water damage across Passaic County.',
 
-  overviewHtml: `<p>Gutter guards are the single most effective upgrade you can add to your gutter system to reduce maintenance, prevent clogs, and protect your home from the water damage that overflowing gutters cause. In Passaic County, where dense tree canopy -- particularly in the Highlands municipalities of <a href="/roofing-contractor-west-milford-nj">West Milford</a>, <a href="/roofing-contractor-ringwood-nj">Ringwood</a>, <a href="/roofing-contractor-wanaque-nj">Wanaque</a>, and <a href="/roofing-contractor-bloomingdale-nj">Bloomingdale</a> -- fills gutters with leaves, pine needles, seed pods, and small branches throughout the year, gutter guards transform a constant maintenance burden into a largely self-maintaining system. At Paterson Roofing Contractors, we install professional-grade gutter guard systems across all 16 Passaic County municipalities, selecting the guard type that best matches the specific debris challenges your property faces.</p>
+  overviewHtml: `<p>Gutter Guard Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Gutter guards are the single most effective upgrade you can add to your gutter system to reduce maintenance, prevent clogs, and protect your home from the water damage that overflowing gutters cause. In Passaic County, where dense tree canopy -- particularly in the Highlands municipalities of <a href="/roofing-contractor-west-milford-nj">West Milford</a>, <a href="/roofing-contractor-ringwood-nj">Ringwood</a>, <a href="/roofing-contractor-wanaque-nj">Wanaque</a>, and <a href="/roofing-contractor-bloomingdale-nj">Bloomingdale</a> -- fills gutters with leaves, pine needles, seed pods, and small branches throughout the year, gutter guards transform a constant maintenance burden into a largely self-maintaining system. At Paterson Roofing Contractors, we install professional-grade gutter guard systems across all 16 Passaic County municipalities, selecting the guard type that best matches the specific debris challenges your property faces.</p>
 
 <p>Not all gutter guards are created equal, and the right choice depends on the type of debris your property generates. Micro-mesh gutter guards are our most recommended system for Passaic County homes. These guards use a fine stainless steel mesh screen supported by a structural aluminum frame to keep out everything from large leaves to fine pine needles and shingle grit. The mesh openings are small enough to block even maple seed helicopters and the tiny hemlock needles that plague homes in the Highlands communities, while still allowing rainwater to flow through at high volume. For homes surrounded by deciduous trees that drop large leaves, solid-top reverse-curve guards channel water around a curved hood into the gutter trough while deflecting leaves over the edge. Perforated aluminum guards offer a cost-effective middle ground with moderate debris protection suitable for properties with minimal tree canopy.</p>
 
@@ -124,7 +124,7 @@ export const gutterGuardInstallation: ServiceContent = {
   ],
 
   seoTitle:
-    'Gutter Guard Installation | Paterson Roofing Contractors - Passaic County NJ',
+    'Gutter Guard Installation Paterson, NJ',
   seoDescription:
     'Professional gutter guard installation in Passaic County, NJ. Micro-mesh, reverse-curve, and perforated systems. Stop leaf clogs, prevent ice dams, protect your foundation. Free estimates.',
 }

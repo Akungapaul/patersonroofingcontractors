@@ -4,11 +4,11 @@ export const roofPatching: ServiceContent = {
   slug: 'roof-patching',
   name: 'Roof Patching',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Roof Patching in Passaic County, NJ',
+  heroHeadline: 'Roof Patching Paterson, NJ',
   heroSubheadline:
     'Targeted roof patching for localized damage areas. A cost-effective alternative to full replacement when damage is contained to specific sections of your roof.',
 
-  overviewHtml: `<p>Not every roof problem requires a full replacement. When damage is localized to a specific area -- a section of shingles damaged by a fallen branch, a worn patch of flat roof membrane around an HVAC penetration, a deteriorated valley where two roof planes meet -- professional roof patching delivers a lasting repair at a fraction of the replacement cost. Paterson Roofing Contractors provides expert roof patching services across all 16 municipalities in Passaic County, helping homeowners and property managers in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, <a href="/roofing-contractor-wayne-nj">Wayne</a>, and surrounding communities address localized damage efficiently without the expense and disruption of a full re-roofing project.</p>
+  overviewHtml: `<p>Roof Patching Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Not every roof problem requires a full replacement. When damage is localized to a specific area -- a section of shingles damaged by a fallen branch, a worn patch of flat roof membrane around an HVAC penetration, a deteriorated valley where two roof planes meet -- professional roof patching delivers a lasting repair at a fraction of the replacement cost. Paterson Roofing Contractors provides expert roof patching services across all 16 municipalities in Passaic County, helping homeowners and property managers in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, <a href="/roofing-contractor-wayne-nj">Wayne</a>, and surrounding communities address localized damage efficiently without the expense and disruption of a full re-roofing project.</p>
 
 <p>Roof patching is appropriate when the overall roof system is in good condition and the damage or deterioration is confined to a limited area. The key question we help homeowners answer is whether a patch repair will provide lasting performance or whether the localized problem is a symptom of broader deterioration that makes replacement the better investment. Our assessment considers the age of the roof relative to its expected lifespan, the condition of the surrounding materials, the cause of the localized damage, and the likelihood that similar problems will develop in other areas of the roof in the near future. When patching is the right solution -- and it often is for roofs that are less than 15 years old with damage from a specific event rather than general age deterioration -- we deliver a repair that seamlessly integrates with the existing roof system and carries a workmanship warranty covering the patched area.</p>
 
@@ -119,7 +119,7 @@ export const roofPatching: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Patching | Paterson Roofing Contractors - Passaic County NJ',
+    'Roof Patching Paterson, NJ',
   seoDescription:
     'Professional roof patching in Passaic County, NJ. Cost-effective repair for localized damage to shingle and flat roofs. Seamless material matching and full workmanship warranty.',
 }

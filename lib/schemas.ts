@@ -7,6 +7,7 @@ import type {
   Service,
 } from 'schema-dts'
 import { siteConfig } from './site-config'
+import { servicePath } from './routes'
 
 export function buildLocalBusinessSchema(cityName?: string): WithContext<LocalBusiness> {
   return {
@@ -92,7 +93,7 @@ export function buildServiceSchema(
     '@type': 'Service',
     name: serviceName,
     description: serviceDescription,
-    url: `${siteConfig.url}/services/${serviceSlug}`,
+    url: `${siteConfig.url}${servicePath(serviceSlug)}`,
     provider: {
       '@type': 'RoofingContractor',
       name: siteConfig.businessName,

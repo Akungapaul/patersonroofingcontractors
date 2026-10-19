@@ -4,11 +4,11 @@ export const commercialRoofMembraneReplacement: ServiceContent = {
   slug: 'commercial-roof-membrane-replacement',
   name: 'Commercial Roof Membrane Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Commercial Roof Membrane Replacement in Passaic County, NJ',
+  heroHeadline: 'Commercial Roof Membrane Replacement Paterson, NJ',
   heroSubheadline:
     'Full membrane replacement for commercial flat roofs with TPO, PVC, and EPDM options. Manufacturer-backed warranties with minimal operational disruption.',
 
-  overviewHtml: `<p>Commercial flat roofs protect your business, your inventory, your equipment, and your employees. When the membrane that waterproofs your commercial building reaches the end of its serviceable life, a full replacement with a modern membrane system is the most effective way to restore reliable protection and avoid the escalating repair costs, business interruptions, and potential liability that come with a failing roof. At Paterson Roofing Contractors, we provide comprehensive commercial roof membrane replacement for businesses throughout Passaic County.</p>
+  overviewHtml: `<p>Commercial Roof Membrane Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Commercial flat roofs protect your business, your inventory, your equipment, and your employees. When the membrane that waterproofs your commercial building reaches the end of its serviceable life, a full replacement with a modern membrane system is the most effective way to restore reliable protection and avoid the escalating repair costs, business interruptions, and potential liability that come with a failing roof. At Paterson Roofing Contractors, we provide comprehensive commercial roof membrane replacement for businesses throughout Passaic County.</p>
 
 <p>Passaic County's commercial landscape includes a diverse range of buildings that rely on flat roof membranes. The Route 46 corridor through <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-totowa-nj">Totowa</a> is lined with retail centers, office buildings, and industrial parks. Downtown <a href="/roofing-contractor-paterson-nj">Paterson</a> features historic commercial buildings alongside modern developments. <a href="/roofing-contractor-wayne-nj">Wayne</a> includes the Willowbrook Mall area and extensive commercial development. Each of these buildings depends on its membrane roof to protect operations, and when that membrane fails, the consequences are measured not just in repair costs but in business disruption, damaged inventory, and potential tenant claims.</p>
 
@@ -117,7 +117,7 @@ export const commercialRoofMembraneReplacement: ServiceContent = {
   ],
 
   seoTitle:
-    'Commercial Roof Membrane Replacement | Paterson Roofing Contractors',
+    'Commercial Roof Membrane Replacement Paterson, NJ',
   seoDescription:
     'Commercial roof membrane replacement in Passaic County, NJ. TPO, PVC, and EPDM with manufacturer warranties. Minimal disruption, phased installation. Free assessment.',
 }

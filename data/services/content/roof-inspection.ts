@@ -4,11 +4,11 @@ export const roofInspection: ServiceContent = {
   slug: 'roof-inspection',
   name: 'Roof Inspection',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Roof Inspection in Passaic County, NJ',
+  heroHeadline: 'Roof Inspection Paterson, NJ',
   heroSubheadline:
     'Thorough 21-point roof inspections for homebuyers, insurance claims, and preventive maintenance across all 16 Passaic County municipalities. Detailed written reports included.',
 
-  overviewHtml: `<p>A professional roof inspection is the single most effective way to understand the true condition of your roofing system, identify developing problems before they cause damage, and make informed decisions about repair, maintenance, or replacement. Whether you are purchasing a home, filing an insurance claim, preparing for a roof replacement, or simply protecting your investment with preventive maintenance, Paterson Roofing Contractors delivers comprehensive roof inspections across every municipality in Passaic County. Our 21-point inspection covers every component of your roofing system -- from the shingles or membrane surface down through the underlayment, flashing, ventilation, gutters, and structural elements -- giving you a complete picture of your roof's current condition and remaining useful life.</p>
+  overviewHtml: `<p>Roof Inspection Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A professional roof inspection is the single most effective way to understand the true condition of your roofing system, identify developing problems before they cause damage, and make informed decisions about repair, maintenance, or replacement. Whether you are purchasing a home, filing an insurance claim, preparing for a roof replacement, or simply protecting your investment with preventive maintenance, Paterson Roofing Contractors delivers comprehensive roof inspections across every municipality in Passaic County. Our 21-point inspection covers every component of your roofing system -- from the shingles or membrane surface down through the underlayment, flashing, ventilation, gutters, and structural elements -- giving you a complete picture of your roof's current condition and remaining useful life.</p>
 
 <p>Homebuyers in Passaic County face a significant financial risk when they purchase a property without a specialized roof inspection. The standard home inspection covers the roof only superficially -- a general inspector looks at the roof from ground level or a ladder edge, notes obvious issues like missing shingles or visible sagging, and moves on. They rarely walk the roof surface, almost never enter the attic to check for moisture damage and ventilation adequacy, and lack the roofing-specific training to identify problems like granule erosion patterns, compromised sealant bonds, improper flashing details, and early-stage membrane deterioration. In communities like <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a> where homes frequently sell for $400,000 to $700,000, discovering after closing that the roof needs a $15,000 replacement is a devastating surprise that a $250 specialized roof inspection would have revealed. Our buyer's inspection provides the detailed information your real estate attorney and general inspector cannot -- the precise condition of the roof, its estimated remaining lifespan, and the cost of any needed repairs.</p>
 
@@ -119,7 +119,7 @@ export const roofInspection: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Inspection | Paterson Roofing Contractors - Passaic County NJ',
+    'Roof Inspection Paterson, NJ',
   seoDescription:
     'Professional 21-point roof inspections in Passaic County, NJ. Homebuyer inspections, insurance documentation, and preventive assessments. Detailed written reports within 24 hours.',
 }

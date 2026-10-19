@@ -4,11 +4,11 @@ export const roofDeckRepairReplacement: ServiceContent = {
   slug: 'roof-deck-repair-replacement',
   name: 'Roof Deck Repair & Replacement',
   category: 'Components & Specialty',
-  heroHeadline: 'Roof Deck Repair & Replacement in Passaic County, NJ',
+  heroHeadline: 'Roof Deck Repair & Replacement Paterson, NJ',
   heroSubheadline:
     'Expert plywood and OSB roof deck repair when water damage compromises your roof structure. A solid deck is the foundation of every roofing system.',
 
-  overviewHtml: `<p>The roof deck -- the layer of plywood or oriented strand board (OSB) sheathing nailed to the top of your rafters -- is the structural foundation upon which your entire roofing system rests. Shingles, membranes, underlayment, and flashing all depend on a solid, flat, and structurally sound deck beneath them. When water damage, age, or impact compromises this foundation, no amount of surface repair can restore the roof's integrity. At Paterson Roofing Contractors, we provide expert roof deck repair and replacement for homes and commercial buildings across all 16 municipalities in Passaic County.</p>
+  overviewHtml: `<p>Roof Deck Repair & Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. The roof deck -- the layer of plywood or oriented strand board (OSB) sheathing nailed to the top of your rafters -- is the structural foundation upon which your entire roofing system rests. Shingles, membranes, underlayment, and flashing all depend on a solid, flat, and structurally sound deck beneath them. When water damage, age, or impact compromises this foundation, no amount of surface repair can restore the roof's integrity. At Paterson Roofing Contractors, we provide expert roof deck repair and replacement for homes and commercial buildings across all 16 municipalities in Passaic County.</p>
 
 <p>Roof deck damage is rarely visible from the exterior because it occurs beneath the roofing material. The first signs typically appear from inside -- ceiling stains, sagging visible in the attic, soft or spongy areas when walking on the roof, or the musty smell of rotted wood in the attic space. In the older housing stock of <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-haledon-nj">Haledon</a>, and <a href="/roofing-contractor-prospect-park-nj">Prospect Park</a>, roof deck damage is particularly common because many of these homes have experienced decades of minor leaks, ice dam events, and deferred maintenance that slowly deteriorated the sheathing from above. Homes with original 1x6 board sheathing -- common in pre-1960 construction -- are especially vulnerable because the gaps between boards allow moisture to reach the wood from both sides.</p>
 
@@ -117,7 +117,7 @@ export const roofDeckRepairReplacement: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Deck Repair & Replacement | Paterson Roofing Contractors',
+    'Roof Deck Repair & Replacement Paterson, NJ',
   seoDescription:
     'Expert roof deck repair and replacement in Passaic County, NJ. Plywood and OSB sheathing for water-damaged roofs. Thorough inspection, honest assessment. Free estimates. Call today.',
 }

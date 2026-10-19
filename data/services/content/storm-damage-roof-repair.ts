@@ -4,11 +4,11 @@ export const stormDamageRoofRepair: ServiceContent = {
   slug: 'storm-damage-roof-repair',
   name: 'Storm Damage Roof Repair',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Storm Damage Roof Repair in Passaic County, NJ',
+  heroHeadline: 'Storm Damage Roof Repair Paterson, NJ',
   heroSubheadline:
     'Emergency storm damage assessment and expert repair for homes and businesses across all 16 Passaic County municipalities. Insurance claim assistance included with every project.',
 
-  overviewHtml: `<p>Passaic County sits squarely in the path of the severe weather systems that define the northern New Jersey climate. From winter nor'easters that pile heavy snow on rooftops and generate ice dams along eave lines, to summer supercell thunderstorms that deliver damaging hail, wind gusts exceeding 70 miles per hour, and torrential rain measured in inches per hour, roofing systems across the county endure punishing conditions that no other building component faces with the same intensity. When a storm damages your roof, Paterson Roofing Contractors provides fast, professional assessment and repair across every municipality in Passaic County -- from the dense urban cores of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to the wooded Highlands communities of <a href="/roofing-contractor-ringwood-nj">Ringwood</a> and Bloomingdale.</p>
+  overviewHtml: `<p>Storm Damage Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Passaic County sits squarely in the path of the severe weather systems that define the northern New Jersey climate. From winter nor'easters that pile heavy snow on rooftops and generate ice dams along eave lines, to summer supercell thunderstorms that deliver damaging hail, wind gusts exceeding 70 miles per hour, and torrential rain measured in inches per hour, roofing systems across the county endure punishing conditions that no other building component faces with the same intensity. When a storm damages your roof, Paterson Roofing Contractors provides fast, professional assessment and repair across every municipality in Passaic County -- from the dense urban cores of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to the wooded Highlands communities of <a href="/roofing-contractor-ringwood-nj">Ringwood</a> and Bloomingdale.</p>
 
 <p>Storm damage to roofing systems takes many forms, and not all damage is visible from the ground. High winds lift shingle tabs, break sealant bonds between shingle layers, and tear flashing away from chimneys, dormers, and sidewalls. Hail impacts crack and bruise shingles, dislodging protective granules that expose the underlying asphalt to accelerated ultraviolet degradation. Heavy rain exploits every gap that wind and hail have opened, driving water into the building envelope where it saturates insulation, stains ceilings, and initiates mold growth. Fallen tree limbs -- a frequent occurrence in the heavily wooded communities of West Milford, Wanaque, and Pompton Lakes -- can puncture roof surfaces outright, breaking shingles, cracking decking, and tearing through membrane systems on flat roofs. Our storm damage repair teams are experienced with every type of weather-related roof damage and carry the materials and equipment to provide emergency stabilization and permanent repair on the same visit whenever possible.</p>
 
@@ -119,7 +119,7 @@ export const stormDamageRoofRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Storm Damage Roof Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Storm Damage Roof Repair Paterson, NJ',
   seoDescription:
     'Emergency storm damage roof repair in Passaic County, NJ. Same-day response, insurance claim assistance, and expert repair for wind, hail, and fallen tree damage. Free assessment.',
 }

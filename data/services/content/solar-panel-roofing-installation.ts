@@ -4,11 +4,11 @@ export const solarPanelRoofingInstallation: ServiceContent = {
   slug: 'solar-panel-roofing-installation',
   name: 'Solar Panel Roofing Installation',
   category: 'Energy & Solar',
-  heroHeadline: 'Solar Panel Roofing Installation in Passaic County, NJ',
+  heroHeadline: 'Solar Panel Roofing Installation Paterson, NJ',
   heroSubheadline:
     'Expert rooftop solar panel installation with proper flashing and waterproofing across Passaic County. Combine renewable energy with a watertight roof system. NJ solar incentives available.',
 
-  overviewHtml: `<p>Rooftop solar panel installation represents the intersection of two critical building systems -- your roof's waterproofing envelope and your building's energy generation infrastructure. When solar panels are installed by technicians who understand both systems, the result is clean energy production that enhances rather than compromises your roof's integrity. When panels are installed by solar companies that treat the roof as simply a mounting surface, the result is often roof penetrations that leak, flashing failures that void roof warranties, and structural issues that shorten both the roof and solar system lifespan. At Paterson Roofing Contractors, we bring roofing expertise to every solar installation across Passaic County, ensuring that your <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, <a href="/roofing-contractor-wayne-nj">Wayne</a>, or <a href="/roofing-contractor-west-milford-nj">West Milford</a> home generates solar energy without risking the roof that protects everything beneath it.</p>
+  overviewHtml: `<p>Solar Panel Roofing Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Rooftop solar panel installation represents the intersection of two critical building systems -- your roof's waterproofing envelope and your building's energy generation infrastructure. When solar panels are installed by technicians who understand both systems, the result is clean energy production that enhances rather than compromises your roof's integrity. When panels are installed by solar companies that treat the roof as simply a mounting surface, the result is often roof penetrations that leak, flashing failures that void roof warranties, and structural issues that shorten both the roof and solar system lifespan. At Paterson Roofing Contractors, we bring roofing expertise to every solar installation across Passaic County, ensuring that your <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, <a href="/roofing-contractor-wayne-nj">Wayne</a>, or <a href="/roofing-contractor-west-milford-nj">West Milford</a> home generates solar energy without risking the roof that protects everything beneath it.</p>
 
 <p>New Jersey is one of the best states in the nation for residential solar energy, and Passaic County homeowners have access to some of the most generous solar incentives available anywhere. The federal Investment Tax Credit (ITC) provides a 30 percent tax credit on the total cost of a solar installation, directly reducing your federal tax liability. New Jersey's Solar Renewable Energy Certificate (SREC-II) program pays homeowners for every megawatt-hour of electricity their solar system generates, providing a steady income stream for 15 years. New Jersey also exempts solar installations from sales tax and property tax increases -- your solar system adds value to your home without increasing your property tax assessment. Combined with net metering that credits you at full retail rate for excess electricity sent to the grid, these incentives can reduce the effective cost of a solar installation by 50 percent or more, making solar energy one of the best home investments available to Passaic County homeowners.</p>
 
@@ -119,7 +119,7 @@ export const solarPanelRoofingInstallation: ServiceContent = {
   ],
 
   seoTitle:
-    'Solar Panel Roofing Installation | Paterson Roofing Contractors - Passaic County NJ',
+    'Solar Panel Roofing Installation Paterson, NJ',
   seoDescription:
     'Expert solar panel roofing installation in Passaic County, NJ. Proper flashing and waterproofing by licensed roofers. NJ solar incentives, 25-year warranties. Free roof and solar assessment.',
 }

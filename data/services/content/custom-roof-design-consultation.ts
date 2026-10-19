@@ -4,11 +4,11 @@ export const customRoofDesignConsultation: ServiceContent = {
   slug: 'custom-roof-design-consultation',
   name: 'Custom Roof Design & Consultation',
   category: 'Design & Specialty',
-  heroHeadline: 'Custom Roof Design & Consultation in Passaic County, NJ',
+  heroHeadline: 'Custom Roof Design & Consultation Paterson, NJ',
   heroSubheadline:
     'Architectural roof design consultation for custom homes and renovations. Material selection, color coordination, and structural planning tailored to your vision.',
 
-  overviewHtml: `<p>A roof is more than a weather barrier -- it is one of the most visually prominent elements of your home exterior, comprising 40 percent or more of the visible facade. For custom homes, major renovations, and additions, the roof design must integrate seamlessly with the overall architectural vision while meeting structural, ventilation, and weatherproofing requirements. At Paterson Roofing Contractors, our design and consultation service brings roofing expertise into the planning phase, ensuring that your roof enhances your home's beauty and performs flawlessly for decades.</p>
+  overviewHtml: `<p>Custom Roof Design & Consultation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A roof is more than a weather barrier -- it is one of the most visually prominent elements of your home exterior, comprising 40 percent or more of the visible facade. For custom homes, major renovations, and additions, the roof design must integrate seamlessly with the overall architectural vision while meeting structural, ventilation, and weatherproofing requirements. At Paterson Roofing Contractors, our design and consultation service brings roofing expertise into the planning phase, ensuring that your roof enhances your home's beauty and performs flawlessly for decades.</p>
 
 <p>Our consultation service is valuable at several stages of a project. For new custom homes, we work with architects and builders during design development to recommend roofing materials that achieve the desired aesthetic within structural and budget parameters. For major renovations and additions in <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>, and <a href="/roofing-contractor-woodland-park-nj">Woodland Park</a>, we ensure that new roof sections integrate with existing roofing in both material and visual flow. For homeowners considering a complete roof replacement who want to explore material options beyond basic asphalt, we provide a comprehensive presentation of alternatives with realistic assessments of cost, performance, maintenance, and visual impact.</p>
 
@@ -117,7 +117,7 @@ export const customRoofDesignConsultation: ServiceContent = {
   ],
 
   seoTitle:
-    'Custom Roof Design & Consultation | Paterson Roofing Contractors',
+    'Custom Roof Design & Consultation Paterson, NJ',
   seoDescription:
     'Custom roof design consultation in Passaic County, NJ. Material selection, color coordination, structural planning for custom homes and renovations. Free consultation.',
 }

@@ -4,11 +4,11 @@ export const slateRoofReplacement: ServiceContent = {
   slug: 'slate-roof-replacement',
   name: 'Slate Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Slate Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Slate Roof Replacement Paterson, NJ',
   heroSubheadline:
     'Natural and synthetic slate roof replacement for historic and premium homes. Matching existing slate patterns and colors to preserve Passaic County architectural heritage.',
 
-  overviewHtml: `<p>Slate roofing represents the pinnacle of residential roofing materials, offering unmatched beauty, fireproof protection, and a lifespan that can exceed 100 years for premium-grade natural slate. When a slate roof requires replacement -- whether due to failing soft slate, deteriorated underlayment, or structural concerns -- the project demands specialized knowledge, careful material selection, and precision craftsmanship that few roofing contractors possess. At Paterson Roofing Contractors, we provide expert slate roof replacement services for the historic homes and premium properties across Passaic County that deserve the finest roofing material available.</p>
+  overviewHtml: `<p>Slate Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Slate roofing represents the pinnacle of residential roofing materials, offering unmatched beauty, fireproof protection, and a lifespan that can exceed 100 years for premium-grade natural slate. When a slate roof requires replacement -- whether due to failing soft slate, deteriorated underlayment, or structural concerns -- the project demands specialized knowledge, careful material selection, and precision craftsmanship that few roofing contractors possess. At Paterson Roofing Contractors, we provide expert slate roof replacement services for the historic homes and premium properties across Passaic County that deserve the finest roofing material available.</p>
 
 <p>Passaic County contains a significant inventory of slate-roofed homes, concentrated in the historic neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> -- particularly the Eastside and Northside districts where Victorian and Edwardian homes dating from the 1880s through 1920s feature original slate installations. Additional slate homes are found in <a href="/roofing-contractor-haledon-nj">Haledon</a>, parts of <a href="/roofing-contractor-clifton-nj">Clifton</a>, and the custom-built properties scattered throughout <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>. Many of these original slate roofs have served for 80 to 120 years, a testament to the material durability when properly installed and maintained.</p>
 
@@ -116,7 +116,7 @@ export const slateRoofReplacement: ServiceContent = {
     'tile-roof-replacement',
   ],
 
-  seoTitle: 'Slate Roof Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Slate Roof Replacement Paterson, NJ',
   seoDescription:
     'Natural and synthetic slate roof replacement in Passaic County, NJ. Historic home expertise, pattern matching, century-long protection. Free assessment. Call today.',
 }

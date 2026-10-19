@@ -4,11 +4,11 @@ export const cedarShakeReplacement: ServiceContent = {
   slug: 'cedar-shake-replacement',
   name: 'Cedar Shake Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Cedar Shake Replacement in Passaic County, NJ',
+  heroHeadline: 'Cedar Shake Replacement Paterson, NJ',
   heroSubheadline:
     'Premium cedar shake replacement with hand-split or machine-cut options. Includes deck inspection, underlayment upgrade, and preservative treatment.',
 
-  overviewHtml: `<p>Western red cedar is the gold standard for wood shake roofing, prized for its natural beauty, superior rot resistance, and exceptional insulation properties. When a cedar shake roof reaches the end of its serviceable life -- typically after 25 to 40 years depending on maintenance and exposure -- replacement with new premium cedar restores the distinctive character that sets cedar-roofed homes apart. At Paterson Roofing Contractors, we specialize in cedar shake replacement for homes throughout Passaic County, sourcing the finest grade cedar and installing it with the precision this premium material demands.</p>
+  overviewHtml: `<p>Cedar Shake Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Western red cedar is the gold standard for wood shake roofing, prized for its natural beauty, superior rot resistance, and exceptional insulation properties. When a cedar shake roof reaches the end of its serviceable life -- typically after 25 to 40 years depending on maintenance and exposure -- replacement with new premium cedar restores the distinctive character that sets cedar-roofed homes apart. At Paterson Roofing Contractors, we specialize in cedar shake replacement for homes throughout Passaic County, sourcing the finest grade cedar and installing it with the precision this premium material demands.</p>
 
 <p>Cedar shake roofing is found on some of the finest homes in Passaic County, particularly in the upscale neighborhoods of <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>, and <a href="/roofing-contractor-woodland-park-nj">Woodland Park</a> where custom-built and architect-designed homes feature cedar as a defining exterior material. The Highlands communities of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and <a href="/roofing-contractor-ringwood-nj">Ringwood</a> also feature cedar-roofed homes that blend naturally with the wooded surroundings, though the heavy tree canopy in these areas creates the shaded, humid conditions that can accelerate cedar deterioration if maintenance is neglected.</p>
 
@@ -116,7 +116,7 @@ export const cedarShakeReplacement: ServiceContent = {
     'residential-roof-installation',
   ],
 
-  seoTitle: 'Cedar Shake Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Cedar Shake Replacement Paterson, NJ',
   seoDescription:
     'Premium cedar shake replacement in Passaic County, NJ. Blue Label and Red Label grades. Hand-split and machine-cut options with preservative treatment. Free assessment.',
 }

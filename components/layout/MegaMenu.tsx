@@ -1,5 +1,6 @@
 'use client'
 
+import { servicePath } from '@/lib/routes'
 import { useEffect } from 'react'
 import Link from 'next/link'
 import { services } from '@/data/services'
@@ -73,7 +74,7 @@ export function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                   .map((service) => (
                     <li key={service.slug}>
                       <Link
-                        href={`/services/${service.slug}`}
+                        href={servicePath(service.slug)}
                         className="block py-1 text-lg text-navy transition-colors hover:text-amber"
                         role="menuitem"
                         onClick={onClose}

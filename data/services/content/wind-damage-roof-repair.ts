@@ -4,11 +4,11 @@ export const windDamageRoofRepair: ServiceContent = {
   slug: 'wind-damage-roof-repair',
   name: 'Wind Damage Roof Repair',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Wind Damage Roof Repair in Passaic County, NJ',
+  heroHeadline: 'Wind Damage Roof Repair Paterson, NJ',
   heroSubheadline:
     'Repair wind-lifted shingles, torn flashing, and structural wind damage for homes and businesses across all 16 Passaic County municipalities. Fast response to prevent further exposure.',
 
-  overviewHtml: `<p>Wind is the most persistent source of roof damage in Passaic County. While homeowners often associate roof damage with dramatic storms, the reality is that wind works against roofing systems constantly -- from the sustained gusts that accompany winter nor'easters to the sudden microbursts embedded in summer thunderstorm cells to the persistent prevailing winds that buffet exposed ridgeline properties day after day. Over time, wind loosens shingle sealant bonds, lifts tab edges, works flashing away from wall intersections, and drives rain into gaps that would easily shed vertical rainfall. At Paterson Roofing Contractors, we repair wind damage across every community in Passaic County, understanding that the specific patterns of wind exposure differ dramatically from the sheltered urban corridors of <a href="/roofing-contractor-paterson-nj">Paterson</a> to the fully exposed hilltop properties of <a href="/roofing-contractor-north-haledon-nj">North Haledon</a> and West Milford.</p>
+  overviewHtml: `<p>Wind Damage Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Wind is the most persistent source of roof damage in Passaic County. While homeowners often associate roof damage with dramatic storms, the reality is that wind works against roofing systems constantly -- from the sustained gusts that accompany winter nor'easters to the sudden microbursts embedded in summer thunderstorm cells to the persistent prevailing winds that buffet exposed ridgeline properties day after day. Over time, wind loosens shingle sealant bonds, lifts tab edges, works flashing away from wall intersections, and drives rain into gaps that would easily shed vertical rainfall. At Paterson Roofing Contractors, we repair wind damage across every community in Passaic County, understanding that the specific patterns of wind exposure differ dramatically from the sheltered urban corridors of <a href="/roofing-contractor-paterson-nj">Paterson</a> to the fully exposed hilltop properties of <a href="/roofing-contractor-north-haledon-nj">North Haledon</a> and West Milford.</p>
 
 <p>Wind damage to shingle roofs follows predictable patterns that our inspectors know how to read. The edges and ridgeline of a roof experience the highest wind pressures during any event, which is why missing or lifted shingles almost always appear first along eaves, rakes, ridges, and hip lines. The interior field of the roof sees lower pressure, but aged shingles with brittle sealant can still lift in the middle of a roof plane during sustained high winds. Once a single shingle lifts or is torn away, the exposed edge of the adjacent shingle becomes a new point of wind attack -- each lost shingle makes the next one more vulnerable, creating a cascading failure pattern that can strip large sections of a roof within a single storm event. This is why prompt repair of even a few missing shingles is critical: delaying the fix allows subsequent wind events to propagate the damage across an ever-wider area.</p>
 
@@ -119,7 +119,7 @@ export const windDamageRoofRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Wind Damage Roof Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Wind Damage Roof Repair Paterson, NJ',
   seoDescription:
     'Expert wind damage roof repair in Passaic County, NJ. Repair lifted shingles, torn flashing, and structural wind damage. Same-day emergency response with insurance claim support.',
 }

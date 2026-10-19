@@ -4,11 +4,11 @@ export const fullRoofTearOff: ServiceContent = {
   slug: 'full-roof-tear-off',
   name: 'Full Roof Tear-Off',
   category: 'Roof Replacement',
-  heroHeadline: 'Full Roof Tear-Off in Passaic County, NJ',
+  heroHeadline: 'Full Roof Tear-Off Paterson, NJ',
   heroSubheadline:
     'Complete removal of existing roofing materials down to the deck for a clean, inspected substrate. The gold standard for roof replacement in Passaic County.',
 
-  overviewHtml: `<p>A full roof tear-off is the most thorough approach to roof replacement, involving the complete removal of all existing roofing materials -- shingles, underlayment, flashing, and any deteriorated accessories -- down to the bare roof deck. This exposes the entire sheathing surface for inspection and repair, ensuring that your new roofing system is installed on a solid, verified foundation. At Paterson Roofing Contractors, we perform full tear-off roof replacements across every municipality in Passaic County, from <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to <a href="/roofing-contractor-wayne-nj">Wayne</a> and the Highlands communities.</p>
+  overviewHtml: `<p>Full Roof Tear-Off Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A full roof tear-off is the most thorough approach to roof replacement, involving the complete removal of all existing roofing materials -- shingles, underlayment, flashing, and any deteriorated accessories -- down to the bare roof deck. This exposes the entire sheathing surface for inspection and repair, ensuring that your new roofing system is installed on a solid, verified foundation. At Paterson Roofing Contractors, we perform full tear-off roof replacements across every municipality in Passaic County, from <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to <a href="/roofing-contractor-wayne-nj">Wayne</a> and the Highlands communities.</p>
 
 <p>New Jersey building code limits residential roofs to a maximum of two layers of asphalt shingles. Once a roof has two layers, a full tear-off is legally required before new shingles can be installed. Even when a roof has only one layer, a tear-off is often the superior choice because it allows us to inspect the entire roof deck for damage that would otherwise remain hidden beneath the old roofing material. In the older homes of <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-haledon-nj">Haledon</a>, and <a href="/roofing-contractor-prospect-park-nj">Prospect Park</a>, decades of minor leaks, ice dam events, and deferred maintenance have often caused deck damage that is invisible from the surface but becomes immediately apparent once the old roofing is removed.</p>
 
@@ -116,7 +116,7 @@ export const fullRoofTearOff: ServiceContent = {
     'residential-roof-installation',
   ],
 
-  seoTitle: 'Full Roof Tear-Off | Paterson Roofing Contractors',
+  seoTitle: 'Full Roof Tear-Off Paterson, NJ',
   seoDescription:
     'Full roof tear-off and replacement in Passaic County, NJ. Complete deck inspection, code-compliant installation, maximum warranty coverage. Free estimates. Call today.',
 }

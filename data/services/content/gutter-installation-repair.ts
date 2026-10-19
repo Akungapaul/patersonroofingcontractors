@@ -4,11 +4,11 @@ export const gutterInstallationRepair: ServiceContent = {
   slug: 'gutter-installation-repair',
   name: 'Gutter Installation & Repair',
   category: 'Gutters & Drainage',
-  heroHeadline: 'Gutter Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Gutter Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Seamless gutter installation and expert repair for homes and businesses across all 16 Passaic County municipalities. Custom-fit aluminum and copper gutters with leaf guard options.',
 
-  overviewHtml: `<p>Gutters are your roof's critical drainage partners -- without a properly functioning gutter system, even a perfectly installed roof cannot protect your home from water damage. Rainwater cascading off your roof edge without gutters erodes foundation soil, floods basements, stains siding, destroys landscaping, and saturates the ground around your foundation, creating hydrostatic pressure that forces water through basement walls and floor slabs. At Paterson Roofing Contractors, we install and repair gutter systems across every municipality in Passaic County, from the densely built urban neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the tree-canopied residential communities of <a href="/roofing-contractor-west-milford-nj">West Milford</a>, <a href="/roofing-contractor-ringwood-nj">Ringwood</a>, and <a href="/roofing-contractor-wanaque-nj">Wanaque</a>. Our crews deliver precision gutter installations sized and configured to handle the rainfall volumes that northern New Jersey's climate consistently delivers.</p>
+  overviewHtml: `<p>Gutter Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Gutters are your roof's critical drainage partners -- without a properly functioning gutter system, even a perfectly installed roof cannot protect your home from water damage. Rainwater cascading off your roof edge without gutters erodes foundation soil, floods basements, stains siding, destroys landscaping, and saturates the ground around your foundation, creating hydrostatic pressure that forces water through basement walls and floor slabs. At Paterson Roofing Contractors, we install and repair gutter systems across every municipality in Passaic County, from the densely built urban neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the tree-canopied residential communities of <a href="/roofing-contractor-west-milford-nj">West Milford</a>, <a href="/roofing-contractor-ringwood-nj">Ringwood</a>, and <a href="/roofing-contractor-wanaque-nj">Wanaque</a>. Our crews deliver precision gutter installations sized and configured to handle the rainfall volumes that northern New Jersey's climate consistently delivers.</p>
 
 <p>Passaic County receives approximately 50 inches of rainfall annually, distributed across an average of 120 precipitation days per year. This volume of water, concentrated on roof surfaces that funnel it to eave edges, demands gutter systems that are properly sized, correctly pitched, and securely fastened to manage the flow without overflow or structural failure. Standard 5-inch K-style gutters handle most single-story residential roofs effectively, but homes with steep roof pitches, large roof areas, or multiple roof planes converging to single downspout runs often require 6-inch gutters or oversized commercial-profile systems to prevent overflow during heavy rainfall. Our estimators calculate the roof drainage area, pitch factor, and local rainfall intensity for your specific home to specify the correct gutter size -- not the one-size-fits-all approach that discount installers use, which leaves homeowners with overflowing gutters during every significant rainstorm.</p>
 
@@ -124,7 +124,7 @@ export const gutterInstallationRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Gutter Installation & Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Gutter Installation & Repair Paterson, NJ',
   seoDescription:
     'Seamless gutter installation and repair in Passaic County, NJ. Custom-fit aluminum and copper gutters, properly sized for your roof. Leaf guard options, ice dam prevention. Free estimates.',
 }

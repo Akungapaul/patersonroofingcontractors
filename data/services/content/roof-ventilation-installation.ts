@@ -4,11 +4,11 @@ export const roofVentilationInstallation: ServiceContent = {
   slug: 'roof-ventilation-installation',
   name: 'Roof Ventilation Installation',
   category: 'Components & Specialty',
-  heroHeadline: 'Roof Ventilation Installation in Passaic County, NJ',
+  heroHeadline: 'Roof Ventilation Installation Paterson, NJ',
   heroSubheadline:
     'Complete attic ventilation systems including ridge, soffit, and gable vents. Balance intake and exhaust for optimal roof performance and energy efficiency.',
 
-  overviewHtml: `<p>A properly ventilated attic is the foundation of a healthy, long-lasting roofing system. Without balanced ventilation -- adequate air entering through soffit vents and exiting through ridge or roof vents -- your attic becomes a trap for heat, moisture, and the damaging conditions they create. At Paterson Roofing Contractors, we design and install complete attic ventilation systems for homes across all 16 Passaic County municipalities, addressing the specific challenges that each community's building stock and climate conditions present.</p>
+  overviewHtml: `<p>Roof Ventilation Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A properly ventilated attic is the foundation of a healthy, long-lasting roofing system. Without balanced ventilation -- adequate air entering through soffit vents and exiting through ridge or roof vents -- your attic becomes a trap for heat, moisture, and the damaging conditions they create. At Paterson Roofing Contractors, we design and install complete attic ventilation systems for homes across all 16 Passaic County municipalities, addressing the specific challenges that each community's building stock and climate conditions present.</p>
 
 <p>The science behind attic ventilation is grounded in two principles that work year-round. In warm months, solar radiation heats your roof surface to temperatures that can exceed 170 degrees on dark shingles. Without ventilation, the attic air beneath absorbs this heat and can reach 150 degrees or more, radiating through your ceiling insulation and forcing your air conditioning to work significantly harder. In the suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>, and <a href="/roofing-contractor-woodland-park-nj">Woodland Park</a>, where many homes have large attic spaces and south-facing roof exposures, this summer heat load is a major contributor to high energy bills. In cold months, warm moist air from the living space below rises into the attic through ceiling penetrations, light fixtures, and plumbing chases. Without ventilation to remove this moisture, it condenses on the cold underside of the roof deck, saturating the wood and creating conditions for mold growth and structural rot.</p>
 
@@ -117,7 +117,7 @@ export const roofVentilationInstallation: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Ventilation Installation | Paterson Roofing Contractors',
+    'Roof Ventilation Installation Paterson, NJ',
   seoDescription:
     'Complete attic ventilation systems in Passaic County, NJ. Ridge vents, soffit vents, and balanced airflow design. Prevent ice dams, reduce energy costs. Free assessment. Call today.',
 }

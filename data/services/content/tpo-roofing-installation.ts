@@ -4,11 +4,11 @@ export const tpoRoofingInstallation: ServiceContent = {
   slug: 'tpo-roofing-installation',
   name: 'TPO Roofing Installation',
   category: 'Commercial Roofing',
-  heroHeadline: 'TPO Roofing Installation in Passaic County, NJ',
+  heroHeadline: 'TPO Roofing Installation Paterson, NJ',
   heroSubheadline:
     'Energy-efficient thermoplastic polyolefin roofing for commercial buildings across Passaic County. Reflective, durable, and cost-effective flat roof membrane systems installed by certified professionals.',
 
-  overviewHtml: `<p>Thermoplastic polyolefin roofing, commonly known as TPO, has become the dominant roofing membrane for commercial buildings in the northeastern United States over the past two decades. Its combination of energy-efficient reflectivity, strong weld seams, competitive pricing, and proven performance in northern climates makes it an ideal choice for the flat and low-slope commercial buildings found throughout Passaic County. At Paterson Roofing Contractors, we are certified TPO installers with extensive experience deploying these systems on retail centers, office buildings, warehouses, and multi-family properties from <a href="/roofing-contractor-paterson-nj">Paterson</a> to <a href="/roofing-contractor-wayne-nj">Wayne</a> and every municipality in between. Our crews are factory-trained in hot-air welding techniques that create monolithic, watertight seams engineered to outlast the membrane itself.</p>
+  overviewHtml: `<p>TPO Roofing Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Thermoplastic polyolefin roofing, commonly known as TPO, has become the dominant roofing membrane for commercial buildings in the northeastern United States over the past two decades. Its combination of energy-efficient reflectivity, strong weld seams, competitive pricing, and proven performance in northern climates makes it an ideal choice for the flat and low-slope commercial buildings found throughout Passaic County. At Paterson Roofing Contractors, we are certified TPO installers with extensive experience deploying these systems on retail centers, office buildings, warehouses, and multi-family properties from <a href="/roofing-contractor-paterson-nj">Paterson</a> to <a href="/roofing-contractor-wayne-nj">Wayne</a> and every municipality in between. Our crews are factory-trained in hot-air welding techniques that create monolithic, watertight seams engineered to outlast the membrane itself.</p>
 
 <p>TPO roofing works by creating a continuous, heat-welded membrane over the entire roof surface. Unlike mechanically fastened or adhesive-bonded systems that rely on chemical bonds to maintain watertight integrity, TPO seams are fused at temperatures exceeding 900 degrees Fahrenheit, creating a molecular bond that is actually stronger than the membrane field material. This welding process produces homogeneous seams with zero reliance on sealants, tapes, or adhesives that degrade over time. The result is a single, monolithic waterproofing layer that resists the ponding water conditions common on flat commercial roofs in Passaic County, where drainage slopes are often minimal or nonexistent on older buildings. Our welding technicians are tested and certified annually, and every seam on every project undergoes probe testing to verify weld integrity before the project is accepted as complete.</p>
 
@@ -119,7 +119,7 @@ export const tpoRoofingInstallation: ServiceContent = {
   ],
 
   seoTitle:
-    'TPO Roofing Installation | Paterson Roofing Contractors - Passaic County NJ',
+    'TPO Roofing Installation Paterson, NJ',
   seoDescription:
     'Professional TPO roofing installation in Passaic County, NJ. Energy-efficient reflective membrane, heat-welded seams, manufacturer warranties up to 30 years. Certified installers for commercial flat roofs.',
 }

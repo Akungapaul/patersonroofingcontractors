@@ -57,7 +57,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/services/roof-repair"
+                  href="/roof-repair-paterson-nj"
                 >
                   Roof repair in Paterson
                 </Link>
@@ -65,7 +65,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/services/emergency-roof-repair"
+                  href="/emergency-roof-repair-paterson-nj"
                 >
                   Emergency roof repair
                 </Link>
@@ -73,7 +73,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/services/re-roofing"
+                  href="/re-roofing-paterson-nj"
                 >
                   Roof replacement and re-roofing
                 </Link>
@@ -81,7 +81,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/services/rubber-roofing-epdm"
+                  href="/rubber-roofing-epdm-paterson-nj"
                 >
                   Rubber and EPDM flat roofing
                 </Link>
@@ -89,7 +89,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/services/roof-overlay-installation"
+                  href="/roof-overlay-installation-paterson-nj"
                 >
                   Roof overlay installation
                 </Link>
@@ -97,7 +97,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/services/historic-roof-restoration"
+                  href="/historic-roof-restoration-paterson-nj"
                 >
                   Historic roof restoration
                 </Link>

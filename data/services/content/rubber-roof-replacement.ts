@@ -4,11 +4,11 @@ export const rubberRoofReplacement: ServiceContent = {
   slug: 'rubber-roof-replacement',
   name: 'Rubber Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Rubber Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Rubber Roof Replacement Paterson, NJ',
   heroSubheadline:
     'EPDM rubber roof replacement for flat and low-slope buildings. Fully adhered or mechanically fastened systems with proven long-term performance.',
 
-  overviewHtml: `<p>EPDM (ethylene propylene diene monomer) rubber roofing has been the workhorse of flat and low-slope roofing for over five decades, protecting millions of buildings worldwide with a synthetic rubber membrane that is remarkably durable, cost-effective, and tolerant of the thermal cycling and ponding conditions that flat roofs encounter. When an existing rubber roof reaches the end of its serviceable life, replacement with a new EPDM membrane restores the reliable waterproof protection your building depends on. At Paterson Roofing Contractors, we perform EPDM rubber roof replacements on residential and commercial properties throughout Passaic County.</p>
+  overviewHtml: `<p>Rubber Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. EPDM (ethylene propylene diene monomer) rubber roofing has been the workhorse of flat and low-slope roofing for over five decades, protecting millions of buildings worldwide with a synthetic rubber membrane that is remarkably durable, cost-effective, and tolerant of the thermal cycling and ponding conditions that flat roofs encounter. When an existing rubber roof reaches the end of its serviceable life, replacement with a new EPDM membrane restores the reliable waterproof protection your building depends on. At Paterson Roofing Contractors, we perform EPDM rubber roof replacements on residential and commercial properties throughout Passaic County.</p>
 
 <p>Rubber roofing is especially prevalent in Passaic County because of the area's extensive inventory of flat-roofed buildings. Multi-family homes and apartment buildings in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-passaic-nj">Passaic</a>, and <a href="/roofing-contractor-clifton-nj">Clifton</a> rely on EPDM for cost-effective, durable waterproofing. Single-family homes throughout the county use rubber roofing on flat additions, enclosed porches, garages, and dormer transitions. Commercial buildings along Route 46 in <a href="/roofing-contractor-totowa-nj">Totowa</a> and Clifton, and in Paterson's commercial districts, use rubber membranes on large flat roof areas where the material's flexibility and proven track record make it a trusted choice.</p>
 
@@ -116,7 +116,7 @@ export const rubberRoofReplacement: ServiceContent = {
     'flat-roof-installation-repair',
   ],
 
-  seoTitle: 'Rubber Roof Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Rubber Roof Replacement Paterson, NJ',
   seoDescription:
     'EPDM rubber roof replacement in Passaic County, NJ. Fully adhered and mechanically fastened systems for flat roofs. Proven performance, 25-30 year lifespan. Free assessment.',
 }

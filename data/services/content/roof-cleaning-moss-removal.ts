@@ -4,11 +4,11 @@ export const roofCleaningMossRemoval: ServiceContent = {
   slug: 'roof-cleaning-moss-removal',
   name: 'Roof Cleaning & Moss Removal',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Roof Cleaning & Moss Removal in Passaic County, NJ',
+  heroHeadline: 'Roof Cleaning & Moss Removal Paterson, NJ',
   heroSubheadline:
     'Professional roof cleaning to remove moss, algae, and debris that cause premature deterioration. Safe, low-pressure methods across all 16 Passaic County municipalities.',
 
-  overviewHtml: `<p>Moss, algae, and lichen are not cosmetic nuisances -- they are active agents of roof destruction that shorten the life of asphalt shingles by years when left untreated. These biological organisms anchor themselves into the granule layer of shingles, retaining moisture against the roofing surface around the clock and through every weather cycle. That persistent moisture accelerates the breakdown of the asphalt binder that holds shingle granules in place, loosens those granules prematurely, and creates conditions where freeze-thaw cycling can crack and split shingles that would otherwise have years of serviceable life remaining. At Paterson Roofing Contractors, we provide professional roof cleaning and moss removal services across all of Passaic County, using safe low-pressure methods that eliminate biological growth without damaging the roofing materials we are working to protect.</p>
+  overviewHtml: `<p>Roof Cleaning & Moss Removal Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Moss, algae, and lichen are not cosmetic nuisances -- they are active agents of roof destruction that shorten the life of asphalt shingles by years when left untreated. These biological organisms anchor themselves into the granule layer of shingles, retaining moisture against the roofing surface around the clock and through every weather cycle. That persistent moisture accelerates the breakdown of the asphalt binder that holds shingle granules in place, loosens those granules prematurely, and creates conditions where freeze-thaw cycling can crack and split shingles that would otherwise have years of serviceable life remaining. At Paterson Roofing Contractors, we provide professional roof cleaning and moss removal services across all of Passaic County, using safe low-pressure methods that eliminate biological growth without damaging the roofing materials we are working to protect.</p>
 
 <p>Passaic County's climate and geography make biological roof growth a particularly persistent problem. The county receives approximately 50 inches of rainfall annually, distributed across every month of the year, and humidity levels in the Passaic River valley and around the numerous lakes and reservoirs in the Highlands regularly exceed 70 percent during summer months. This abundant moisture supply feeds biological growth on any roof surface that provides a hospitable substrate. North-facing and west-facing roof slopes are especially vulnerable because they receive less direct sunlight and dry more slowly after rain events. Properties surrounded by mature tree canopy in communities like <a href="/roofing-contractor-west-milford-nj">West Milford</a>, <a href="/roofing-contractor-ringwood-nj">Ringwood</a>, Wanaque, and Bloomingdale experience the most aggressive moss and algae colonization because shade prevents the UV radiation that naturally inhibits biological growth, and leaf debris on the roof surface retains moisture that feeds the organisms.</p>
 
@@ -124,7 +124,7 @@ export const roofCleaningMossRemoval: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Cleaning & Moss Removal | Paterson Roofing Contractors - Passaic County NJ',
+    'Roof Cleaning & Moss Removal Paterson, NJ',
   seoDescription:
     'Professional roof cleaning and moss removal in Passaic County, NJ. Safe low-pressure soft-wash methods that eliminate moss, algae, and lichen without damaging shingles. Free estimates.',
 }

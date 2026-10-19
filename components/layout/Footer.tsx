@@ -1,3 +1,4 @@
+import { servicePath } from '@/lib/routes'
 import Link from 'next/link'
 import { Phone, Mail, MapPin, Clock } from 'lucide-react'
 import { siteConfig } from '@/lib/site-config'
@@ -70,7 +71,7 @@ export function Footer() {
               {priorityServices.map((service) => (
                 <li key={service.slug}>
                   <Link
-                    href={`/services/${service.slug}`}
+                    href={servicePath(service.slug)}
                     className="text-gray-300 transition-colors hover:text-amber-light"
                   >
                     {service.name}
