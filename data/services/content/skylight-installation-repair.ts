@@ -4,11 +4,11 @@ export const skylightInstallationRepair: ServiceContent = {
   slug: 'skylight-installation-repair',
   name: 'Skylight Installation & Repair',
   category: 'Components & Specialty',
-  heroHeadline: 'Skylight Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Skylight Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Professional skylight installation, repair, and leak sealing for homes across Passaic County. Bring natural light into your home without compromising roof integrity.',
 
-  overviewHtml: `<p>Skylights transform dark interior spaces with natural daylight, reduce dependence on artificial lighting, and can increase your home's value -- but only when they are properly installed and maintained. A poorly installed or aging skylight becomes one of the most persistent sources of roof leaks a homeowner can face. At Paterson Roofing Contractors, we provide expert skylight installation, repair, and replacement services throughout every municipality in Passaic County, from the established neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to the suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>.</p>
+  overviewHtml: `<p>Skylight Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Skylights transform dark interior spaces with natural daylight, reduce dependence on artificial lighting, and can increase your home's value -- but only when they are properly installed and maintained. A poorly installed or aging skylight becomes one of the most persistent sources of roof leaks a homeowner can face. At Paterson Roofing Contractors, we provide expert skylight installation, repair, and replacement services throughout every municipality in Passaic County, from the established neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a> to the suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>.</p>
 
 <p>Skylight problems in Passaic County homes generally fall into two categories: flashing failures and seal failures. Flashing issues occur at the junction between the skylight frame and the surrounding roof surface, where step flashing, head flashing, and apron flashing must channel water around the skylight opening without allowing any infiltration. Seal failures happen at the glazing-to-frame junction, where the weatherseal that keeps water from entering between the glass and the frame deteriorates from UV exposure and temperature cycling. In northern New Jersey, where the temperature swing from summer to winter regularly exceeds 100 degrees and where freeze-thaw cycles test every seal and joint throughout the winter months, both types of failure are common on skylights more than 15 years old.</p>
 
@@ -117,7 +117,7 @@ export const skylightInstallationRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Skylight Installation & Repair | Paterson Roofing Contractors',
+    'Skylight Installation & Repair Paterson, NJ',
   seoDescription:
     'Professional skylight installation and repair in Passaic County, NJ. New installations, leak repair, and replacement with modern energy-efficient units. Free consultation. Call today.',
 }

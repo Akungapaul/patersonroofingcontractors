@@ -2,7 +2,11 @@ import { siteConfig } from '@/lib/site-config'
 import { getCityContent } from '@/data/content'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { cityMetadata } from '@/lib/seo-metadata'
+import { cityMetadata, serviceMetadata } from '@/lib/seo-metadata'
+import { getServiceContent } from '@/data/services/content'
+import { services } from '@/data/services'
+import { serviceSlugFromFlat } from '@/lib/routes'
+import ServiceTemplate from '@/components/templates/ServiceTemplate'
 
 // JSON-LD schemas
 import { JsonLd } from '@/components/seo/JsonLd'
@@ -25,13 +29,20 @@ import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 
-// Only serve the 16 valid location slugs -- all others 404
+// One root dynamic segment serves both flat families (Rule 7):
+// /roofing-contractor-<city>-nj (16 cities) and /<service>-paterson-nj (67 services).
+// Only the 83 valid flat slugs are served -- all others 404.
 export const dynamicParams = false
 
 export function generateStaticParams() {
-  return siteConfig.municipalities.map((m) => ({
-    locationSlug: `roofing-contractor-${m.slug}-nj`,
-  }))
+  return [
+    ...siteConfig.municipalities.map((m) => ({
+      locationSlug: `roofing-contractor-${m.slug}-nj`,
+    })),
+    ...services.map((s) => ({
+      locationSlug: `${s.slug}-paterson-nj`,
+    })),
+  ]
 }
 
 // Helper: extract city slug from full location slug
@@ -46,6 +57,11 @@ export async function generateMetadata({
   params: Promise<{ locationSlug: string }>
 }): Promise<Metadata> {
   const { locationSlug } = await params
+  const svcSlug = serviceSlugFromFlat(locationSlug)
+  if (svcSlug) {
+    const svc = getServiceContent(svcSlug)
+    if (svc) return serviceMetadata(svc)
+  }
   const citySlug = extractCitySlug(locationSlug)
   const content = getCityContent(citySlug)
   if (!content) return {}
@@ -65,6 +81,10 @@ export default async function LocationPage({
   params: Promise<{ locationSlug: string }>
 }) {
   const { locationSlug } = await params
+  const svcSlug = serviceSlugFromFlat(locationSlug)
+  if (svcSlug && getServiceContent(svcSlug)) {
+    return <ServiceTemplate slug={svcSlug} />
+  }
   const citySlug = extractCitySlug(locationSlug)
   const content = getCityContent(citySlug)
   if (!content) notFound()

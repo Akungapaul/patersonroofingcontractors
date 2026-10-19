@@ -4,11 +4,11 @@ export const tileRoofInstallationRepair: ServiceContent = {
   slug: 'tile-roof-installation-repair',
   name: 'Tile Roof Installation & Repair',
   category: 'Residential Roofing',
-  heroHeadline: 'Tile Roof Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Tile Roof Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Clay and concrete tile roofing for distinctive, long-lasting curb appeal across all 16 Passaic County municipalities. Weather-resistant systems engineered for New Jersey winters.',
 
-  overviewHtml: `<p>Tile roofing brings a Mediterranean elegance and old-world permanence to Passaic County homes that few other materials can achieve. Clay and concrete tiles deliver a dimensional, textured roofscape with color depth and shadow play that makes a striking architectural statement visible from the street. Beyond the aesthetic impact, tile roofing is one of the most durable residential roofing materials available -- clay tiles routinely last 75 to 100 years, and concrete tiles provide 40 to 60 years of reliable service. At Paterson Roofing Contractors, we install and repair tile roofing systems across all 16 municipalities in Passaic County, from the historic neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> to the premium residential communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>.</p>
+  overviewHtml: `<p>Tile Roof Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Tile roofing brings a Mediterranean elegance and old-world permanence to Passaic County homes that few other materials can achieve. Clay and concrete tiles deliver a dimensional, textured roofscape with color depth and shadow play that makes a striking architectural statement visible from the street. Beyond the aesthetic impact, tile roofing is one of the most durable residential roofing materials available -- clay tiles routinely last 75 to 100 years, and concrete tiles provide 40 to 60 years of reliable service. At Paterson Roofing Contractors, we install and repair tile roofing systems across all 16 municipalities in Passaic County, from the historic neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> to the premium residential communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>.</p>
 
 <p>Tile roofing has a longer history in the northeastern United States than many homeowners realize. European immigrants brought tile roofing traditions to New Jersey in the 19th century, and clay tiles were installed on institutional, commercial, and high-end residential buildings throughout the region. Several homes in Paterson's historic districts and older sections of Clifton still retain original clay tile roofs that are approaching or exceeding their first century of service. These installations demonstrate the material's extraordinary longevity when properly maintained -- the tiles themselves remain waterproof and structurally sound long after the fasteners and underlayment beneath them have been replaced, sometimes multiple times. This historical performance record gives tile roofing credibility in the northern New Jersey climate that extends well beyond manufacturer marketing claims.</p>
 
@@ -119,7 +119,7 @@ export const tileRoofInstallationRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Tile Roof Installation & Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Tile Roof Installation & Repair Paterson, NJ',
   seoDescription:
     'Clay and concrete tile roofing in Passaic County, NJ. 75-100 year durability, distinctive curb appeal, Class A fire rating. Expert installation engineered for New Jersey winters.',
 }

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import type { CityContent } from '@/data/content/types'
 import type { ServiceContent } from '@/data/services/types'
 import type { GuideContent } from '@/data/guides/types'
+import { servicePath } from './routes'
 
 const BRAND = 'Paterson Roofing Contractors'
 
@@ -53,7 +54,7 @@ export function serviceMetadata(content: ServiceContent): Metadata {
   return metadata({
     title: content.seoTitle,
     description: content.seoDescription,
-    canonical: `/services/${content.slug}`,
+    canonical: servicePath(content.slug),
   })
 }
 

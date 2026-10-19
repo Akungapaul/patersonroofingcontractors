@@ -4,11 +4,11 @@ export const soffitInstallationRepair: ServiceContent = {
   slug: 'soffit-installation-repair',
   name: 'Soffit Installation & Repair',
   category: 'Components & Specialty',
-  heroHeadline: 'Soffit Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Soffit Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Expert soffit installation and repair to maintain proper attic ventilation and protect your rafters from moisture, pests, and weather damage.',
 
-  overviewHtml: `<p>Soffits are the horizontal panels that enclose the underside of your roof overhang, spanning the gap between the fascia board at the roof edge and the exterior wall of your home. Far from being purely decorative, soffits serve essential functions in your home's ventilation system, pest defense, and moisture management. At Paterson Roofing Contractors, we install and repair soffits across every community in Passaic County, from the closely spaced homes of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the spacious residential properties in <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-west-milford-nj">West Milford</a>.</p>
+  overviewHtml: `<p>Soffit Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Soffits are the horizontal panels that enclose the underside of your roof overhang, spanning the gap between the fascia board at the roof edge and the exterior wall of your home. Far from being purely decorative, soffits serve essential functions in your home's ventilation system, pest defense, and moisture management. At Paterson Roofing Contractors, we install and repair soffits across every community in Passaic County, from the closely spaced homes of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the spacious residential properties in <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-west-milford-nj">West Milford</a>.</p>
 
 <p>The most important function of soffits is providing intake ventilation for your attic. Perforated or vented soffit panels allow fresh outside air to enter the attic space at the lowest point of the roof, where it flows upward and exits through ridge vents, gable vents, or roof-mounted exhaust vents at the peak. This continuous airflow prevents heat and moisture buildup in the attic -- two conditions that cause serious problems for Passaic County homes. In summer, an unventilated attic can reach temperatures exceeding 150 degrees, radiating heat down through the ceiling insulation and dramatically increasing cooling costs. In winter, warm moist air trapped in the attic condenses on the cold underside of the roof sheathing, promoting wood rot, mold growth, and the formation of ice dams along the eaves.</p>
 
@@ -116,7 +116,7 @@ export const soffitInstallationRepair: ServiceContent = {
     'gutter-installation-repair',
   ],
 
-  seoTitle: 'Soffit Installation & Repair | Paterson Roofing Contractors',
+  seoTitle: 'Soffit Installation & Repair Paterson, NJ',
   seoDescription:
     'Professional soffit installation and repair in Passaic County, NJ. Restore attic ventilation, prevent pest intrusion, and protect your roof structure. Free inspection. Call today.',
 }

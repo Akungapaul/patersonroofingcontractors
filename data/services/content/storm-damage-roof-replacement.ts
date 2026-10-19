@@ -4,11 +4,11 @@ export const stormDamageRoofReplacement: ServiceContent = {
   slug: 'storm-damage-roof-replacement',
   name: 'Storm Damage Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Storm Damage Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Storm Damage Roof Replacement Paterson, NJ',
   heroSubheadline:
     'Full roof replacement after severe storm damage with emergency tarping, insurance coordination, and premium replacement materials for lasting protection.',
 
-  overviewHtml: `<p>When a major storm event damages your roof beyond the point of economical repair, swift and professional replacement is essential to protect your home from further water intrusion and structural damage. Passaic County experiences severe weather throughout the year -- powerful nor'easters in winter, violent thunderstorms with hail and high winds in summer, and tropical storm remnants that bring torrential rain and sustained winds in fall. At Paterson Roofing Contractors, we provide complete storm damage roof replacement services from emergency response through final installation for homeowners across every municipality in the county.</p>
+  overviewHtml: `<p>Storm Damage Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. When a major storm event damages your roof beyond the point of economical repair, swift and professional replacement is essential to protect your home from further water intrusion and structural damage. Passaic County experiences severe weather throughout the year -- powerful nor'easters in winter, violent thunderstorms with hail and high winds in summer, and tropical storm remnants that bring torrential rain and sustained winds in fall. At Paterson Roofing Contractors, we provide complete storm damage roof replacement services from emergency response through final installation for homeowners across every municipality in the county.</p>
 
 <p>Storm damage that warrants full replacement rather than repair typically involves widespread shingle loss across large sections of the roof, structural damage to the deck or framing from fallen trees, extensive hail damage that compromises shingle integrity across the entire surface, or catastrophic wind damage that lifts and displaces large areas of roofing material. In the tree-heavy Highlands communities of <a href="/roofing-contractor-west-milford-nj">West Milford</a>, <a href="/roofing-contractor-ringwood-nj">Ringwood</a>, and <a href="/roofing-contractor-bloomingdale-nj">Bloomingdale</a>, fallen tree limbs are a frequent cause of storm replacement projects. In the urban areas of <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and <a href="/roofing-contractor-passaic-nj">Passaic</a>, wind channeling between buildings creates localized high-wind zones that can strip shingles from large roof sections.</p>
 
@@ -117,7 +117,7 @@ export const stormDamageRoofReplacement: ServiceContent = {
   ],
 
   seoTitle:
-    'Storm Damage Roof Replacement | Paterson Roofing Contractors',
+    'Storm Damage Roof Replacement Paterson, NJ',
   seoDescription:
     'Storm damage roof replacement in Passaic County, NJ. Emergency tarping, insurance coordination, priority installation. Complete storm recovery service. Call now.',
 }

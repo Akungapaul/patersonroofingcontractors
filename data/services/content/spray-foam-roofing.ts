@@ -4,11 +4,11 @@ export const sprayFoamRoofing: ServiceContent = {
   slug: 'spray-foam-roofing',
   name: 'Spray Foam Roofing',
   category: 'Commercial Roofing',
-  heroHeadline: 'Spray Foam Roofing in Passaic County, NJ',
+  heroHeadline: 'Spray Foam Roofing Paterson, NJ',
   heroSubheadline:
     'Spray polyurethane foam roofing for seamless waterproofing and superior insulation on commercial buildings. Ideal for irregular roof shapes, retrofits, and energy-efficient upgrades.',
 
-  overviewHtml: `<p>Spray polyurethane foam roofing -- SPF -- delivers a combination of seamless waterproofing and superior thermal insulation in a single application that no other commercial roofing system can match. Applied as a liquid that expands and cures into a rigid, closed-cell foam, SPF conforms to any roof shape, fills irregularities, and encapsulates penetrations in a continuous monolithic membrane with zero seams, joints, or mechanical fasteners. At Paterson Roofing Contractors, we install spray foam roofing systems on commercial buildings throughout Passaic County, from the irregularly shaped industrial buildings in <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the warehouses and retail facilities along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a>. SPF is uniquely suited to buildings where conventional membrane systems struggle -- structures with complex geometry, extensive penetration fields, or energy performance goals that demand the highest R-value per inch available in a roofing application.</p>
+  overviewHtml: `<p>Spray Foam Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Spray polyurethane foam roofing -- SPF -- delivers a combination of seamless waterproofing and superior thermal insulation in a single application that no other commercial roofing system can match. Applied as a liquid that expands and cures into a rigid, closed-cell foam, SPF conforms to any roof shape, fills irregularities, and encapsulates penetrations in a continuous monolithic membrane with zero seams, joints, or mechanical fasteners. At Paterson Roofing Contractors, we install spray foam roofing systems on commercial buildings throughout Passaic County, from the irregularly shaped industrial buildings in <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the warehouses and retail facilities along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a>. SPF is uniquely suited to buildings where conventional membrane systems struggle -- structures with complex geometry, extensive penetration fields, or energy performance goals that demand the highest R-value per inch available in a roofing application.</p>
 
 <p>The insulation performance of spray foam roofing is unmatched in the commercial roofing industry. Closed-cell SPF delivers R-6.5 to R-7.0 per inch of thickness -- approximately 40 percent higher than the polyisocyanurate insulation boards used beneath conventional membrane systems. A 2-inch SPF application provides R-13 to R-14, while a 3-inch application delivers R-19.5 to R-21. This exceptional thermal resistance translates directly into reduced heating and cooling costs for commercial building owners. For the aging commercial buildings throughout Passaic County that were constructed before modern energy codes required meaningful insulation, an SPF roof overlay can transform the building's thermal envelope, dramatically reducing energy consumption from the first season after installation.</p>
 
@@ -119,7 +119,7 @@ export const sprayFoamRoofing: ServiceContent = {
   ],
 
   seoTitle:
-    'Spray Foam Roofing | Paterson Roofing Contractors - Passaic County NJ',
+    'Spray Foam Roofing Paterson, NJ',
   seoDescription:
     'Spray polyurethane foam roofing in Passaic County, NJ. Seamless waterproofing with the highest R-value per inch. Ideal for complex roofs, retrofits, and energy upgrades. 30-50+ year lifespan.',
 }

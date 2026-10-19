@@ -4,11 +4,11 @@ export const infraredRoofLeakDetection: ServiceContent = {
   slug: 'infrared-roof-leak-detection',
   name: 'Infrared Roof Leak Detection',
   category: 'Design & Specialty',
-  heroHeadline: 'Infrared Roof Leak Detection in Passaic County, NJ',
+  heroHeadline: 'Infrared Roof Leak Detection Paterson, NJ',
   heroSubheadline:
     'Precision leak detection using infrared technology to find the exact source of roof leaks without destructive testing. Saving Passaic County property owners time and money.',
 
-  overviewHtml: `<p>Finding the exact source of a roof leak is often the most challenging and expensive part of resolving it. Water entering through a small opening in the roof can travel along rafters, sheathing joints, and pipe runs for ten feet or more before producing a visible stain on the ceiling below. Traditional leak detection methods rely on visual inspection, water testing, and sometimes exploratory demolition -- removing sections of roofing or ceiling material to trace the water path backward to its origin. Infrared leak detection eliminates much of this guesswork by using thermal technology to visualize the moisture path and pinpoint the entry point directly. At Paterson Roofing Contractors, we use infrared leak detection as a standard diagnostic tool across Passaic County, bringing precision and efficiency to one of roofing's most frustrating problems.</p>
+  overviewHtml: `<p>Infrared Roof Leak Detection Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Finding the exact source of a roof leak is often the most challenging and expensive part of resolving it. Water entering through a small opening in the roof can travel along rafters, sheathing joints, and pipe runs for ten feet or more before producing a visible stain on the ceiling below. Traditional leak detection methods rely on visual inspection, water testing, and sometimes exploratory demolition -- removing sections of roofing or ceiling material to trace the water path backward to its origin. Infrared leak detection eliminates much of this guesswork by using thermal technology to visualize the moisture path and pinpoint the entry point directly. At Paterson Roofing Contractors, we use infrared leak detection as a standard diagnostic tool across Passaic County, bringing precision and efficiency to one of roofing's most frustrating problems.</p>
 
 <p>Infrared leak detection works by exploiting the thermal properties of water. Moisture trapped in roofing materials -- sheathing, insulation, or the spaces between structural members -- retains and releases heat at a different rate than dry materials. After a day of sun exposure, wet areas cool more slowly than surrounding dry sections, creating temperature contrasts that are invisible to the eye but clearly visible through an infrared camera. By scanning the roof surface and interior ceilings during the optimal temperature transition period, we can map exactly where moisture has accumulated and trace its path from the interior symptom back to the roof surface entry point.</p>
 
@@ -117,7 +117,7 @@ export const infraredRoofLeakDetection: ServiceContent = {
   ],
 
   seoTitle:
-    'Infrared Roof Leak Detection | Paterson Roofing Contractors',
+    'Infrared Roof Leak Detection Paterson, NJ',
   seoDescription:
     'Infrared roof leak detection in Passaic County, NJ. Pinpoint leak sources without destructive testing. Thermal imaging technology for residential and commercial roofs. Schedule your scan.',
 }

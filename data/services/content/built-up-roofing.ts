@@ -4,11 +4,11 @@ export const builtUpRoofing: ServiceContent = {
   slug: 'built-up-roofing',
   name: 'Built-Up Roofing',
   category: 'Commercial Roofing',
-  heroHeadline: 'Built-Up Roofing (BUR) in Passaic County, NJ',
+  heroHeadline: 'Built-Up Roofing Paterson, NJ',
   heroSubheadline:
     'Time-tested built-up roofing with alternating layers of bitumen and reinforcing fabric for commercial flat roofs. Maximum redundancy and proven performance since the 1900s.',
 
-  overviewHtml: `<p>Built-up roofing -- commonly referred to as BUR or tar and gravel roofing -- is the oldest and most proven flat roofing system in continuous commercial use. For over a century, building owners have relied on the alternating layers of bitumen and reinforcing fabric that define BUR systems to provide reliable, long-lasting waterproofing on flat and low-slope structures. At Paterson Roofing Contractors, we install and maintain built-up roofing systems on commercial buildings throughout Passaic County, bringing traditional craftsmanship and modern materials together to deliver the redundant, time-tested protection that BUR has always provided. From the industrial buildings along the <a href="/roofing-contractor-paterson-nj">Paterson</a> waterfront to the commercial properties along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a>, our BUR installations protect Passaic County businesses with the most proven flat roofing technology available.</p>
+  overviewHtml: `<p>Built-Up Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Built-up roofing -- commonly referred to as BUR or tar and gravel roofing -- is the oldest and most proven flat roofing system in continuous commercial use. For over a century, building owners have relied on the alternating layers of bitumen and reinforcing fabric that define BUR systems to provide reliable, long-lasting waterproofing on flat and low-slope structures. At Paterson Roofing Contractors, we install and maintain built-up roofing systems on commercial buildings throughout Passaic County, bringing traditional craftsmanship and modern materials together to deliver the redundant, time-tested protection that BUR has always provided. From the industrial buildings along the <a href="/roofing-contractor-paterson-nj">Paterson</a> waterfront to the commercial properties along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a>, our BUR installations protect Passaic County businesses with the most proven flat roofing technology available.</p>
 
 <p>A built-up roof is constructed on-site by alternating layers of bitumen -- either hot-applied asphalt or cold-applied adhesive -- with sheets of reinforcing fabric called ply sheets. A typical BUR system consists of three to five plies, with each ply adding an independent waterproofing layer to the assembly. The result is a monolithic, multi-layered membrane that provides redundancy no single-ply system can match. If one layer is punctured or compromised, the remaining layers continue to protect the building. This inherent redundancy is why BUR remains the specification of choice for buildings where waterproofing failure would cause catastrophic consequences -- manufacturing facilities, cold storage buildings, data centers, and any structure where even a minor roof leak could destroy valuable contents or disrupt critical operations.</p>
 
@@ -119,7 +119,7 @@ export const builtUpRoofing: ServiceContent = {
   ],
 
   seoTitle:
-    'Built-Up Roofing (BUR) | Paterson Roofing Contractors - Passaic County NJ',
+    'Built-Up Roofing Paterson, NJ',
   seoDescription:
     'Built-up roofing installation in Passaic County, NJ. Multi-ply BUR systems with maximum waterproofing redundancy for commercial flat roofs. 25-40 year lifespan, manufacturer warranties.',
 }

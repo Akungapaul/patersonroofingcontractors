@@ -4,11 +4,11 @@ export const siliconeRoofCoating: ServiceContent = {
   slug: 'silicone-roof-coating',
   name: 'Silicone Roof Coating',
   category: 'Energy & Solar',
-  heroHeadline: 'Silicone Roof Coating in Passaic County, NJ',
+  heroHeadline: 'Silicone Roof Coating Paterson, NJ',
   heroSubheadline:
     'Silicone roof coatings that restore aging flat roofs without full replacement. UV-resistant, waterproof, and highly reflective for commercial and residential properties.',
 
-  overviewHtml: `<p>Silicone roof coating is the premium restoration solution for aging flat roofs that still have structural integrity but need renewed waterproofing and weather protection. Applied as a fluid that cures into a seamless, flexible membrane over the existing roof surface, silicone coating eliminates the cost and disruption of a full roof tear-off and replacement while delivering 10 to 20 additional years of reliable service. At Paterson Roofing Contractors, we apply silicone roof coatings on commercial buildings, multi-family properties, and residential flat roof sections throughout Passaic County. From the flat-roofed apartment buildings in <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the commercial properties along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a>, silicone coating restores roof performance at a fraction of the replacement cost.</p>
+  overviewHtml: `<p>Silicone Roof Coating Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Silicone roof coating is the premium restoration solution for aging flat roofs that still have structural integrity but need renewed waterproofing and weather protection. Applied as a fluid that cures into a seamless, flexible membrane over the existing roof surface, silicone coating eliminates the cost and disruption of a full roof tear-off and replacement while delivering 10 to 20 additional years of reliable service. At Paterson Roofing Contractors, we apply silicone roof coatings on commercial buildings, multi-family properties, and residential flat roof sections throughout Passaic County. From the flat-roofed apartment buildings in <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the commercial properties along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a>, silicone coating restores roof performance at a fraction of the replacement cost.</p>
 
 <p>Silicone's performance advantage over other coating types begins with its behavior in ponding water conditions. Flat roofs -- by definition -- have minimal drainage slope, and many flat roofs in Passaic County have areas where water ponds after rainfall for hours or even days. Acrylic and other water-based coatings degrade rapidly when exposed to standing water, losing adhesion and developing blisters that compromise the coating integrity. Silicone is inherently moisture-resistant and maintains its adhesion, flexibility, and waterproofing performance even when submerged in ponding water indefinitely. This makes silicone the only coating type we recommend for flat roofs in Passaic County's 50-inch annual rainfall climate, where ponding conditions are a frequent reality on older buildings with minimal drainage slope.</p>
 
@@ -119,7 +119,7 @@ export const siliconeRoofCoating: ServiceContent = {
   ],
 
   seoTitle:
-    'Silicone Roof Coating | Paterson Roofing Contractors - Passaic County NJ',
+    'Silicone Roof Coating Paterson, NJ',
   seoDescription:
     'Silicone roof coating for flat roofs in Passaic County, NJ. Restore aging roofs without replacement. Ponding water resistant, 85% reflective, 10-20 year warranty. 30-50% less than roof replacement.',
 }

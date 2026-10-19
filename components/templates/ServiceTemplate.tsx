@@ -1,8 +1,8 @@
-import { getServiceContent, getAllServiceSlugs } from '@/data/services/content'
+// Shared service template — rendered by the root flat route (app/[locationSlug])
+// at /<service>-paterson-nj. Old /services/<slug> URLs redirect in next.config.ts.
+import { getServiceContent } from '@/data/services/content'
 import { services } from '@/data/services'
 import { notFound } from 'next/navigation'
-import type { Metadata } from 'next'
-import { serviceMetadata } from '@/lib/seo-metadata'
 
 // JSON-LD schemas
 import { JsonLd } from '@/components/seo/JsonLd'
@@ -12,6 +12,7 @@ import {
   buildFaqSchema,
 } from '@/lib/schemas'
 import { siteConfig } from '@/lib/site-config'
+import { servicePath } from '@/lib/routes'
 
 // Section components (D-01 order)
 import { Hero } from '@/components/sections/Hero'
@@ -28,39 +29,8 @@ import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 
-// Only serve valid service slugs -- all others 404
-export const dynamicParams = false
-
-export function generateStaticParams() {
-  return getAllServiceSlugs().map((slug) => ({ serviceSlug: slug }))
-}
-
-// CRITICAL: In Next.js 16, params is a Promise and must be awaited
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ serviceSlug: string }>
-}): Promise<Metadata> {
-  const { serviceSlug } = await params
-  const content = getServiceContent(serviceSlug)
-  if (!content) return {}
-
-  const canonical = `/services/${content.slug}`
-  const metadata = serviceMetadata(content)
-
-  return {
-    ...metadata,
-    alternates: { ...metadata.alternates, canonical },
-  }
-}
-
-export default async function ServicePage({
-  params,
-}: {
-  params: Promise<{ serviceSlug: string }>
-}) {
-  const { serviceSlug } = await params
-  const content = getServiceContent(serviceSlug)
+export default async function ServiceTemplate({ slug }: { slug: string }) {
+  const content = getServiceContent(slug)
   if (!content) notFound()
 
   // Build schemas
@@ -82,7 +52,7 @@ export default async function ServicePage({
     { name: 'Services', url: `${siteConfig.url}/services` },
     {
       name: content.name,
-      url: `${siteConfig.url}/services/${content.slug}`,
+      url: `${siteConfig.url}${servicePath(content.slug)}`,
     },
   ]
 

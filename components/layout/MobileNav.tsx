@@ -1,5 +1,6 @@
 'use client'
 
+import { servicePath } from '@/lib/routes'
 import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import { X, ChevronDown } from 'lucide-react'
@@ -181,7 +182,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                               {categoryServices.map((service) => (
                                 <li key={service.slug}>
                                   <Link
-                                    href={`/services/${service.slug}`}
+                                    href={servicePath(service.slug)}
                                     onClick={onClose}
                                     className="block py-2 pl-10 pr-4 text-lg text-gray-300 transition-colors hover:text-amber-light"
                                   >

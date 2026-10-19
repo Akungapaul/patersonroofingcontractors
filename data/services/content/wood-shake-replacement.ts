@@ -4,11 +4,11 @@ export const woodShakeReplacement: ServiceContent = {
   slug: 'wood-shake-replacement',
   name: 'Wood Shake Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Wood Shake Replacement in Passaic County, NJ',
+  heroHeadline: 'Wood Shake Replacement Paterson, NJ',
   heroSubheadline:
     'Replace weathered wood shakes with new cedar or pressure-treated options. Restore the natural beauty and protection of your roof with expert craftsmanship.',
 
-  overviewHtml: `<p>Wood shake roofing delivers a distinctive natural beauty that no manufactured material can truly replicate -- the texture, warmth, and character of real wood create a timeless aesthetic that enhances homes from traditional to contemporary. When your wood shake roof has deteriorated to the point where individual repairs are no longer practical, a full replacement restores both the striking appearance and the weather protection that drew you to wood roofing in the first place. At Paterson Roofing Contractors, we provide expert wood shake replacement services for homes across Passaic County.</p>
+  overviewHtml: `<p>Wood Shake Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Wood shake roofing delivers a distinctive natural beauty that no manufactured material can truly replicate -- the texture, warmth, and character of real wood create a timeless aesthetic that enhances homes from traditional to contemporary. When your wood shake roof has deteriorated to the point where individual repairs are no longer practical, a full replacement restores both the striking appearance and the weather protection that drew you to wood roofing in the first place. At Paterson Roofing Contractors, we provide expert wood shake replacement services for homes across Passaic County.</p>
 
 <p>Wood shake roofs in Passaic County face particular challenges due to the region's climate and environment. Northern New Jersey's combination of heavy rainfall, humid summers, freeze-thaw winter cycles, and dense tree canopy in many neighborhoods creates conditions that accelerate wood deterioration. Shakes in shaded areas -- common under the mature tree cover of <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-north-haledon-nj">North Haledon</a>, and the Highlands communities -- stay damp longer after rain events, promoting moss, lichen, and fungal growth that breaks down the wood fibers. The frequent freeze-thaw cycling splits and cracks shakes as trapped moisture expands and contracts within the wood grain.</p>
 
@@ -116,7 +116,7 @@ export const woodShakeReplacement: ServiceContent = {
     'residential-roof-installation',
   ],
 
-  seoTitle: 'Wood Shake Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Wood Shake Replacement Paterson, NJ',
   seoDescription:
     'Wood shake roof replacement in Passaic County, NJ. Cedar, pressure-treated, and fire-retardant options. Expert installation preserving natural beauty. Free estimates.',
 }

@@ -4,11 +4,11 @@ export const asphaltShingleReplacement: ServiceContent = {
   slug: 'asphalt-shingle-replacement',
   name: 'Asphalt Shingle Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Asphalt Shingle Replacement in Passaic County, NJ',
+  heroHeadline: 'Asphalt Shingle Replacement Paterson, NJ',
   heroSubheadline:
     'Full asphalt shingle replacement with architectural and designer options. Upgrade your curb appeal and protection with modern shingle technology.',
 
-  overviewHtml: `<p>Asphalt shingles remain the most popular roofing material in Passaic County and across the United States, covering approximately 80 percent of residential roofs. When your asphalt shingle roof reaches the end of its serviceable life, a full shingle replacement gives you the opportunity to upgrade to modern architectural or designer shingles that offer dramatically better performance, appearance, and warranty coverage than the products available even a decade ago. At Paterson Roofing Contractors, we are asphalt shingle replacement specialists, having installed thousands of squares of shingles on homes throughout every Passaic County municipality.</p>
+  overviewHtml: `<p>Asphalt Shingle Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Asphalt shingles remain the most popular roofing material in Passaic County and across the United States, covering approximately 80 percent of residential roofs. When your asphalt shingle roof reaches the end of its serviceable life, a full shingle replacement gives you the opportunity to upgrade to modern architectural or designer shingles that offer dramatically better performance, appearance, and warranty coverage than the products available even a decade ago. At Paterson Roofing Contractors, we are asphalt shingle replacement specialists, having installed thousands of squares of shingles on homes throughout every Passaic County municipality.</p>
 
 <p>Modern asphalt shingles have evolved far beyond the flat, uniform 3-tab shingles that were standard on homes built before 2005. Architectural shingles, also called laminated or dimensional shingles, use multiple layers of fiberglass mat bonded together to create a thicker, more textured profile that mimics the depth of natural wood shake or slate. They weigh 50 percent more than 3-tab shingles, providing better wind resistance (rated to 110-130 mph versus 60-70 mph for 3-tab), longer lifespan (30 years versus 20 for 3-tab), and superior protection against impact damage. For homeowners in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and <a href="/roofing-contractor-wayne-nj">Wayne</a>, the upgrade from aging 3-tab to architectural shingles transforms both appearance and performance.</p>
 
@@ -116,7 +116,7 @@ export const asphaltShingleReplacement: ServiceContent = {
     'roof-inspection',
   ],
 
-  seoTitle: 'Asphalt Shingle Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Asphalt Shingle Replacement Paterson, NJ',
   seoDescription:
     'Asphalt shingle replacement in Passaic County, NJ. Architectural and designer shingle options with certified installation. Full tear-off, warranty registration. Free estimates.',
 }

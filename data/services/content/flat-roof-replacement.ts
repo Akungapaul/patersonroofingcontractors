@@ -4,11 +4,11 @@ export const flatRoofReplacement: ServiceContent = {
   slug: 'flat-roof-replacement',
   name: 'Flat Roof Replacement',
   category: 'Roof Replacement',
-  heroHeadline: 'Flat Roof Replacement in Passaic County, NJ',
+  heroHeadline: 'Flat Roof Replacement Paterson, NJ',
   heroSubheadline:
     'Commercial and residential flat roof replacement with TPO, EPDM, or modified bitumen membranes. Proper drainage design included for every installation.',
 
-  overviewHtml: `<p>Flat and low-slope roofs are ubiquitous across Passaic County, covering multi-family residential buildings, commercial properties, and the additions, porches, and garages attached to thousands of single-family homes. When a flat roof membrane reaches the end of its serviceable life, a full replacement with a modern membrane system restores waterproof protection and can resolve the drainage problems, ponding issues, and persistent leaks that aging flat roofs develop. At Paterson Roofing Contractors, we replace flat roofs on residential and commercial properties throughout every municipality in the county.</p>
+  overviewHtml: `<p>Flat Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Flat and low-slope roofs are ubiquitous across Passaic County, covering multi-family residential buildings, commercial properties, and the additions, porches, and garages attached to thousands of single-family homes. When a flat roof membrane reaches the end of its serviceable life, a full replacement with a modern membrane system restores waterproof protection and can resolve the drainage problems, ponding issues, and persistent leaks that aging flat roofs develop. At Paterson Roofing Contractors, we replace flat roofs on residential and commercial properties throughout every municipality in the county.</p>
 
 <p>The dense urban neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-passaic-nj">Passaic</a>, and <a href="/roofing-contractor-clifton-nj">Clifton</a> contain the highest concentration of flat-roofed buildings in the county. Multi-family buildings with two, three, and four units lined along tight urban streets rely entirely on their flat membrane roofs to protect multiple families and their belongings. Many of these buildings were constructed in the mid-twentieth century with built-up roofing systems that have been patched, coated, and re-covered multiple times over the decades. When the substrate beneath these layers becomes saturated and compromised, only a complete tear-off and replacement with a modern single-ply membrane can restore reliable protection.</p>
 
@@ -116,7 +116,7 @@ export const flatRoofReplacement: ServiceContent = {
     'commercial-roof-replacement',
   ],
 
-  seoTitle: 'Flat Roof Replacement | Paterson Roofing Contractors',
+  seoTitle: 'Flat Roof Replacement Paterson, NJ',
   seoDescription:
     'Flat roof replacement in Passaic County, NJ. TPO, EPDM, and modified bitumen options with drainage design. Residential and commercial. Free assessment. Call today.',
 }

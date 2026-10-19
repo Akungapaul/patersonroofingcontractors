@@ -4,11 +4,11 @@ export const commercialRoofRepair: ServiceContent = {
   slug: 'commercial-roof-repair',
   name: 'Commercial Roof Repair',
   category: 'Commercial Roofing',
-  heroHeadline: 'Commercial Roof Repair in Passaic County, NJ',
+  heroHeadline: 'Commercial Roof Repair Paterson, NJ',
   heroSubheadline:
     'Rapid commercial roof repair to minimize business disruption across all 16 Passaic County municipalities. We service TPO, EPDM, modified bitumen, metal, and all commercial roofing systems.',
 
-  overviewHtml: `<p>A leaking commercial roof threatens more than just a building -- it threatens your business operations, inventory, equipment, and the safety of everyone inside. At Paterson Roofing Contractors, we provide fast, professional commercial roof repair across every municipality in Passaic County. From the office complexes along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a> to the multi-family buildings throughout <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a>, our commercial repair crews respond quickly and resolve roofing issues before they escalate into costly business interruptions. We understand that every hour a commercial roof leaks, your business loses revenue, and we structure our response accordingly.</p>
+  overviewHtml: `<p>Commercial Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A leaking commercial roof threatens more than just a building -- it threatens your business operations, inventory, equipment, and the safety of everyone inside. At Paterson Roofing Contractors, we provide fast, professional commercial roof repair across every municipality in Passaic County. From the office complexes along Route 46 in <a href="/roofing-contractor-clifton-nj">Clifton</a> and <a href="/roofing-contractor-wayne-nj">Wayne</a> to the multi-family buildings throughout <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a>, our commercial repair crews respond quickly and resolve roofing issues before they escalate into costly business interruptions. We understand that every hour a commercial roof leaks, your business loses revenue, and we structure our response accordingly.</p>
 
 <p>Commercial roofing systems differ significantly from residential roofs in their construction, failure modes, and repair techniques. The flat and low-slope roofs that dominate Passaic County's commercial building stock -- TPO membranes, EPDM rubber roofing, modified bitumen, built-up roofing, and PVC membranes -- each have distinct failure patterns that require specialized diagnostic skills and repair materials. TPO roofs most commonly fail at heat-welded seams that separate over time, particularly around rooftop HVAC units and pipe penetrations where thermal movement concentrates stress. EPDM roofs develop adhesive failures along seam tape and shrinkage cracks at perimeter flashings after years of UV exposure. Modified bitumen roofs suffer blister formation when moisture becomes trapped between plies during the original installation. Built-up roofs develop alligator cracking in the flood coat as the asphalt oxidizes and loses flexibility. Our repair technicians are trained to identify the specific failure mechanism affecting your roof system and apply the correct repair method rather than generic patching that addresses symptoms without resolving the underlying problem.</p>
 
@@ -117,7 +117,7 @@ export const commercialRoofRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Commercial Roof Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Commercial Roof Repair Paterson, NJ',
   seoDescription:
     'Fast commercial roof repair in Passaic County, NJ. TPO, EPDM, modified bitumen, PVC, and metal roof repairs. Emergency response, insurance claims assistance, manufacturer-certified technicians. Call now.',
 }

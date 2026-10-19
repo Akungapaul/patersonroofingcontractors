@@ -4,11 +4,11 @@ export const roofThermalImagingInspections: ServiceContent = {
   slug: 'roof-thermal-imaging-inspections',
   name: 'Roof Thermal Imaging Inspections',
   category: 'Design & Specialty',
-  heroHeadline: 'Roof Thermal Imaging Inspections in Passaic County, NJ',
+  heroHeadline: 'Roof Thermal Imaging Inspections Paterson, NJ',
   heroSubheadline:
     'Advanced thermal imaging technology reveals hidden moisture, insulation gaps, and heat loss invisible to the naked eye. Precision diagnostics for Passaic County roofs.',
 
-  overviewHtml: `<p>Thermal imaging technology has transformed roof inspection from an art of educated guessing into a science of objective measurement. Using infrared cameras that detect temperature differences across the roof surface, we can identify hidden moisture trapped within the roofing system, locate insulation voids and thermal bridges, pinpoint areas of heat loss, and detect electrical hotspots -- all without removing a single shingle or cutting into the roof structure. At Paterson Roofing Contractors, we incorporate thermal imaging into our inspection and diagnostic services across Passaic County, providing homeowners and commercial property managers with the precise information they need to make informed roofing decisions.</p>
+  overviewHtml: `<p>Roof Thermal Imaging Inspections Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Thermal imaging technology has transformed roof inspection from an art of educated guessing into a science of objective measurement. Using infrared cameras that detect temperature differences across the roof surface, we can identify hidden moisture trapped within the roofing system, locate insulation voids and thermal bridges, pinpoint areas of heat loss, and detect electrical hotspots -- all without removing a single shingle or cutting into the roof structure. At Paterson Roofing Contractors, we incorporate thermal imaging into our inspection and diagnostic services across Passaic County, providing homeowners and commercial property managers with the precise information they need to make informed roofing decisions.</p>
 
 <p>The principle behind thermal imaging is straightforward. Every surface radiates infrared energy proportional to its temperature. Moisture trapped in roofing insulation or sheathing holds temperature differently than dry materials -- cooling more slowly at night and warming more slowly during the day. These temperature differences are invisible to the human eye but unmistakable on a thermal imaging camera, which renders them as color variations on a digital display. A skilled thermographer can distinguish between normal temperature variations caused by wind, shadows, or mechanical equipment and anomalous patterns that indicate moisture intrusion, insulation failure, or air leakage.</p>
 
@@ -117,7 +117,7 @@ export const roofThermalImagingInspections: ServiceContent = {
   ],
 
   seoTitle:
-    'Roof Thermal Imaging Inspections | Paterson Roofing Contractors',
+    'Roof Thermal Imaging Inspections Paterson, NJ',
   seoDescription:
     'Professional thermal imaging roof inspections in Passaic County, NJ. Detect hidden moisture, insulation gaps, and heat loss. Non-destructive diagnostics with detailed reports. Schedule today.',
 }

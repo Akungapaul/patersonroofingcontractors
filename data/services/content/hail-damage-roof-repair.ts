@@ -4,11 +4,11 @@ export const hailDamageRoofRepair: ServiceContent = {
   slug: 'hail-damage-roof-repair',
   name: 'Hail Damage Roof Repair',
   category: 'Repair & Maintenance',
-  heroHeadline: 'Hail Damage Roof Repair in Passaic County, NJ',
+  heroHeadline: 'Hail Damage Roof Repair Paterson, NJ',
   heroSubheadline:
     'Specialized hail damage assessment and expert repair for shingle, metal, and flat roofs across all 16 Passaic County municipalities. Insurance claim assistance included.',
 
-  overviewHtml: `<p>Hail storms strike Passaic County multiple times each year, typically during the spring and summer severe thunderstorm season that runs from April through September. While not every storm produces damaging hail, the ones that do can compromise the integrity of hundreds of roofs across the county in a single event. Hailstones ranging from pea-sized to golf-ball diameter impact shingles at velocities exceeding 40 miles per hour, cracking surfaces, dislodging protective granules, and creating soft bruised spots that accelerate material breakdown over the months and years that follow. At Paterson Roofing Contractors, we provide specialized hail damage assessment and repair across every municipality in Passaic County, helping homeowners in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and all surrounding communities restore their roofs to pre-storm condition.</p>
+  overviewHtml: `<p>Hail Damage Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Hail storms strike Passaic County multiple times each year, typically during the spring and summer severe thunderstorm season that runs from April through September. While not every storm produces damaging hail, the ones that do can compromise the integrity of hundreds of roofs across the county in a single event. Hailstones ranging from pea-sized to golf-ball diameter impact shingles at velocities exceeding 40 miles per hour, cracking surfaces, dislodging protective granules, and creating soft bruised spots that accelerate material breakdown over the months and years that follow. At Paterson Roofing Contractors, we provide specialized hail damage assessment and repair across every municipality in Passaic County, helping homeowners in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and all surrounding communities restore their roofs to pre-storm condition.</p>
 
 <p>Hail damage to asphalt shingles is notoriously difficult to spot from the ground. Unlike wind damage that visibly lifts or displaces shingles, hail impacts create localized damage that only becomes apparent upon close inspection of the roof surface. Each hail impact fractures the shingle mat and dislodges the ceramic-coated granules that protect the underlying asphalt from ultraviolet radiation. The resulting bald spots may be as small as a dime or as large as a quarter, appearing as dark circular marks scattered randomly across the shingle surface. From the street, the roof often looks perfectly normal. However, these impact zones are now vulnerable to accelerated UV degradation, and within one to three years, the damaged areas will begin to crack, curl, and allow water penetration that would not have occurred on an undamaged shingle. This delayed-onset deterioration is why professional inspection after a hail event is essential -- the damage is real and progressive even though it may not cause an immediate leak.</p>
 
@@ -119,7 +119,7 @@ export const hailDamageRoofRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Hail Damage Roof Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Hail Damage Roof Repair Paterson, NJ',
   seoDescription:
     'Specialized hail damage roof repair in Passaic County, NJ. Expert damage assessment, insurance claim documentation, and lasting repair for all roof types. Free inspection after any hail event.',
 }

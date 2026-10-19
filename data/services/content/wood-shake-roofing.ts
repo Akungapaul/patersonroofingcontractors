@@ -4,11 +4,11 @@ export const woodShakeRoofing: ServiceContent = {
   slug: 'wood-shake-roofing',
   name: 'Wood Shake Roofing',
   category: 'Residential Roofing',
-  heroHeadline: 'Wood Shake Roofing in Passaic County, NJ',
+  heroHeadline: 'Wood Shake Roofing Paterson, NJ',
   heroSubheadline:
     'Traditional wood shake roofing installation and repair for homes across all 16 Passaic County municipalities. Natural beauty and superior insulation with expert craftsmanship.',
 
-  overviewHtml: `<p>Wood shake roofing delivers a natural warmth and rustic elegance that no manufactured material can authentically reproduce. The hand-split texture, natural color variation, and dimensional depth of wood shakes create a roofscape that improves with age as the wood weathers to distinguished silver-gray tones that blend seamlessly with the forested landscapes of Passaic County's residential communities. At Paterson Roofing Contractors, we install and repair wood shake roofs throughout the county, from the wooded properties of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and <a href="/roofing-contractor-ringwood-nj">Ringwood</a> where natural materials complement the surrounding landscape to the established suburban neighborhoods of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a> where wood shake adds premium character to traditional home designs.</p>
+  overviewHtml: `<p>Wood Shake Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Wood shake roofing delivers a natural warmth and rustic elegance that no manufactured material can authentically reproduce. The hand-split texture, natural color variation, and dimensional depth of wood shakes create a roofscape that improves with age as the wood weathers to distinguished silver-gray tones that blend seamlessly with the forested landscapes of Passaic County's residential communities. At Paterson Roofing Contractors, we install and repair wood shake roofs throughout the county, from the wooded properties of <a href="/roofing-contractor-west-milford-nj">West Milford</a> and <a href="/roofing-contractor-ringwood-nj">Ringwood</a> where natural materials complement the surrounding landscape to the established suburban neighborhoods of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a> where wood shake adds premium character to traditional home designs.</p>
 
 <p>Wood shakes and wood shingles, while often discussed interchangeably, are distinct products with different characteristics. Wood shakes are split from the log along the grain, producing a rough, textured surface with substantial thickness variation that creates the bold shadow lines and dimensional profile associated with the traditional shake look. Wood shingles are sawn to precise dimensions with smooth, uniform surfaces that produce a more refined, flat-lying appearance. Both products are available in western red cedar, the dominant species for roofing applications, as well as Alaskan yellow cedar, eastern white cedar, and pressure-treated pine. Cedar is the preferred material because its natural oils contain tannins and thujaplicin -- organic compounds that resist rot, insect damage, and fungal colonization without chemical treatment. These natural preservatives give cedar shake roofs a functional lifespan of 30 to 50 years when properly installed and maintained.</p>
 
@@ -119,7 +119,7 @@ export const woodShakeRoofing: ServiceContent = {
   ],
 
   seoTitle:
-    'Wood Shake Roofing | Paterson Roofing Contractors - Passaic County NJ',
+    'Wood Shake Roofing Paterson, NJ',
   seoDescription:
     'Wood shake roofing installation and repair in Passaic County, NJ. Natural cedar beauty with 30-50 year durability. Fire-retardant options available. Expert craftsmanship.',
 }

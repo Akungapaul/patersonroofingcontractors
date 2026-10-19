@@ -4,11 +4,11 @@ export const metalRoofInstallationRepair: ServiceContent = {
   slug: 'metal-roof-installation-repair',
   name: 'Metal Roof Installation & Repair',
   category: 'Residential Roofing',
-  heroHeadline: 'Metal Roof Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Metal Roof Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Standing seam and metal shingle roofing built to last 50+ years across all 16 Passaic County municipalities. Energy-efficient, fire-resistant, and available in a range of finishes.',
 
-  overviewHtml: `<p>Metal roofing has undergone a transformation in residential applications that has made it one of the fastest-growing material choices for Passaic County homeowners. Today's residential metal roofing bears no resemblance to the corrugated barn panels that many homeowners picture when they hear the term -- modern standing seam panels and metal shingles offer refined aesthetics, sophisticated color options, and performance characteristics that surpass every other residential roofing material in several critical categories. At Paterson Roofing Contractors, we install and repair metal roofing systems across all 16 municipalities in Passaic County, helping homeowners in <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>, and throughout the county invest in a roof that will be the last one their home ever needs.</p>
+  overviewHtml: `<p>Metal Roof Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Metal roofing has undergone a transformation in residential applications that has made it one of the fastest-growing material choices for Passaic County homeowners. Today's residential metal roofing bears no resemblance to the corrugated barn panels that many homeowners picture when they hear the term -- modern standing seam panels and metal shingles offer refined aesthetics, sophisticated color options, and performance characteristics that surpass every other residential roofing material in several critical categories. At Paterson Roofing Contractors, we install and repair metal roofing systems across all 16 municipalities in Passaic County, helping homeowners in <a href="/roofing-contractor-wayne-nj">Wayne</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>, and throughout the county invest in a roof that will be the last one their home ever needs.</p>
 
 <p>The durability advantage of metal roofing is not incremental -- it is transformational. A quality standing seam metal roof carries a functional lifespan of 50 to 70 years, with many metal roofs still performing well beyond that range. Compare this to the 25 to 30 year lifespan of premium asphalt shingles, and the lifetime cost calculation becomes compelling: a metal roof that costs twice as much to install but lasts more than twice as long actually costs less per year of protection than the asphalt shingle alternative. Factor in the reduced maintenance requirements, superior storm resistance, and energy savings that metal roofing delivers, and the total cost of ownership over a 50-year horizon is substantially lower than two cycles of asphalt shingle installation. For Passaic County homeowners who plan to remain in their home long-term or who want to invest in a roofing system that adds significant resale value, metal roofing is the economically rational choice despite the higher initial cost.</p>
 
@@ -119,7 +119,7 @@ export const metalRoofInstallationRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Metal Roof Installation & Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Metal Roof Installation & Repair Paterson, NJ',
   seoDescription:
     'Standing seam and metal shingle roofing in Passaic County, NJ. 50+ year lifespan, 180 MPH wind resistance, energy-efficient. Expert installation with manufacturer warranties.',
 }

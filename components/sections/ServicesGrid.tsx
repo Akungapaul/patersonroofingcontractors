@@ -1,3 +1,4 @@
+import { servicePath } from '@/lib/routes'
 import { services } from '@/data/services'
 import { Card } from '@/components/ui/Card'
 import Link from 'next/link'
@@ -116,7 +117,7 @@ export function ServicesGrid({ serviceSlugs, title, groupByCategory }: ServicesG
                     return (
                       <Link
                         key={service.slug}
-                        href={`/services/${service.slug}`}
+                        href={servicePath(service.slug)}
                         className="group"
                       >
                         <Card interactive className="border-t-[3px] border-t-amber p-4">
@@ -155,7 +156,7 @@ export function ServicesGrid({ serviceSlugs, title, groupByCategory }: ServicesG
             return (
               <Link
                 key={service.slug}
-                href={`/services/${service.slug}`}
+                href={servicePath(service.slug)}
                 className="group"
               >
                 <Card interactive className="border-t-[3px] border-t-amber p-4">

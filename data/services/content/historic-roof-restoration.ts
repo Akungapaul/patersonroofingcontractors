@@ -4,11 +4,11 @@ export const historicRoofRestoration: ServiceContent = {
   slug: "historic-roof-restoration",
   name: "Historic Roof Restoration",
   category: "Design & Specialty",
-  heroHeadline: "Historic Roof Restoration in Passaic County, NJ",
+  heroHeadline: "Historic Roof Restoration Paterson, NJ",
   heroSubheadline:
     "Period-accurate roof restoration for historic Passaic County homes. We source authentic materials and follow preservation guidelines to honor your home heritage.",
 
-  overviewHtml: `<p>Passaic County contains a remarkable concentration of architecturally significant historic buildings, from the Victorian and Edwardian homes that line the streets of Paterson's Eastside and Northside historic districts to the Colonial and Federal-era structures scattered throughout the county's smaller municipalities. The roofs on these buildings are integral to their architectural character, and restoring them requires a combination of historical knowledge, specialized materials sourcing, and craftsmanship techniques that many modern roofing contractors simply do not possess. At Paterson Roofing Contractors, we provide historic roof restoration services that honor the heritage of your building while delivering the weather protection it needs for the next generation.</p>
+  overviewHtml: `<p>Historic Roof Restoration Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Passaic County contains a remarkable concentration of architecturally significant historic buildings, from the Victorian and Edwardian homes that line the streets of Paterson's Eastside and Northside historic districts to the Colonial and Federal-era structures scattered throughout the county's smaller municipalities. The roofs on these buildings are integral to their architectural character, and restoring them requires a combination of historical knowledge, specialized materials sourcing, and craftsmanship techniques that many modern roofing contractors simply do not possess. At Paterson Roofing Contractors, we provide historic roof restoration services that honor the heritage of your building while delivering the weather protection it needs for the next generation.</p>
 
 <p><a href="/roofing-contractor-paterson-nj">Paterson</a> -- the Silk City -- is the epicenter of historic architecture in Passaic County. The Great Falls National Historical Park and surrounding neighborhoods feature homes and commercial buildings dating from the mid-1800s through the early 1900s, many with original slate, copper, and tin roofing details that define their period character. The Eastside Historic District, Dublin neighborhood, and parts of Northside contain dense blocks of Victorian homes with steeply pitched slate roofs, ornamental ridge cresting, and copper gutters and flashing that require specialized restoration approaches. Additional historic homes in <a href="/roofing-contractor-haledon-nj">Haledon</a>, <a href="/roofing-contractor-hawthorne-nj">Hawthorne</a>, and <a href="/roofing-contractor-clifton-nj">Clifton</a> represent various periods and styles, each with roofing details that connect them to their era.</p>
 
@@ -130,7 +130,7 @@ export const historicRoofRestoration: ServiceContent = {
     "chimney-flashing-repair",
   ],
 
-  seoTitle: "Historic Roof Restoration & Leak Repair | Paterson NJ",
+  seoTitle: "Historic Roof Restoration Paterson, NJ",
   seoDescription:
     "Historic roof restoration and leak repair for Paterson and Passaic County homes. Slate, copper flashing, cedar, tile, and preservation-minded roof assessments.",
 };

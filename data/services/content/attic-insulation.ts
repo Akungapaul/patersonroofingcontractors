@@ -4,11 +4,11 @@ export const atticInsulation: ServiceContent = {
   slug: 'attic-insulation',
   name: 'Attic Insulation',
   category: 'Components & Specialty',
-  heroHeadline: 'Attic Insulation in Passaic County, NJ',
+  heroHeadline: 'Attic Insulation Paterson, NJ',
   heroSubheadline:
     'Professional attic insulation installation and upgrades to reduce energy costs, prevent ice dams, and improve year-round comfort for Passaic County homes.',
 
-  overviewHtml: `<p>Attic insulation is one of the most impactful energy improvements a homeowner can make, and it is directly connected to roof performance in ways that many property owners do not realize. Insufficient attic insulation allows conditioned air to escape through the ceiling, driving up heating and cooling costs throughout the year. In winter, this heat loss does more than waste energy -- it warms the roof deck unevenly, melting snow on the upper roof surface while the eaves remain cold, creating the ice dams that cause thousands of dollars in damage to Passaic County homes every winter. At Paterson Roofing Contractors, we provide professional attic insulation services throughout all 16 municipalities in Passaic County.</p>
+  overviewHtml: `<p>Attic Insulation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Attic insulation is one of the most impactful energy improvements a homeowner can make, and it is directly connected to roof performance in ways that many property owners do not realize. Insufficient attic insulation allows conditioned air to escape through the ceiling, driving up heating and cooling costs throughout the year. In winter, this heat loss does more than waste energy -- it warms the roof deck unevenly, melting snow on the upper roof surface while the eaves remain cold, creating the ice dams that cause thousands of dollars in damage to Passaic County homes every winter. At Paterson Roofing Contractors, we provide professional attic insulation services throughout all 16 municipalities in Passaic County.</p>
 
 <p>New Jersey's energy code requires attic insulation to achieve a minimum of R-49, which equates to approximately 16 to 20 inches of blown-in fiberglass or cellulose insulation depending on the material. Many homes in <a href="/roofing-contractor-paterson-nj">Paterson</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, and <a href="/roofing-contractor-haledon-nj">Haledon</a> built before 1980 have attic insulation levels of R-11 to R-19 -- less than half of the current requirement. Even homes built in the 1990s and 2000s often fall short of today's standards, with R-30 to R-38 insulation that has settled, shifted, or been disturbed by HVAC work, electrical upgrades, or pest activity over the years. Every inch of insulation below the recommended level represents measurable heat loss and wasted energy dollars.</p>
 
@@ -121,7 +121,7 @@ export const atticInsulation: ServiceContent = {
     'energy-efficient-roofing-solutions',
   ],
 
-  seoTitle: 'Attic Insulation | Paterson Roofing Contractors',
+  seoTitle: 'Attic Insulation Paterson, NJ',
   seoDescription:
     'Professional attic insulation in Passaic County, NJ. R-49 upgrades, air sealing, ice dam prevention. NJ Clean Energy rebate assistance. Free assessment. Call today.',
 }

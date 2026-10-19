@@ -4,11 +4,11 @@ export const residentialRoofInstallation: ServiceContent = {
   slug: 'residential-roof-installation',
   name: 'Residential Roof Installation',
   category: 'Residential Roofing',
-  heroHeadline: 'Residential Roof Installation in Passaic County, NJ',
+  heroHeadline: 'Residential Roof Installation Paterson, NJ',
   heroSubheadline:
     'Complete residential roof installation for new construction and full replacements across all 16 Passaic County municipalities. Expert craftsmanship with premium materials and manufacturer warranties.',
 
-  overviewHtml: `<p>A new roof installation is one of the most significant investments a homeowner makes, and the quality of that installation determines how well the roof performs for the next 25 to 50 years. At Paterson Roofing Contractors, we approach every residential roof installation as a complete system engineering project -- from the structural assessment of your roof deck to the final ridge cap placement, every component is specified, installed, and verified to deliver maximum protection and longevity. We serve homeowners across all 16 municipalities in Passaic County, installing roofs on everything from the compact row houses of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the sprawling colonials of <a href="/roofing-contractor-wayne-nj">Wayne</a> and the lakeside homes of <a href="/roofing-contractor-west-milford-nj">West Milford</a>.</p>
+  overviewHtml: `<p>Residential Roof Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A new roof installation is one of the most significant investments a homeowner makes, and the quality of that installation determines how well the roof performs for the next 25 to 50 years. At Paterson Roofing Contractors, we approach every residential roof installation as a complete system engineering project -- from the structural assessment of your roof deck to the final ridge cap placement, every component is specified, installed, and verified to deliver maximum protection and longevity. We serve homeowners across all 16 municipalities in Passaic County, installing roofs on everything from the compact row houses of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the sprawling colonials of <a href="/roofing-contractor-wayne-nj">Wayne</a> and the lakeside homes of <a href="/roofing-contractor-west-milford-nj">West Milford</a>.</p>
 
 <p>Residential roof installation in Passaic County must account for the full spectrum of northern New Jersey weather conditions. Our region experiences hot, humid summers with frequent severe thunderstorms, harsh winters with nor'easters that dump heavy snow and drive temperatures well below freezing for extended periods, and transitional seasons marked by intense rain and volatile wind patterns. The roofing system we install must withstand summer temperatures that can reach 160 degrees on the roof surface, winter ice loads that add thousands of pounds of weight, wind gusts exceeding 70 miles per hour during severe storms, and the relentless freeze-thaw cycling that works to destroy every seal and joint on the roof. This is why material selection, installation technique, and ventilation design matter so much in our climate -- a roof installed to Florida specifications would fail in northern New Jersey within a decade.</p>
 
@@ -119,7 +119,7 @@ export const residentialRoofInstallation: ServiceContent = {
   ],
 
   seoTitle:
-    'Residential Roof Installation | Paterson Roofing Contractors - Passaic County NJ',
+    'Residential Roof Installation Paterson, NJ',
   seoDescription:
     'Professional residential roof installation in Passaic County, NJ. New construction and full replacements with premium materials and manufacturer warranties. Free estimates.',
 }

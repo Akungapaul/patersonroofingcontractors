@@ -1,3 +1,4 @@
+import { servicePath } from '@/lib/routes'
 import { Card } from '@/components/ui/Card'
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
@@ -22,7 +23,7 @@ export function RelatedServices({ services }: RelatedServicesProps) {
 
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {services.map((service) => (
-            <Link key={service.slug} href={`/services/${service.slug}`}>
+            <Link key={service.slug} href={servicePath(service.slug)}>
               <Card interactive className="p-6">
                 <h3 className="font-heading text-2xl font-bold text-navy">
                   {service.name}

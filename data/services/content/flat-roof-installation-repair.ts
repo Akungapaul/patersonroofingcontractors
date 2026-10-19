@@ -4,11 +4,11 @@ export const flatRoofInstallationRepair: ServiceContent = {
   slug: 'flat-roof-installation-repair',
   name: 'Flat Roof Installation & Repair',
   category: 'Residential Roofing',
-  heroHeadline: 'Flat Roof Installation & Repair in Passaic County, NJ',
+  heroHeadline: 'Flat Roof Installation & Repair Paterson, NJ',
   heroSubheadline:
     'Expert flat roof systems for residential and multi-family buildings across all 16 Passaic County municipalities. TPO, EPDM, and modified bitumen options with proven waterproofing.',
 
-  overviewHtml: `<p>Flat and low-slope roofing is the dominant roof type on the multi-family residential buildings, row houses, and mixed-use structures that define the urban landscape of Passaic County. In <a href="/roofing-contractor-paterson-nj">Paterson</a> alone, thousands of two-family, three-family, and larger apartment buildings feature flat roofs that require specialized membrane systems engineered for water management on surfaces with minimal pitch. Across <a href="/roofing-contractor-passaic-nj">Passaic</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, Haledon, and Prospect Park, the same flat-roof building stock creates a constant demand for installation, repair, and replacement services that general pitched-roof contractors are not equipped to handle. Paterson Roofing Contractors is Passaic County's flat roof specialist, with crews trained and experienced in every membrane system used on residential flat roofs.</p>
+  overviewHtml: `<p>Flat Roof Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Flat and low-slope roofing is the dominant roof type on the multi-family residential buildings, row houses, and mixed-use structures that define the urban landscape of Passaic County. In <a href="/roofing-contractor-paterson-nj">Paterson</a> alone, thousands of two-family, three-family, and larger apartment buildings feature flat roofs that require specialized membrane systems engineered for water management on surfaces with minimal pitch. Across <a href="/roofing-contractor-passaic-nj">Passaic</a>, <a href="/roofing-contractor-clifton-nj">Clifton</a>, Haledon, and Prospect Park, the same flat-roof building stock creates a constant demand for installation, repair, and replacement services that general pitched-roof contractors are not equipped to handle. Paterson Roofing Contractors is Passaic County's flat roof specialist, with crews trained and experienced in every membrane system used on residential flat roofs.</p>
 
 <p>The fundamental challenge of flat roofing is that water does not naturally drain off a level surface the way it flows down a pitched roof. Instead of relying on gravity and overlapping shingle courses to shed water, flat roof systems must create a continuous waterproof membrane across the entire roof surface -- a single, unbroken barrier that prevents water penetration at every point including the seams where membrane sheets join, the perimeter where the roof meets the parapet walls, and the penetrations where plumbing vents, exhaust fans, and HVAC equipment pass through the roof surface. This is why flat roof installation demands precision that pitched roofing does not: a poorly sealed seam or improperly integrated penetration detail on a flat roof will leak, guaranteed, because water has no mechanism to flow past the defect without penetrating it.</p>
 
@@ -119,7 +119,7 @@ export const flatRoofInstallationRepair: ServiceContent = {
   ],
 
   seoTitle:
-    'Flat Roof Installation & Repair | Paterson Roofing Contractors - Passaic County NJ',
+    'Flat Roof Installation & Repair Paterson, NJ',
   seoDescription:
     'Expert flat roof installation and repair in Passaic County, NJ. TPO, EPDM, and modified bitumen systems for residential and multi-family buildings. Drainage engineering included.',
 }

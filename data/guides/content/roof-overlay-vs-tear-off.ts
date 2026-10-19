@@ -9,7 +9,7 @@ export const roofOverlayVsTearOff: GuideContent = {
     {
       id: 'what-is-roof-overlay',
       title: 'What Is a Roof Overlay',
-      contentHtml: `<p>A <a href="/services/roof-overlay-installation">roof overlay</a> (also called a re-roof or re-cover) is the installation of new roofing material directly over the existing roof without removing the old material first. For asphalt shingle roofs, this means nailing new shingles on top of the existing shingle layer. The old roof remains in place, serving as an additional underlayment beneath the new material.</p>
+      contentHtml: `<p>A <a href="/roof-overlay-installation-paterson-nj">roof overlay</a> (also called a re-roof or re-cover) is the installation of new roofing material directly over the existing roof without removing the old material first. For asphalt shingle roofs, this means nailing new shingles on top of the existing shingle layer. The old roof remains in place, serving as an additional underlayment beneath the new material.</p>
 
 <p>Overlay is only viable under specific conditions. The existing roof must be a single layer (NJ building code prohibits more than two layers of asphalt shingles). The existing shingles must be lying reasonably flat -- no significant curling, buckling, or humping that would prevent the new layer from achieving a smooth, uniform surface. The underlying roof deck must be structurally sound, without rot, delamination, or water damage. And the existing roof structure must be able to support the additional weight of a second shingle layer, which adds approximately 2 to 3 pounds per square foot.</p>
 
@@ -20,7 +20,7 @@ export const roofOverlayVsTearOff: GuideContent = {
     {
       id: 'what-is-tear-off',
       title: 'What Is a Tear Off',
-      contentHtml: `<p>A <a href="/services/full-roof-tear-off">full roof tear-off</a> involves stripping every layer of existing roofing material down to the bare plywood or OSB roof deck. This includes removing all shingles (every layer), underlayment, flashing, drip edge, pipe boots, and any other roofing components. The deck is then inspected thoroughly, damaged sections are replaced, and the new roof system is installed on a clean, verified substrate.</p>
+      contentHtml: `<p>A <a href="/full-roof-tear-off-paterson-nj">full roof tear-off</a> involves stripping every layer of existing roofing material down to the bare plywood or OSB roof deck. This includes removing all shingles (every layer), underlayment, flashing, drip edge, pipe boots, and any other roofing components. The deck is then inspected thoroughly, damaged sections are replaced, and the new roof system is installed on a clean, verified substrate.</p>
 
 <p>Tear-off is the industry standard for roof replacement and is considered the best practice by virtually all major shingle manufacturers, roofing industry associations, and building inspectors. The process provides several advantages that are impossible to achieve with an overlay: complete deck inspection and repair, fresh underlayment and ice shield installation, proper flashing replacement at all transitions, and elimination of trapped moisture between layers that can cause premature deterioration of the new roofing material.</p>
 
@@ -84,7 +84,7 @@ export const roofOverlayVsTearOff: GuideContent = {
 
 <p><strong>Critical question to ask your contractor:</strong> Before accepting an overlay recommendation from any contractor, ask them: "If this were your house, would you overlay or tear off?" If they hesitate or qualify their answer significantly, they are likely recommending overlay primarily because it is what you asked for, not because it is the best approach for your property. A contractor who confidently recommends tear-off on a roof where overlay is technically possible is prioritizing your long-term interest over the path of least resistance.</p>
 
-<p>Regardless of which approach you choose, the quality of the installation is the dominant factor in your new roof's performance. A properly installed overlay on a suitable substrate will outperform a poorly installed tear-off. Choose your contractor based on their qualifications, experience, and reputation -- then trust their recommendation on the overlay-versus-tear-off question for your specific property. Contact us for a free <a href="/services/roof-inspection">roof inspection</a> and honest assessment of which approach is right for your Passaic County home.</p>`,
+<p>Regardless of which approach you choose, the quality of the installation is the dominant factor in your new roof's performance. A properly installed overlay on a suitable substrate will outperform a poorly installed tear-off. Choose your contractor based on their qualifications, experience, and reputation -- then trust their recommendation on the overlay-versus-tear-off question for your specific property. Contact us for a free <a href="/roof-inspection-paterson-nj">roof inspection</a> and honest assessment of which approach is right for your Passaic County home.</p>`,
     },
   ],
   expertTips: [

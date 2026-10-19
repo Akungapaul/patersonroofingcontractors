@@ -4,11 +4,11 @@ export const reRoofing: ServiceContent = {
   slug: "re-roofing",
   name: "Re-Roofing",
   category: "Roof Replacement",
-  heroHeadline: "Re-Roofing Services in Passaic County, NJ",
+  heroHeadline: "Re-Roofing Paterson, NJ",
   heroSubheadline:
     "Expert re-roofing covering both tear-off and overlay options. We assess your roof and recommend the best replacement approach for your home and budget.",
 
-  overviewHtml: `<p>Re-roofing encompasses any project that replaces the existing roofing material on your home or building, whether through a full tear-off to the deck or an overlay of new shingles over the old. At Paterson Roofing Contractors, we help homeowners throughout Passaic County navigate the re-roofing decision by providing honest assessments, transparent pricing for both approaches, and expert installation regardless of which method best fits their situation. From the dense neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a>, our re-roofing services protect homes across the county.</p>
+  overviewHtml: `<p>Re-Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Re-roofing encompasses any project that replaces the existing roofing material on your home or building, whether through a full tear-off to the deck or an overlay of new shingles over the old. At Paterson Roofing Contractors, we help homeowners throughout Passaic County navigate the re-roofing decision by providing honest assessments, transparent pricing for both approaches, and expert installation regardless of which method best fits their situation. From the dense neighborhoods of <a href="/roofing-contractor-paterson-nj">Paterson</a> and <a href="/roofing-contractor-passaic-nj">Passaic</a> to the suburban communities of <a href="/roofing-contractor-wayne-nj">Wayne</a> and <a href="/roofing-contractor-clifton-nj">Clifton</a>, our re-roofing services protect homes across the county.</p>
 
 <p>Every re-roofing project begins with the fundamental question: tear-off or overlay? The answer depends on several factors that our inspection evaluates systematically. We check the number of existing shingle layers, assess the condition and flatness of the current surface, inspect the roof deck from the attic for signs of moisture damage or structural compromise, review the home's leak history, and consider the homeowner's budget and long-term plans. When an overlay is appropriate, it delivers significant cost and time savings. When a tear-off is needed, it provides superior long-term performance and warranty coverage. We present both options with clear explanations of the trade-offs so you can make a confident decision.</p>
 
@@ -128,7 +128,7 @@ export const reRoofing: ServiceContent = {
     "emergency-roof-repair",
   ],
 
-  seoTitle: "Roof Replacement & Re-Roofing Paterson NJ",
+  seoTitle: "Re-Roofing Paterson, NJ",
   seoDescription:
     "Roof replacement and re-roofing in Paterson and Passaic County, NJ. Tear-off, overlay, asphalt shingle, and flat roof replacement estimates.",
 };
