@@ -6,7 +6,7 @@ import { cityMetadata, comboMetadata, serviceMetadata } from '@/lib/seo-metadata
 import { getServiceContent } from '@/data/services/content'
 import { getCityContent as getCity } from '@/data/content'
 import { services } from '@/data/services'
-import { COMBO_PAIRS, parseComboSlug, serviceSlugFromFlat } from '@/lib/routes'
+import { COMBO_PAIRS, localizeServiceLinks, parseComboSlug, serviceSlugFromFlat } from '@/lib/routes'
 import ServiceTemplate from '@/components/templates/ServiceTemplate'
 import ComboTemplate from '@/components/templates/ComboTemplate'
 
@@ -150,7 +150,7 @@ export default async function LocationPage({
       {/* 2. About Roofing in [City] */}
       <CityIntro
         cityName={content.name}
-        introHtml={content.introHtml}
+        introHtml={localizeServiceLinks(content.introHtml, content.slug)}
         localContext={content.localContext}
       />
 
