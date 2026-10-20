@@ -23,10 +23,12 @@ function metadata({
   title,
   description,
   canonical,
+  keywords,
 }: {
   title: string
   description: string
   canonical: string
+  keywords?: string
 }): Metadata {
   const shortTitle = limit(title, 60)
   const shortDescription = limit(description, 160)
@@ -34,6 +36,7 @@ function metadata({
   return {
     title: { absolute: shortTitle },
     description: shortDescription,
+    ...(keywords ? { keywords } : {}),
     alternates: { canonical },
     openGraph: {
       title: shortTitle,
@@ -51,11 +54,15 @@ export function cityMetadata(content: CityContent): Metadata {
   })
 }
 
-export function serviceMetadata(content: ServiceContent): Metadata {
+export function serviceMetadata(
+  content: ServiceContent,
+  supplement?: { metaDescription?: string; metaKeywords?: string }
+): Metadata {
   return metadata({
     title: content.seoTitle,
-    description: content.seoDescription,
+    description: supplement?.metaDescription ?? content.seoDescription,
     canonical: servicePath(content.slug),
+    keywords: supplement?.metaKeywords,
   })
 }
 
@@ -90,15 +97,17 @@ export { BRAND }
 
 export function comboMetadata(
   service: ServiceContent,
-  city: CityContent
+  city: CityContent,
+  supplement?: { metaDescription?: string; metaKeywords?: string }
 ): Metadata {
   const phrase = `${service.name} ${city.name}, NJ`
   const indexEntry = services.find((s) => s.slug === service.slug)
   return metadata({
     title: phrase,
-    description: indexEntry
-      ? `${phrase} — ${indexEntry.description}`
-      : service.seoDescription,
+    description:
+      supplement?.metaDescription ??
+      (indexEntry ? `${phrase} — ${indexEntry.description}` : service.seoDescription),
     canonical: comboPath(service.slug, city.slug),
+    keywords: supplement?.metaKeywords,
   })
 }

@@ -3,6 +3,7 @@ import { getCityContent } from '@/data/content'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { cityMetadata, comboMetadata, serviceMetadata } from '@/lib/seo-metadata'
+import { CORA_SUPPLEMENTS } from '@/data/cora-supplements'
 import { getServiceContent } from '@/data/services/content'
 import { getCityContent as getCity } from '@/data/content'
 import { services } from '@/data/services'
@@ -74,12 +75,12 @@ export async function generateMetadata({
   if (combo) {
     const svc = getServiceContent(combo.service)
     const cty = getCity(combo.city)
-    if (svc && cty) return comboMetadata(svc, cty)
+    if (svc && cty) return comboMetadata(svc, cty, CORA_SUPPLEMENTS[locationSlug])
   }
   const svcSlug = serviceSlugFromFlat(locationSlug)
   if (svcSlug) {
     const svc = getServiceContent(svcSlug)
-    if (svc) return serviceMetadata(svc)
+    if (svc) return serviceMetadata(svc, CORA_SUPPLEMENTS[locationSlug])
   }
   const citySlug = extractCitySlug(locationSlug)
   const content = getCityContent(citySlug)
