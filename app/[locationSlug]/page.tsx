@@ -2,11 +2,13 @@ import { siteConfig } from '@/lib/site-config'
 import { getCityContent } from '@/data/content'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { cityMetadata, serviceMetadata } from '@/lib/seo-metadata'
+import { cityMetadata, comboMetadata, serviceMetadata } from '@/lib/seo-metadata'
 import { getServiceContent } from '@/data/services/content'
+import { getCityContent as getCity } from '@/data/content'
 import { services } from '@/data/services'
-import { serviceSlugFromFlat } from '@/lib/routes'
+import { COMBO_PAIRS, parseComboSlug, serviceSlugFromFlat } from '@/lib/routes'
 import ServiceTemplate from '@/components/templates/ServiceTemplate'
+import ComboTemplate from '@/components/templates/ComboTemplate'
 
 // JSON-LD schemas
 import { JsonLd } from '@/components/seo/JsonLd'
@@ -42,7 +44,18 @@ export function generateStaticParams() {
     ...services.map((s) => ({
       locationSlug: `${s.slug}-paterson-nj`,
     })),
+    ...COMBO_PAIRS.map((p) => ({
+      locationSlug: `${p.service}-${p.city}-nj`,
+    })),
   ]
+}
+
+function parseCombo(locationSlug: string) {
+  return parseComboSlug(
+    locationSlug,
+    services.map((s) => s.slug),
+    siteConfig.municipalities.map((m) => m.slug)
+  )
 }
 
 // Helper: extract city slug from full location slug
@@ -57,6 +70,12 @@ export async function generateMetadata({
   params: Promise<{ locationSlug: string }>
 }): Promise<Metadata> {
   const { locationSlug } = await params
+  const combo = parseCombo(locationSlug)
+  if (combo) {
+    const svc = getServiceContent(combo.service)
+    const cty = getCity(combo.city)
+    if (svc && cty) return comboMetadata(svc, cty)
+  }
   const svcSlug = serviceSlugFromFlat(locationSlug)
   if (svcSlug) {
     const svc = getServiceContent(svcSlug)
@@ -81,6 +100,10 @@ export default async function LocationPage({
   params: Promise<{ locationSlug: string }>
 }) {
   const { locationSlug } = await params
+  const combo = parseCombo(locationSlug)
+  if (combo) {
+    return <ComboTemplate serviceSlug={combo.service} citySlug={combo.city} />
+  }
   const svcSlug = serviceSlugFromFlat(locationSlug)
   if (svcSlug && getServiceContent(svcSlug)) {
     return <ServiceTemplate slug={svcSlug} />
@@ -141,6 +164,7 @@ export default async function LocationPage({
       <ServicesGrid
         serviceSlugs={content.relevantServiceSlugs}
         title={`Roofing Services We Offer in ${content.name}`}
+        citySlug={content.slug}
       />
 
       {/* 5. Neighborhoods We Serve */}
