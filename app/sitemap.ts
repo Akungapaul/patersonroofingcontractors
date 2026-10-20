@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { siteConfig } from '@/lib/site-config'
 import { services } from '@/data/services'
 import { getAllGuideSlugs } from '@/data/guides/content'
-import { servicePath } from '@/lib/routes'
+import { COMBO_PAIRS, comboPath, servicePath } from '@/lib/routes'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://patersonroofingcontractors.com'
@@ -16,6 +16,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const servicePages = services.map((s) => ({
     url: `${baseUrl}${servicePath(s.slug)}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
+  }))
+
+  const comboPages = COMBO_PAIRS.map((p) => ({
+    url: `${baseUrl}${comboPath(p.service, p.city)}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.7,
@@ -49,6 +56,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...locationPages,
     ...servicePages,
+    ...comboPages,
     ...guidePages,
     ...utilityPages,
   ]

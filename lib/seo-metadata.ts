@@ -2,7 +2,8 @@ import type { Metadata } from 'next'
 import type { CityContent } from '@/data/content/types'
 import type { ServiceContent } from '@/data/services/types'
 import type { GuideContent } from '@/data/guides/types'
-import { servicePath } from './routes'
+import { comboPath, servicePath } from './routes'
+import { services } from '@/data/services'
 
 const BRAND = 'Paterson Roofing Contractors'
 
@@ -86,3 +87,18 @@ export const homeMetadata = staticPageMetadata({
 })
 
 export { BRAND }
+
+export function comboMetadata(
+  service: ServiceContent,
+  city: CityContent
+): Metadata {
+  const phrase = `${service.name} ${city.name}, NJ`
+  const indexEntry = services.find((s) => s.slug === service.slug)
+  return metadata({
+    title: phrase,
+    description: indexEntry
+      ? `${phrase} — ${indexEntry.description}`
+      : service.seoDescription,
+    canonical: comboPath(service.slug, city.slug),
+  })
+}

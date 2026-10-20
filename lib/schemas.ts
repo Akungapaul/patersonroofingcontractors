@@ -86,14 +86,15 @@ export function buildFaqSchema(
 export function buildServiceSchema(
   serviceName: string,
   serviceDescription: string,
-  serviceSlug: string
+  serviceSlug: string,
+  urlPath?: string
 ): WithContext<Service> {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
     name: serviceName,
     description: serviceDescription,
-    url: `${siteConfig.url}${servicePath(serviceSlug)}`,
+    url: `${siteConfig.url}${urlPath ?? servicePath(serviceSlug)}`,
     provider: {
       '@type': 'RoofingContractor',
       name: siteConfig.businessName,

@@ -110,7 +110,7 @@ export default async function ServiceTemplate({ slug }: { slug: string }) {
       <MidPageCTA />
 
       {/* 7. RelatedLocations */}
-      <RelatedLocations serviceName={content.name} />
+      <RelatedLocations serviceName={content.name} serviceSlug={content.slug} />
 
       {/* 8. RelatedServices */}
       <RelatedServices services={relatedServices} />

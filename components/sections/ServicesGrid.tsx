@@ -1,4 +1,4 @@
-import { servicePath } from '@/lib/routes'
+import { comboExists, comboPath, servicePath } from '@/lib/routes'
 import { services } from '@/data/services'
 import { Card } from '@/components/ui/Card'
 import Link from 'next/link'
@@ -72,9 +72,16 @@ interface ServicesGridProps {
   serviceSlugs?: readonly string[]
   title?: string
   groupByCategory?: boolean
+  // When rendered on a city page, services with a combo page for that city
+  // link to the combo; everything else links to the Paterson service page.
+  citySlug?: string
 }
 
-export function ServicesGrid({ serviceSlugs, title, groupByCategory }: ServicesGridProps = {}) {
+export function ServicesGrid({ serviceSlugs, title, groupByCategory, citySlug }: ServicesGridProps = {}) {
+  const hrefFor = (slug: string) =>
+    citySlug && comboExists(slug, citySlug)
+      ? comboPath(slug, citySlug)
+      : servicePath(slug)
   const displayedServices = serviceSlugs
     ? services.filter((s) => serviceSlugs.includes(s.slug))
     : services
@@ -117,7 +124,7 @@ export function ServicesGrid({ serviceSlugs, title, groupByCategory }: ServicesG
                     return (
                       <Link
                         key={service.slug}
-                        href={servicePath(service.slug)}
+                        href={hrefFor(service.slug)}
                         className="group"
                       >
                         <Card interactive className="border-t-[3px] border-t-amber p-4">
@@ -156,7 +163,7 @@ export function ServicesGrid({ serviceSlugs, title, groupByCategory }: ServicesG
             return (
               <Link
                 key={service.slug}
-                href={servicePath(service.slug)}
+                href={hrefFor(service.slug)}
                 className="group"
               >
                 <Card interactive className="border-t-[3px] border-t-amber p-4">
