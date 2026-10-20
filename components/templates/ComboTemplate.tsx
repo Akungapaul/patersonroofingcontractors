@@ -32,6 +32,8 @@ import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { ServiceFAQ } from '@/components/sections/ServiceFAQ'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
+import { CoraSupplement } from '@/components/sections/CoraSupplement'
+import { CORA_SUPPLEMENTS } from '@/data/cora-supplements'
 import { ContactForm } from '@/components/forms/ContactForm'
 
 // Insert a new first sentence at the start of the first <p> of an HTML
@@ -211,6 +213,14 @@ export default async function ComboTemplate({
       <Testimonials />
 
       {/* 10. Emergency CTA + contact */}
+      {/* Cora supplemental block (collapsed) when a roadmap implementation exists */}
+      {CORA_SUPPLEMENTS[`${service.slug}-${city.slug}-nj`] && (
+        <CoraSupplement
+          data={CORA_SUPPLEMENTS[`${service.slug}-${city.slug}-nj`]}
+          phrase={phrase}
+        />
+      )}
+
       <EmergencyCTA />
       <section
         id="contact"

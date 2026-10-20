@@ -22,6 +22,8 @@ import { MidPageCTA } from '@/components/sections/MidPageCTA'
 import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { BenefitsGrid } from '@/components/sections/BenefitsGrid'
 import { RelatedLocations } from '@/components/sections/RelatedLocations'
+import { CoraSupplement } from '@/components/sections/CoraSupplement'
+import { CORA_SUPPLEMENTS } from '@/data/cora-supplements'
 import { RelatedServices } from '@/components/sections/RelatedServices'
 import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
 import { ServiceFAQ } from '@/components/sections/ServiceFAQ'
@@ -123,6 +125,14 @@ export default async function ServiceTemplate({ slug }: { slug: string }) {
 
       {/* 10. Testimonials */}
       <Testimonials />
+
+      {/* Cora supplemental block (collapsed) when a roadmap implementation exists */}
+      {CORA_SUPPLEMENTS[`${content.slug}-paterson-nj`] && (
+        <CoraSupplement
+          data={CORA_SUPPLEMENTS[`${content.slug}-paterson-nj`]}
+          phrase={`${content.name} Paterson, NJ`}
+        />
+      )}
 
       {/* 11. EmergencyCTA */}
       <EmergencyCTA />
