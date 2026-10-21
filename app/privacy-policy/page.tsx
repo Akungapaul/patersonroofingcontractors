@@ -5,8 +5,7 @@ import { LegalPage } from '@/components/sections/LegalPage'
 import { privacyPolicyContent } from '@/data/legal/privacy-policy'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Paterson Roofing Contractors',
-  robots: { index: false, follow: false },
+  title: 'Privacy Policy',
   alternates: { canonical: '/privacy-policy' },
 }
 

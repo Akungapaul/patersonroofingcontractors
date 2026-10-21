@@ -182,7 +182,7 @@ export function Footer() {
               </span>{' '}
               {siteConfig.businessName}. All rights reserved.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-x-4 gap-y-1">
               <Link
                 href="/privacy-policy"
                 className="transition-colors hover:text-amber-light"
@@ -194,6 +194,24 @@ export function Footer() {
                 className="transition-colors hover:text-amber-light"
               >
                 Terms of Service
+              </Link>
+              <Link
+                href="/cookie-policy"
+                className="transition-colors hover:text-amber-light"
+              >
+                Cookie Policy
+              </Link>
+              <Link
+                href="/disclaimer"
+                className="transition-colors hover:text-amber-light"
+              >
+                Disclaimer
+              </Link>
+              <Link
+                href="/accessibility"
+                className="transition-colors hover:text-amber-light"
+              >
+                Accessibility
               </Link>
             </div>
           </div>

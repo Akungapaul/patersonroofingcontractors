@@ -5,8 +5,7 @@ import { LegalPage } from '@/components/sections/LegalPage'
 import { termsOfServiceContent } from '@/data/legal/terms-of-service'
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | Paterson Roofing Contractors',
-  robots: { index: false, follow: false },
+  title: 'Terms of Service',
   alternates: { canonical: '/terms-of-service' },
 }
 
