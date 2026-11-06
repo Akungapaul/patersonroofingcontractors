@@ -35,6 +35,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
+  const legalPages = [
+    'privacy-policy',
+    'terms-of-service',
+    'cookie-policy',
+    'disclaimer',
+    'accessibility',
+  ].map((slug) => ({
+    url: `${baseUrl}/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'yearly' as const,
+    priority: 0.3,
+  }))
+
   const utilityPages = [
     { url: `${baseUrl}/services`, priority: 0.8 },
     { url: `${baseUrl}/roofing-guides`, priority: 0.7 },
@@ -59,5 +72,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...comboPages,
     ...guidePages,
     ...utilityPages,
+    ...legalPages,
   ]
 }
