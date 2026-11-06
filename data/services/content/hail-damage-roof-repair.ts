@@ -6,7 +6,7 @@ export const hailDamageRoofRepair: ServiceContent = {
   category: 'Repair & Maintenance',
   heroHeadline: 'Hail Damage Roof Repair Paterson, NJ',
   heroSubheadline:
-    'Specialized hail damage assessment and expert repair for shingle, metal, and flat roofs across all 16 Passaic County municipalities. Insurance claim assistance included.',
+    'Specialized hail damage assessment and expert repair for shingle, metal, and flat roofs in Paterson, NJ. Insurance claim assistance included.',
 
   overviewHtml: `<p>Hail Damage Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Hail storms strike Passaic County multiple times each year, typically during the spring and summer severe thunderstorm season that runs from April through September. While not every storm produces damaging hail, the ones that do can compromise the integrity of hundreds of roofs across the county in a single event. Hailstones ranging from pea-sized to golf-ball diameter impact shingles at velocities exceeding 40 miles per hour, cracking surfaces, dislodging protective granules, and creating soft bruised spots that accelerate material breakdown over the months and years that follow. At Paterson Roofing Contractors, we provide specialized hail damage assessment and repair across every municipality in Passaic County, helping homeowners in <a href="/">Paterson</a>, Wayne, Clifton, and all surrounding communities restore their roofs to pre-storm condition.</p>
 

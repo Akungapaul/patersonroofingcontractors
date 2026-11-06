@@ -56,7 +56,7 @@ export function ContactHub() {
                   aria-hidden="true"
                 />
                 <p className="text-lg text-gray-300">
-                  Serving all 16 municipalities in Passaic County, NJ
+                  Serving Paterson, NJ
                 </p>
               </div>
 

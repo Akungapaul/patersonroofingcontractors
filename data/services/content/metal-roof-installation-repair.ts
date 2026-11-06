@@ -6,7 +6,7 @@ export const metalRoofInstallationRepair: ServiceContent = {
   category: 'Residential Roofing',
   heroHeadline: 'Metal Roof Installation & Repair Paterson, NJ',
   heroSubheadline:
-    'Standing seam and metal shingle roofing built to last 50+ years across all 16 Passaic County municipalities. Energy-efficient, fire-resistant, and available in a range of finishes.',
+    'Standing seam and metal shingle roofing built to last 50+ years in Paterson, NJ. Energy-efficient, fire-resistant, and available in a range of finishes.',
 
   overviewHtml: `<p>Metal Roof Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Metal roofing has undergone a transformation in residential applications that has made it one of the fastest-growing material choices for Passaic County homeowners. Today's residential metal roofing bears no resemblance to the corrugated barn panels that many homeowners picture when they hear the term -- modern standing seam panels and metal shingles offer refined aesthetics, sophisticated color options, and performance characteristics that surpass every other residential roofing material in several critical categories. At Paterson Roofing Contractors, we install and repair metal roofing systems across all 16 municipalities in Passaic County, helping homeowners in Wayne, Clifton, Hawthorne, and throughout the county invest in a roof that will be the last one their home ever needs.</p>
 

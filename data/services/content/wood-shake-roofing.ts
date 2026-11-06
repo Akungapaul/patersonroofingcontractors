@@ -6,7 +6,7 @@ export const woodShakeRoofing: ServiceContent = {
   category: 'Residential Roofing',
   heroHeadline: 'Wood Shake Roofing Paterson, NJ',
   heroSubheadline:
-    'Traditional wood shake roofing installation and repair for homes across all 16 Passaic County municipalities. Natural beauty and superior insulation with expert craftsmanship.',
+    'Traditional wood shake roofing installation and repair for homes in Paterson, NJ. Natural beauty and superior insulation with expert craftsmanship.',
 
   overviewHtml: `<p>Wood Shake Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Wood shake roofing delivers a natural warmth and rustic elegance that no manufactured material can authentically reproduce. The hand-split texture, natural color variation, and dimensional depth of wood shakes create a roofscape that improves with age as the wood weathers to distinguished silver-gray tones that blend seamlessly with the forested landscapes of Passaic County's residential communities. At Paterson Roofing Contractors, we install and repair wood shake roofs throughout the county, from the wooded properties of West Milford and Ringwood where natural materials complement the surrounding landscape to the established suburban neighborhoods of Wayne and Hawthorne where wood shake adds premium character to traditional home designs.</p>
 

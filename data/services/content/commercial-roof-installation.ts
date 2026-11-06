@@ -6,7 +6,7 @@ export const commercialRoofInstallation: ServiceContent = {
   category: 'Commercial Roofing',
   heroHeadline: 'Commercial Roof Installation Paterson, NJ',
   heroSubheadline:
-    'Full-service commercial roof installation for offices, warehouses, retail centers, and multi-family buildings across all 16 Passaic County municipalities. Engineered systems with manufacturer warranties.',
+    'Full-service commercial roof installation for offices, warehouses, retail centers, and multi-family buildings in Paterson, NJ. Engineered systems with manufacturer warranties.',
 
   overviewHtml: `<p>Commercial Roof Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Commercial roof installation demands a fundamentally different approach than residential work. The scale is larger, the structural considerations more complex, the material systems more specialized, and the stakes higher -- a commercial roof protects not just a building but the livelihoods of everyone operating beneath it. At Paterson Roofing Contractors, we deliver expert commercial roof installation across every municipality in Passaic County, from the dense commercial corridors along Broadway in <a href="/">Paterson</a> and Route 46 in Clifton to the corporate parks and retail centers in Wayne and the industrial districts throughout the county. Our team brings over 15 years of commercial roofing experience to every project, ensuring your building receives a roof system engineered for decades of reliable performance.</p>
 

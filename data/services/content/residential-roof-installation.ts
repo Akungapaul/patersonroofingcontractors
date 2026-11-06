@@ -6,7 +6,7 @@ export const residentialRoofInstallation: ServiceContent = {
   category: 'Residential Roofing',
   heroHeadline: 'Residential Roof Installation Paterson, NJ',
   heroSubheadline:
-    'Complete residential roof installation for new construction and full replacements across all 16 Passaic County municipalities. Expert craftsmanship with premium materials and manufacturer warranties.',
+    'Complete residential roof installation for new construction and full replacements in Paterson, NJ. Expert craftsmanship with premium materials and manufacturer warranties.',
 
   overviewHtml: `<p>Residential Roof Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A new roof installation is one of the most significant investments a homeowner makes, and the quality of that installation determines how well the roof performs for the next 25 to 50 years. At Paterson Roofing Contractors, we approach every residential roof installation as a complete system engineering project -- from the structural assessment of your roof deck to the final ridge cap placement, every component is specified, installed, and verified to deliver maximum protection and longevity. We serve homeowners across all 16 municipalities in Passaic County, installing roofs on everything from the compact row houses of <a href="/">Paterson</a> and Passaic to the sprawling colonials of Wayne and the lakeside homes of West Milford.</p>
 

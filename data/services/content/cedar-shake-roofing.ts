@@ -6,7 +6,7 @@ export const cedarShakeRoofing: ServiceContent = {
   category: 'Residential Roofing',
   heroHeadline: 'Cedar Shake Roofing Paterson, NJ',
   heroSubheadline:
-    'Premium cedar shake installation and maintenance for homes across all 16 Passaic County municipalities. Natural beauty with superior insulation properties.',
+    'Premium cedar shake installation and maintenance for homes in Paterson, NJ. Natural beauty with superior insulation properties.',
 
   overviewHtml: `<p>Cedar Shake Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Cedar shake roofing occupies a distinct position in the residential roofing market -- it is the choice of homeowners who value the authentic natural character that only real wood can provide and who are willing to invest in both the material and the maintenance commitment that cedar demands. Western red cedar, the species used in virtually all premium shake roofing, produces a warm, rich roof surface with hand-split texture, natural color gradation from honey gold to deep brown, and a weathering progression that eventually produces the iconic silver-gray patina associated with aged coastal and mountain architecture. At Paterson Roofing Contractors, we are cedar shake specialists who install, repair, and maintain cedar roofs across every municipality in Passaic County, from the wooded Highlands properties of West Milford and Bloomingdale to the established residential neighborhoods of Wayne and North Haledon.</p>
 

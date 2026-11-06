@@ -81,6 +81,7 @@ export default async function ServiceTemplate({ slug }: { slug: string }) {
       <Hero
         headline={content.heroHeadline}
         subheadline={content.heroSubheadline}
+        showQuoteForm
       />
 
       {/* 2. ServiceOverview */}

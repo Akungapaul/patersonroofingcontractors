@@ -32,7 +32,7 @@ export default function HomePage() {
       />
 
       {/* Homepage Sections (D-02 order) */}
-      <Hero />
+      <Hero showQuoteForm />
       <MidPageCTA />
       <ServicesGrid />
       <MidPageCTA />

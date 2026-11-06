@@ -6,7 +6,7 @@ export const emergencyRoofRepair: ServiceContent = {
   category: 'Repair & Maintenance',
   heroHeadline: 'Emergency Roof Repair Paterson, NJ',
   heroSubheadline:
-    '24/7 emergency roof tarping and repair across all 16 Passaic County municipalities. Immediate response to prevent further water damage to your home or business.',
+    '24/7 emergency roof tarping and repair in Paterson, NJ. Immediate response to prevent further water damage to your home or business.',
 
   overviewHtml: `<p>Emergency Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. When a roof emergency strikes, every minute matters. A tree limb crashes through your roof during a midnight storm. A section of shingles peels away in gale-force winds, leaving your home exposed to driving rain. A flat roof membrane fails during a downpour, sending water cascading through a commercial building. These situations demand immediate professional response -- not a voicemail that will be returned during business hours. Paterson Roofing Contractors operates a 24/7 emergency response service covering all 16 municipalities in Passaic County, from the urban centers of <a href="/">Paterson</a> and Clifton to the rural Highlands communities of West Milford and Ringwood. When you call our emergency line, a real person answers and dispatches a crew to your location.</p>
 

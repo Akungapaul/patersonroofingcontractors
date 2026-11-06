@@ -6,7 +6,7 @@ export const roofCleaningMossRemoval: ServiceContent = {
   category: 'Repair & Maintenance',
   heroHeadline: 'Roof Cleaning & Moss Removal Paterson, NJ',
   heroSubheadline:
-    'Professional roof cleaning to remove moss, algae, and debris that cause premature deterioration. Safe, low-pressure methods across all 16 Passaic County municipalities.',
+    'Professional roof cleaning to remove moss, algae, and debris that cause premature deterioration. Safe, low-pressure methods in Paterson, NJ.',
 
   overviewHtml: `<p>Roof Cleaning & Moss Removal Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Moss, algae, and lichen are not cosmetic nuisances -- they are active agents of roof destruction that shorten the life of asphalt shingles by years when left untreated. These biological organisms anchor themselves into the granule layer of shingles, retaining moisture against the roofing surface around the clock and through every weather cycle. That persistent moisture accelerates the breakdown of the asphalt binder that holds shingle granules in place, loosens those granules prematurely, and creates conditions where freeze-thaw cycling can crack and split shingles that would otherwise have years of serviceable life remaining. At Paterson Roofing Contractors, we provide professional roof cleaning and moss removal services across all of Passaic County, using safe low-pressure methods that eliminate biological growth without damaging the roofing materials we are working to protect.</p>
 
