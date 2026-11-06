@@ -6,7 +6,7 @@ export const stormDamageRoofRepair: ServiceContent = {
   category: 'Repair & Maintenance',
   heroHeadline: 'Storm Damage Roof Repair Paterson, NJ',
   heroSubheadline:
-    'Emergency storm damage assessment and expert repair for homes and businesses across all 16 Passaic County municipalities. Insurance claim assistance included with every project.',
+    'Emergency storm damage assessment and expert repair for homes and businesses in Paterson, NJ. Insurance claim assistance included with every project.',
 
   overviewHtml: `<p>Storm Damage Roof Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Passaic County sits squarely in the path of the severe weather systems that define the northern New Jersey climate. From winter nor'easters that pile heavy snow on rooftops and generate ice dams along eave lines, to summer supercell thunderstorms that deliver damaging hail, wind gusts exceeding 70 miles per hour, and torrential rain measured in inches per hour, roofing systems across the county endure punishing conditions that no other building component faces with the same intensity. When a storm damages your roof, Paterson Roofing Contractors provides fast, professional assessment and repair across every municipality in Passaic County -- from the dense urban cores of <a href="/">Paterson</a> and Clifton to the wooded Highlands communities of Ringwood and Bloomingdale.</p>
 

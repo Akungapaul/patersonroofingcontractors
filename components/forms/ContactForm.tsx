@@ -3,6 +3,7 @@
 import { useState, type FormEvent } from 'react'
 import { cn } from '@/lib/cn'
 import { siteConfig } from '@/lib/site-config'
+import { trackEvent } from '@/lib/analytics'
 import { PhoneButton } from '@/components/ui/PhoneButton'
 import { Phone, Mail, MapPin, Clock, Loader2 } from 'lucide-react'
 
@@ -27,20 +28,42 @@ interface ContactFormProps {
 export function ContactForm({ className }: ContactFormProps) {
   const [status, setStatus] = useState<FormStatus>('idle')
   const [errorMessage, setErrorMessage] = useState('')
+  const [fieldErrors, setFieldErrors] = useState<{
+    name?: string
+    phone?: string
+    email?: string
+  }>({})
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault()
-    setStatus('submitting')
     setErrorMessage('')
 
     const formData = new FormData(e.currentTarget)
     const data = {
       name: formData.get('name') as string,
       phone: formData.get('phone') as string,
-      email: formData.get('email') as string,
+      email: (formData.get('email') as string) ?? '',
       serviceType: formData.get('serviceType') as string,
       message: formData.get('message') as string,
+      address: (formData.get('address') as string) ?? '',
     }
+
+    const errors: { name?: string; phone?: string; email?: string } = {}
+    if (!data.name?.trim()) errors.name = 'Please enter your name.'
+    if (!data.phone || data.phone.replace(/\D/g, '').length < 7)
+      errors.phone = 'Please enter a valid phone number.'
+    if (
+      data.email?.trim() &&
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email.trim())
+    )
+      errors.email = 'That email address looks incomplete.'
+    setFieldErrors(errors)
+    if (Object.keys(errors).length > 0) {
+      setStatus('idle')
+      return
+    }
+
+    setStatus('submitting')
 
     try {
       const res = await fetch('/api/contact', {
@@ -50,6 +73,10 @@ export function ContactForm({ className }: ContactFormProps) {
       })
 
       if (res.ok) {
+        trackEvent('generate_lead', {
+          location: 'contact-form',
+          service: data.serviceType || 'unspecified',
+        })
         setStatus('success')
       } else {
         const err = await res.json()
@@ -69,7 +96,7 @@ export function ContactForm({ className }: ContactFormProps) {
           Thank You!
         </h3>
         <p className="text-lg text-gray-700">
-          We&apos;ll call you within 1 hour.
+          We&apos;ll call you within 1 business hour.
         </p>
         <PhoneButton compact={false} className="mt-4" />
       </div>
@@ -101,9 +128,14 @@ export function ContactForm({ className }: ContactFormProps) {
             placeholder="John Smith"
             className={cn(
               'w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none',
-              status === 'error' && 'border-red-600'
+              (status === 'error' || fieldErrors.name) && 'border-red-600'
             )}
           />
+          {fieldErrors.name && (
+            <p className="mt-1 text-sm font-semibold text-red-600">
+              {fieldErrors.name}
+            </p>
+          )}
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -121,33 +153,43 @@ export function ContactForm({ className }: ContactFormProps) {
               required
               aria-required="true"
               autoComplete="tel"
+              inputMode="tel"
               placeholder="(973) 555-1234"
               className={cn(
                 'w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none',
-                status === 'error' && 'border-red-600'
+                (status === 'error' || fieldErrors.phone) && 'border-red-600'
               )}
             />
+            {fieldErrors.phone && (
+              <p className="mt-1 text-sm font-semibold text-red-600">
+                {fieldErrors.phone}
+              </p>
+            )}
           </div>
           <div>
             <label
               htmlFor="contact-email"
               className="mb-1 block text-sm font-semibold text-navy"
             >
-              Email <span className="text-red-600">*</span>
+              Email <span className="font-normal text-gray-500">(optional)</span>
             </label>
             <input
               type="email"
               id="contact-email"
               name="email"
-              required
-              aria-required="true"
               autoComplete="email"
+              inputMode="email"
               placeholder="john@example.com"
               className={cn(
                 'w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none',
-                status === 'error' && 'border-red-600'
+                (status === 'error' || fieldErrors.email) && 'border-red-600'
               )}
             />
+            {fieldErrors.email && (
+              <p className="mt-1 text-sm font-semibold text-red-600">
+                {fieldErrors.email}
+              </p>
+            )}
           </div>
         </div>
 
@@ -173,6 +215,24 @@ export function ContactForm({ className }: ContactFormProps) {
               </option>
             ))}
           </select>
+        </div>
+
+        <div>
+          <label
+            htmlFor="contact-address"
+            className="mb-1 block text-sm font-semibold text-navy"
+          >
+            Property Address{' '}
+            <span className="font-normal text-gray-500">(optional)</span>
+          </label>
+          <input
+            type="text"
+            id="contact-address"
+            name="address"
+            autoComplete="street-address"
+            placeholder="123 Main St, Paterson, NJ"
+            className="w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none"
+          />
         </div>
 
         <div>
@@ -214,6 +274,10 @@ export function ContactForm({ className }: ContactFormProps) {
             'Get Free Estimate'
           )}
         </button>
+
+        <p className="text-center text-sm text-gray-500">
+          No spam — just your estimate. We never share your information.
+        </p>
       </form>
 
       {/* Contact Info - Right Side */}
@@ -267,9 +331,7 @@ export function ContactForm({ className }: ContactFormProps) {
                 <p className="text-sm font-semibold text-gray-300">
                   Service Area
                 </p>
-                <p className="text-lg">
-                  All 16 municipalities in Passaic County, NJ
-                </p>
+                <p className="text-lg">Paterson, NJ</p>
               </div>
             </div>
 

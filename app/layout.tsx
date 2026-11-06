@@ -6,6 +6,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
 import { StickyCallButton } from '@/components/ui/StickyCallButton'
+import { CallClickTracker } from '@/components/analytics/CallClickTracker'
 import './globals.css'
 
 const GA_MEASUREMENT_ID = 'G-1ZBKFXH1TP'
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
     default: 'Paterson Roofing Contractors | Top-Rated Roofer in Paterson NJ',
   },
   description:
-    'Paterson\'s most trusted roofing contractor. Roof repair, replacement & installation serving Paterson and all of Passaic County, NJ. Free estimates, 24/7 emergency service. Call (973) 555-0100.',
+    'Paterson\'s most trusted roofing contractor. Roof repair, replacement & installation serving Paterson, NJ. Free estimates, 24/7 emergency service. Call (973) 555-0100.',
   metadataBase: new URL('https://patersonroofingcontractors.com'),
   alternates: {
     canonical: '/',
@@ -71,6 +72,7 @@ export default function RootLayout({
         </main>
         <Footer />
         <StickyCallButton />
+        <CallClickTracker />
         <Analytics />
         <SpeedInsights />
       </body>

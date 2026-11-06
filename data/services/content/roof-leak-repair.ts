@@ -6,7 +6,7 @@ export const roofLeakRepair: ServiceContent = {
   category: 'Repair & Maintenance',
   heroHeadline: 'Roof Leak Repair Paterson, NJ',
   heroSubheadline:
-    'Expert roof leak detection and lasting repair for residential and commercial properties across all 16 Passaic County municipalities. Licensed, insured, free estimates.',
+    'Expert roof leak detection and lasting repair for residential and commercial properties in Paterson, NJ. Licensed, insured, free estimates.',
 
   overviewHtml: `<p>Roof Leak Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A roof leak is more than a drip stain on your ceiling -- it is a symptom of a breach in your building's primary defense against the elements. Left unaddressed, even a small leak allows water to saturate roof decking, soak through insulation, travel along framing members, and create the damp conditions where mold colonies establish themselves within 24 to 48 hours. At Paterson Roofing Contractors, we specialize in tracing roof leaks to their true source and applying permanent repairs that stop water intrusion for good. We serve homeowners, landlords, and commercial property managers throughout Passaic County, from the multi-family buildings of <a href="/">Paterson</a> and Passaic to the single-family homes in Wayne and Hawthorne.</p>
 

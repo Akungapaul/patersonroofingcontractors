@@ -50,6 +50,7 @@ interface ContactFormData {
   email: string
   serviceType: string
   message: string
+  address?: string
 }
 
 export async function POST(request: NextRequest) {
@@ -66,15 +67,19 @@ export async function POST(request: NextRequest) {
     const body: ContactFormData = await request.json()
 
     // Server-side validation (T-01-04-01, T-01-04-02: never trust client-side validation alone)
-    if (!body.name?.trim() || !body.phone?.trim() || !body.email?.trim()) {
+    // Email is optional (CRO pass 2026-11-06): name + phone are the required lead fields.
+    if (!body.name?.trim() || !body.phone?.trim()) {
       return Response.json(
-        { error: 'Name, phone, and email are required.' },
+        { error: 'Name and phone are required.' },
         { status: 400 }
       )
     }
 
-    // Basic email format check
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email)) {
+    // Basic email format check, only when an email was provided
+    if (
+      body.email?.trim() &&
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(body.email.trim())
+    ) {
       return Response.json(
         { error: 'Please provide a valid email address.' },
         { status: 400 }
@@ -140,6 +145,7 @@ export async function POST(request: NextRequest) {
         customField: {
           service_requested: body.serviceType,
           message: body.message,
+          property_address: body.address ?? '',
         },
       }),
     })

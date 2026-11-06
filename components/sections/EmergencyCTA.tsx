@@ -9,8 +9,8 @@ export function EmergencyCTA() {
           Storm Damage? We&apos;re Here 24/7.
         </h2>
         <p className="mt-3 text-lg text-white/90">
-          Don&apos;t wait &mdash; emergency roof repair for all of Passaic
-          County.
+          Don&apos;t wait &mdash; emergency roof repair in Paterson, NJ,
+          around the clock.
         </p>
         <a
           href={`tel:${siteConfig.phoneRaw}`}

@@ -6,7 +6,7 @@ export const roofMaintenancePrograms: ServiceContent = {
   category: 'Repair & Maintenance',
   heroHeadline: 'Roof Maintenance Programs Paterson, NJ',
   heroSubheadline:
-    'Scheduled maintenance plans to extend your roof lifespan by years. Biannual inspections, gutter cleaning, and minor repairs across all 16 Passaic County municipalities.',
+    'Scheduled maintenance plans to extend your roof lifespan by years. Biannual inspections, gutter cleaning, and minor repairs in Paterson, NJ.',
 
   overviewHtml: `<p>Roof Maintenance Programs Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. The single most cost-effective investment you can make in your roofing system is not a repair or a replacement -- it is a maintenance program that catches problems when they are small, cheap to fix, and months or years away from causing real damage. Paterson Roofing Contractors offers structured roof maintenance programs for residential and commercial properties across all 16 municipalities in Passaic County, from the densely built neighborhoods of <a href="/">Paterson</a> and Passaic to the wooded suburban communities of Wayne and Hawthorne. Our programs include biannual inspections timed to the two most critical seasons in the northern New Jersey roofing calendar, combined with preventive maintenance tasks that address the specific wear patterns your roof experiences based on its materials, age, and environment.</p>
 
