@@ -7,7 +7,7 @@ import { CORA_SUPPLEMENTS } from '@/data/cora-supplements'
 import { getServiceContent } from '@/data/services/content'
 import { getCityContent as getCity } from '@/data/content'
 import { services } from '@/data/services'
-import { COMBO_PAIRS, localizeServiceLinks, parseComboSlug, serviceSlugFromFlat } from '@/lib/routes'
+import { localizeServiceLinks, parseComboSlug, serviceSlugFromFlat } from '@/lib/routes'
 import ServiceTemplate from '@/components/templates/ServiceTemplate'
 import ComboTemplate from '@/components/templates/ComboTemplate'
 
@@ -32,21 +32,16 @@ import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { ContactForm } from '@/components/forms/ContactForm'
 
-// One root dynamic segment serves both flat families (Rule 7):
-// /roofing-contractor-<city>-nj (16 cities) and /<service>-paterson-nj (67 services).
-// Only the 83 valid flat slugs are served -- all others 404.
+// One root dynamic segment serves the flat service family (Rule 7):
+// /<service>-paterson-nj (67 services). City hub and combo pages were
+// retired in the 2026-11-06 single-city restructure; their URLs 308 via
+// next.config.ts. Only the 67 valid flat slugs are served -- all others 404.
 export const dynamicParams = false
 
 export function generateStaticParams() {
   return [
-    ...siteConfig.municipalities.map((m) => ({
-      locationSlug: `roofing-contractor-${m.slug}-nj`,
-    })),
     ...services.map((s) => ({
       locationSlug: `${s.slug}-paterson-nj`,
-    })),
-    ...COMBO_PAIRS.map((p) => ({
-      locationSlug: `${p.service}-${p.city}-nj`,
     })),
   ]
 }

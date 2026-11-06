@@ -1,7 +1,6 @@
 import Link from 'next/link'
-import { siteConfig } from '@/lib/site-config'
 import { services } from '@/data/services'
-import { CORE_COMBO_SERVICES, cityPath, comboPath, servicePath } from '@/lib/routes'
+import { servicePath } from '@/lib/routes'
 import type { CoraSupplementData } from '@/data/cora-supplements'
 
 // Collapsed supplemental block carrying a Cora roadmap implementation:
@@ -64,13 +63,11 @@ export function CoraSupplement({
                 Roofing Contractor Pages by City
               </h3>
               <ul className="grid grid-cols-1 gap-1 sm:grid-cols-2 md:grid-cols-3">
-                {siteConfig.municipalities.map((m) => (
-                  <li key={m.slug}>
-                    <Link href={cityPath(m.slug)} className="text-amber hover:text-amber-dark">
-                      Roofing Contractor {m.name}, NJ
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link href="/" className="text-amber hover:text-amber-dark">
+                    Roofing Contractor Paterson, NJ
+                  </Link>
+                </li>
               </ul>
               <h3 className="mb-2 mt-5 font-heading text-lg font-bold text-navy">
                 All Roofing Services in Paterson, NJ
@@ -84,31 +81,6 @@ export function CoraSupplement({
                   </li>
                 ))}
               </ul>
-              {CORE_COMBO_SERVICES.map((svc) => {
-                const entry = services.find((s) => s.slug === svc)
-                if (!entry) return null
-                return (
-                  <div key={svc}>
-                    <h3 className="mb-2 mt-5 font-heading text-lg font-bold text-navy">
-                      {entry.name} by City
-                    </h3>
-                    <ul className="grid grid-cols-1 gap-1 sm:grid-cols-2 md:grid-cols-3">
-                      {siteConfig.municipalities
-                        .filter((m) => m.slug !== 'paterson')
-                        .map((m) => (
-                          <li key={m.slug}>
-                            <Link
-                              href={comboPath(svc, m.slug)}
-                              className="text-amber hover:text-amber-dark"
-                            >
-                              {entry.name} {m.name}, NJ
-                            </Link>
-                          </li>
-                        ))}
-                    </ul>
-                  </div>
-                )
-              })}
             </div>
           </div>
         </details>

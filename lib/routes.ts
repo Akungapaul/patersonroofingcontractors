@@ -36,26 +36,11 @@ export const CORE_COMBO_SERVICES: readonly string[] = [
   'commercial-roof-repair',
 ]
 
-export const COMBO_PAIRS: readonly { service: string; city: string }[] =
-  CORE_COMBO_SERVICES.flatMap((service) =>
-    [
-      'clifton',
-      'passaic',
-      'wayne',
-      'west-milford',
-      'hawthorne',
-      'little-falls',
-      'woodland-park',
-      'ringwood',
-      'wanaque',
-      'pompton-lakes',
-      'totowa',
-      'north-haledon',
-      'haledon',
-      'bloomingdale',
-      'prospect-park',
-    ].map((city) => ({ service, city }))
-  )
+// Combo pages retired 2026-11-06 (single-city restructure): the site is
+// Paterson only. Every former combo URL 308s to the same service's Paterson
+// page (next.config.ts), so COMBO_PAIRS is empty and comboExists /
+// parseComboSlug resolve nothing.
+export const COMBO_PAIRS: readonly { service: string; city: string }[] = []
 
 export function comboPath(serviceSlug: string, citySlug: string): string {
   return `/${serviceSlug}-${citySlug}-nj`

@@ -2,7 +2,6 @@ import { Hero } from '@/components/sections/Hero'
 import { MidPageCTA } from '@/components/sections/MidPageCTA'
 import { ServicesGrid } from '@/components/sections/ServicesGrid'
 import { WhyChooseUs } from '@/components/sections/WhyChooseUs'
-import { ServiceAreas } from '@/components/sections/ServiceAreas'
 import { Testimonials } from '@/components/sections/Testimonials'
 import { EmergencyCTA } from '@/components/sections/EmergencyCTA'
 import { SeoContent } from '@/components/sections/SeoContent'
@@ -38,7 +37,6 @@ export default function HomePage() {
       <ServicesGrid />
       <MidPageCTA />
       <WhyChooseUs />
-      <ServiceAreas />
       <Testimonials />
       <EmergencyCTA />
       <SeoContent />

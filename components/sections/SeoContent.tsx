@@ -105,7 +105,7 @@ export function SeoContent() {
               <li>
                 <Link
                   className="font-semibold text-red hover:underline"
-                  href="/roofing-contractor-paterson-nj"
+                  href="/"
                 >
                   Roofing contractor in Paterson, NJ
                 </Link>
