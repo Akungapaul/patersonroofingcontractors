@@ -246,7 +246,7 @@ export function ContactForm({ className }: ContactFormProps) {
             id="contact-message"
             name="message"
             rows={4}
-            placeholder="Describe your roofing needs, including property address if possible..."
+            placeholder="Describe your roofing needs..."
             className="w-full rounded-md border border-gray-300 px-4 py-3 text-lg font-body focus:border-amber focus:ring-2 focus:ring-amber/20 focus:outline-none"
           />
         </div>

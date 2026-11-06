@@ -22,7 +22,7 @@ export function Hero({
   showQuoteForm = false,
 }: HeroProps = {}) {
   const defaultHeadline =
-    "Paterson\u2019s #1 Roofing Contractors \u2014 Serving All of Passaic County";
+    "Paterson\u2019s #1 Roofing Contractors \u2014 Serving Paterson, NJ";
   const defaultSubheadline =
     "Paterson roofing contractor for roof repair, roof replacement, asphalt shingle repair, emergency leaks, and flat roofing in Paterson, NJ. Free estimates, 24/7 emergency service.";
   const isLocationPage = !!headline;
@@ -39,7 +39,7 @@ export function Hero({
       <h1 className="max-w-3xl font-heading text-4xl font-bold leading-[1.1] text-white md:text-5xl">
         {headline ?? defaultHeadline}
       </h1>
-      <p className="mt-6 max-w-2xl text-xl leading-relaxed text-gray-200">
+      <p className="mt-6 max-w-2xl text-lg leading-relaxed text-gray-200 sm:text-xl">
         {subheadline ?? defaultSubheadline}
       </p>
       {readTime != null && (

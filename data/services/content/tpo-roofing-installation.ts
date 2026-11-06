@@ -6,7 +6,7 @@ export const tpoRoofingInstallation: ServiceContent = {
   category: 'Commercial Roofing',
   heroHeadline: 'TPO Roofing Installation Paterson, NJ',
   heroSubheadline:
-    'Energy-efficient thermoplastic polyolefin roofing for commercial buildings across Passaic County. Reflective, durable, and cost-effective flat roof membrane systems installed by certified professionals.',
+    'Energy-efficient thermoplastic polyolefin roofing for commercial buildings across Paterson. Reflective, durable, and cost-effective flat roof membrane systems installed by certified professionals.',
 
   overviewHtml: `<p>TPO Roofing Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Thermoplastic polyolefin roofing, commonly known as TPO, has become the dominant roofing membrane for commercial buildings in the northeastern United States over the past two decades. Its combination of energy-efficient reflectivity, strong weld seams, competitive pricing, and proven performance in northern climates makes it an ideal choice for the flat and low-slope commercial buildings found throughout Passaic County. At Paterson Roofing Contractors, we are certified TPO installers with extensive experience deploying these systems on retail centers, office buildings, warehouses, and multi-family properties from <a href="/">Paterson</a> to Wayne and every municipality in between. Our crews are factory-trained in hot-air welding techniques that create monolithic, watertight seams engineered to outlast the membrane itself.</p>
 

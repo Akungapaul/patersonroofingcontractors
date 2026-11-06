@@ -6,7 +6,7 @@ export const epdmCommercialRoofing: ServiceContent = {
   category: 'Commercial Roofing',
   heroHeadline: 'EPDM Commercial Roofing Paterson, NJ',
   heroSubheadline:
-    'Proven EPDM rubber membrane roofing for commercial flat roofs across Passaic County. Superior durability and all-weather performance with 30+ years of proven Northeast track record.',
+    'Proven EPDM rubber membrane roofing for commercial flat roofs across Paterson. Superior durability and all-weather performance with 30+ years of proven Northeast track record.',
 
   overviewHtml: `<p>EPDM Commercial Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Ethylene propylene diene monomer -- EPDM -- has been the backbone of commercial flat roofing in the northeastern United States for over four decades. This synthetic rubber membrane has earned its reputation through proven performance in the most demanding weather conditions New Jersey delivers: sub-zero winter temperatures, summer heat waves, driving nor'easter rains, and the relentless freeze-thaw cycling that destroys lesser materials. At Paterson Roofing Contractors, we install EPDM commercial roofing systems across every municipality in Passaic County, from the dense commercial corridors of <a href="/">Paterson</a> and Clifton to the corporate and retail properties in Wayne and Woodland Park. Our installation teams bring decades of combined experience working with EPDM systems on buildings of every size and configuration.</p>
 

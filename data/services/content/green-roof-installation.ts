@@ -6,7 +6,7 @@ export const greenRoofInstallation: ServiceContent = {
   category: 'Commercial Roofing',
   heroHeadline: 'Green Roof Installation Paterson, NJ',
   heroSubheadline:
-    'Vegetated green roof systems for commercial buildings in Passaic County. Reduce stormwater runoff, improve insulation, lower energy costs, and create sustainable urban spaces.',
+    'Vegetated green roof systems for commercial buildings in Paterson. Reduce stormwater runoff, improve insulation, lower energy costs, and create sustainable urban spaces.',
 
   overviewHtml: `<p>Green Roof Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Green roofing systems transform underutilized commercial rooftop space into living, breathing ecosystems that deliver measurable environmental, economic, and aesthetic benefits. By layering waterproofing, root barriers, drainage, growing media, and vegetation over a structural roof deck, green roofs reduce stormwater runoff, improve building insulation, extend roof membrane lifespan, mitigate urban heat island effects, and create attractive spaces that enhance property value. At Paterson Roofing Contractors, we design and install green roof systems for commercial buildings throughout Passaic County, from the dense urban cores of <a href="/">Paterson</a> and Passaic where stormwater management is a critical municipal concern to the corporate properties in Wayne and Clifton where sustainability and green building certification drive design decisions.</p>
 

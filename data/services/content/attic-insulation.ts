@@ -6,7 +6,7 @@ export const atticInsulation: ServiceContent = {
   category: 'Components & Specialty',
   heroHeadline: 'Attic Insulation Paterson, NJ',
   heroSubheadline:
-    'Professional attic insulation installation and upgrades to reduce energy costs, prevent ice dams, and improve year-round comfort for Passaic County homes.',
+    'Professional attic insulation installation and upgrades to reduce energy costs, prevent ice dams, and improve year-round comfort for Paterson homes.',
 
   overviewHtml: `<p>Attic Insulation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Attic insulation is one of the most impactful energy improvements a homeowner can make, and it is directly connected to roof performance in ways that many property owners do not realize. Insufficient attic insulation allows conditioned air to escape through the ceiling, driving up heating and cooling costs throughout the year. In winter, this heat loss does more than waste energy -- it warms the roof deck unevenly, melting snow on the upper roof surface while the eaves remain cold, creating the ice dams that cause thousands of dollars in damage to Passaic County homes every winter. At Paterson Roofing Contractors, we provide professional attic insulation services throughout all 16 municipalities in Passaic County.</p>
 

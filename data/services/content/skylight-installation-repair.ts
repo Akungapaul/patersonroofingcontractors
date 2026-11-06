@@ -6,7 +6,7 @@ export const skylightInstallationRepair: ServiceContent = {
   category: 'Components & Specialty',
   heroHeadline: 'Skylight Installation & Repair Paterson, NJ',
   heroSubheadline:
-    'Professional skylight installation, repair, and leak sealing for homes across Passaic County. Bring natural light into your home without compromising roof integrity.',
+    'Professional skylight installation, repair, and leak sealing for homes across Paterson. Bring natural light into your home without compromising roof integrity.',
 
   overviewHtml: `<p>Skylight Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Skylights transform dark interior spaces with natural daylight, reduce dependence on artificial lighting, and can increase your home's value -- but only when they are properly installed and maintained. A poorly installed or aging skylight becomes one of the most persistent sources of roof leaks a homeowner can face. At Paterson Roofing Contractors, we provide expert skylight installation, repair, and replacement services throughout every municipality in Passaic County, from the established neighborhoods of <a href="/">Paterson</a> and Clifton to the suburban communities of Wayne and Hawthorne.</p>
 

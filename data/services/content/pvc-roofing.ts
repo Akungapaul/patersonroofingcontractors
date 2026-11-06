@@ -6,7 +6,7 @@ export const pvcRoofing: ServiceContent = {
   category: 'Commercial Roofing',
   heroHeadline: 'PVC Roofing Paterson, NJ',
   heroSubheadline:
-    'PVC single-ply membrane roofing for commercial buildings requiring chemical resistance, superior fire ratings, and energy-efficient performance across Passaic County.',
+    'PVC single-ply membrane roofing for commercial buildings requiring chemical resistance, superior fire ratings, and energy-efficient performance across Paterson.',
 
   overviewHtml: `<p>PVC Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Polyvinyl chloride roofing -- PVC -- is the premium single-ply membrane specified for commercial buildings where chemical resistance, fire performance, and long-term durability are non-negotiable requirements. While TPO and EPDM dominate the general commercial market, PVC occupies a critical niche serving restaurants, manufacturing plants, chemical storage facilities, and any building where rooftop grease exhaust, chemical fumes, or industrial emissions would degrade other membrane types. At Paterson Roofing Contractors, we install PVC roofing systems on commercial properties across Passaic County, from the restaurant rows along Route 46 in Clifton and Wayne to the industrial and manufacturing facilities throughout <a href="/">Paterson</a>, Passaic, and Totowa.</p>
 

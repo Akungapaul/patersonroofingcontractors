@@ -6,7 +6,7 @@ export const fullRoofTearOff: ServiceContent = {
   category: 'Roof Replacement',
   heroHeadline: 'Full Roof Tear-Off Paterson, NJ',
   heroSubheadline:
-    'Complete removal of existing roofing materials down to the deck for a clean, inspected substrate. The gold standard for roof replacement in Passaic County.',
+    'Complete removal of existing roofing materials down to the deck for a clean, inspected substrate. The gold standard for roof replacement in Paterson.',
 
   overviewHtml: `<p>Full Roof Tear-Off Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. A full roof tear-off is the most thorough approach to roof replacement, involving the complete removal of all existing roofing materials -- shingles, underlayment, flashing, and any deteriorated accessories -- down to the bare roof deck. This exposes the entire sheathing surface for inspection and repair, ensuring that your new roofing system is installed on a solid, verified foundation. At Paterson Roofing Contractors, we perform full tear-off roof replacements across every municipality in Passaic County, from <a href="/">Paterson</a> and Clifton to Wayne and the Highlands communities.</p>
 

@@ -6,7 +6,7 @@ export const roofFlashingInstallationRepair: ServiceContent = {
   category: 'Components & Specialty',
   heroHeadline: 'Roof Flashing Installation & Repair Paterson, NJ',
   heroSubheadline:
-    'Expert flashing installation and repair at every roof intersection, valley, and penetration point. Protecting Passaic County homes and businesses from leaks at the most vulnerable areas.',
+    'Expert flashing installation and repair at every roof intersection, valley, and penetration point. Protecting Paterson homes and businesses from leaks at the most vulnerable areas.',
 
   overviewHtml: `<p>Roof Flashing Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Roof flashing is the unsung guardian of every roofing system. These thin strips of metal or composite material installed at every joint, intersection, and penetration point on your roof are the first and often only line of defense against water infiltration at the places where roofing materials alone cannot form a watertight seal. At Paterson Roofing Contractors, we specialize in the installation, repair, and replacement of all types of roof flashing across every municipality in Passaic County -- from the densely built neighborhoods of <a href="/">Paterson</a> and Passaic to the tree-lined residential streets of Wayne and Hawthorne.</p>
 

@@ -6,7 +6,7 @@ export const energyEfficientRoofingSolutions: ServiceContent = {
   category: 'Energy & Solar',
   heroHeadline: 'Energy-Efficient Roofing Solutions Paterson, NJ',
   heroSubheadline:
-    'Cool roofing materials, reflective coatings, and insulation upgrades that reduce your energy bills and environmental footprint. Engineered for the Passaic County climate.',
+    'Cool roofing materials, reflective coatings, and insulation upgrades that reduce your energy bills and environmental footprint. Engineered for Paterson’s climate.',
 
   overviewHtml: `<p>Energy-Efficient Roofing Solutions Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Your roof is the single largest surface area exposed to the sun on your building, and its energy performance has a profound impact on your heating and cooling costs year-round. In summer, a dark-colored conventional roof can reach surface temperatures exceeding 150 degrees Fahrenheit, radiating that heat into the attic space and forcing your air conditioning system to work harder to maintain comfortable interior temperatures. In winter, inadequate roof insulation allows heated indoor air to escape through the roof assembly, wasting energy and creating the temperature differentials that cause ice dams. At Paterson Roofing Contractors, we deliver energy-efficient roofing solutions across Passaic County that address both summer cooling and winter heating performance, reducing your energy bills and improving building comfort through every season. From the residential neighborhoods of Wayne and Hawthorne to the commercial buildings in Clifton and <a href="/">Paterson</a>, our energy-focused roofing upgrades deliver measurable returns on investment.</p>
 
