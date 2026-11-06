@@ -83,33 +83,10 @@ export function MegaMenu({ isOpen, onClose }: MegaMenuProps) {
                       </Link>
                     </li>
                   ))}
-                {categoryServices.length > MAX_SERVICES_PER_CATEGORY && (
-                  <li>
-                    <Link
-                      href="/services"
-                      className="block py-1 text-sm font-semibold text-gray-400 transition-colors hover:text-amber"
-                      role="menuitem"
-                      onClick={onClose}
-                    >
-                      +{categoryServices.length - MAX_SERVICES_PER_CATEGORY}{' '}
-                      more
-                    </Link>
-                  </li>
-                )}
               </ul>
             </div>
           )
         })}
-      </div>
-      <div className="mx-auto max-w-7xl border-t border-gray-200 px-6 py-4">
-        <Link
-          href="/services"
-          className="font-bold text-amber transition-colors hover:text-amber-dark"
-          role="menuitem"
-          onClick={onClose}
-        >
-          View All Services
-        </Link>
       </div>
     </div>
   )

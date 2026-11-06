@@ -10,11 +10,6 @@ export const navigationItems: readonly NavigationItem[] = [
     href: '/services',
     children: [], // Populated from data/services at render time
   },
-  {
-    label: 'Locations',
-    href: '/locations',
-    children: [], // Populated from siteConfig.municipalities at render time
-  },
   { label: 'Guides', href: '/roofing-guides' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },

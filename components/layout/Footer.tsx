@@ -15,30 +15,15 @@ const priorityServiceSlugs = [
   'gutter-installation-repair',
 ] as const
 
-const priorityAreaSlugs = [
-  'paterson',
-  'clifton',
-  'passaic',
-  'wayne',
-  'hawthorne',
-  'totowa',
-  'little-falls',
-  'west-milford',
-] as const
-
 const priorityServices = priorityServiceSlugs
   .map((slug) => services.find((service) => service.slug === slug))
   .filter((service): service is (typeof services)[number] => Boolean(service))
-
-const priorityAreas = priorityAreaSlugs
-  .map((slug) => siteConfig.municipalities.find((area) => area.slug === slug))
-  .filter((area): area is (typeof siteConfig.municipalities)[number] => Boolean(area))
 
 export function Footer() {
   return (
     <footer className="bg-navy text-white">
       <div className="mx-auto max-w-7xl px-4 py-section-sm sm:px-6 lg:px-8 lg:py-section">
-        <div className="grid grid-cols-1 gap-xl sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-xl sm:grid-cols-2 lg:grid-cols-3">
           {/* Column 1: Logo + Business Description + Phone */}
           <div>
             <Link
@@ -78,45 +63,10 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
-              <li>
-                <Link
-                  href="/services"
-                  className="font-semibold text-amber-light transition-colors hover:text-amber"
-                >
-                  View all services
-                </Link>
-              </li>
             </ul>
           </div>
 
-          {/* Column 3: Service Area Municipality Links */}
-          <div>
-            <h3 className="mb-4 font-heading text-xl font-bold text-white">
-              Service Areas
-            </h3>
-            <ul className="space-y-2">
-              {priorityAreas.map((m) => (
-                <li key={m.slug}>
-                  <Link
-                    href={`/roofing-contractor-${m.slug}-nj`}
-                    className="text-gray-300 transition-colors hover:text-amber-light"
-                  >
-                    {m.name}
-                  </Link>
-                </li>
-              ))}
-              <li>
-                <Link
-                  href="/service-area"
-                  className="font-semibold text-amber-light transition-colors hover:text-amber"
-                >
-                  View all service areas
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          {/* Column 4: Contact Info + Business Hours */}
+          {/* Column 3: Contact Info + Business Hours */}
           <div>
             <h3 className="mb-4 font-heading text-xl font-bold text-white">
               Contact Us

@@ -48,10 +48,9 @@ export default async function ServiceTemplate({ slug }: { slug: string }) {
     }))
   )
 
-  // Breadcrumb items
+  // Breadcrumb items (single-city site: Home -> page)
   const breadcrumbItems = [
     { name: 'Home', url: siteConfig.url },
-    { name: 'Services', url: `${siteConfig.url}/services` },
     {
       name: content.name,
       url: `${siteConfig.url}${servicePath(content.slug)}`,

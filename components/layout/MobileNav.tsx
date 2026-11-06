@@ -194,13 +194,7 @@ export function MobileNav({ isOpen, onClose }: MobileNavProps) {
                           </div>
                         )
                       })}
-                      <Link
-                        href="/services"
-                        onClick={onClose}
-                        className="block py-3 pl-6 pr-4 text-lg font-bold text-amber transition-colors hover:text-amber-light"
-                      >
-                        View All Services
-                      </Link>
+
                     </div>
                   </li>
                 )
