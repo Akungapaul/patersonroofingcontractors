@@ -57,7 +57,7 @@ export function Footer() {
                 <li key={service.slug}>
                   <Link
                     href={servicePath(service.slug)}
-                    className="text-gray-300 transition-colors hover:text-amber-light"
+                    className="inline-block py-1 text-gray-300 transition-colors hover:text-amber-light"
                   >
                     {service.name}
                   </Link>

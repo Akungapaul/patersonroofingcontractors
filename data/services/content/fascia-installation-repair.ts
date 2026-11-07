@@ -6,7 +6,7 @@ export const fasciaInstallationRepair: ServiceContent = {
   category: 'Components & Specialty',
   heroHeadline: 'Fascia Installation & Repair Paterson, NJ',
   heroSubheadline:
-    'Professional fascia board replacement and repair to protect your roof edge and support your gutter system. Wood, aluminum, and PVC options for every Passaic County home.',
+    'Professional fascia board replacement and repair to protect your roof edge and support your gutter system. Wood, aluminum, and PVC options for every Paterson home.',
 
   overviewHtml: `<p>Fascia Installation & Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Fascia boards are the vertical trim members mounted along the lower edge of your roof, covering the exposed ends of the rafters and providing the mounting surface for your gutter system. While they may seem like a cosmetic detail, fascia boards serve a critical structural and protective function -- and when they deteriorate, the consequences cascade from gutter failure to water damage to pest intrusion. At Paterson Roofing Contractors, we install and repair fascia boards across all 16 municipalities in Passaic County, from the older homes in <a href="/">Paterson</a> and Haledon to the suburban properties of Wayne and Hawthorne.</p>
 

@@ -6,7 +6,7 @@ export const chimneyFlashingRepair: ServiceContent = {
   category: 'Components & Specialty',
   heroHeadline: 'Chimney Flashing Repair Paterson, NJ',
   heroSubheadline:
-    'Expert chimney flashing replacement and sealing to permanently stop one of the most common sources of roof leaks in Passaic County homes.',
+    'Expert chimney flashing replacement and sealing to permanently stop one of the most common sources of roof leaks in Paterson homes.',
 
   overviewHtml: `<p>Chimney Flashing Repair Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Chimney flashing is one of the most leak-prone areas on any roof, and in Passaic County -- where thousands of homes built between the 1920s and 1970s feature masonry chimneys -- flashing failures are among the most frequent repair calls we receive. At Paterson Roofing Contractors, we have repaired and replaced chimney flashing on homes throughout every municipality in Passaic County, from the Victorian row houses of <a href="/">Paterson</a> and the brick Colonials of Clifton to the ranch-style homes scattered across Wayne and Hawthorne. Our crews understand the specific challenges that chimney-to-roof intersections present in northern New Jersey's demanding climate.</p>
 

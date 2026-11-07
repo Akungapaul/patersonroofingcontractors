@@ -6,7 +6,7 @@ export const asphaltShingleRoofing: ServiceContent = {
   category: 'Residential Roofing',
   heroHeadline: 'Asphalt Shingle Roofing Paterson, NJ',
   heroSubheadline:
-    'Architectural and 3-tab asphalt shingle installation with industry-leading warranties. The most popular roofing choice for Passaic County homes.',
+    'Architectural and 3-tab asphalt shingle installation with industry-leading warranties. The most popular roofing choice for Paterson homes.',
 
   overviewHtml: `<p>Asphalt Shingle Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Asphalt shingles protect more homes in Passaic County than all other roofing materials combined. From the suburban neighborhoods of Hawthorne and Wayne to the residential streets of Clifton and Totowa, asphalt shingles deliver the combination of performance, affordability, and aesthetic variety that has made them the standard residential roofing material for decades. At Paterson Roofing Contractors, asphalt shingle installation and replacement is our highest-volume service, and that volume translates directly into deep expertise -- our crews install thousands of squares of asphalt shingles across Passaic County each year, mastering the techniques and material knowledge that produce installations built to outlast their warranty periods.</p>
 

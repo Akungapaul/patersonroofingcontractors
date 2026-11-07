@@ -28,6 +28,11 @@
 }
 
 @layer base {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
   body {
     @apply font-body text-lg text-gray-900 antialiased;
     font-size: 18px; /* Enforces FNDN-04 minimum */

@@ -6,7 +6,7 @@ export const roofWaterproofing: ServiceContent = {
   category: 'Components & Specialty',
   heroHeadline: 'Roof Waterproofing Paterson, NJ',
   heroSubheadline:
-    'Comprehensive waterproofing solutions including membrane coatings, sealants, and drainage improvements for lasting leak-free protection across Passaic County.',
+    'Comprehensive waterproofing solutions including membrane coatings, sealants, and drainage improvements for lasting leak-free protection across Paterson.',
 
   overviewHtml: `<p>Roof Waterproofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Roof waterproofing goes beyond basic roofing installation to create a comprehensive moisture barrier that protects your building from water infiltration at every vulnerable point. While a properly installed roof provides the primary defense against rain and snow, waterproofing addresses the secondary and tertiary layers of protection that become critical when primary roofing materials age, when design vulnerabilities exist, or when building conditions create moisture challenges that standard roofing alone cannot solve. At Paterson Roofing Contractors, we provide complete roof waterproofing services for residential and commercial properties across all 16 Passaic County municipalities.</p>
 

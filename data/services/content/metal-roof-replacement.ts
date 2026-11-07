@@ -6,7 +6,7 @@ export const metalRoofReplacement: ServiceContent = {
   category: 'Roof Replacement',
   heroHeadline: 'Metal Roof Replacement Paterson, NJ',
   heroSubheadline:
-    'Replace aging roofs with durable standing seam or metal shingle systems. 50+ year lifespan with superior wind and fire resistance for Passaic County homes.',
+    'Replace aging roofs with durable standing seam or metal shingle systems. 50+ year lifespan with superior wind and fire resistance for Paterson homes.',
 
   overviewHtml: `<p>Metal Roof Replacement Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Metal roofing has become one of the fastest-growing segments of the residential roofing market, and for good reason. A quality metal roof installation provides 50 to 70 years of service life, withstands winds up to 140 mph, carries a Class A fire rating, and reflects solar heat to reduce cooling costs. For Passaic County homeowners replacing an aging roof, upgrading to metal is an investment that typically outlasts the homeowner and eliminates the cycle of replacement every 20 to 30 years that comes with asphalt shingles. At Paterson Roofing Contractors, we install standing seam and metal shingle roofing systems across all 16 municipalities in the county.</p>
 

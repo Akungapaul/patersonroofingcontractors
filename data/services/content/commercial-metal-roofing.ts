@@ -6,7 +6,7 @@ export const commercialMetalRoofing: ServiceContent = {
   category: 'Commercial Roofing',
   heroHeadline: 'Commercial Metal Roofing Paterson, NJ',
   heroSubheadline:
-    'Standing seam and corrugated metal roofing for commercial properties throughout Passaic County. 40-60 year lifespan, superior wind resistance, and minimal maintenance requirements.',
+    'Standing seam and corrugated metal roofing for commercial properties throughout Paterson. 40-60 year lifespan, superior wind resistance, and minimal maintenance requirements.',
 
   overviewHtml: `<p>Commercial Metal Roofing Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Commercial metal roofing delivers the longest service life of any roofing system available for Passaic County businesses. With lifespans routinely reaching 40 to 60 years and exceptional resistance to wind, fire, and impact damage, metal roofing represents a long-term investment that pays dividends in reduced maintenance costs, lower energy bills, and decades of reliable building protection. At Paterson Roofing Contractors, we install commercial metal roofing systems on office buildings, retail centers, warehouses, and industrial facilities across every municipality in Passaic County. From the commercial properties along Route 46 in Clifton and Wayne to the mixed-use buildings throughout <a href="/">Paterson</a> and Passaic, our crews deliver precision metal roof installations that protect buildings for generations.</p>
 

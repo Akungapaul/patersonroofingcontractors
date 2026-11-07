@@ -6,7 +6,7 @@ export const roofIceDamPrevention: ServiceContent = {
   category: 'Design & Specialty',
   heroHeadline: 'Roof Ice Dam Prevention Paterson, NJ',
   heroSubheadline:
-    'Comprehensive ice dam prevention systems for Passaic County homes. Heat cables, improved ventilation, and insulation upgrades that eliminate ice dams before they form.',
+    'Comprehensive ice dam prevention systems for Paterson homes. Heat cables, improved ventilation, and insulation upgrades that eliminate ice dams before they form.',
 
   overviewHtml: `<p>Roof Ice Dam Prevention Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Ice dams are one of the most destructive winter roofing problems in northern New Jersey. They form when heat escaping through the roof melts snow on the upper portions of the roof surface, and the meltwater runs down to the colder eave area where it refreezes into a ridge of ice. As this ice ridge grows, it traps additional meltwater behind it, forcing water underneath shingles and into the roof structure where it causes ceiling damage, wall staining, insulation saturation, and structural wood rot. At Paterson Roofing Contractors, we provide comprehensive ice dam prevention services throughout Passaic County -- addressing the root causes so homeowners never face the cycle of freeze, dam, leak, and repair again.</p>
 

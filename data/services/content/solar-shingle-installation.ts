@@ -6,7 +6,7 @@ export const solarShingleInstallation: ServiceContent = {
   category: 'Energy & Solar',
   heroHeadline: 'Solar Shingle Installation Paterson, NJ',
   heroSubheadline:
-    'Integrated solar shingles that generate electricity while functioning as your roof. Sleek, low-profile appearance with cutting-edge photovoltaic technology for Passaic County homes.',
+    'Integrated solar shingles that generate electricity while functioning as your roof. Sleek, low-profile appearance with cutting-edge photovoltaic technology for Paterson homes.',
 
   overviewHtml: `<p>Solar Shingle Installation Paterson, NJ is available from Paterson Roofing Contractors for homes and businesses across Passaic County. Solar shingles represent the next evolution in residential solar energy -- photovoltaic cells integrated directly into roofing shingles that generate electricity while functioning as the primary weather barrier on your roof. Unlike traditional solar panels that mount on top of an existing roof, solar shingles replace conventional roofing material entirely, eliminating the raised-panel aesthetic that some homeowners find objectionable and creating a seamless, low-profile appearance that is virtually indistinguishable from a premium architectural shingle roof when viewed from the street. At Paterson Roofing Contractors, we install solar shingle systems across Passaic County, from the residential neighborhoods of Wayne and Hawthorne to the urban properties in <a href="/">Paterson</a> and Clifton, offering homeowners the ability to generate solar energy without compromising the traditional appearance of their home.</p>
 
