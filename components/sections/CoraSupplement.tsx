@@ -35,6 +35,11 @@ export function CoraSupplement({
                     {h3}
                   </h3>
                 ))}
+                {section.h4s?.map((h4) => (
+                  <h4 key={h4} className="mb-2 mt-4 font-heading text-base font-bold text-navy">
+                    {h4}
+                  </h4>
+                ))}
               </div>
             ))}
 
