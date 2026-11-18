@@ -10,6 +10,7 @@ import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import {
   buildServiceSchema,
   buildFaqSchema,
+  buildLocalBusinessSchema,
 } from '@/lib/schemas'
 import { siteConfig } from '@/lib/site-config'
 import { servicePath } from '@/lib/routes'
@@ -69,6 +70,7 @@ export default async function ServiceTemplate({ slug }: { slug: string }) {
       {/* JSON-LD Schemas (SCHEMA-02) */}
       <JsonLd data={serviceSchema} />
       <JsonLd data={faqSchema} />
+      <JsonLd data={buildLocalBusinessSchema()} />
 
       {/* Breadcrumbs (visual + BreadcrumbList JSON-LD) */}
       <Breadcrumbs
